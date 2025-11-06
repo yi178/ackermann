@@ -1,0 +1,5 @@
+pedestrian_manager:
+  ros__parameters:
+    world_name: "dynamic_corridor_world"
+    spawn_timeout: 0.0
+    actors_file: "pedestrian_actors.yaml"

@@ -1,0 +1,620 @@
+[0.000000] (-) TimerEvent: {}
+[0.000313] (-) JobUnselected: {'identifier': 'saye_behaviortree'}
+[0.000369] (-) JobUnselected: {'identifier': 'saye_bringup'}
+[0.000408] (-) JobUnselected: {'identifier': 'saye_bringup_my'}
+[0.000443] (-) JobUnselected: {'identifier': 'saye_control'}
+[0.000478] (-) JobUnselected: {'identifier': 'saye_description'}
+[0.000511] (-) JobUnselected: {'identifier': 'saye_localization'}
+[0.000544] (-) JobUnselected: {'identifier': 'saye_mppi'}
+[0.000576] (-) JobUnselected: {'identifier': 'saye_prediction'}
+[0.000611] (saye_msgs) JobQueued: {'identifier': 'saye_msgs', 'dependencies': OrderedDict()}
+[0.000995] (saye_msgs) JobStarted: {'identifier': 'saye_msgs'}
+[0.014209] (saye_msgs) JobProgress: {'identifier': 'saye_msgs', 'progress': 'cmake'}
+[0.017642] (saye_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_msgs', '-DCMAKE_INSTALL_PREFIX=/home/yiyi/ackermann_sim/install/saye_msgs'], 'cwd': '/home/yiyi/ackermann_sim/build/saye_msgs', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'HTTPS_PROXY': 'http://127.0.0.1:7897', 'GZ_SIM_RESOURCE_PATH': '/home/yiyi/ackermann_sim/install/saye_description/share/saye_description/models:/home/yiyi/ackermann_sim/install/saye_description/share', 'no_proxy': '172.31.*,172.30.*,172.29.*,172.28.*,172.27.*,172.26.*,172.25.*,172.24.*,172.23.*,172.22.*,172.21.*,172.20.*,172.19.*,172.18.*,172.17.*,172.16.*,10.*,192.168.*,127.*,localhost,<local>', 'USER': 'yiyi', 'CLAUDE_CODE_ENTRYPOINT': 'cli', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'GIT_EDITOR': 'true', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/yiyi/ackermann_sim/install/saye_msgs/lib:/home/yiyi/ackermann_sim/install/saye_description/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'WT_PROFILE_ID': '{d8e96812-b789-5068-a5ae-10b2fb53e95f}', 'HOME': '/home/yiyi', 'OLDPWD': '/home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_prediction', 'NO_PROXY': '172.31.*,172.30.*,172.29.*,172.28.*,172.27.*,172.26.*,172.25.*,172.24.*,172.23.*,172.22.*,172.21.*,172.20.*,172.19.*,172.18.*,172.17.*,172.16.*,10.*,192.168.*,127.*,localhost,<local>', 'NVM_BIN': '/home/yiyi/.nvm/versions/node/v22.21.0/bin', 'NVM_INC': '/home/yiyi/.nvm/versions/node/v22.21.0/include/node', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', 'NVM_DIR': '/home/yiyi/.nvm', 'WAYLAND_DISPLAY': 'wayland-0', 'https_proxy': 'http://127.0.0.1:7897', 'COLCON_PREFIX_PATH': '/home/yiyi/ackermann_sim/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'yiyi', 'NAME': 'yiyi', 'WSL_INTEROP': '/run/WSL/357_interop', 'http_proxy': 'http://127.0.0.1:7897', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'OTEL_EXPORTER_OTLP_METRICS_TEMPORALITY_PREFERENCE': 'delta', 'PATH': '/home/yiyi/.local/bin:/home/yiyi/.local/bin:/home/yiyi/.local/share/pnpm:/home/yiyi/.nvm/versions/node/v22.21.0/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/d/Python/Python308/Scripts/:/mnt/d/Python/Python308/:/mnt/d/Vmware/bin/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/d/bandzip/Bandizip/:/mnt/d/Python/Python310/:/mnt/c/Program Files/dotnet/:/mnt/d/MYsQL8/bin:/mnt/d/JAVA/jdk1.8.0_152/jdk1.8.0_152/bin:/mnt/d/JAVA/jdk1.8.0_152/jdk1.8.0_152/jre/bin:/mnt/d/VS code/Microsoft VS Code/bin:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/DTS/Binn/:/mnt/c/Program Files/Git/cmd:/mnt/d/Matlab2024b/runtime/win64:/mnt/d/Matlab2024b/bin:/mnt/d/Windows Kits/10/Windows Performance Toolkit/:/mnt/d/cursor/cursor/resources/app/bin:/mnt/c/ProgramData/chocolatey/bin:/mnt/d/nodejs/:/mnt/d/cursor/cursor/resources/app/bin:/mnt/d/IDEAl/windsurf/Windsurf/bin:/mnt/c/Users/29705/AppData/Local/pnpm:/mnt/d/python/python312/Scripts/:/mnt/d/python/python312/:/mnt/c/Users/29705/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/29705/AppData/Local/Microsoft/WindowsApps:/mnt/d/clion/CLion 2024.1/bin:/mnt/d/pycharm/PyCharm Community Edition 2023.1.3/bin:/mnt/d/新建文件夹/miktex/bin/x64/:/mnt/d/IntelliJ IDEAIntelliJ IDEA/IntelliJ IDEA 2024.1.1/bin:/mnt/d/pycharm/PyCharm 2024.1.1/bin:/mnt/c/Users/29705/AppData/Local/JetBrains/Toolbox/scripts:/mnt/d/Modelsim/win64:/mnt/c/Users/29705/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/29705/AppData/Local/Microsoft/WindowsApps:/mnt/d/msys/ucrt64/bin:/mnt/c/Users/29705/.dotnet/tools:/mnt/d/IDEAl/kiro/Kiro/bin:/mnt/c/Users/29705/AppData/Local/Programs/Ollama:/mnt/c/Users/29705/.lmstudio/bin:/mnt/c/Users/29705/AppData/Roaming/npm:/mnt/c/Users/29705/AppData/Local/Microsoft/WinGet/Links:/mnt/d/pycharm/PyCharm 2025.2.3/bin:/mnt/d/clion/CLion 2025.2.3/bin:/mnt/c/Users/29705/.dotnet/tools:/mnt/d/Zed/bin:/snap/bin', 'COREPACK_ENABLE_AUTO_PIN': '0', 'WT_SESSION': '49dd104f-3912-4ab4-836c-21d89a6ca1f2', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'NoDefaultCurrentDirectoryInExePath': '1', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/yiyi/ackermann_sim/install/saye_control:/home/yiyi/ackermann_sim/install/saye_msgs:/home/yiyi/ackermann_sim/install/saye_mppi:/home/yiyi/ackermann_sim/install/saye_localization:/home/yiyi/ackermann_sim/install/saye_bringup_my:/home/yiyi/ackermann_sim/install/saye_bringup:/home/yiyi/ackermann_sim/install/saye_description:/home/yiyi/ackermann_sim/install/saye_behaviortree:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'CLAUDECODE': '1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/yiyi/ackermann_sim/build/saye_msgs', 'NVM_CD_FLAGS': '', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/yiyi/ackermann_sim/install/saye_msgs/lib/python3.12/site-packages:/home/yiyi/ackermann_sim/install/saye_mppi/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'HTTP_PROXY': 'http://127.0.0.1:7897', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'PNPM_HOME': '/home/yiyi/.local/share/pnpm', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/yiyi/ackermann_sim/install/saye_control:/home/yiyi/ackermann_sim/install/saye_msgs:/home/yiyi/ackermann_sim/install/saye_mppi:/home/yiyi/ackermann_sim/install/saye_localization:/home/yiyi/ackermann_sim/install/saye_bringup_my:/home/yiyi/ackermann_sim/install/saye_bringup:/home/yiyi/ackermann_sim/install/saye_description:/home/yiyi/ackermann_sim/install/saye_behaviortree:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'WSLENV': 'WT_SESSION:WT_PROFILE_ID:'}), 'shell': False}
+[0.100460] (-) TimerEvent: {}
+[0.201300] (-) TimerEvent: {}
+[0.302166] (-) TimerEvent: {}
+[0.403902] (-) TimerEvent: {}
+[0.505609] (-) TimerEvent: {}
+[0.607387] (-) TimerEvent: {}
+[0.611289] (saye_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.708010] (-) TimerEvent: {}
+[0.809003] (-) TimerEvent: {}
+[0.910777] (-) TimerEvent: {}
+[1.012527] (-) TimerEvent: {}
+[1.114236] (-) TimerEvent: {}
+[1.214925] (-) TimerEvent: {}
+[1.315811] (-) TimerEvent: {}
+[1.417576] (-) TimerEvent: {}
+[1.519298] (-) TimerEvent: {}
+[1.620988] (-) TimerEvent: {}
+[1.721546] (-) TimerEvent: {}
+[1.822438] (-) TimerEvent: {}
+[1.924155] (-) TimerEvent: {}
+[2.025938] (-) TimerEvent: {}
+[2.126492] (-) TimerEvent: {}
+[2.226831] (-) TimerEvent: {}
+[2.327144] (-) TimerEvent: {}
+[2.427986] (-) TimerEvent: {}
+[2.529770] (-) TimerEvent: {}
+[2.626814] (saye_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[2.629948] (-) TimerEvent: {}
+[2.730215] (-) TimerEvent: {}
+[2.831735] (-) TimerEvent: {}
+[2.932526] (-) TimerEvent: {}
+[3.032957] (-) TimerEvent: {}
+[3.134189] (-) TimerEvent: {}
+[3.234446] (-) TimerEvent: {}
+[3.334699] (-) TimerEvent: {}
+[3.435990] (-) TimerEvent: {}
+[3.536319] (-) TimerEvent: {}
+[3.637337] (-) TimerEvent: {}
+[3.737607] (-) TimerEvent: {}
+[3.838933] (-) TimerEvent: {}
+[3.939229] (-) TimerEvent: {}
+[4.039595] (-) TimerEvent: {}
+[4.139943] (-) TimerEvent: {}
+[4.240245] (-) TimerEvent: {}
+[4.340597] (-) TimerEvent: {}
+[4.440955] (-) TimerEvent: {}
+[4.521798] (saye_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[4.541396] (-) TimerEvent: {}
+[4.643024] (-) TimerEvent: {}
+[4.743296] (-) TimerEvent: {}
+[4.843602] (-) TimerEvent: {}
+[4.943929] (-) TimerEvent: {}
+[5.044238] (-) TimerEvent: {}
+[5.144809] (-) TimerEvent: {}
+[5.245376] (-) TimerEvent: {}
+[5.300679] (saye_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[5.311104] (saye_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[5.312930] (saye_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[5.314125] (saye_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[5.345520] (-) TimerEvent: {}
+[5.445846] (-) TimerEvent: {}
+[5.546173] (-) TimerEvent: {}
+[5.595536] (saye_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[5.646333] (-) TimerEvent: {}
+[5.746762] (-) TimerEvent: {}
+[5.847331] (-) TimerEvent: {}
+[5.947665] (-) TimerEvent: {}
+[6.048208] (-) TimerEvent: {}
+[6.149910] (-) TimerEvent: {}
+[6.250192] (-) TimerEvent: {}
+[6.307345] (saye_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[6.317835] (saye_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[6.318259] (saye_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[6.318616] (saye_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[6.350352] (-) TimerEvent: {}
+[6.357348] (saye_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[6.451851] (-) TimerEvent: {}
+[6.552473] (-) TimerEvent: {}
+[6.606553] (saye_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[6.653071] (-) TimerEvent: {}
+[6.753757] (-) TimerEvent: {}
+[6.831380] (saye_msgs) StdoutLine: {'line': b'-- Found rclcpp: 28.1.12 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[6.854232] (-) TimerEvent: {}
+[6.954542] (-) TimerEvent: {}
+[7.054829] (-) TimerEvent: {}
+[7.155245] (-) TimerEvent: {}
+[7.255633] (-) TimerEvent: {}
+[7.306149] (saye_msgs) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[7.339760] (saye_msgs) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[7.355823] (-) TimerEvent: {}
+[7.382485] (saye_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[7.423599] (saye_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[7.456023] (-) TimerEvent: {}
+[7.556359] (-) TimerEvent: {}
+[7.578476] (saye_msgs) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[7.587581] (saye_msgs) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[7.656658] (-) TimerEvent: {}
+[7.757129] (-) TimerEvent: {}
+[7.794800] (saye_msgs) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[7.857347] (-) TimerEvent: {}
+[7.957668] (-) TimerEvent: {}
+[8.057952] (-) TimerEvent: {}
+[8.158254] (-) TimerEvent: {}
+[8.258680] (-) TimerEvent: {}
+[8.324836] (saye_msgs) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[8.359354] (-) TimerEvent: {}
+[8.459730] (-) TimerEvent: {}
+[8.560099] (-) TimerEvent: {}
+[8.608534] (saye_msgs) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[8.660344] (-) TimerEvent: {}
+[8.760721] (-) TimerEvent: {}
+[8.862444] (-) TimerEvent: {}
+[8.963064] (-) TimerEvent: {}
+[9.063889] (-) TimerEvent: {}
+[9.154158] (saye_msgs) StdoutLine: {'line': b'-- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)\n'}
+[9.164257] (-) TimerEvent: {}
+[9.253008] (saye_msgs) StdoutLine: {'line': b'-- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)\n'}
+[9.264462] (-) TimerEvent: {}
+[9.295997] (saye_msgs) StdoutLine: {'line': b'-- Found nav2_msgs: 1.3.9 (/opt/ros/jazzy/share/nav2_msgs/cmake)\n'}
+[9.365688] (-) TimerEvent: {}
+[9.466912] (-) TimerEvent: {}
+[9.481767] (saye_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[9.525434] (saye_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[9.567682] (-) TimerEvent: {}
+[9.668065] (-) TimerEvent: {}
+[9.769865] (-) TimerEvent: {}
+[9.870259] (-) TimerEvent: {}
+[9.971656] (-) TimerEvent: {}
+[10.072980] (-) TimerEvent: {}
+[10.173414] (-) TimerEvent: {}
+[10.273707] (-) TimerEvent: {}
+[10.374009] (-) TimerEvent: {}
+[10.472269] (saye_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)\n'}
+[10.474196] (-) TimerEvent: {}
+[10.574539] (-) TimerEvent: {}
+[10.676298] (-) TimerEvent: {}
+[10.777442] (-) TimerEvent: {}
+[10.877893] (-) TimerEvent: {}
+[10.978952] (-) TimerEvent: {}
+[11.080679] (-) TimerEvent: {}
+[11.180957] (-) TimerEvent: {}
+[11.281287] (-) TimerEvent: {}
+[11.381618] (-) TimerEvent: {}
+[11.482670] (-) TimerEvent: {}
+[11.584179] (-) TimerEvent: {}
+[11.685553] (-) TimerEvent: {}
+[11.787092] (-) TimerEvent: {}
+[11.849694] (saye_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[11.887301] (-) TimerEvent: {}
+[11.988447] (-) TimerEvent: {}
+[12.089223] (-) TimerEvent: {}
+[12.189472] (-) TimerEvent: {}
+[12.289769] (-) TimerEvent: {}
+[12.382736] (saye_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[12.390031] (-) TimerEvent: {}
+[12.393517] (saye_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)\n'}
+[12.490282] (-) TimerEvent: {}
+[12.585187] (saye_msgs) StdoutLine: {'line': b'-- Found PythonExtra: /usr/bin/python3  \n'}
+[12.590462] (-) TimerEvent: {}
+[12.690687] (-) TimerEvent: {}
+[12.791066] (-) TimerEvent: {}
+[12.891371] (-) TimerEvent: {}
+[12.992236] (-) TimerEvent: {}
+[13.092691] (-) TimerEvent: {}
+[13.180681] (saye_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[13.192922] (-) TimerEvent: {}
+[13.293252] (-) TimerEvent: {}
+[13.314131] (saye_msgs) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[13.386955] (saye_msgs) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[13.391247] (saye_msgs) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[13.393413] (-) TimerEvent: {}
+[13.399660] (saye_msgs) StdoutLine: {'line': b'-- Configuring done (13.4s)\n'}
+[13.493679] (-) TimerEvent: {}
+[13.520939] (saye_msgs) StdoutLine: {'line': b'-- Generating done (0.1s)\n'}
+[13.539599] (saye_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/yiyi/ackermann_sim/build/saye_msgs\n'}
+[13.560030] (saye_msgs) CommandEnded: {'returncode': 0}
+[13.562093] (saye_msgs) JobProgress: {'identifier': 'saye_msgs', 'progress': 'build'}
+[13.562122] (saye_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/yiyi/ackermann_sim/build/saye_msgs', '--', '-j16', '-l16'], 'cwd': '/home/yiyi/ackermann_sim/build/saye_msgs', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'HTTPS_PROXY': 'http://127.0.0.1:7897', 'GZ_SIM_RESOURCE_PATH': '/home/yiyi/ackermann_sim/install/saye_description/share/saye_description/models:/home/yiyi/ackermann_sim/install/saye_description/share', 'no_proxy': '172.31.*,172.30.*,172.29.*,172.28.*,172.27.*,172.26.*,172.25.*,172.24.*,172.23.*,172.22.*,172.21.*,172.20.*,172.19.*,172.18.*,172.17.*,172.16.*,10.*,192.168.*,127.*,localhost,<local>', 'USER': 'yiyi', 'CLAUDE_CODE_ENTRYPOINT': 'cli', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'GIT_EDITOR': 'true', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/yiyi/ackermann_sim/install/saye_msgs/lib:/home/yiyi/ackermann_sim/install/saye_description/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'WT_PROFILE_ID': '{d8e96812-b789-5068-a5ae-10b2fb53e95f}', 'HOME': '/home/yiyi', 'OLDPWD': '/home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_prediction', 'NO_PROXY': '172.31.*,172.30.*,172.29.*,172.28.*,172.27.*,172.26.*,172.25.*,172.24.*,172.23.*,172.22.*,172.21.*,172.20.*,172.19.*,172.18.*,172.17.*,172.16.*,10.*,192.168.*,127.*,localhost,<local>', 'NVM_BIN': '/home/yiyi/.nvm/versions/node/v22.21.0/bin', 'NVM_INC': '/home/yiyi/.nvm/versions/node/v22.21.0/include/node', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', 'NVM_DIR': '/home/yiyi/.nvm', 'WAYLAND_DISPLAY': 'wayland-0', 'https_proxy': 'http://127.0.0.1:7897', 'COLCON_PREFIX_PATH': '/home/yiyi/ackermann_sim/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'yiyi', 'NAME': 'yiyi', 'WSL_INTEROP': '/run/WSL/357_interop', 'http_proxy': 'http://127.0.0.1:7897', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'OTEL_EXPORTER_OTLP_METRICS_TEMPORALITY_PREFERENCE': 'delta', 'PATH': '/home/yiyi/.local/bin:/home/yiyi/.local/bin:/home/yiyi/.local/share/pnpm:/home/yiyi/.nvm/versions/node/v22.21.0/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/d/Python/Python308/Scripts/:/mnt/d/Python/Python308/:/mnt/d/Vmware/bin/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/d/bandzip/Bandizip/:/mnt/d/Python/Python310/:/mnt/c/Program Files/dotnet/:/mnt/d/MYsQL8/bin:/mnt/d/JAVA/jdk1.8.0_152/jdk1.8.0_152/bin:/mnt/d/JAVA/jdk1.8.0_152/jdk1.8.0_152/jre/bin:/mnt/d/VS code/Microsoft VS Code/bin:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/DTS/Binn/:/mnt/c/Program Files/Git/cmd:/mnt/d/Matlab2024b/runtime/win64:/mnt/d/Matlab2024b/bin:/mnt/d/Windows Kits/10/Windows Performance Toolkit/:/mnt/d/cursor/cursor/resources/app/bin:/mnt/c/ProgramData/chocolatey/bin:/mnt/d/nodejs/:/mnt/d/cursor/cursor/resources/app/bin:/mnt/d/IDEAl/windsurf/Windsurf/bin:/mnt/c/Users/29705/AppData/Local/pnpm:/mnt/d/python/python312/Scripts/:/mnt/d/python/python312/:/mnt/c/Users/29705/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/29705/AppData/Local/Microsoft/WindowsApps:/mnt/d/clion/CLion 2024.1/bin:/mnt/d/pycharm/PyCharm Community Edition 2023.1.3/bin:/mnt/d/新建文件夹/miktex/bin/x64/:/mnt/d/IntelliJ IDEAIntelliJ IDEA/IntelliJ IDEA 2024.1.1/bin:/mnt/d/pycharm/PyCharm 2024.1.1/bin:/mnt/c/Users/29705/AppData/Local/JetBrains/Toolbox/scripts:/mnt/d/Modelsim/win64:/mnt/c/Users/29705/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/29705/AppData/Local/Microsoft/WindowsApps:/mnt/d/msys/ucrt64/bin:/mnt/c/Users/29705/.dotnet/tools:/mnt/d/IDEAl/kiro/Kiro/bin:/mnt/c/Users/29705/AppData/Local/Programs/Ollama:/mnt/c/Users/29705/.lmstudio/bin:/mnt/c/Users/29705/AppData/Roaming/npm:/mnt/c/Users/29705/AppData/Local/Microsoft/WinGet/Links:/mnt/d/pycharm/PyCharm 2025.2.3/bin:/mnt/d/clion/CLion 2025.2.3/bin:/mnt/c/Users/29705/.dotnet/tools:/mnt/d/Zed/bin:/snap/bin', 'COREPACK_ENABLE_AUTO_PIN': '0', 'WT_SESSION': '49dd104f-3912-4ab4-836c-21d89a6ca1f2', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'NoDefaultCurrentDirectoryInExePath': '1', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/yiyi/ackermann_sim/install/saye_control:/home/yiyi/ackermann_sim/install/saye_msgs:/home/yiyi/ackermann_sim/install/saye_mppi:/home/yiyi/ackermann_sim/install/saye_localization:/home/yiyi/ackermann_sim/install/saye_bringup_my:/home/yiyi/ackermann_sim/install/saye_bringup:/home/yiyi/ackermann_sim/install/saye_description:/home/yiyi/ackermann_sim/install/saye_behaviortree:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'CLAUDECODE': '1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/yiyi/ackermann_sim/build/saye_msgs', 'NVM_CD_FLAGS': '', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/yiyi/ackermann_sim/install/saye_msgs/lib/python3.12/site-packages:/home/yiyi/ackermann_sim/install/saye_mppi/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'HTTP_PROXY': 'http://127.0.0.1:7897', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'PNPM_HOME': '/home/yiyi/.local/share/pnpm', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/yiyi/ackermann_sim/install/saye_control:/home/yiyi/ackermann_sim/install/saye_msgs:/home/yiyi/ackermann_sim/install/saye_mppi:/home/yiyi/ackermann_sim/install/saye_localization:/home/yiyi/ackermann_sim/install/saye_bringup_my:/home/yiyi/ackermann_sim/install/saye_bringup:/home/yiyi/ackermann_sim/install/saye_description:/home/yiyi/ackermann_sim/install/saye_behaviortree:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'WSLENV': 'WT_SESSION:WT_PROFILE_ID:'}), 'shell': False}
+[13.593891] (-) TimerEvent: {}
+[13.667029] (saye_msgs) StdoutLine: {'line': b'[  1%] Generating type hashes for ROS interfaces\n'}
+[13.685530] (saye_msgs) StdoutLine: {'line': b'[  1%] Built target ament_cmake_python_copy_saye_msgs\n'}
+[13.694037] (-) TimerEvent: {}
+[13.794315] (-) TimerEvent: {}
+[13.894641] (-) TimerEvent: {}
+[13.976161] (saye_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[13.977167] (saye_msgs) StdoutLine: {'line': b'creating saye_msgs.egg-info\n'}
+[13.994886] (-) TimerEvent: {}
+[14.002046] (saye_msgs) StdoutLine: {'line': b'writing saye_msgs.egg-info/PKG-INFO\n'}
+[14.002640] (saye_msgs) StdoutLine: {'line': b'writing dependency_links to saye_msgs.egg-info/dependency_links.txt\n'}
+[14.002822] (saye_msgs) StdoutLine: {'line': b'writing top-level names to saye_msgs.egg-info/top_level.txt\n'}
+[14.002981] (saye_msgs) StdoutLine: {'line': b"writing manifest file 'saye_msgs.egg-info/SOURCES.txt'\n"}
+[14.077788] (saye_msgs) StdoutLine: {'line': b"reading manifest file 'saye_msgs.egg-info/SOURCES.txt'\n"}
+[14.078568] (saye_msgs) StdoutLine: {'line': b"writing manifest file 'saye_msgs.egg-info/SOURCES.txt'\n"}
+[14.095126] (-) TimerEvent: {}
+[14.120400] (saye_msgs) StdoutLine: {'line': b'[  1%] Built target ament_cmake_python_build_saye_msgs_egg\n'}
+[14.137420] (saye_msgs) StdoutLine: {'line': b'[  1%] Built target saye_msgs__rosidl_generator_type_description\n'}
+[14.158872] (saye_msgs) StdoutLine: {'line': b'[  2%] Generating C code for ROS interfaces\n'}
+[14.180982] (saye_msgs) StdoutLine: {'line': b'[  4%] Generating C++ code for ROS interfaces\n'}
+[14.195318] (-) TimerEvent: {}
+[14.295802] (-) TimerEvent: {}
+[14.396288] (-) TimerEvent: {}
+[14.498111] (-) TimerEvent: {}
+[14.599501] (-) TimerEvent: {}
+[14.700929] (-) TimerEvent: {}
+[14.801198] (-) TimerEvent: {}
+[14.858770] (saye_msgs) StdoutLine: {'line': b'[  4%] Built target saye_msgs__cpp\n'}
+[14.904911] (-) TimerEvent: {}
+[14.989960] (saye_msgs) StdoutLine: {'line': b'[  9%] Building C object CMakeFiles/saye_msgs__rosidl_generator_c.dir/rosidl_generator_c/saye_msgs/msg/detail/gmm_component__functions.c.o\n'}
+[14.990363] (saye_msgs) StdoutLine: {'line': b'[  9%] Building C object CMakeFiles/saye_msgs__rosidl_generator_c.dir/rosidl_generator_c/saye_msgs/msg/detail/map__description.c.o\n'}
+[14.990544] (saye_msgs) StdoutLine: {'line': b'[  9%] Building C object CMakeFiles/saye_msgs__rosidl_generator_c.dir/rosidl_generator_c/saye_msgs/msg/detail/map__type_support.c.o\n'}
+[14.990764] (saye_msgs) StdoutLine: {'line': b'[  9%] Building C object CMakeFiles/saye_msgs__rosidl_generator_c.dir/rosidl_generator_c/saye_msgs/msg/detail/map__functions.c.o\n'}
+[14.990923] (saye_msgs) StdoutLine: {'line': b'[ 12%] Building C object CMakeFiles/saye_msgs__rosidl_generator_c.dir/rosidl_generator_c/saye_msgs/msg/detail/gmm_component__type_support.c.o\n'}
+[14.991111] (saye_msgs) StdoutLine: {'line': b'[ 12%] Building C object CMakeFiles/saye_msgs__rosidl_generator_c.dir/rosidl_generator_c/saye_msgs/msg/detail/gmm_component__description.c.o\n'}
+[14.991482] (saye_msgs) StdoutLine: {'line': b'[ 13%] Building C object CMakeFiles/saye_msgs__rosidl_generator_c.dir/rosidl_generator_c/saye_msgs/msg/detail/pedestrian_prediction__type_support.c.o\n'}
+[14.991648] (saye_msgs) StdoutLine: {'line': b'[ 14%] Building C object CMakeFiles/saye_msgs__rosidl_generator_c.dir/rosidl_generator_c/saye_msgs/msg/detail/pedestrian_prediction__description.c.o\n'}
+[14.991755] (saye_msgs) StdoutLine: {'line': b'[ 16%] Building C object CMakeFiles/saye_msgs__rosidl_generator_c.dir/rosidl_generator_c/saye_msgs/msg/detail/pedestrian_prediction__functions.c.o\n'}
+[14.992258] (saye_msgs) StdoutLine: {'line': b'[ 17%] Building C object CMakeFiles/saye_msgs__rosidl_generator_c.dir/rosidl_generator_c/saye_msgs/msg/detail/pedestrian_predictions__type_support.c.o\n'}
+[14.992466] (saye_msgs) StdoutLine: {'line': b'[ 18%] Building C object CMakeFiles/saye_msgs__rosidl_generator_c.dir/rosidl_generator_c/saye_msgs/msg/detail/pedestrian_predictions__functions.c.o\n'}
+[14.992960] (saye_msgs) StdoutLine: {'line': b'[ 20%] Building C object CMakeFiles/saye_msgs__rosidl_generator_c.dir/rosidl_generator_c/saye_msgs/srv/detail/share_map__functions.c.o\n'}
+[14.993272] (saye_msgs) StdoutLine: {'line': b'[ 21%] Building C object CMakeFiles/saye_msgs__rosidl_generator_c.dir/rosidl_generator_c/saye_msgs/msg/detail/pedestrian_predictions__description.c.o\n'}
+[14.994053] (saye_msgs) StdoutLine: {'line': b'[ 22%] Building C object CMakeFiles/saye_msgs__rosidl_generator_c.dir/rosidl_generator_c/saye_msgs/srv/detail/share_map__type_support.c.o\n'}
+[14.994884] (saye_msgs) StdoutLine: {'line': b'[ 24%] Building C object CMakeFiles/saye_msgs__rosidl_generator_c.dir/rosidl_generator_c/saye_msgs/srv/detail/share_map__description.c.o\n'}
+[15.007660] (-) TimerEvent: {}
+[15.107914] (-) TimerEvent: {}
+[15.144719] (saye_msgs) StdoutLine: {'line': b'[ 25%] Linking C shared library libsaye_msgs__rosidl_generator_c.so\n'}
+[15.208191] (-) TimerEvent: {}
+[15.308623] (-) TimerEvent: {}
+[15.409101] (-) TimerEvent: {}
+[15.509368] (-) TimerEvent: {}
+[15.530106] (saye_msgs) StdoutLine: {'line': b'[ 25%] Built target saye_msgs__rosidl_generator_c\n'}
+[15.553180] (saye_msgs) StdoutLine: {'line': b'[ 27%] Generating C type support for eProsima Fast-RTPS\n'}
+[15.553615] (saye_msgs) StdoutLine: {'line': b'[ 28%] Generating C++ type support dispatch for ROS interfaces\n'}
+[15.553906] (saye_msgs) StdoutLine: {'line': b'[ 29%] Generating C++ type support for eProsima Fast-RTPS\n'}
+[15.554454] (saye_msgs) StdoutLine: {'line': b'[ 31%] Generating C type support dispatch for ROS interfaces\n'}
+[15.555258] (saye_msgs) StdoutLine: {'line': b'[ 32%] Generating C introspection for ROS interfaces\n'}
+[15.556671] (saye_msgs) StdoutLine: {'line': b'[ 33%] Generating C++ introspection for ROS interfaces\n'}
+[15.609490] (-) TimerEvent: {}
+[15.709808] (-) TimerEvent: {}
+[15.810169] (-) TimerEvent: {}
+[15.910451] (-) TimerEvent: {}
+[16.010845] (-) TimerEvent: {}
+[16.111208] (-) TimerEvent: {}
+[16.147918] (saye_msgs) StdoutLine: {'line': b'[ 36%] Building CXX object CMakeFiles/saye_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/saye_msgs/srv/share_map__type_support.cpp.o\n'}
+[16.148269] (saye_msgs) StdoutLine: {'line': b'[ 36%] Building CXX object CMakeFiles/saye_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/saye_msgs/msg/pedestrian_prediction__type_support.cpp.o\n'}
+[16.149468] (saye_msgs) StdoutLine: {'line': b'[ 37%] Building CXX object CMakeFiles/saye_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/saye_msgs/msg/gmm_component__type_support.cpp.o\n'}
+[16.150075] (saye_msgs) StdoutLine: {'line': b'[ 39%] Building CXX object CMakeFiles/saye_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/saye_msgs/msg/map__type_support.cpp.o\n'}
+[16.150285] (saye_msgs) StdoutLine: {'line': b'[ 40%] Building CXX object CMakeFiles/saye_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/saye_msgs/msg/pedestrian_predictions__type_support.cpp.o\n'}
+[16.211400] (-) TimerEvent: {}
+[16.250400] (saye_msgs) StdoutLine: {'line': b'[ 43%] Building CXX object CMakeFiles/saye_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/saye_msgs/msg/map__type_support.cpp.o\n'}
+[16.250726] (saye_msgs) StdoutLine: {'line': b'[ 43%] Building CXX object CMakeFiles/saye_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/saye_msgs/msg/detail/map__type_support.cpp.o\n'}
+[16.262855] (saye_msgs) StdoutLine: {'line': b'[ 44%] Building CXX object CMakeFiles/saye_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/saye_msgs/msg/pedestrian_prediction__type_support.cpp.o\n'}
+[16.263158] (saye_msgs) StdoutLine: {'line': b'[ 45%] Building CXX object CMakeFiles/saye_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/saye_msgs/msg/gmm_component__type_support.cpp.o\n'}
+[16.263298] (saye_msgs) StdoutLine: {'line': b'[ 47%] Building CXX object CMakeFiles/saye_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/saye_msgs/msg/pedestrian_predictions__type_support.cpp.o\n'}
+[16.264302] (saye_msgs) StdoutLine: {'line': b'[ 50%] Building CXX object CMakeFiles/saye_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/saye_msgs/msg/detail/pedestrian_prediction__type_support.cpp.o\n'}
+[16.264508] (saye_msgs) StdoutLine: {'line': b'[ 50%] Building CXX object CMakeFiles/saye_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/saye_msgs/msg/detail/gmm_component__type_support.cpp.o\n'}
+[16.283881] (saye_msgs) StdoutLine: {'line': b'[ 51%] Building CXX object CMakeFiles/saye_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/saye_msgs/srv/share_map__type_support.cpp.o\n'}
+[16.312124] (-) TimerEvent: {}
+[16.316644] (saye_msgs) StdoutLine: {'line': b'[ 52%] Building C object CMakeFiles/saye_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/saye_msgs/msg/detail/map__type_support.c.o\n'}
+[16.379059] (saye_msgs) StdoutLine: {'line': b'[ 55%] Building C object CMakeFiles/saye_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/saye_msgs/msg/detail/pedestrian_prediction__type_support.c.o\n'}
+[16.379346] (saye_msgs) StdoutLine: {'line': b'[ 55%] Building C object CMakeFiles/saye_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/saye_msgs/msg/detail/gmm_component__type_support.c.o\n'}
+[16.380016] (saye_msgs) StdoutLine: {'line': b'[ 56%] Building CXX object CMakeFiles/saye_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/saye_msgs/msg/detail/pedestrian_predictions__type_support.cpp.o\n'}
+[16.384778] (saye_msgs) StdoutLine: {'line': b'[ 58%] Building C object CMakeFiles/saye_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/saye_msgs/msg/detail/pedestrian_predictions__type_support.c.o\n'}
+[16.412357] (-) TimerEvent: {}
+[16.425143] (saye_msgs) StdoutLine: {'line': b'[ 59%] Linking CXX shared library libsaye_msgs__rosidl_typesupport_c.so\n'}
+[16.481407] (saye_msgs) StdoutLine: {'line': b'[ 60%] Building C object CMakeFiles/saye_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/saye_msgs/srv/detail/share_map__type_support.c.o\n'}
+[16.504901] (saye_msgs) StdoutLine: {'line': b'[ 62%] Building CXX object CMakeFiles/saye_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/saye_msgs/srv/detail/share_map__type_support.cpp.o\n'}
+[16.512586] (-) TimerEvent: {}
+[16.592969] (saye_msgs) StdoutLine: {'line': b'[ 63%] Building CXX object CMakeFiles/saye_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/saye_msgs/msg/detail/dds_fastrtps/pedestrian_prediction__type_support.cpp.o\n'}
+[16.593958] (saye_msgs) StdoutLine: {'line': b'[ 64%] Building CXX object CMakeFiles/saye_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/saye_msgs/msg/detail/dds_fastrtps/gmm_component__type_support.cpp.o\n'}
+[16.599973] (saye_msgs) StdoutLine: {'line': b'[ 66%] Building CXX object CMakeFiles/saye_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/saye_msgs/msg/detail/dds_fastrtps/map__type_support.cpp.o\n'}
+[16.612816] (-) TimerEvent: {}
+[16.627032] (saye_msgs) StdoutLine: {'line': b'[ 67%] Building CXX object CMakeFiles/saye_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/saye_msgs/msg/detail/map__type_support_c.cpp.o\n'}
+[16.635073] (saye_msgs) StdoutLine: {'line': b'[ 68%] Linking C shared library libsaye_msgs__rosidl_typesupport_introspection_c.so\n'}
+[16.712956] (-) TimerEvent: {}
+[16.813239] (-) TimerEvent: {}
+[16.905303] (saye_msgs) StdoutLine: {'line': b'[ 68%] Built target saye_msgs__rosidl_typesupport_c\n'}
+[16.910652] (saye_msgs) StdoutLine: {'line': b'[ 70%] Building CXX object CMakeFiles/saye_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/saye_msgs/msg/detail/dds_fastrtps/pedestrian_predictions__type_support.cpp.o\n'}
+[16.914565] (-) TimerEvent: {}
+[16.934961] (saye_msgs) StdoutLine: {'line': b'[ 72%] Building CXX object CMakeFiles/saye_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/saye_msgs/msg/detail/gmm_component__type_support_c.cpp.o\n'}
+[16.938964] (saye_msgs) StdoutLine: {'line': b'[ 72%] Building CXX object CMakeFiles/saye_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/saye_msgs/srv/detail/dds_fastrtps/share_map__type_support.cpp.o\n'}
+[16.940675] (saye_msgs) StdoutLine: {'line': b'[ 74%] Building CXX object CMakeFiles/saye_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/saye_msgs/msg/detail/pedestrian_prediction__type_support_c.cpp.o\n'}
+[17.016076] (-) TimerEvent: {}
+[17.062498] (saye_msgs) StdoutLine: {'line': b'[ 75%] Building CXX object CMakeFiles/saye_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/saye_msgs/msg/detail/pedestrian_predictions__type_support_c.cpp.o\n'}
+[17.083349] (saye_msgs) StdoutLine: {'line': b'[ 77%] Building CXX object CMakeFiles/saye_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/saye_msgs/srv/detail/share_map__type_support_c.cpp.o\n'}
+[17.116309] (-) TimerEvent: {}
+[17.178610] (saye_msgs) StdoutLine: {'line': b'[ 78%] Linking CXX shared library libsaye_msgs__rosidl_typesupport_cpp.so\n'}
+[17.206932] (saye_msgs) StdoutLine: {'line': b'[ 78%] Built target saye_msgs__rosidl_typesupport_introspection_c\n'}
+[17.216555] (-) TimerEvent: {}
+[17.316974] (-) TimerEvent: {}
+[17.417259] (-) TimerEvent: {}
+[17.517595] (-) TimerEvent: {}
+[17.541637] (saye_msgs) StdoutLine: {'line': b'[ 79%] Linking CXX shared library libsaye_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[17.617768] (-) TimerEvent: {}
+[17.690244] (saye_msgs) StdoutLine: {'line': b'[ 79%] Built target saye_msgs__rosidl_typesupport_cpp\n'}
+[17.717970] (-) TimerEvent: {}
+[17.818330] (-) TimerEvent: {}
+[17.918675] (-) TimerEvent: {}
+[17.985842] (saye_msgs) StdoutLine: {'line': b'[ 79%] Built target saye_msgs__rosidl_typesupport_introspection_cpp\n'}
+[18.011335] (saye_msgs) StdoutLine: {'line': b'[ 81%] Linking CXX shared library libsaye_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[18.018841] (-) TimerEvent: {}
+[18.106506] (saye_msgs) StdoutLine: {'line': b'[ 82%] Linking CXX shared library libsaye_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[18.119042] (-) TimerEvent: {}
+[18.219331] (-) TimerEvent: {}
+[18.320828] (-) TimerEvent: {}
+[18.421187] (-) TimerEvent: {}
+[18.484676] (saye_msgs) StdoutLine: {'line': b'[ 82%] Built target saye_msgs__rosidl_typesupport_fastrtps_c\n'}
+[18.521494] (-) TimerEvent: {}
+[18.579641] (saye_msgs) StdoutLine: {'line': b'[ 82%] Built target saye_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[18.622185] (saye_msgs) StdoutLine: {'line': b'[ 82%] Built target saye_msgs\n'}
+[18.622580] (-) TimerEvent: {}
+[18.665878] (saye_msgs) StdoutLine: {'line': b'[ 83%] Generating Python code for ROS interfaces\n'}
+[18.722936] (-) TimerEvent: {}
+[18.823769] (-) TimerEvent: {}
+[18.924119] (-) TimerEvent: {}
+[19.024499] (-) TimerEvent: {}
+[19.124994] (-) TimerEvent: {}
+[19.226866] (-) TimerEvent: {}
+[19.327247] (-) TimerEvent: {}
+[19.427989] (-) TimerEvent: {}
+[19.528402] (-) TimerEvent: {}
+[19.628820] (-) TimerEvent: {}
+[19.721896] (saye_msgs) StdoutLine: {'line': b'[ 83%] Built target saye_msgs__py\n'}
+[19.728996] (-) TimerEvent: {}
+[19.764035] (saye_msgs) StdoutLine: {'line': b'[ 87%] Building C object CMakeFiles/saye_msgs__rosidl_generator_py.dir/rosidl_generator_py/saye_msgs/srv/_share_map_s.c.o\n'}
+[19.764489] (saye_msgs) StdoutLine: {'line': b'[ 87%] Building C object CMakeFiles/saye_msgs__rosidl_generator_py.dir/rosidl_generator_py/saye_msgs/msg/_pedestrian_predictions_s.c.o\n'}
+[19.764971] (saye_msgs) StdoutLine: {'line': b'[ 87%] Building C object CMakeFiles/saye_msgs__rosidl_generator_py.dir/rosidl_generator_py/saye_msgs/msg/_map_s.c.o\n'}
+[19.765118] (saye_msgs) StdoutLine: {'line': b'[ 89%] Building C object CMakeFiles/saye_msgs__rosidl_generator_py.dir/rosidl_generator_py/saye_msgs/msg/_gmm_component_s.c.o\n'}
+[19.765192] (saye_msgs) StdoutLine: {'line': b'[ 90%] Building C object CMakeFiles/saye_msgs__rosidl_generator_py.dir/rosidl_generator_py/saye_msgs/msg/_pedestrian_prediction_s.c.o\n'}
+[19.829144] (-) TimerEvent: {}
+[19.929532] (-) TimerEvent: {}
+[20.029841] (-) TimerEvent: {}
+[20.067332] (saye_msgs) StdoutLine: {'line': b'[ 91%] Linking C shared library libsaye_msgs__rosidl_generator_py.so\n'}
+[20.130893] (-) TimerEvent: {}
+[20.232598] (-) TimerEvent: {}
+[20.333207] (-) TimerEvent: {}
+[20.433567] (-) TimerEvent: {}
+[20.462975] (saye_msgs) StdoutLine: {'line': b'[ 91%] Built target saye_msgs__rosidl_generator_py\n'}
+[20.504013] (saye_msgs) StdoutLine: {'line': b'[ 95%] Building C object CMakeFiles/saye_msgs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/saye_msgs/_saye_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\n'}
+[20.504246] (saye_msgs) StdoutLine: {'line': b'[ 95%] Building C object CMakeFiles/saye_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/saye_msgs/_saye_msgs_s.ep.rosidl_typesupport_c.c.o\n'}
+[20.504330] (saye_msgs) StdoutLine: {'line': b'[ 95%] Building C object CMakeFiles/saye_msgs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/saye_msgs/_saye_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\n'}
+[20.534111] (-) TimerEvent: {}
+[20.634390] (-) TimerEvent: {}
+[20.690223] (saye_msgs) StdoutLine: {'line': b'[ 97%] Linking C shared module rosidl_generator_py/saye_msgs/saye_msgs_s__rosidl_typesupport_c.so\n'}
+[20.690846] (saye_msgs) StdoutLine: {'line': b'[ 98%] Linking C shared module rosidl_generator_py/saye_msgs/saye_msgs_s__rosidl_typesupport_introspection_c.so\n'}
+[20.699715] (saye_msgs) StdoutLine: {'line': b'[100%] Linking C shared module rosidl_generator_py/saye_msgs/saye_msgs_s__rosidl_typesupport_fastrtps_c.so\n'}
+[20.734634] (-) TimerEvent: {}
+[20.834985] (-) TimerEvent: {}
+[20.935379] (-) TimerEvent: {}
+[20.987367] (saye_msgs) StdoutLine: {'line': b'[100%] Built target saye_msgs_s__rosidl_typesupport_c\n'}
+[20.993665] (saye_msgs) StdoutLine: {'line': b'[100%] Built target saye_msgs_s__rosidl_typesupport_introspection_c\n'}
+[21.035582] (-) TimerEvent: {}
+[21.074907] (saye_msgs) StdoutLine: {'line': b'[100%] Built target saye_msgs_s__rosidl_typesupport_fastrtps_c\n'}
+[21.101136] (saye_msgs) CommandEnded: {'returncode': 0}
+[21.102309] (saye_msgs) JobProgress: {'identifier': 'saye_msgs', 'progress': 'install'}
+[21.121079] (saye_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/yiyi/ackermann_sim/build/saye_msgs'], 'cwd': '/home/yiyi/ackermann_sim/build/saye_msgs', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'HTTPS_PROXY': 'http://127.0.0.1:7897', 'GZ_SIM_RESOURCE_PATH': '/home/yiyi/ackermann_sim/install/saye_description/share/saye_description/models:/home/yiyi/ackermann_sim/install/saye_description/share', 'no_proxy': '172.31.*,172.30.*,172.29.*,172.28.*,172.27.*,172.26.*,172.25.*,172.24.*,172.23.*,172.22.*,172.21.*,172.20.*,172.19.*,172.18.*,172.17.*,172.16.*,10.*,192.168.*,127.*,localhost,<local>', 'USER': 'yiyi', 'CLAUDE_CODE_ENTRYPOINT': 'cli', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'GIT_EDITOR': 'true', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/yiyi/ackermann_sim/install/saye_msgs/lib:/home/yiyi/ackermann_sim/install/saye_description/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'WT_PROFILE_ID': '{d8e96812-b789-5068-a5ae-10b2fb53e95f}', 'HOME': '/home/yiyi', 'OLDPWD': '/home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_prediction', 'NO_PROXY': '172.31.*,172.30.*,172.29.*,172.28.*,172.27.*,172.26.*,172.25.*,172.24.*,172.23.*,172.22.*,172.21.*,172.20.*,172.19.*,172.18.*,172.17.*,172.16.*,10.*,192.168.*,127.*,localhost,<local>', 'NVM_BIN': '/home/yiyi/.nvm/versions/node/v22.21.0/bin', 'NVM_INC': '/home/yiyi/.nvm/versions/node/v22.21.0/include/node', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', 'NVM_DIR': '/home/yiyi/.nvm', 'WAYLAND_DISPLAY': 'wayland-0', 'https_proxy': 'http://127.0.0.1:7897', 'COLCON_PREFIX_PATH': '/home/yiyi/ackermann_sim/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'yiyi', 'NAME': 'yiyi', 'WSL_INTEROP': '/run/WSL/357_interop', 'http_proxy': 'http://127.0.0.1:7897', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'OTEL_EXPORTER_OTLP_METRICS_TEMPORALITY_PREFERENCE': 'delta', 'PATH': '/home/yiyi/.local/bin:/home/yiyi/.local/bin:/home/yiyi/.local/share/pnpm:/home/yiyi/.nvm/versions/node/v22.21.0/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/d/Python/Python308/Scripts/:/mnt/d/Python/Python308/:/mnt/d/Vmware/bin/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/d/bandzip/Bandizip/:/mnt/d/Python/Python310/:/mnt/c/Program Files/dotnet/:/mnt/d/MYsQL8/bin:/mnt/d/JAVA/jdk1.8.0_152/jdk1.8.0_152/bin:/mnt/d/JAVA/jdk1.8.0_152/jdk1.8.0_152/jre/bin:/mnt/d/VS code/Microsoft VS Code/bin:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/DTS/Binn/:/mnt/c/Program Files/Git/cmd:/mnt/d/Matlab2024b/runtime/win64:/mnt/d/Matlab2024b/bin:/mnt/d/Windows Kits/10/Windows Performance Toolkit/:/mnt/d/cursor/cursor/resources/app/bin:/mnt/c/ProgramData/chocolatey/bin:/mnt/d/nodejs/:/mnt/d/cursor/cursor/resources/app/bin:/mnt/d/IDEAl/windsurf/Windsurf/bin:/mnt/c/Users/29705/AppData/Local/pnpm:/mnt/d/python/python312/Scripts/:/mnt/d/python/python312/:/mnt/c/Users/29705/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/29705/AppData/Local/Microsoft/WindowsApps:/mnt/d/clion/CLion 2024.1/bin:/mnt/d/pycharm/PyCharm Community Edition 2023.1.3/bin:/mnt/d/新建文件夹/miktex/bin/x64/:/mnt/d/IntelliJ IDEAIntelliJ IDEA/IntelliJ IDEA 2024.1.1/bin:/mnt/d/pycharm/PyCharm 2024.1.1/bin:/mnt/c/Users/29705/AppData/Local/JetBrains/Toolbox/scripts:/mnt/d/Modelsim/win64:/mnt/c/Users/29705/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/29705/AppData/Local/Microsoft/WindowsApps:/mnt/d/msys/ucrt64/bin:/mnt/c/Users/29705/.dotnet/tools:/mnt/d/IDEAl/kiro/Kiro/bin:/mnt/c/Users/29705/AppData/Local/Programs/Ollama:/mnt/c/Users/29705/.lmstudio/bin:/mnt/c/Users/29705/AppData/Roaming/npm:/mnt/c/Users/29705/AppData/Local/Microsoft/WinGet/Links:/mnt/d/pycharm/PyCharm 2025.2.3/bin:/mnt/d/clion/CLion 2025.2.3/bin:/mnt/c/Users/29705/.dotnet/tools:/mnt/d/Zed/bin:/snap/bin', 'COREPACK_ENABLE_AUTO_PIN': '0', 'WT_SESSION': '49dd104f-3912-4ab4-836c-21d89a6ca1f2', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'NoDefaultCurrentDirectoryInExePath': '1', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/yiyi/ackermann_sim/install/saye_control:/home/yiyi/ackermann_sim/install/saye_msgs:/home/yiyi/ackermann_sim/install/saye_mppi:/home/yiyi/ackermann_sim/install/saye_localization:/home/yiyi/ackermann_sim/install/saye_bringup_my:/home/yiyi/ackermann_sim/install/saye_bringup:/home/yiyi/ackermann_sim/install/saye_description:/home/yiyi/ackermann_sim/install/saye_behaviortree:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'CLAUDECODE': '1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/yiyi/ackermann_sim/build/saye_msgs', 'NVM_CD_FLAGS': '', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/yiyi/ackermann_sim/install/saye_msgs/lib/python3.12/site-packages:/home/yiyi/ackermann_sim/install/saye_mppi/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'HTTP_PROXY': 'http://127.0.0.1:7897', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'PNPM_HOME': '/home/yiyi/.local/share/pnpm', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/yiyi/ackermann_sim/install/saye_control:/home/yiyi/ackermann_sim/install/saye_msgs:/home/yiyi/ackermann_sim/install/saye_mppi:/home/yiyi/ackermann_sim/install/saye_localization:/home/yiyi/ackermann_sim/install/saye_bringup_my:/home/yiyi/ackermann_sim/install/saye_bringup:/home/yiyi/ackermann_sim/install/saye_description:/home/yiyi/ackermann_sim/install/saye_behaviortree:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'WSLENV': 'WT_SESSION:WT_PROFILE_ID:'}), 'shell': False}
+[21.135990] (-) TimerEvent: {}
+[21.138410] (saye_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[21.141048] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/share/ament_index/resource_index/rosidl_interfaces/saye_msgs\n'}
+[21.142385] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/share/saye_msgs/msg/Map.json\n'}
+[21.142876] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/share/saye_msgs/msg/GMMComponent.json\n'}
+[21.143229] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/share/saye_msgs/msg/PedestrianPrediction.json\n'}
+[21.143591] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/share/saye_msgs/msg/PedestrianPredictions.json\n'}
+[21.143935] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/share/saye_msgs/srv/ShareMap.json\n'}
+[21.144269] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/include/saye_msgs/saye_msgs\n'}
+[21.145842] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/include/saye_msgs/saye_msgs/srv\n'}
+[21.146505] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/include/saye_msgs/saye_msgs/srv/share_map.h\n'}
+[21.146933] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/include/saye_msgs/saye_msgs/srv/detail\n'}
+[21.147275] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/include/saye_msgs/saye_msgs/srv/detail/share_map__functions.c\n'}
+[21.147646] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/include/saye_msgs/saye_msgs/srv/detail/share_map__functions.h\n'}
+[21.147979] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/include/saye_msgs/saye_msgs/srv/detail/share_map__type_support.c\n'}
+[21.148508] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/include/saye_msgs/saye_msgs/srv/detail/share_map__type_support.h\n'}
+[21.148916] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/include/saye_msgs/saye_msgs/srv/detail/share_map__struct.h\n'}
+[21.149041] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/include/saye_msgs/saye_msgs/srv/detail/share_map__description.c\n'}
+[21.149121] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/include/saye_msgs/saye_msgs/msg\n'}
+[21.149421] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/include/saye_msgs/saye_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[21.149655] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/include/saye_msgs/saye_msgs/msg/pedestrian_prediction.h\n'}
+[21.149874] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/include/saye_msgs/saye_msgs/msg/pedestrian_predictions.h\n'}
+[21.150129] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/include/saye_msgs/saye_msgs/msg/detail\n'}
+[21.150728] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/include/saye_msgs/saye_msgs/msg/detail/pedestrian_predictions__functions.h\n'}
+[21.150976] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/include/saye_msgs/saye_msgs/msg/detail/gmm_component__type_support.h\n'}
+[21.151188] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/include/saye_msgs/saye_msgs/msg/detail/gmm_component__struct.h\n'}
+[21.151415] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/include/saye_msgs/saye_msgs/msg/detail/pedestrian_prediction__functions.c\n'}
+[21.151665] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/include/saye_msgs/saye_msgs/msg/detail/pedestrian_prediction__description.c\n'}
+[21.151922] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/include/saye_msgs/saye_msgs/msg/detail/map__functions.h\n'}
+[21.152199] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/include/saye_msgs/saye_msgs/msg/detail/pedestrian_predictions__type_support.c\n'}
+[21.152513] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/include/saye_msgs/saye_msgs/msg/detail/map__type_support.h\n'}
+[21.152755] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/include/saye_msgs/saye_msgs/msg/detail/pedestrian_prediction__functions.h\n'}
+[21.153082] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/include/saye_msgs/saye_msgs/msg/detail/gmm_component__functions.h\n'}
+[21.153722] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/include/saye_msgs/saye_msgs/msg/detail/gmm_component__type_support.c\n'}
+[21.153965] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/include/saye_msgs/saye_msgs/msg/detail/pedestrian_predictions__type_support.h\n'}
+[21.154239] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/include/saye_msgs/saye_msgs/msg/detail/gmm_component__functions.c\n'}
+[21.154531] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/include/saye_msgs/saye_msgs/msg/detail/pedestrian_prediction__struct.h\n'}
+[21.154862] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/include/saye_msgs/saye_msgs/msg/detail/pedestrian_prediction__type_support.h\n'}
+[21.155142] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/include/saye_msgs/saye_msgs/msg/detail/pedestrian_prediction__type_support.c\n'}
+[21.155383] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/include/saye_msgs/saye_msgs/msg/detail/map__struct.h\n'}
+[21.155731] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/include/saye_msgs/saye_msgs/msg/detail/map__functions.c\n'}
+[21.155830] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/include/saye_msgs/saye_msgs/msg/detail/pedestrian_predictions__description.c\n'}
+[21.156012] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/include/saye_msgs/saye_msgs/msg/detail/map__description.c\n'}
+[21.156282] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/include/saye_msgs/saye_msgs/msg/detail/map__type_support.c\n'}
+[21.156496] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/include/saye_msgs/saye_msgs/msg/detail/pedestrian_predictions__functions.c\n'}
+[21.156784] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/include/saye_msgs/saye_msgs/msg/detail/gmm_component__description.c\n'}
+[21.157121] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/include/saye_msgs/saye_msgs/msg/detail/pedestrian_predictions__struct.h\n'}
+[21.157415] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/include/saye_msgs/saye_msgs/msg/map.h\n'}
+[21.157766] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/include/saye_msgs/saye_msgs/msg/gmm_component.h\n'}
+[21.158467] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/share/saye_msgs/environment/library_path.sh\n'}
+[21.158884] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/share/saye_msgs/environment/library_path.dsv\n'}
+[21.159422] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/lib/libsaye_msgs__rosidl_generator_c.so\n'}
+[21.160299] (saye_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/yiyi/ackermann_sim/install/saye_msgs/lib/libsaye_msgs__rosidl_generator_c.so" to ""\n'}
+[21.160643] (saye_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yiyi/ackermann_sim/install/saye_msgs/include/saye_msgs/saye_msgs\n'}
+[21.160851] (saye_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yiyi/ackermann_sim/install/saye_msgs/include/saye_msgs/saye_msgs/srv\n'}
+[21.161026] (saye_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yiyi/ackermann_sim/install/saye_msgs/include/saye_msgs/saye_msgs/srv/detail\n'}
+[21.161142] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/include/saye_msgs/saye_msgs/srv/detail/share_map__rosidl_typesupport_fastrtps_c.h\n'}
+[21.161433] (saye_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yiyi/ackermann_sim/install/saye_msgs/include/saye_msgs/saye_msgs/msg\n'}
+[21.161715] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/include/saye_msgs/saye_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[21.162070] (saye_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yiyi/ackermann_sim/install/saye_msgs/include/saye_msgs/saye_msgs/msg/detail\n'}
+[21.162383] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/include/saye_msgs/saye_msgs/msg/detail/pedestrian_predictions__rosidl_typesupport_fastrtps_c.h\n'}
+[21.162513] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/include/saye_msgs/saye_msgs/msg/detail/map__rosidl_typesupport_fastrtps_c.h\n'}
+[21.162627] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/include/saye_msgs/saye_msgs/msg/detail/gmm_component__rosidl_typesupport_fastrtps_c.h\n'}
+[21.162877] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/include/saye_msgs/saye_msgs/msg/detail/pedestrian_prediction__rosidl_typesupport_fastrtps_c.h\n'}
+[21.163102] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/lib/libsaye_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[21.163178] (saye_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/yiyi/ackermann_sim/install/saye_msgs/lib/libsaye_msgs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[21.163349] (saye_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yiyi/ackermann_sim/install/saye_msgs/include/saye_msgs/saye_msgs\n'}
+[21.163605] (saye_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yiyi/ackermann_sim/install/saye_msgs/include/saye_msgs/saye_msgs/srv\n'}
+[21.163695] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/include/saye_msgs/saye_msgs/srv/share_map.hpp\n'}
+[21.163870] (saye_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yiyi/ackermann_sim/install/saye_msgs/include/saye_msgs/saye_msgs/srv/detail\n'}
+[21.163967] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/include/saye_msgs/saye_msgs/srv/detail/share_map__builder.hpp\n'}
+[21.164376] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/include/saye_msgs/saye_msgs/srv/detail/share_map__traits.hpp\n'}
+[21.164550] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/include/saye_msgs/saye_msgs/srv/detail/share_map__struct.hpp\n'}
+[21.164829] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/include/saye_msgs/saye_msgs/srv/detail/share_map__type_support.hpp\n'}
+[21.165117] (saye_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yiyi/ackermann_sim/install/saye_msgs/include/saye_msgs/saye_msgs/msg\n'}
+[21.165273] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/include/saye_msgs/saye_msgs/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[21.165451] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/include/saye_msgs/saye_msgs/msg/pedestrian_predictions.hpp\n'}
+[21.165613] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/include/saye_msgs/saye_msgs/msg/pedestrian_prediction.hpp\n'}
+[21.165951] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/include/saye_msgs/saye_msgs/msg/map.hpp\n'}
+[21.166047] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/include/saye_msgs/saye_msgs/msg/gmm_component.hpp\n'}
+[21.166193] (saye_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yiyi/ackermann_sim/install/saye_msgs/include/saye_msgs/saye_msgs/msg/detail\n'}
+[21.166351] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/include/saye_msgs/saye_msgs/msg/detail/map__type_support.hpp\n'}
+[21.166509] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/include/saye_msgs/saye_msgs/msg/detail/map__builder.hpp\n'}
+[21.167032] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/include/saye_msgs/saye_msgs/msg/detail/map__struct.hpp\n'}
+[21.167417] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/include/saye_msgs/saye_msgs/msg/detail/pedestrian_predictions__builder.hpp\n'}
+[21.167606] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/include/saye_msgs/saye_msgs/msg/detail/pedestrian_prediction__type_support.hpp\n'}
+[21.167767] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/include/saye_msgs/saye_msgs/msg/detail/gmm_component__builder.hpp\n'}
+[21.167927] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/include/saye_msgs/saye_msgs/msg/detail/gmm_component__struct.hpp\n'}
+[21.168181] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/include/saye_msgs/saye_msgs/msg/detail/pedestrian_prediction__struct.hpp\n'}
+[21.168476] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/include/saye_msgs/saye_msgs/msg/detail/gmm_component__type_support.hpp\n'}
+[21.168656] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/include/saye_msgs/saye_msgs/msg/detail/gmm_component__traits.hpp\n'}
+[21.168957] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/include/saye_msgs/saye_msgs/msg/detail/pedestrian_predictions__type_support.hpp\n'}
+[21.169386] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/include/saye_msgs/saye_msgs/msg/detail/pedestrian_predictions__struct.hpp\n'}
+[21.169550] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/include/saye_msgs/saye_msgs/msg/detail/pedestrian_prediction__traits.hpp\n'}
+[21.169796] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/include/saye_msgs/saye_msgs/msg/detail/pedestrian_prediction__builder.hpp\n'}
+[21.169885] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/include/saye_msgs/saye_msgs/msg/detail/map__traits.hpp\n'}
+[21.169956] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/include/saye_msgs/saye_msgs/msg/detail/pedestrian_predictions__traits.hpp\n'}
+[21.170023] (saye_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yiyi/ackermann_sim/install/saye_msgs/include/saye_msgs/saye_msgs\n'}
+[21.170125] (saye_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yiyi/ackermann_sim/install/saye_msgs/include/saye_msgs/saye_msgs/srv\n'}
+[21.170207] (saye_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yiyi/ackermann_sim/install/saye_msgs/include/saye_msgs/saye_msgs/srv/detail\n'}
+[21.170277] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/include/saye_msgs/saye_msgs/srv/detail/share_map__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[21.170349] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/include/saye_msgs/saye_msgs/srv/detail/dds_fastrtps\n'}
+[21.170638] (saye_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yiyi/ackermann_sim/install/saye_msgs/include/saye_msgs/saye_msgs/msg\n'}
+[21.170787] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/include/saye_msgs/saye_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[21.171148] (saye_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yiyi/ackermann_sim/install/saye_msgs/include/saye_msgs/saye_msgs/msg/detail\n'}
+[21.171267] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/include/saye_msgs/saye_msgs/msg/detail/gmm_component__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[21.171350] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/include/saye_msgs/saye_msgs/msg/detail/dds_fastrtps\n'}
+[21.171593] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/include/saye_msgs/saye_msgs/msg/detail/pedestrian_prediction__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[21.171809] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/include/saye_msgs/saye_msgs/msg/detail/pedestrian_predictions__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[21.172073] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/include/saye_msgs/saye_msgs/msg/detail/map__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[21.172437] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/lib/libsaye_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[21.173506] (saye_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/yiyi/ackermann_sim/install/saye_msgs/lib/libsaye_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[21.173866] (saye_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yiyi/ackermann_sim/install/saye_msgs/include/saye_msgs/saye_msgs\n'}
+[21.173947] (saye_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yiyi/ackermann_sim/install/saye_msgs/include/saye_msgs/saye_msgs/srv\n'}
+[21.174094] (saye_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yiyi/ackermann_sim/install/saye_msgs/include/saye_msgs/saye_msgs/srv/detail\n'}
+[21.174262] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/include/saye_msgs/saye_msgs/srv/detail/share_map__type_support.c\n'}
+[21.174615] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/include/saye_msgs/saye_msgs/srv/detail/share_map__rosidl_typesupport_introspection_c.h\n'}
+[21.174707] (saye_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yiyi/ackermann_sim/install/saye_msgs/include/saye_msgs/saye_msgs/msg\n'}
+[21.174809] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/include/saye_msgs/saye_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[21.174996] (saye_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yiyi/ackermann_sim/install/saye_msgs/include/saye_msgs/saye_msgs/msg/detail\n'}
+[21.175116] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/include/saye_msgs/saye_msgs/msg/detail/map__rosidl_typesupport_introspection_c.h\n'}
+[21.175281] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/include/saye_msgs/saye_msgs/msg/detail/pedestrian_predictions__type_support.c\n'}
+[21.175589] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/include/saye_msgs/saye_msgs/msg/detail/pedestrian_prediction__rosidl_typesupport_introspection_c.h\n'}
+[21.175774] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/include/saye_msgs/saye_msgs/msg/detail/gmm_component__type_support.c\n'}
+[21.176287] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/include/saye_msgs/saye_msgs/msg/detail/pedestrian_prediction__type_support.c\n'}
+[21.176400] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/include/saye_msgs/saye_msgs/msg/detail/pedestrian_predictions__rosidl_typesupport_introspection_c.h\n'}
+[21.176557] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/include/saye_msgs/saye_msgs/msg/detail/map__type_support.c\n'}
+[21.176881] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/include/saye_msgs/saye_msgs/msg/detail/gmm_component__rosidl_typesupport_introspection_c.h\n'}
+[21.177025] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/lib/libsaye_msgs__rosidl_typesupport_introspection_c.so\n'}
+[21.177512] (saye_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/yiyi/ackermann_sim/install/saye_msgs/lib/libsaye_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[21.177821] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/lib/libsaye_msgs__rosidl_typesupport_c.so\n'}
+[21.178104] (saye_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/yiyi/ackermann_sim/install/saye_msgs/lib/libsaye_msgs__rosidl_typesupport_c.so" to ""\n'}
+[21.178404] (saye_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yiyi/ackermann_sim/install/saye_msgs/include/saye_msgs/saye_msgs\n'}
+[21.178493] (saye_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yiyi/ackermann_sim/install/saye_msgs/include/saye_msgs/saye_msgs/srv\n'}
+[21.178566] (saye_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yiyi/ackermann_sim/install/saye_msgs/include/saye_msgs/saye_msgs/srv/detail\n'}
+[21.178742] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/include/saye_msgs/saye_msgs/srv/detail/share_map__rosidl_typesupport_introspection_cpp.hpp\n'}
+[21.179077] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/include/saye_msgs/saye_msgs/srv/detail/share_map__type_support.cpp\n'}
+[21.179173] (saye_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yiyi/ackermann_sim/install/saye_msgs/include/saye_msgs/saye_msgs/msg\n'}
+[21.179627] (saye_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yiyi/ackermann_sim/install/saye_msgs/include/saye_msgs/saye_msgs/msg/detail\n'}
+[21.179997] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/include/saye_msgs/saye_msgs/msg/detail/pedestrian_prediction__rosidl_typesupport_introspection_cpp.hpp\n'}
+[21.180154] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/include/saye_msgs/saye_msgs/msg/detail/map__type_support.cpp\n'}
+[21.180315] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/include/saye_msgs/saye_msgs/msg/detail/pedestrian_prediction__type_support.cpp\n'}
+[21.180490] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/include/saye_msgs/saye_msgs/msg/detail/pedestrian_predictions__type_support.cpp\n'}
+[21.180810] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/include/saye_msgs/saye_msgs/msg/detail/pedestrian_predictions__rosidl_typesupport_introspection_cpp.hpp\n'}
+[21.180948] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/include/saye_msgs/saye_msgs/msg/detail/map__rosidl_typesupport_introspection_cpp.hpp\n'}
+[21.181120] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/include/saye_msgs/saye_msgs/msg/detail/gmm_component__type_support.cpp\n'}
+[21.181290] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/include/saye_msgs/saye_msgs/msg/detail/gmm_component__rosidl_typesupport_introspection_cpp.hpp\n'}
+[21.181562] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/lib/libsaye_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[21.182174] (saye_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/yiyi/ackermann_sim/install/saye_msgs/lib/libsaye_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[21.182472] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/lib/libsaye_msgs__rosidl_typesupport_cpp.so\n'}
+[21.183002] (saye_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/yiyi/ackermann_sim/install/saye_msgs/lib/libsaye_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[21.183340] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/share/saye_msgs/environment/pythonpath.sh\n'}
+[21.183440] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/share/saye_msgs/environment/pythonpath.dsv\n'}
+[21.183692] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/lib/python3.12/site-packages/saye_msgs-0.0.0-py3.12.egg-info\n'}
+[21.185308] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/lib/python3.12/site-packages/saye_msgs-0.0.0-py3.12.egg-info/PKG-INFO\n'}
+[21.185753] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/lib/python3.12/site-packages/saye_msgs-0.0.0-py3.12.egg-info/SOURCES.txt\n'}
+[21.185840] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/lib/python3.12/site-packages/saye_msgs-0.0.0-py3.12.egg-info/top_level.txt\n'}
+[21.186078] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/lib/python3.12/site-packages/saye_msgs-0.0.0-py3.12.egg-info/dependency_links.txt\n'}
+[21.186327] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/lib/python3.12/site-packages/saye_msgs\n'}
+[21.186748] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/lib/python3.12/site-packages/saye_msgs/saye_msgs_s__rosidl_typesupport_fastrtps_c.so\n'}
+[21.187046] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/lib/python3.12/site-packages/saye_msgs/__init__.py\n'}
+[21.187285] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/lib/python3.12/site-packages/saye_msgs/_saye_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[21.187546] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/lib/python3.12/site-packages/saye_msgs/_saye_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[21.187903] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/lib/python3.12/site-packages/saye_msgs/srv\n'}
+[21.188533] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/lib/python3.12/site-packages/saye_msgs/srv/_share_map.py\n'}
+[21.188784] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/lib/python3.12/site-packages/saye_msgs/srv/__init__.py\n'}
+[21.189039] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/lib/python3.12/site-packages/saye_msgs/srv/_share_map_s.c\n'}
+[21.189283] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/lib/python3.12/site-packages/saye_msgs/saye_msgs_s__rosidl_typesupport_c.so\n'}
+[21.189581] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/lib/python3.12/site-packages/saye_msgs/msg\n'}
+[21.190169] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/lib/python3.12/site-packages/saye_msgs/msg/_gmm_component_s.c\n'}
+[21.190436] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/lib/python3.12/site-packages/saye_msgs/msg/__init__.py\n'}
+[21.190641] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/lib/python3.12/site-packages/saye_msgs/msg/_pedestrian_prediction_s.c\n'}
+[21.190894] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/lib/python3.12/site-packages/saye_msgs/msg/_gmm_component.py\n'}
+[21.191152] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/lib/python3.12/site-packages/saye_msgs/msg/_pedestrian_predictions_s.c\n'}
+[21.191430] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/lib/python3.12/site-packages/saye_msgs/msg/_pedestrian_prediction.py\n'}
+[21.192037] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/lib/python3.12/site-packages/saye_msgs/msg/_map_s.c\n'}
+[21.192458] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/lib/python3.12/site-packages/saye_msgs/msg/_map.py\n'}
+[21.192943] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/lib/python3.12/site-packages/saye_msgs/msg/_pedestrian_predictions.py\n'}
+[21.193146] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/lib/python3.12/site-packages/saye_msgs/_saye_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[21.193316] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/lib/python3.12/site-packages/saye_msgs/saye_msgs_s__rosidl_typesupport_introspection_c.so\n'}
+[21.236821] (-) TimerEvent: {}
+[21.257147] (saye_msgs) StdoutLine: {'line': b"Listing '/home/yiyi/ackermann_sim/install/saye_msgs/lib/python3.12/site-packages/saye_msgs'...\n"}
+[21.257519] (saye_msgs) StdoutLine: {'line': b"Compiling '/home/yiyi/ackermann_sim/install/saye_msgs/lib/python3.12/site-packages/saye_msgs/__init__.py'...\n"}
+[21.257680] (saye_msgs) StdoutLine: {'line': b"Listing '/home/yiyi/ackermann_sim/install/saye_msgs/lib/python3.12/site-packages/saye_msgs/msg'...\n"}
+[21.257858] (saye_msgs) StdoutLine: {'line': b"Compiling '/home/yiyi/ackermann_sim/install/saye_msgs/lib/python3.12/site-packages/saye_msgs/msg/__init__.py'...\n"}
+[21.258003] (saye_msgs) StdoutLine: {'line': b"Compiling '/home/yiyi/ackermann_sim/install/saye_msgs/lib/python3.12/site-packages/saye_msgs/msg/_gmm_component.py'...\n"}
+[21.258124] (saye_msgs) StdoutLine: {'line': b"Compiling '/home/yiyi/ackermann_sim/install/saye_msgs/lib/python3.12/site-packages/saye_msgs/msg/_map.py'...\n"}
+[21.258199] (saye_msgs) StdoutLine: {'line': b"Compiling '/home/yiyi/ackermann_sim/install/saye_msgs/lib/python3.12/site-packages/saye_msgs/msg/_pedestrian_prediction.py'...\n"}
+[21.258281] (saye_msgs) StdoutLine: {'line': b"Compiling '/home/yiyi/ackermann_sim/install/saye_msgs/lib/python3.12/site-packages/saye_msgs/msg/_pedestrian_predictions.py'...\n"}
+[21.258347] (saye_msgs) StdoutLine: {'line': b"Listing '/home/yiyi/ackermann_sim/install/saye_msgs/lib/python3.12/site-packages/saye_msgs/srv'...\n"}
+[21.258411] (saye_msgs) StdoutLine: {'line': b"Compiling '/home/yiyi/ackermann_sim/install/saye_msgs/lib/python3.12/site-packages/saye_msgs/srv/__init__.py'...\n"}
+[21.258488] (saye_msgs) StdoutLine: {'line': b"Compiling '/home/yiyi/ackermann_sim/install/saye_msgs/lib/python3.12/site-packages/saye_msgs/srv/_share_map.py'...\n"}
+[21.265354] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/lib/python3.12/site-packages/saye_msgs/saye_msgs_s__rosidl_typesupport_fastrtps_c.so\n'}
+[21.265879] (saye_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/yiyi/ackermann_sim/install/saye_msgs/lib/python3.12/site-packages/saye_msgs/saye_msgs_s__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[21.266282] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/lib/python3.12/site-packages/saye_msgs/saye_msgs_s__rosidl_typesupport_introspection_c.so\n'}
+[21.266839] (saye_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/yiyi/ackermann_sim/install/saye_msgs/lib/python3.12/site-packages/saye_msgs/saye_msgs_s__rosidl_typesupport_introspection_c.so" to ""\n'}
+[21.267336] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/lib/python3.12/site-packages/saye_msgs/saye_msgs_s__rosidl_typesupport_c.so\n'}
+[21.267782] (saye_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/yiyi/ackermann_sim/install/saye_msgs/lib/python3.12/site-packages/saye_msgs/saye_msgs_s__rosidl_typesupport_c.so" to ""\n'}
+[21.268214] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/lib/libsaye_msgs__rosidl_generator_py.so\n'}
+[21.268720] (saye_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/yiyi/ackermann_sim/install/saye_msgs/lib/libsaye_msgs__rosidl_generator_py.so" to ""\n'}
+[21.268894] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/share/saye_msgs/msg/Map.idl\n'}
+[21.269143] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/share/saye_msgs/msg/GMMComponent.idl\n'}
+[21.269492] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/share/saye_msgs/msg/PedestrianPrediction.idl\n'}
+[21.269941] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/share/saye_msgs/msg/PedestrianPredictions.idl\n'}
+[21.270495] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/share/saye_msgs/srv/ShareMap.idl\n'}
+[21.270666] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/share/saye_msgs/msg/Map.msg\n'}
+[21.270959] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/share/saye_msgs/msg/GMMComponent.msg\n'}
+[21.271078] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/share/saye_msgs/msg/PedestrianPrediction.msg\n'}
+[21.271384] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/share/saye_msgs/msg/PedestrianPredictions.msg\n'}
+[21.271477] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/share/saye_msgs/srv/ShareMap.srv\n'}
+[21.272449] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/share/ament_index/resource_index/package_run_dependencies/saye_msgs\n'}
+[21.273366] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/share/ament_index/resource_index/parent_prefix_path/saye_msgs\n'}
+[21.273621] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/share/saye_msgs/environment/ament_prefix_path.sh\n'}
+[21.273930] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/share/saye_msgs/environment/ament_prefix_path.dsv\n'}
+[21.274221] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/share/saye_msgs/environment/path.sh\n'}
+[21.274490] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/share/saye_msgs/environment/path.dsv\n'}
+[21.274720] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/share/saye_msgs/local_setup.bash\n'}
+[21.274983] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/share/saye_msgs/local_setup.sh\n'}
+[21.275244] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/share/saye_msgs/local_setup.zsh\n'}
+[21.275529] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/share/saye_msgs/local_setup.dsv\n'}
+[21.275804] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/share/saye_msgs/package.dsv\n'}
+[21.276733] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/share/ament_index/resource_index/packages/saye_msgs\n'}
+[21.277629] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/share/saye_msgs/cmake/export_saye_msgs__rosidl_generator_cExport.cmake\n'}
+[21.278009] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/share/saye_msgs/cmake/export_saye_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[21.278309] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/share/saye_msgs/cmake/export_saye_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[21.278582] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/share/saye_msgs/cmake/export_saye_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[21.278773] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/share/saye_msgs/cmake/export_saye_msgs__rosidl_generator_cppExport.cmake\n'}
+[21.279086] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/share/saye_msgs/cmake/export_saye_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[21.279351] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/share/saye_msgs/cmake/export_saye_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[21.279677] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/share/saye_msgs/cmake/saye_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[21.279933] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/share/saye_msgs/cmake/saye_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[21.280211] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/share/saye_msgs/cmake/saye_msgs__rosidl_typesupport_cExport.cmake\n'}
+[21.280501] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/share/saye_msgs/cmake/saye_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[21.280810] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/share/saye_msgs/cmake/saye_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[21.281161] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/share/saye_msgs/cmake/saye_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[21.281450] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/share/saye_msgs/cmake/saye_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[21.281739] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/share/saye_msgs/cmake/saye_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[21.282031] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/share/saye_msgs/cmake/export_saye_msgs__rosidl_generator_pyExport.cmake\n'}
+[21.282236] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/share/saye_msgs/cmake/export_saye_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[21.282484] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/share/saye_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[21.282800] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/share/saye_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[21.283115] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/share/saye_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[21.283340] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/share/saye_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[21.283563] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/share/saye_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[21.283863] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/share/saye_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[21.284157] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/share/saye_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[21.284408] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/share/saye_msgs/cmake/saye_msgsConfig.cmake\n'}
+[21.284632] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/share/saye_msgs/cmake/saye_msgsConfig-version.cmake\n'}
+[21.284910] (saye_msgs) StdoutLine: {'line': b'-- Installing: /home/yiyi/ackermann_sim/install/saye_msgs/share/saye_msgs/package.xml\n'}
+[21.288555] (saye_msgs) CommandEnded: {'returncode': 0}
+[21.313911] (saye_msgs) JobEnded: {'identifier': 'saye_msgs', 'rc': 0}
+[21.314753] (-) EventReactorShutdown: {}

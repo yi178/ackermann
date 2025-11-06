@@ -1,0 +1,17 @@
+[ 53%] Built target generate_worlds
+[ 76%] Built target actor_pose_publisher_system
+[ 76%] Building CXX object CMakeFiles/test_actor_driver_system.dir/plugins/actor_pose_publisher/src/test_actor_driver_system.cpp.o
+[ 92%] Built target pedestrian_manager_system
+/home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_description/plugins/actor_pose_publisher/src/test_actor_driver_system.cpp: In member function ‘virtual void saye_description::TestActorDriverSystem::Configure(const gz::sim::v8::Entity&, const std::shared_ptr<const sdf::v14::Element>&, gz::sim::v8::EntityComponentManager&, gz::sim::v8::EventManager&)’:
+/home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_description/plugins/actor_pose_publisher/src/test_actor_driver_system.cpp:55:43: error: passing ‘std::__shared_ptr_access<const sdf::v14::Element, __gnu_cxx::_S_atomic, false, false>::element_type’ {aka ‘const sdf::v14::Element’} as ‘this’ argument discards qualifiers [-fpermissive]
+   55 |       auto waypointsElem = sdf->GetElement("waypoints");
+      |                            ~~~~~~~~~~~~~~~^~~~~~~~~~~~~
+In file included from /opt/ros/jazzy/opt/gz_sim_vendor/include/gz/sim8/gz/sim/System.hh:31,
+                 from /home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_description/plugins/actor_pose_publisher/include/saye_description/test_actor_driver_system.hpp:9,
+                 from /home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_description/plugins/actor_pose_publisher/src/test_actor_driver_system.cpp:1:
+/opt/ros/jazzy/opt/sdformat_vendor/include/gz/sdformat14/sdf/Element.hh:645:24: note:   in call to ‘sdf::v14::ElementPtr sdf::v14::Element::GetElement(const std::string&)’
+  645 |     public: ElementPtr GetElement(const std::string &_name);
+      |                        ^~~~~~~~~~
+gmake[2]: *** [CMakeFiles/test_actor_driver_system.dir/build.make:76: CMakeFiles/test_actor_driver_system.dir/plugins/actor_pose_publisher/src/test_actor_driver_system.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/test_actor_driver_system.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

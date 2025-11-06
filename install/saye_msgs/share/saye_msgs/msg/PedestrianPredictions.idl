@@ -1,0 +1,25 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from saye_msgs/msg/PedestrianPredictions.msg
+// generated code does not contain a copyright notice
+
+#include "saye_msgs/msg/PedestrianPrediction.idl"
+#include "std_msgs/msg/Header.idl"
+
+module saye_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "Collection of all pedestrian predictions" "\n"
+      "所有行人预测的集合")
+    struct PedestrianPredictions {
+      @verbatim (language="comment", text=
+        "Timestamp for synchronization" "\n"
+        "用于同步的时间戳")
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "List of all tracked pedestrians" "\n"
+        "所有被追踪行人的列表")
+      sequence<saye_msgs::msg::PedestrianPrediction> predictions;
+    };
+  };
+};

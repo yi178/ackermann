@@ -1,0 +1,145 @@
+[0.508s] Invoking command in '/home/yiyi/ackermann_sim/build/saye_rapa_mppi': CMAKE_PREFIX_PATH=/home/yiyi/ackermann_sim/install/saye_msgs:/home/yiyi/ackermann_sim/install/saye_prediction:/home/yiyi/ackermann_sim/install/saye_control:/home/yiyi/ackermann_sim/install/saye_mppi:/home/yiyi/ackermann_sim/install/saye_localization:/home/yiyi/ackermann_sim/install/saye_bringup_my:/home/yiyi/ackermann_sim/install/saye_bringup:/home/yiyi/ackermann_sim/install/saye_description:/home/yiyi/ackermann_sim/install/saye_behaviortree:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy PYTHONPATH=/home/yiyi/ackermann_sim/install/saye_msgs/lib/python3.12/site-packages:/home/yiyi/ackermann_sim/install/saye_prediction/lib/python3.12/site-packages:/home/yiyi/ackermann_sim/install/saye_mppi/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake /home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_rapa_mppi -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/yiyi/ackermann_sim/install/saye_rapa_mppi
+[1.207s] -- The C compiler identification is GNU 13.3.0
+[3.617s] -- The CXX compiler identification is GNU 13.3.0
+[5.835s] -- Detecting C compiler ABI info
+[6.661s] -- Detecting C compiler ABI info - done
+[6.672s] -- Check for working C compiler: /usr/bin/cc - skipped
+[6.676s] -- Detecting C compile features
+[6.677s] -- Detecting C compile features - done
+[7.020s] -- Detecting CXX compiler ABI info
+[7.860s] -- Detecting CXX compiler ABI info - done
+[7.870s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[7.871s] -- Detecting CXX compile features
+[7.871s] -- Detecting CXX compile features - done
+[7.927s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[8.185s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[8.447s] -- Found rclcpp: 28.1.12 (/opt/ros/jazzy/share/rclcpp/cmake)
+[9.047s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[9.090s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[9.149s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[9.202s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[9.406s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[9.420s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[9.654s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[10.279s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[10.622s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[11.329s] -- Found nav2_mppi_controller: 1.3.9 (/opt/ros/jazzy/share/nav2_mppi_controller/cmake)
+[12.474s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[12.477s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[12.477s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[12.832s] -- Found saye_msgs: 0.0.0 (/home/yiyi/ackermann_sim/install/saye_msgs/share/saye_msgs/cmake)
+[13.086s] -- Configuring done (12.5s)
+[13.348s] -- Generating done (0.2s)
+[13.357s] -- Build files have been written to: /home/yiyi/ackermann_sim/build/saye_rapa_mppi
+[13.377s] Invoked command in '/home/yiyi/ackermann_sim/build/saye_rapa_mppi' returned '0': CMAKE_PREFIX_PATH=/home/yiyi/ackermann_sim/install/saye_msgs:/home/yiyi/ackermann_sim/install/saye_prediction:/home/yiyi/ackermann_sim/install/saye_control:/home/yiyi/ackermann_sim/install/saye_mppi:/home/yiyi/ackermann_sim/install/saye_localization:/home/yiyi/ackermann_sim/install/saye_bringup_my:/home/yiyi/ackermann_sim/install/saye_bringup:/home/yiyi/ackermann_sim/install/saye_description:/home/yiyi/ackermann_sim/install/saye_behaviortree:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy PYTHONPATH=/home/yiyi/ackermann_sim/install/saye_msgs/lib/python3.12/site-packages:/home/yiyi/ackermann_sim/install/saye_prediction/lib/python3.12/site-packages:/home/yiyi/ackermann_sim/install/saye_mppi/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake /home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_rapa_mppi -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/yiyi/ackermann_sim/install/saye_rapa_mppi
+[13.379s] Invoking command in '/home/yiyi/ackermann_sim/build/saye_rapa_mppi': CMAKE_PREFIX_PATH=/home/yiyi/ackermann_sim/install/saye_msgs:/home/yiyi/ackermann_sim/install/saye_prediction:/home/yiyi/ackermann_sim/install/saye_control:/home/yiyi/ackermann_sim/install/saye_mppi:/home/yiyi/ackermann_sim/install/saye_localization:/home/yiyi/ackermann_sim/install/saye_bringup_my:/home/yiyi/ackermann_sim/install/saye_bringup:/home/yiyi/ackermann_sim/install/saye_description:/home/yiyi/ackermann_sim/install/saye_behaviortree:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy PYTHONPATH=/home/yiyi/ackermann_sim/install/saye_msgs/lib/python3.12/site-packages:/home/yiyi/ackermann_sim/install/saye_prediction/lib/python3.12/site-packages:/home/yiyi/ackermann_sim/install/saye_mppi/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --build /home/yiyi/ackermann_sim/build/saye_rapa_mppi -- -j16 -l16
+[13.487s] [ 50%] Building CXX object CMakeFiles/saye_rapa_mppi.dir/src/risk_aware_critic.cpp.o
+[19.713s] In file included from /home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_rapa_mppi/src/risk_aware_critic.cpp:1:
+[19.713s] /home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_rapa_mppi/include/saye_rapa_mppi/risk_aware_critic.hpp:17:32: error: ‘nav2_mppi_controller’ has not been declared
+[19.713s]    17 | class RiskAwareCritic : public nav2_mppi_controller::critics::CriticFunction
+[19.713s]       |                                ^~~~~~~~~~~~~~~~~~~~
+[19.714s] /home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_rapa_mppi/include/saye_rapa_mppi/risk_aware_critic.hpp:17:63: error: expected ‘{’ before ‘CriticFunction’
+[19.714s]    17 | class RiskAwareCritic : public nav2_mppi_controller::critics::CriticFunction
+[19.714s]       |                                                               ^~~~~~~~~~~~~~
+[19.714s] /home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_rapa_mppi/include/saye_rapa_mppi/risk_aware_critic.hpp:19:1: error: expected primary-expression before ‘public’
+[19.714s]    19 | public:
+[19.714s]       | ^~~~~~
+[19.714s] /home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_rapa_mppi/include/saye_rapa_mppi/risk_aware_critic.hpp:19:1: error: expected ‘}’ before ‘public’
+[19.714s] /home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_rapa_mppi/include/saye_rapa_mppi/risk_aware_critic.hpp:18:1: note: to match this ‘{’
+[19.714s]    18 | {
+[19.715s]       | ^
+[19.715s] /home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_rapa_mppi/include/saye_rapa_mppi/risk_aware_critic.hpp:21:8: error: variable or field ‘score’ declared void
+[19.715s]    21 |   void score(CriticData & data) override;
+[19.715s]       |        ^~~~~
+[19.718s] /home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_rapa_mppi/include/saye_rapa_mppi/risk_aware_critic.hpp:21:14: error: ‘CriticData’ was not declared in this scope; did you mean ‘mppi::CriticData’?
+[19.719s]    21 |   void score(CriticData & data) override;
+[19.719s]       |              ^~~~~~~~~~
+[19.719s]       |              mppi::CriticData
+[19.719s] In file included from /opt/ros/jazzy/include/nav2_mppi_controller/critic_function.hpp:25,
+[19.719s]                  from /home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_rapa_mppi/include/saye_rapa_mppi/risk_aware_critic.hpp:9:
+[19.719s] /opt/ros/jazzy/include/nav2_mppi_controller/critic_data.hpp:44:8: note: ‘mppi::CriticData’ declared here
+[19.719s]    44 | struct CriticData
+[19.719s]       |        ^~~~~~~~~~
+[19.720s] /home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_rapa_mppi/include/saye_rapa_mppi/risk_aware_critic.hpp:21:27: error: ‘data’ was not declared in this scope
+[19.720s]    21 |   void score(CriticData & data) override;
+[19.721s]       |                           ^~~~
+[19.721s] /home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_rapa_mppi/include/saye_rapa_mppi/risk_aware_critic.hpp:21:27: note: suggested alternatives:
+[19.721s] In file included from /usr/include/c++/13/string:53,
+[19.721s]                  from /home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_rapa_mppi/include/saye_rapa_mppi/risk_aware_critic.hpp:5:
+[19.721s] /usr/include/c++/13/bits/range_access.h:346:5: note:   ‘std::data’
+[19.721s]   346 |     data(initializer_list<_Tp> __il) noexcept
+[19.722s]       |     ^~~~
+[19.722s] /usr/include/c++/13/bits/range_access.h:314:5: note:   ‘std::data’
+[19.722s]   314 |     data(_Container& __cont) noexcept(noexcept(__cont.data()))
+[19.722s]       |     ^~~~
+[19.722s] /home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_rapa_mppi/include/saye_rapa_mppi/risk_aware_critic.hpp:23:1: error: expected unqualified-id before ‘protected’
+[19.722s]    23 | protected:
+[19.722s]       | ^~~~~~~~~
+[19.722s] /home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_rapa_mppi/include/saye_rapa_mppi/risk_aware_critic.hpp:27:1: error: expected unqualified-id before ‘private’
+[19.722s]    27 | private:
+[19.722s]       | ^~~~~~~
+[19.723s] /home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_rapa_mppi/include/saye_rapa_mppi/risk_aware_critic.hpp:38:1: error: expected declaration before ‘}’ token
+[19.723s]    38 | }  // namespace saye_rapa_mppi
+[19.724s]       | ^
+[19.724s] /home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_rapa_mppi/src/risk_aware_critic.cpp:6:34: error: invalid use of incomplete type ‘class saye_rapa_mppi::RiskAwareCritic’
+[19.724s]     6 | void RiskAwareCritic::initialize()
+[19.724s]       |                                  ^
+[19.724s] /home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_rapa_mppi/include/saye_rapa_mppi/risk_aware_critic.hpp:17:7: note: forward declaration of ‘class saye_rapa_mppi::RiskAwareCritic’
+[19.724s]    17 | class RiskAwareCritic : public nav2_mppi_controller::critics::CriticFunction
+[19.724s]       |       ^~~~~~~~~~~~~~~
+[19.724s] /home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_rapa_mppi/src/risk_aware_critic.cpp:27:61: error: invalid use of incomplete type ‘class saye_rapa_mppi::RiskAwareCritic’
+[19.724s]    27 |   const saye_msgs::msg::PedestrianPredictions::SharedPtr msg)
+[19.724s]       |                                                             ^
+[19.724s] /home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_rapa_mppi/include/saye_rapa_mppi/risk_aware_critic.hpp:17:7: note: forward declaration of ‘class saye_rapa_mppi::RiskAwareCritic’
+[19.724s]    17 | class RiskAwareCritic : public nav2_mppi_controller::critics::CriticFunction
+[19.724s]       |       ^~~~~~~~~~~~~~~
+[19.724s] /home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_rapa_mppi/src/risk_aware_critic.cpp:33:29: error: invalid use of incomplete type ‘class saye_rapa_mppi::RiskAwareCritic’
+[19.725s]    33 | void RiskAwareCritic::score(CriticData & data)
+[19.725s]       |                             ^~~~~~~~~~
+[19.725s] /home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_rapa_mppi/include/saye_rapa_mppi/risk_aware_critic.hpp:17:7: note: forward declaration of ‘class saye_rapa_mppi::RiskAwareCritic’
+[19.725s]    17 | class RiskAwareCritic : public nav2_mppi_controller::critics::CriticFunction
+[19.725s]       |       ^~~~~~~~~~~~~~~
+[19.725s] /home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_rapa_mppi/src/risk_aware_critic.cpp:33:29: error: ‘CriticData’ was not declared in this scope; did you mean ‘mppi::CriticData’?
+[19.725s]    33 | void RiskAwareCritic::score(CriticData & data)
+[19.725s]       |                             ^~~~~~~~~~
+[19.725s]       |                             mppi::CriticData
+[19.725s] /opt/ros/jazzy/include/nav2_mppi_controller/critic_data.hpp:44:8: note: ‘mppi::CriticData’ declared here
+[19.726s]    44 | struct CriticData
+[19.726s]       |        ^~~~~~~~~~
+[19.726s] /home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_rapa_mppi/src/risk_aware_critic.cpp:33:42: error: ‘data’ was not declared in this scope
+[19.726s]    33 | void RiskAwareCritic::score(CriticData & data)
+[19.726s]       |                                          ^~~~
+[19.726s] /home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_rapa_mppi/src/risk_aware_critic.cpp:33:42: note: suggested alternatives:
+[19.726s] /usr/include/c++/13/bits/range_access.h:346:5: note:   ‘std::data’
+[19.726s]   346 |     data(initializer_list<_Tp> __il) noexcept
+[19.726s]       |     ^~~~
+[19.726s] /usr/include/c++/13/bits/range_access.h:314:5: note:   ‘std::data’
+[19.726s]   314 |     data(_Container& __cont) noexcept(noexcept(__cont.data()))
+[19.726s]       |     ^~~~
+[19.731s] In file included from /opt/ros/jazzy/include/class_loader/class_loader/class_loader.hpp:56,
+[19.731s]                  from /opt/ros/jazzy/include/class_loader/class_loader/multi_library_class_loader.hpp:52,
+[19.731s]                  from /opt/ros/jazzy/include/pluginlib/pluginlib/class_loader.hpp:38,
+[19.731s]                  from /opt/ros/jazzy/include/nav2_costmap_2d/nav2_costmap_2d/costmap_2d_ros.hpp:56,
+[19.731s]                  from /opt/ros/jazzy/include/nav2_mppi_controller/critic_function.hpp:22:
+[19.732s] /home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_rapa_mppi/src/risk_aware_critic.cpp:58:3: error: ‘nav2_mppi_controller’ does not name a type
+[19.732s]    58 |   nav2_mppi_controller::critics::CriticFunction
+[19.732s]       |   ^~~~~~~~~~~~~~~~~~~~
+[19.739s] /home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_rapa_mppi/src/risk_aware_critic.cpp: In constructor ‘{anonymous}::ProxyExec0::ProxyExec0()’:
+[19.740s] /home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_rapa_mppi/src/risk_aware_critic.cpp:56:1: error: ‘_base’ was not declared in this scope; did you mean ‘__bases’?
+[19.740s]    56 | PLUGINLIB_EXPORT_CLASS(
+[19.740s]       | ^~~~~~~~~~~~~~~~~~~~~~
+[19.740s] /home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_rapa_mppi/src/risk_aware_critic.cpp:56:1: error: no matching function for call to ‘registerPlugin<{anonymous}::ProxyExec0::_derived, <expression error> >(const char [32], const char [46])’
+[19.740s]    56 | PLUGINLIB_EXPORT_CLASS(
+[19.740s]       | ^~~~~~~~~~~~~~~~~~~~~~
+[19.740s] In file included from /opt/ros/jazzy/include/class_loader/class_loader/class_loader.hpp:55:
+[19.740s] /opt/ros/jazzy/include/class_loader/class_loader/class_loader_core.hpp:241:1: note: candidate: ‘template<class Derived, class Base> class_loader::impl::UniquePtr<class_loader::impl::AbstractMetaObjectBase> class_loader::impl::registerPlugin(const std::string&, const std::string&)’
+[19.740s]   241 | registerPlugin(const std::string & class_name, const std::string & base_class_name)
+[19.741s]       | ^~~~~~~~~~~~~~
+[19.741s] /opt/ros/jazzy/include/class_loader/class_loader/class_loader_core.hpp:241:1: note:   template argument deduction/substitution failed:
+[19.741s] /home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_rapa_mppi/src/risk_aware_critic.cpp:56:1: error: template argument 2 is invalid
+[19.741s]    56 | PLUGINLIB_EXPORT_CLASS(
+[19.741s]       | ^~~~~~~~~~~~~~~~~~~~~~
+[21.716s] gmake[2]: *** [CMakeFiles/saye_rapa_mppi.dir/build.make:76: CMakeFiles/saye_rapa_mppi.dir/src/risk_aware_critic.cpp.o] Error 1
+[21.716s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/saye_rapa_mppi.dir/all] Error 2
+[21.717s] gmake: *** [Makefile:146: all] Error 2
+[21.721s] Invoked command in '/home/yiyi/ackermann_sim/build/saye_rapa_mppi' returned '2': CMAKE_PREFIX_PATH=/home/yiyi/ackermann_sim/install/saye_msgs:/home/yiyi/ackermann_sim/install/saye_prediction:/home/yiyi/ackermann_sim/install/saye_control:/home/yiyi/ackermann_sim/install/saye_mppi:/home/yiyi/ackermann_sim/install/saye_localization:/home/yiyi/ackermann_sim/install/saye_bringup_my:/home/yiyi/ackermann_sim/install/saye_bringup:/home/yiyi/ackermann_sim/install/saye_description:/home/yiyi/ackermann_sim/install/saye_behaviortree:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy PYTHONPATH=/home/yiyi/ackermann_sim/install/saye_msgs/lib/python3.12/site-packages:/home/yiyi/ackermann_sim/install/saye_prediction/lib/python3.12/site-packages:/home/yiyi/ackermann_sim/install/saye_mppi/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --build /home/yiyi/ackermann_sim/build/saye_rapa_mppi -- -j16 -l16

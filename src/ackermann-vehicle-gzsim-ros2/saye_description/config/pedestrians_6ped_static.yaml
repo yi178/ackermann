@@ -1,0 +1,130 @@
+# Scenario 4: 6 Pedestrians Static Obstacles
+# Test static path planning and slow-moving obstacle avoidance
+#
+# Layout:
+#   - 4 pedestrians: completely static (standing)
+#   - 2 pedestrians: very slow moving (0.2-0.3 m/s)
+#
+# Purpose: Test MPPI with quasi-static environment
+#          Verify path planning around fixed obstacles
+
+pedestrians:
+  # ========== Static Obstacles (Standing Pedestrians) ==========
+
+  # S1: Center obstacle - blocks main path
+  - name: static_center
+    skin: model://walking_actor/meshes/walk.dae
+    animation: walking
+    loop: false         # No looping
+    auto_start: false   # Don't start animation = static pose
+    # Standing in center of corridor
+    spawn_pose: [10.0, 0.0, 1.0, 0.0, 0.0, 0.0]
+    trajectory:
+      # Two waypoints with same position = stationary
+      - time: 0.0
+        pose: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      - time: 100.0
+        pose: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+  # S2: Left side obstacle
+  - name: static_left
+    skin: model://walking_actor/meshes/walk.dae
+    animation: walking
+    loop: false
+    auto_start: false
+    # Standing on left side
+    spawn_pose: [14.0, 1.5, 1.0, 0.0, 0.0, -1.57079632679]
+    trajectory:
+      - time: 0.0
+        pose: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      - time: 100.0
+        pose: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+  # S3: Right side obstacle
+  - name: static_right
+    skin: model://walking_actor/meshes/walk.dae
+    animation: walking
+    loop: false
+    auto_start: false
+    # Standing on right side
+    spawn_pose: [18.0, -1.5, 1.0, 0.0, 0.0, 1.57079632679]
+    trajectory:
+      - time: 0.0
+        pose: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      - time: 100.0
+        pose: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+  # S4: Offset obstacle - creates chicane
+  - name: static_offset
+    skin: model://walking_actor/meshes/walk.dae
+    animation: walking
+    loop: false
+    auto_start: false
+    # Standing slightly off-center right
+    spawn_pose: [12.0, -0.8, 1.0, 0.0, 0.0, 3.14159265359]
+    trajectory:
+      - time: 0.0
+        pose: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      - time: 100.0
+        pose: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+  # ========== Very Slow Moving Obstacles ==========
+
+  # V1: Slow crosser (0.25 m/s)
+  - name: very_slow_cross
+    skin: model://walking_actor/meshes/walk.dae
+    animation: walking
+    loop: true
+    auto_start: true
+    # Crossing very slowly from left to right
+    spawn_pose: [16.0, 2.5, 1.0, 0.0, 0.0, -1.57079632679]
+    trajectory:
+      - time: 0.0
+        pose: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      # Cross 5 meters in 20 seconds = 0.25 m/s
+      - time: 20.0
+        pose: [0.0, -5.0, 0.0, 0.0, 0.0, 0.0]
+      - time: 21.0
+        pose: [0.0, -5.0, 0.0, 0.0, 0.0, 3.14159265359]  # Turn around
+      - time: 41.0
+        pose: [0.0, 0.0, 0.0, 0.0, 0.0, 3.14159265359]
+      - time: 42.0
+        pose: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+  # V2: Slow longitudinal (0.3 m/s)
+  - name: very_slow_long
+    skin: model://walking_actor/meshes/walk.dae
+    animation: walking
+    loop: true
+    auto_start: true
+    # Moving very slowly backward along corridor
+    spawn_pose: [20.0, 0.5, 1.0, 0.0, 0.0, 3.14159265359]
+    trajectory:
+      - time: 0.0
+        pose: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      # Walk 12 meters in 40 seconds = 0.3 m/s
+      - time: 40.0
+        pose: [-12.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      - time: 41.0
+        pose: [-12.0, 0.0, 0.0, 0.0, 0.0, 3.14159265359]  # Turn around
+      - time: 81.0
+        pose: [0.0, 0.0, 0.0, 0.0, 0.0, 3.14159265359]
+      - time: 82.0
+        pose: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+# Static obstacle pattern creates a challenging path:
+#   - S1 (x=10, y=0): Forces initial deviation
+#   - S4 (x=12, y=-0.8): Requires right deviation
+#   - S2 (x=14, y=1.5): Requires left deviation
+#   - S3 (x=18, y=-1.5): Final right deviation
+#
+# This creates an S-curve or slalom pattern for the robot to navigate
+#
+# Slow movers add minimal dynamics:
+#   - V1 crosses very slowly, predictable trajectory
+#   - V2 moves along path, easy to track
+#
+# Use case:
+#   - Validate static planning without AMCL/global planner
+#   - Test MPPI cost functions for obstacle avoidance
+#   - Benchmark against dynamic scenarios

@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<sdf version="1.8">
+  <actor name="pedestrian_actor">
+    <pose>0 0 0 0 0 0</pose>
+    <skin>
+      <filename>model://pedestrian_actor/meshes/pedestrian.dae</filename>
+      <scale>1.0</scale>
+    </skin>
+    <animation name="idle">
+      <filename>model://pedestrian_actor/meshes/pedestrian.dae</filename>
+      <scale>1.0</scale>
+      <interpolate_x>true</interpolate_x>
+    </animation>
+    <script>
+      <loop>true</loop>
+      <auto_start>true</auto_start>
+      <trajectory id="0" type="idle">
+        <waypoint>
+          <time>0.0</time>
+          <pose>0 0 0 0 0 0</pose>
+        </waypoint>
+        <waypoint>
+          <time>1.0</time>
+          <pose>0 0 0 0 0 0</pose>
+        </waypoint>
+      </trajectory>
+    </script>
+  </actor>
+</sdf>

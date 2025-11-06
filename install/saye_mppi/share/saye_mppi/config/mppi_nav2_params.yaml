@@ -1,0 +1,200 @@
+controller_server:
+  ros__parameters:
+    use_sim_time: True
+    controller_frequency: 20.0
+    min_x_velocity_threshold: 0.001
+    min_y_velocity_threshold: 0.001
+    min_theta_velocity_threshold: 0.001
+    progress_checker_plugins: ["progress_checker"]
+    goal_checker_plugins: ["general_goal_checker"]
+    controller_plugins: ["FollowPath"]
+
+    progress_checker:
+      plugin: "nav2_controller::SimpleProgressChecker"
+      required_movement_radius: 0.4
+      movement_time_allowance: 10.0
+
+    general_goal_checker:
+      plugin: "nav2_controller::SimpleGoalChecker"
+      xy_goal_tolerance: 0.25
+      yaw_goal_tolerance: 0.25
+      stateful: False
+
+    FollowPath:
+      plugin: "nav2_mppi_controller::MPPIController"
+      time_steps: 56
+      model_dt: 0.05
+      batch_size: 2000
+      ax_max: 3.0
+      ax_min: -3.0
+      ay_max: 3.0
+      ay_min: -3.0
+      az_max: 3.5
+      vx_std: 0.2
+      vy_std: 0.1
+      wz_std: 0.4
+      vx_max: 0.5
+      vx_min: -0.3
+      vy_max: 0.0
+      wz_max: 1.8
+      iteration_count: 1
+      prune_distance: 1.5
+      temperature: 0.25
+      gamma: 0.015
+      transform_tolerance: 0.5
+      motion_model: "Ackermann"
+      regenerate_noises: True
+      visualize: True
+      AckermannConstraints:
+        min_turning_r: 0.25
+      critics: [
+        "ConstraintCritic", "CostCritic", "GoalCritic",
+        "PathAlignCritic", "PathFollowCritic", "PreferForwardCritic",
+        "RiskAwareCritic"
+      ]
+      ConstraintCritic:
+        enabled: True
+        cost_power: 1
+        cost_weight: 4.0
+      RiskAwareCritic:
+        plugin: saye_rapa_mppi::RiskAwareCritic
+        enabled: True
+        cost_power: 1
+        cost_weight: 1.0
+      CostCritic:
+        enabled: True
+        cost_power: 1
+        cost_weight: 3.5
+        near_collision_cost: 200
+        collision_cost: 1000000.0
+        consider_footprint: True
+        trajectory_point_step: 2
+      GoalCritic:
+        enabled: True
+        cost_power: 1
+        cost_weight: 5.0
+        threshold_to_consider: 1.4
+      PathAlignCritic:
+        enabled: True
+        cost_power: 1
+        cost_weight: 10.0
+        trajectory_point_step: 3
+        max_path_occupancy_ratio: 0.05
+      PathFollowCritic:
+        enabled: True
+        cost_power: 1
+        cost_weight: 4.0
+      PreferForwardCritic:
+        enabled: True
+        cost_power: 1
+        cost_weight: 1.0
+        threshold_to_consider: 0.8
+
+local_costmap:
+  local_costmap:
+    ros__parameters:
+      use_sim_time: True
+      update_frequency: 10.0
+      publish_frequency: 5.0
+      global_frame: odom
+      robot_base_frame: "saye/base_link"
+      rolling_window: True
+      resolution: 0.05
+      footprint: "[[0.20, 0.045], [0.20, -0.045], [-0.20, -0.045], [-0.20, 0.045]]"
+      plugins: ["obstacle_layer", "inflation_layer"]
+      obstacle_layer:
+        plugin: "nav2_costmap_2d::ObstacleLayer"
+        enabled: True
+        observation_sources: scan
+        scan:
+          topic: /scan
+          data_type: "LaserScan"
+          marking: True
+          clearing: True
+          obstacle_max_range: 25.0
+          raytrace_max_range: 30.0
+      inflation_layer:
+        plugin: "nav2_costmap_2d::InflationLayer"
+        inflation_radius: 0.45
+        cost_scaling_factor: 3.0
+      always_send_full_costmap: True
+
+behavior_server:
+  ros__parameters:
+    use_sim_time: True
+    local_costmap_topic: local_costmap/costmap_raw
+    global_costmap_topic: local_costmap/costmap_raw
+    local_footprint_topic: local_costmap/published_footprint
+    global_footprint_topic: local_costmap/published_footprint
+    cycle_frequency: 5.0
+    behavior_plugins: ["spin", "backup", "drive_on_heading", "wait"]
+    spin:
+      plugin: "nav2_behaviors::Spin"
+    backup:
+      plugin: "nav2_behaviors::BackUp"
+    drive_on_heading:
+      plugin: "nav2_behaviors::DriveOnHeading"
+    wait:
+      plugin: "nav2_behaviors::Wait"
+    local_frame: odom
+    global_frame: odom
+    robot_base_frame: "saye/base_link"
+    transform_tolerance: 0.2
+    simulate_ahead_time: 2.0
+    max_rotational_vel: 1.0
+    min_rotational_vel: 0.4
+    rotational_acc_lim: 3.2
+
+velocity_smoother:
+  ros__parameters:
+    use_sim_time: True
+    smoothing_frequency: 10.0
+    scale_velocities: False
+    feedback: "OPEN_LOOP"
+    max_velocity: [0.8, 0.0, 1.5]
+    min_velocity: [-0.5, 0.0, -1.5]
+    max_accel: [1.5, 0.0, 3.0]
+    max_decel: [-1.5, 0.0, -3.0]
+    odom_topic: "odom"
+    odom_duration: 0.1
+    deadband_velocity: [0.0, 0.0, 0.0]
+    velocity_timeout: 1.0
+
+collision_monitor:
+  ros__parameters:
+    use_sim_time: True
+    base_frame_id: "saye/base_link"
+    odom_frame_id: "odom"
+    cmd_vel_in_topic: "cmd_vel_smoothed"
+    cmd_vel_out_topic: "cmd_vel"
+    state_topic: "collision_monitor_state"
+    transform_tolerance: 0.2
+    source_timeout: 1.0
+    base_shift_correction: True
+    polygons: ["footprint"]
+    footprint:
+      type: "polygon"
+      action_type: "slowdown"
+      footprint_topic: "/local_costmap/published_footprint"
+      slowdown_ratio: 0.4
+      min_points: 4
+      visualize: False
+      enabled: True
+    observation_sources: ["scan"]
+    scan:
+      type: "scan"
+      topic: "scan"
+      min_height: 0.05
+      max_height: 2.0
+      enabled: True
+
+lifecycle_manager_navigation:
+  ros__parameters:
+    use_sim_time: True
+    autostart: True
+    node_names: [
+      "controller_server",
+      "behavior_server",
+      "velocity_smoother",
+      "collision_monitor"
+    ]

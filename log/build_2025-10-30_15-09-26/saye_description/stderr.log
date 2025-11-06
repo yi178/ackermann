@@ -1,0 +1,5 @@
+ERROR: Invalid configuration: Pedestrian 'static_center': trajectory must have at least 2 waypoints
+gmake[2]: *** [CMakeFiles/generate_worlds.dir/build.make:104: /home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_description/worlds/scenario4_6ped_static.sdf] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/generate_worlds.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,68 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Configuring done (6.8s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/yiyi/ackermann_sim/build/saye_mppi
+Built target ament_cmake_python_copy_saye_mppi_setup
+Built target ament_cmake_python_copy_saye_mppi
+running egg_info
+creating saye_mppi.egg-info
+writing saye_mppi.egg-info/PKG-INFO
+writing dependency_links to saye_mppi.egg-info/dependency_links.txt
+writing top-level names to saye_mppi.egg-info/top_level.txt
+writing manifest file 'saye_mppi.egg-info/SOURCES.txt'
+reading manifest file 'saye_mppi.egg-info/SOURCES.txt'
+writing manifest file 'saye_mppi.egg-info/SOURCES.txt'
+Built target ament_cmake_python_build_saye_mppi_egg
+-- Install configuration: ""
+-- Installing: /home/yiyi/ackermann_sim/install/saye_mppi/share/saye_mppi/environment/pythonpath.sh
+-- Installing: /home/yiyi/ackermann_sim/install/saye_mppi/share/saye_mppi/environment/pythonpath.dsv
+-- Installing: /home/yiyi/ackermann_sim/install/saye_mppi/lib/python3.12/site-packages/saye_mppi-0.0.0-py3.12.egg-info
+-- Installing: /home/yiyi/ackermann_sim/install/saye_mppi/lib/python3.12/site-packages/saye_mppi-0.0.0-py3.12.egg-info/PKG-INFO
+-- Installing: /home/yiyi/ackermann_sim/install/saye_mppi/lib/python3.12/site-packages/saye_mppi-0.0.0-py3.12.egg-info/SOURCES.txt
+-- Installing: /home/yiyi/ackermann_sim/install/saye_mppi/lib/python3.12/site-packages/saye_mppi-0.0.0-py3.12.egg-info/top_level.txt
+-- Installing: /home/yiyi/ackermann_sim/install/saye_mppi/lib/python3.12/site-packages/saye_mppi-0.0.0-py3.12.egg-info/dependency_links.txt
+-- Installing: /home/yiyi/ackermann_sim/install/saye_mppi/lib/python3.12/site-packages/saye_mppi
+-- Installing: /home/yiyi/ackermann_sim/install/saye_mppi/lib/python3.12/site-packages/saye_mppi/__init__.py
+-- Installing: /home/yiyi/ackermann_sim/install/saye_mppi/lib/python3.12/site-packages/saye_mppi/path_commander.py
+-- Installing: /home/yiyi/ackermann_sim/install/saye_mppi/lib/python3.12/site-packages/saye_mppi/moving_obstacles.py
+Listing '/home/yiyi/ackermann_sim/install/saye_mppi/lib/python3.12/site-packages/saye_mppi'...
+Compiling '/home/yiyi/ackermann_sim/install/saye_mppi/lib/python3.12/site-packages/saye_mppi/__init__.py'...
+Compiling '/home/yiyi/ackermann_sim/install/saye_mppi/lib/python3.12/site-packages/saye_mppi/moving_obstacles.py'...
+*** Sorry: IndentationError: unexpected indent (moving_obstacles.py, line 73)
+Compiling '/home/yiyi/ackermann_sim/install/saye_mppi/lib/python3.12/site-packages/saye_mppi/path_commander.py'...
+-- Installing: /home/yiyi/ackermann_sim/install/saye_mppi/share/saye_mppi/launch
+-- Installing: /home/yiyi/ackermann_sim/install/saye_mppi/share/saye_mppi/launch/mppi_experiment.launch.py
+-- Installing: /home/yiyi/ackermann_sim/install/saye_mppi/share/saye_mppi/config
+-- Installing: /home/yiyi/ackermann_sim/install/saye_mppi/share/saye_mppi/config/mppi_nav2_params.yaml
+-- Installing: /home/yiyi/ackermann_sim/install/saye_mppi/share/saye_mppi/config/moving_obstacles.yaml
+-- Installing: /home/yiyi/ackermann_sim/install/saye_mppi/share/saye_mppi/config/path_commander.yaml
+-- Installing: /home/yiyi/ackermann_sim/install/saye_mppi/share/saye_mppi/worlds
+-- Installing: /home/yiyi/ackermann_sim/install/saye_mppi/share/saye_mppi/worlds/saye_mppi_world.sdf
+-- Installing: /home/yiyi/ackermann_sim/install/saye_mppi/share/ament_index/resource_index/package_run_dependencies/saye_mppi
+-- Installing: /home/yiyi/ackermann_sim/install/saye_mppi/share/ament_index/resource_index/parent_prefix_path/saye_mppi
+-- Installing: /home/yiyi/ackermann_sim/install/saye_mppi/share/saye_mppi/environment/ament_prefix_path.sh
+-- Installing: /home/yiyi/ackermann_sim/install/saye_mppi/share/saye_mppi/environment/ament_prefix_path.dsv
+-- Installing: /home/yiyi/ackermann_sim/install/saye_mppi/share/saye_mppi/environment/path.sh
+-- Installing: /home/yiyi/ackermann_sim/install/saye_mppi/share/saye_mppi/environment/path.dsv
+-- Installing: /home/yiyi/ackermann_sim/install/saye_mppi/share/saye_mppi/local_setup.bash
+-- Installing: /home/yiyi/ackermann_sim/install/saye_mppi/share/saye_mppi/local_setup.sh
+-- Installing: /home/yiyi/ackermann_sim/install/saye_mppi/share/saye_mppi/local_setup.zsh
+-- Installing: /home/yiyi/ackermann_sim/install/saye_mppi/share/saye_mppi/local_setup.dsv
+-- Installing: /home/yiyi/ackermann_sim/install/saye_mppi/share/saye_mppi/package.dsv
+-- Installing: /home/yiyi/ackermann_sim/install/saye_mppi/share/ament_index/resource_index/packages/saye_mppi
+-- Installing: /home/yiyi/ackermann_sim/install/saye_mppi/share/saye_mppi/cmake/saye_mppiConfig.cmake
+-- Installing: /home/yiyi/ackermann_sim/install/saye_mppi/share/saye_mppi/cmake/saye_mppiConfig-version.cmake
+-- Installing: /home/yiyi/ackermann_sim/install/saye_mppi/share/saye_mppi/package.xml

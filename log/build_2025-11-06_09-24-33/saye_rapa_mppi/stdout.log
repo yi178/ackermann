@@ -1,0 +1,35 @@
+[ 50%] Building CXX object CMakeFiles/saye_rapa_mppi.dir/src/risk_aware_critic.cpp.o
+[100%] Linking CXX shared library libsaye_rapa_mppi.so
+[100%] Built target saye_rapa_mppi
+-- Install configuration: "Release"
+-- Installing: /home/yiyi/ackermann_sim/install/saye_rapa_mppi/lib/libsaye_rapa_mppi.so
+-- Set non-toolchain portion of runtime path of "/home/yiyi/ackermann_sim/install/saye_rapa_mppi/lib/libsaye_rapa_mppi.so" to ""
+-- Installing: /home/yiyi/ackermann_sim/install/saye_rapa_mppi/include/
+-- Installing: /home/yiyi/ackermann_sim/install/saye_rapa_mppi/include//saye_rapa_mppi
+-- Installing: /home/yiyi/ackermann_sim/install/saye_rapa_mppi/include//saye_rapa_mppi/risk_aware_critic.hpp
+-- Installing: /home/yiyi/ackermann_sim/install/saye_rapa_mppi/include//saye_rapa_mppi/utils
+-- Installing: /home/yiyi/ackermann_sim/install/saye_rapa_mppi/share/saye_rapa_mppi/plugins.xml
+-- Installing: /home/yiyi/ackermann_sim/install/saye_rapa_mppi/share/saye_rapa_mppi/config
+-- Installing: /home/yiyi/ackermann_sim/install/saye_rapa_mppi/share/saye_rapa_mppi/config/rapa_mppi_params.yaml
+-- Up-to-date: /home/yiyi/ackermann_sim/install/saye_rapa_mppi/share/saye_rapa_mppi/plugins.xml
+-- Installing: /home/yiyi/ackermann_sim/install/saye_rapa_mppi/share/saye_rapa_mppi/environment/library_path.sh
+-- Installing: /home/yiyi/ackermann_sim/install/saye_rapa_mppi/share/saye_rapa_mppi/environment/library_path.dsv
+-- Installing: /home/yiyi/ackermann_sim/install/saye_rapa_mppi/share/ament_index/resource_index/package_run_dependencies/saye_rapa_mppi
+-- Installing: /home/yiyi/ackermann_sim/install/saye_rapa_mppi/share/ament_index/resource_index/parent_prefix_path/saye_rapa_mppi
+-- Installing: /home/yiyi/ackermann_sim/install/saye_rapa_mppi/share/saye_rapa_mppi/environment/ament_prefix_path.sh
+-- Installing: /home/yiyi/ackermann_sim/install/saye_rapa_mppi/share/saye_rapa_mppi/environment/ament_prefix_path.dsv
+-- Installing: /home/yiyi/ackermann_sim/install/saye_rapa_mppi/share/saye_rapa_mppi/environment/path.sh
+-- Installing: /home/yiyi/ackermann_sim/install/saye_rapa_mppi/share/saye_rapa_mppi/environment/path.dsv
+-- Installing: /home/yiyi/ackermann_sim/install/saye_rapa_mppi/share/saye_rapa_mppi/local_setup.bash
+-- Installing: /home/yiyi/ackermann_sim/install/saye_rapa_mppi/share/saye_rapa_mppi/local_setup.sh
+-- Installing: /home/yiyi/ackermann_sim/install/saye_rapa_mppi/share/saye_rapa_mppi/local_setup.zsh
+-- Installing: /home/yiyi/ackermann_sim/install/saye_rapa_mppi/share/saye_rapa_mppi/local_setup.dsv
+-- Installing: /home/yiyi/ackermann_sim/install/saye_rapa_mppi/share/saye_rapa_mppi/package.dsv
+-- Installing: /home/yiyi/ackermann_sim/install/saye_rapa_mppi/share/ament_index/resource_index/packages/saye_rapa_mppi
+-- Installing: /home/yiyi/ackermann_sim/install/saye_rapa_mppi/share/ament_index/resource_index/nav2_mppi_controller__pluginlib__plugin/saye_rapa_mppi
+-- Installing: /home/yiyi/ackermann_sim/install/saye_rapa_mppi/share/saye_rapa_mppi/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/yiyi/ackermann_sim/install/saye_rapa_mppi/share/saye_rapa_mppi/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/yiyi/ackermann_sim/install/saye_rapa_mppi/share/saye_rapa_mppi/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/yiyi/ackermann_sim/install/saye_rapa_mppi/share/saye_rapa_mppi/cmake/saye_rapa_mppiConfig.cmake
+-- Installing: /home/yiyi/ackermann_sim/install/saye_rapa_mppi/share/saye_rapa_mppi/cmake/saye_rapa_mppiConfig-version.cmake
+-- Installing: /home/yiyi/ackermann_sim/install/saye_rapa_mppi/share/saye_rapa_mppi/package.xml

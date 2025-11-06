@@ -1,0 +1,57 @@
+[0.029s] Invoking command in '/home/yiyi/ackermann_sim/build/saye_behaviortree': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_behaviortree -DCMAKE_INSTALL_PREFIX=/home/yiyi/ackermann_sim/install/saye_behaviortree
+[0.375s] -- The C compiler identification is GNU 13.3.0
+[2.402s] -- The CXX compiler identification is GNU 13.3.0
+[4.333s] -- Detecting C compiler ABI info
+[4.948s] -- Detecting C compiler ABI info - done
+[4.957s] -- Check for working C compiler: /usr/bin/cc - skipped
+[4.957s] -- Detecting C compile features
+[4.958s] -- Detecting C compile features - done
+[5.190s] -- Detecting CXX compiler ABI info
+[5.818s] -- Detecting CXX compiler ABI info - done
+[5.828s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[5.829s] -- Detecting CXX compile features
+[5.829s] -- Detecting CXX compile features - done
+[5.836s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[6.061s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[6.245s] -- Found rclcpp: 28.1.12 (/opt/ros/jazzy/share/rclcpp/cmake)
+[6.617s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[6.646s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[6.683s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.720s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.858s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[6.866s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[7.031s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[7.583s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[7.841s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[8.311s] -- Found rclcpp_action: 28.1.12 (/opt/ros/jazzy/share/rclcpp_action/cmake)
+[8.388s] -- Found nav2_behavior_tree: 1.3.9 (/opt/ros/jazzy/share/nav2_behavior_tree/cmake)
+[9.054s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[9.056s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[9.056s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[9.188s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[9.358s] -- Added test 'lint_cmake' to check CMake code style
+[9.360s] -- Added test 'xmllint' to check XML markup files
+[9.364s] -- Configuring done (9.3s)
+[9.381s] -- Generating done (0.0s)
+[9.386s] -- Build files have been written to: /home/yiyi/ackermann_sim/build/saye_behaviortree
+[9.404s] Invoked command in '/home/yiyi/ackermann_sim/build/saye_behaviortree' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_behaviortree -DCMAKE_INSTALL_PREFIX=/home/yiyi/ackermann_sim/install/saye_behaviortree
+[9.406s] Invoking command in '/home/yiyi/ackermann_sim/build/saye_behaviortree': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/yiyi/ackermann_sim/build/saye_behaviortree -- -j16 -l16
+[9.487s] Invoked command in '/home/yiyi/ackermann_sim/build/saye_behaviortree' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/yiyi/ackermann_sim/build/saye_behaviortree -- -j16 -l16
+[9.489s] Invoking command in '/home/yiyi/ackermann_sim/build/saye_behaviortree': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/yiyi/ackermann_sim/build/saye_behaviortree
+[9.504s] -- Install configuration: ""
+[9.507s] -- Installing: /home/yiyi/ackermann_sim/install/saye_behaviortree/share/ament_index/resource_index/package_run_dependencies/saye_behaviortree
+[9.507s] -- Installing: /home/yiyi/ackermann_sim/install/saye_behaviortree/share/ament_index/resource_index/parent_prefix_path/saye_behaviortree
+[9.509s] -- Installing: /home/yiyi/ackermann_sim/install/saye_behaviortree/share/saye_behaviortree/environment/ament_prefix_path.sh
+[9.509s] -- Installing: /home/yiyi/ackermann_sim/install/saye_behaviortree/share/saye_behaviortree/environment/ament_prefix_path.dsv
+[9.509s] -- Installing: /home/yiyi/ackermann_sim/install/saye_behaviortree/share/saye_behaviortree/environment/path.sh
+[9.509s] -- Installing: /home/yiyi/ackermann_sim/install/saye_behaviortree/share/saye_behaviortree/environment/path.dsv
+[9.510s] -- Installing: /home/yiyi/ackermann_sim/install/saye_behaviortree/share/saye_behaviortree/local_setup.bash
+[9.510s] -- Installing: /home/yiyi/ackermann_sim/install/saye_behaviortree/share/saye_behaviortree/local_setup.sh
+[9.511s] -- Installing: /home/yiyi/ackermann_sim/install/saye_behaviortree/share/saye_behaviortree/local_setup.zsh
+[9.511s] -- Installing: /home/yiyi/ackermann_sim/install/saye_behaviortree/share/saye_behaviortree/local_setup.dsv
+[9.512s] -- Installing: /home/yiyi/ackermann_sim/install/saye_behaviortree/share/saye_behaviortree/package.dsv
+[9.513s] -- Installing: /home/yiyi/ackermann_sim/install/saye_behaviortree/share/ament_index/resource_index/packages/saye_behaviortree
+[9.514s] -- Installing: /home/yiyi/ackermann_sim/install/saye_behaviortree/share/saye_behaviortree/cmake/saye_behaviortreeConfig.cmake
+[9.514s] -- Installing: /home/yiyi/ackermann_sim/install/saye_behaviortree/share/saye_behaviortree/cmake/saye_behaviortreeConfig-version.cmake
+[9.515s] -- Installing: /home/yiyi/ackermann_sim/install/saye_behaviortree/share/saye_behaviortree/package.xml
+[9.523s] Invoked command in '/home/yiyi/ackermann_sim/build/saye_behaviortree' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/yiyi/ackermann_sim/build/saye_behaviortree

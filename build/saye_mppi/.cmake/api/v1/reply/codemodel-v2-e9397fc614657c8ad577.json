@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-105ea52745053e70eaf6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "saye_mppi",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_saye_mppi_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_saye_mppi_egg-3884fcea9f7d65586c47.json",
+					"name" : "ament_cmake_python_build_saye_mppi_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_saye_mppi::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_saye_mppi-d7615c6365f29e501bdd.json",
+					"name" : "ament_cmake_python_copy_saye_mppi",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_saye_mppi_setup::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_saye_mppi_setup-6f4c022d914935304259.json",
+					"name" : "ament_cmake_python_copy_saye_mppi_setup",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "saye_mppi_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-saye_mppi_uninstall-b5e8f29d3f258e6e167d.json",
+					"name" : "saye_mppi_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-5387d7ffed439f4314ba.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/yiyi/ackermann_sim/build/saye_mppi",
+		"source" : "/home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_mppi"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

@@ -1,0 +1,562 @@
+<?xml version="1.0"?>
+<sdf version="1.8">
+  <world name="dynamic_corridor_world">
+    <plugin filename="gz-sim-physics-system" name="gz::sim::systems::Physics"/>
+    <plugin filename="gz-sim-sensors-system" name="gz::sim::systems::Sensors">
+      <render_engine>ogre2</render_engine>
+    </plugin>
+    <plugin filename="gz-sim-scene-broadcaster-system" name="gz::sim::systems::SceneBroadcaster"/>
+    <plugin filename="gz-sim-user-commands-system" name="gz::sim::systems::UserCommands"/>
+
+    <light name="sun" type="directional">
+      <pose>0 0 10 0 0 0</pose>
+      <diffuse>0.8 0.8 0.8 1</diffuse>
+      <specular>0.2 0.2 0.2 1</specular>
+      <attenuation>
+        <range>1000</range>
+        <constant>0.9</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <direction>-0.5 0.1 -0.9</direction>
+    </light>
+
+    <!-- Base plane -->
+    <model name="ground_plane">
+      <static>true</static>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>100 100</size>
+            </plane>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>100 100</size>
+            </plane>
+          </geometry>
+          <material>
+            <ambient>0.7 0.7 0.7 1</ambient>
+            <diffuse>0.7 0.7 0.7 1</diffuse>
+          </material>
+        </visual>
+      </link>
+    </model>
+
+    <!-- Pedestrian actors (inline configuration with local model) -->
+    <!-- Pedestrian 1: Right-to-left crossing (starts from right side) -->
+    <actor name="walker_center">
+      <pose>8 -3.0 1 0 0 1.57079632679</pose>
+      <skin>
+        <filename>model://walking_actor/meshes/walk.dae</filename>
+        <scale>1.0</scale>
+      </skin>
+      <animation name="walking">
+        <filename>model://walking_actor/meshes/walk.dae</filename>
+        <interpolate_x>true</interpolate_x>
+      </animation>
+      <script>
+        <loop>true</loop>
+        <auto_start>true</auto_start>
+        <trajectory id="0" type="walking" tension="0.0">
+          <!-- Wait at starting position (right side) -->
+          <waypoint>
+            <time>0.0</time>
+            <pose>0 0 0 0 0 1.57079632679</pose>
+          </waypoint>
+          <!-- Cross to left side (6m in 5 seconds, ~1.2 m/s) -->
+          <waypoint>
+            <time>5.0</time>
+            <pose>0 6.0 0 0 0 1.57079632679</pose>
+          </waypoint>
+          <!-- Wait at left side -->
+          <waypoint>
+            <time>7.0</time>
+            <pose>0 6.0 0 0 0 1.57079632679</pose>
+          </waypoint>
+          <!-- Turn around -->
+          <waypoint>
+            <time>8.0</time>
+            <pose>0 6.0 0 0 0 -1.57079632679</pose>
+          </waypoint>
+          <!-- Cross back to right side -->
+          <waypoint>
+            <time>13.0</time>
+            <pose>0 0 0 0 0 -1.57079632679</pose>
+          </waypoint>
+          <!-- Turn around to repeat -->
+          <waypoint>
+            <time>14.0</time>
+            <pose>0 0 0 0 0 1.57079632679</pose>
+          </waypoint>
+        </trajectory>
+      </script>
+    </actor>
+
+    <!-- Pedestrian 2: Left-to-right crossing (starts from left side, offset timing) -->
+    <actor name="walker_east">
+      <pose>8 3.0 1 0 0 -1.57079632679</pose>
+      <skin>
+        <filename>model://walking_actor/meshes/walk.dae</filename>
+        <scale>1.0</scale>
+      </skin>
+      <animation name="walking">
+        <filename>model://walking_actor/meshes/walk.dae</filename>
+        <interpolate_x>true</interpolate_x>
+      </animation>
+      <script>
+        <loop>true</loop>
+        <auto_start>true</auto_start>
+        <trajectory id="0" type="walking" tension="0.0">
+          <!-- Start delayed to create alternating pattern -->
+          <waypoint>
+            <time>0.0</time>
+            <pose>0 0 0 0 0 -1.57079632679</pose>
+          </waypoint>
+          <!-- Wait while walker_center crosses first -->
+          <waypoint>
+            <time>7.0</time>
+            <pose>0 0 0 0 0 -1.57079632679</pose>
+          </waypoint>
+          <!-- Cross to right side (6m in 5 seconds, ~1.2 m/s) -->
+          <waypoint>
+            <time>12.0</time>
+            <pose>0 -6.0 0 0 0 -1.57079632679</pose>
+          </waypoint>
+          <!-- Wait at right side -->
+          <waypoint>
+            <time>14.0</time>
+            <pose>0 -6.0 0 0 0 -1.57079632679</pose>
+          </waypoint>
+          <!-- Turn around -->
+          <waypoint>
+            <time>15.0</time>
+            <pose>0 -6.0 0 0 0 1.57079632679</pose>
+          </waypoint>
+          <!-- Cross back to left side -->
+          <waypoint>
+            <time>20.0</time>
+            <pose>0 0 0 0 0 1.57079632679</pose>
+          </waypoint>
+          <!-- Turn around to repeat -->
+          <waypoint>
+            <time>21.0</time>
+            <pose>0 0 0 0 0 -1.57079632679</pose>
+          </waypoint>
+        </trajectory>
+      </script>
+    </actor>
+
+    <!-- Main corridor side walls (left) -->
+    <model name="left_wall_front">
+      <static>true</static>
+      <pose>3 3.25 1 0 0 0</pose>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>6 0.25 2</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>6 0.25 2</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.6 0.6 0.65 1</ambient>
+            <diffuse>0.6 0.6 0.65 1</diffuse>
+          </material>
+        </visual>
+      </link>
+    </model>
+
+    <model name="left_wall_mid">
+      <static>true</static>
+      <pose>11 3.25 1 0 0 0</pose>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>6 0.25 2</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>6 0.25 2</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.6 0.6 0.65 1</ambient>
+            <diffuse>0.6 0.6 0.65 1</diffuse>
+          </material>
+        </visual>
+      </link>
+    </model>
+
+    <model name="left_wall_rear">
+      <static>true</static>
+      <pose>19 3.25 1 0 0 0</pose>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>6 0.25 2</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>6 0.25 2</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.6 0.6 0.65 1</ambient>
+            <diffuse>0.6 0.6 0.65 1</diffuse>
+          </material>
+        </visual>
+      </link>
+    </model>
+
+    <model name="left_wall_end">
+      <static>true</static>
+      <pose>23 3.25 1 0 0 0</pose>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>2 0.25 2</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>2 0.25 2</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.6 0.6 0.65 1</ambient>
+            <diffuse>0.6 0.6 0.65 1</diffuse>
+          </material>
+        </visual>
+      </link>
+    </model>
+
+    <!-- Main corridor side walls (right) -->
+    <model name="right_wall_front">
+      <static>true</static>
+      <pose>3 -3.25 1 0 0 0</pose>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>6 0.25 2</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>6 0.25 2</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.6 0.6 0.65 1</ambient>
+            <diffuse>0.6 0.6 0.65 1</diffuse>
+          </material>
+        </visual>
+      </link>
+    </model>
+
+    <model name="right_wall_mid">
+      <static>true</static>
+      <pose>11 -3.25 1 0 0 0</pose>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>6 0.25 2</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>6 0.25 2</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.6 0.6 0.65 1</ambient>
+            <diffuse>0.6 0.6 0.65 1</diffuse>
+          </material>
+        </visual>
+      </link>
+    </model>
+
+    <model name="right_wall_rear">
+      <static>true</static>
+      <pose>19 -3.25 1 0 0 0</pose>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>6 0.25 2</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>6 0.25 2</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.6 0.6 0.65 1</ambient>
+            <diffuse>0.6 0.6 0.65 1</diffuse>
+          </material>
+        </visual>
+      </link>
+    </model>
+
+    <model name="right_wall_end">
+      <static>true</static>
+      <pose>23 -3.25 1 0 0 0</pose>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>2 0.25 2</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>2 0.25 2</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.6 0.6 0.65 1</ambient>
+            <diffuse>0.6 0.6 0.65 1</diffuse>
+          </material>
+        </visual>
+      </link>
+    </model>
+
+    <!-- Side alcove back walls (left) -->
+    <model name="left_alcove1_back">
+      <static>true</static>
+      <pose>7 4.5 1 0 0 0</pose>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.25 2 2</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.25 2 2</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.55 0.6 0.65 1</ambient>
+            <diffuse>0.55 0.6 0.65 1</diffuse>
+          </material>
+        </visual>
+      </link>
+    </model>
+
+    <model name="left_alcove2_back">
+      <static>true</static>
+      <pose>15 4.5 1 0 0 0</pose>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.25 2 2</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.25 2 2</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.55 0.6 0.65 1</ambient>
+            <diffuse>0.55 0.6 0.65 1</diffuse>
+          </material>
+        </visual>
+      </link>
+    </model>
+
+    <!-- Side alcove back walls (right) -->
+    <model name="right_alcove1_back">
+      <static>true</static>
+      <pose>7 -4.5 1 0 0 0</pose>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.25 2 2</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.25 2 2</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.55 0.6 0.65 1</ambient>
+            <diffuse>0.55 0.6 0.65 1</diffuse>
+          </material>
+        </visual>
+      </link>
+    </model>
+
+    <model name="right_alcove2_back">
+      <static>true</static>
+      <pose>15 -4.5 1 0 0 0</pose>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.25 2 2</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.25 2 2</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.55 0.6 0.65 1</ambient>
+            <diffuse>0.55 0.6 0.65 1</diffuse>
+          </material>
+        </visual>
+      </link>
+    </model>
+
+    <!-- Alcove boundary short walls -->
+    <model name="left_alcove1_front">
+      <static>true</static>
+      <pose>6 3.75 1 0 0 1.5708</pose>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.25 1.5 2</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.25 1.5 2</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.5 0.58 0.65 1</ambient>
+            <diffuse>0.5 0.58 0.65 1</diffuse>
+          </material>
+        </visual>
+      </link>
+    </model>
+
+    <model name="left_alcove2_front">
+      <static>true</static>
+      <pose>14 3.75 1 0 0 1.5708</pose>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.25 1.5 2</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.25 1.5 2</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.5 0.58 0.65 1</ambient>
+            <diffuse>0.5 0.58 0.65 1</diffuse>
+          </material>
+        </visual>
+      </link>
+    </model>
+
+    <model name="right_alcove1_front">
+      <static>true</static>
+      <pose>6 -3.75 1 0 0 1.5708</pose>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.25 1.5 2</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.25 1.5 2</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.5 0.58 0.65 1</ambient>
+            <diffuse>0.5 0.58 0.65 1</diffuse>
+          </material>
+        </visual>
+      </link>
+    </model>
+
+    <model name="right_alcove2_front">
+      <static>true</static>
+      <pose>14 -3.75 1 0 0 1.5708</pose>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.25 1.5 2</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.25 1.5 2</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.5 0.58 0.65 1</ambient>
+            <diffuse>0.5 0.58 0.65 1</diffuse>
+          </material>
+        </visual>
+      </link>
+    </model>
+
+    <!-- Central corridor cleared for straight path -->
+  </world>
+</sdf>

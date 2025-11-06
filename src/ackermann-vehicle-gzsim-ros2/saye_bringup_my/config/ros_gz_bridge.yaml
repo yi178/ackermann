@@ -1,0 +1,130 @@
+---
+- ros_topic_name: "/cmd_vel"
+  gz_topic_name: "/cmd_vel"
+  ros_type_name: "geometry_msgs/msg/Twist"
+  gz_type_name: "gz.msgs.Twist"
+  direction: BIDIRECTIONAL
+
+- ros_topic_name: "clock"
+  gz_topic_name: "clock"
+  ros_type_name: "rosgraph_msgs/msg/Clock"
+  gz_type_name: "gz.msgs.Clock"
+  direction: GZ_TO_ROS
+  lazy: false
+  
+- ros_topic_name: "/odom"
+  gz_topic_name: "/odom"
+  ros_type_name: "nav_msgs/msg/Odometry"
+  gz_type_name: "gz.msgs.Odometry"
+  direction: GZ_TO_ROS
+
+- ros_topic_name: "/scan"
+  gz_topic_name: "/scan"
+  ros_type_name: "sensor_msgs/msg/LaserScan"
+  gz_type_name: "gz.msgs.LaserScan"
+  direction: GZ_TO_ROS
+
+- ros_topic_name: "/tf"
+  gz_topic_name: "/model/saye/pose"
+  ros_type_name: "tf2_msgs/msg/TFMessage"
+  gz_type_name: "gz.msgs.Pose_V"
+  direction: GZ_TO_ROS
+
+- ros_topic_name: "/imu"
+  gz_topic_name: "/imu"
+  ros_type_name: "sensor_msgs/msg/Imu"
+  gz_type_name: "gz.msgs.IMU"
+  direction: GZ_TO_ROS
+
+# ============ Actor Pose Bridges (for prediction) ============
+# Default actors (walker_center, walker_east)
+- ros_topic_name: "/model/walker_center/pose"
+  gz_topic_name: "/model/walker_center/pose"
+  ros_type_name: "geometry_msgs/msg/Pose"
+  gz_type_name: "gz.msgs.Pose"
+  direction: GZ_TO_ROS
+
+- ros_topic_name: "/model/walker_east/pose"
+  gz_topic_name: "/model/walker_east/pose"
+  ros_type_name: "geometry_msgs/msg/Pose"
+  gz_type_name: "gz.msgs.Pose"
+  direction: GZ_TO_ROS
+
+# Scenario 1 actors
+- ros_topic_name: "/model/walker_oncoming_1/pose"
+  gz_topic_name: "/model/walker_oncoming_1/pose"
+  ros_type_name: "geometry_msgs/msg/Pose"
+  gz_type_name: "gz.msgs.Pose"
+  direction: GZ_TO_ROS
+
+- ros_topic_name: "/model/walker_oncoming_2/pose"
+  gz_topic_name: "/model/walker_oncoming_2/pose"
+  ros_type_name: "geometry_msgs/msg/Pose"
+  gz_type_name: "gz.msgs.Pose"
+  direction: GZ_TO_ROS
+
+- ros_topic_name: "/model/walker_crossing_left/pose"
+  gz_topic_name: "/model/walker_crossing_left/pose"
+  ros_type_name: "geometry_msgs/msg/Pose"
+  gz_type_name: "gz.msgs.Pose"
+  direction: GZ_TO_ROS
+
+- ros_topic_name: "/model/walker_crossing_right/pose"
+  gz_topic_name: "/model/walker_crossing_right/pose"
+  ros_type_name: "geometry_msgs/msg/Pose"
+  gz_type_name: "gz.msgs.Pose"
+  direction: GZ_TO_ROS
+
+# Global pose stream (includes actors and models)
+- ros_topic_name: "/world/dynamic_corridor_world/pose/info"
+  gz_topic_name: "/world/dynamic_corridor_world/pose/info"
+  ros_type_name: "tf2_msgs/msg/TFMessage"
+  gz_type_name: "gz.msgs.Pose_V"
+  direction: GZ_TO_ROS
+
+# Moving obstacles world pose stream
+- ros_topic_name: "/world/moving_obstacles_world/pose/info"
+  gz_topic_name: "/world/moving_obstacles_world/pose/info"
+  ros_type_name: "tf2_msgs/msg/TFMessage"
+  gz_type_name: "gz.msgs.Pose_V"
+  direction: GZ_TO_ROS
+
+- ros_topic_name: "/camera/front_raw"
+  gz_topic_name: "/camera_front"
+  ros_type_name: "sensor_msgs/msg/Image"
+  gz_type_name: "gz.msgs.Image"
+  direction: GZ_TO_ROS
+
+# - ros_topic_name: "/camera/left_raw"
+#   gz_topic_name: "/camera_left"
+#   ros_type_name: "sensor_msgs/msg/Image"
+#   gz_type_name: "gz.msgs.Image"
+#   direction: GZ_TO_ROS
+
+# - ros_topic_name: "/camera/right_raw"
+#   gz_topic_name: "/camera_right"
+#   ros_type_name: "sensor_msgs/msg/Image"
+#   gz_type_name: "gz.msgs.Image"
+#   direction: GZ_TO_ROS
+
+# - ros_topic_name: "/camera/rear_raw"
+#   gz_topic_name: "/camera_rear"
+#   ros_type_name: "sensor_msgs/msg/Image"
+#   gz_type_name: "gz.msgs.Image"
+#   direction: GZ_TO_ROS
+
+# - ros_topic_name: "/real_sense/image_raw"
+#   gz_topic_name: "/rs_front/image"
+#   ros_type_name: "sensor_msgs/msg/Image"
+#   gz_type_name: "gz.msgs.Image"
+#   direction: GZ_TO_ROS
+# - ros_topic_name: "real_sense/depth_image"
+#   gz_topic_name: "/rs_front/depth_image"
+#   ros_type_name: "sensor_msgs/msg/Image"
+#   gz_type_name: "gz.msgs.Image"
+#   direction: GZ_TO_ROS
+# - ros_topic_name: "real_sense/depth_point"
+#   gz_topic_name: "/rs_front/points"
+#   ros_type_name: "sensor_msgs/msg/PointCloud2"
+#   gz_type_name: "gz.msgs.PointCloudPacked"
+#   direction: GZ_TO_ROS

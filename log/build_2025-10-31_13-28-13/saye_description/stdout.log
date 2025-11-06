@@ -1,0 +1,4 @@
+[ 58%] Built target generate_worlds
+[ 75%] Built target pedestrian_manager_system
+[ 83%] Building CXX object CMakeFiles/actor_pose_publisher_system.dir/plugins/actor_pose_publisher/src/test_actor_driver_system.cpp.o
+[ 91%] Linking CXX shared library libactor_pose_publisher_system.so

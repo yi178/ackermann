@@ -1,0 +1,7 @@
+/home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_description/plugins/pedestrian_manager/src/pedestrian_manager_system.cpp:17:10: fatal error: sdf/SDF.hh: No such file or directory
+   17 | #include <sdf/SDF.hh>
+      |          ^~~~~~~~~~~~
+compilation terminated.
+gmake[2]: *** [CMakeFiles/pedestrian_manager_system.dir/build.make:76: CMakeFiles/pedestrian_manager_system.dir/plugins/pedestrian_manager/src/pedestrian_manager_system.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/pedestrian_manager_system.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,37 @@
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found saye_description: 0.0.0 (/home/yiyi/ackermann_sim/install/saye_description/share/saye_description/cmake)
+-- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+-- Configuring done (0.4s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/yiyi/ackermann_sim/build/saye_bringup_my
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/yiyi/ackermann_sim/install/saye_bringup_my/share/saye_bringup_my//launch/amcl.launch.py
+-- Symlinking: /home/yiyi/ackermann_sim/install/saye_bringup_my/share/saye_bringup_my//launch/navigation_bringup.launch.py
+-- Symlinking: /home/yiyi/ackermann_sim/install/saye_bringup_my/share/saye_bringup_my//launch/saye_spawn.launch.py
+-- Symlinking: /home/yiyi/ackermann_sim/install/saye_bringup_my/share/saye_bringup_my//launch/slam.launch.py
+-- Symlinking: /home/yiyi/ackermann_sim/install/saye_bringup_my/share/saye_bringup_my//maps/map.pgm
+-- Symlinking: /home/yiyi/ackermann_sim/install/saye_bringup_my/share/saye_bringup_my//maps/map.yaml
+-- Symlinking: /home/yiyi/ackermann_sim/install/saye_bringup_my/share/saye_bringup_my//rviz/navigation.rviz
+-- Symlinking: /home/yiyi/ackermann_sim/install/saye_bringup_my/share/saye_bringup_my//rviz/saye.rviz
+-- Symlinking: /home/yiyi/ackermann_sim/install/saye_bringup_my/share/saye_bringup_my//config/amcl.yaml
+-- Symlinking: /home/yiyi/ackermann_sim/install/saye_bringup_my/share/saye_bringup_my//config/nav2_params.yaml
+-- Symlinking: /home/yiyi/ackermann_sim/install/saye_bringup_my/share/saye_bringup_my//config/navigation.yaml
+-- Symlinking: /home/yiyi/ackermann_sim/install/saye_bringup_my/share/saye_bringup_my//config/ros_gz_bridge.yaml
+-- Symlinking: /home/yiyi/ackermann_sim/install/saye_bringup_my/share/saye_bringup_my//config/slam.yaml
+-- Symlinking: /home/yiyi/ackermann_sim/install/saye_bringup_my/share/ament_index/resource_index/package_run_dependencies/saye_bringup_my
+-- Symlinking: /home/yiyi/ackermann_sim/install/saye_bringup_my/share/ament_index/resource_index/parent_prefix_path/saye_bringup_my
+-- Symlinking: /home/yiyi/ackermann_sim/install/saye_bringup_my/share/saye_bringup_my/environment/ament_prefix_path.sh
+-- Symlinking: /home/yiyi/ackermann_sim/install/saye_bringup_my/share/saye_bringup_my/environment/ament_prefix_path.dsv
+-- Symlinking: /home/yiyi/ackermann_sim/install/saye_bringup_my/share/saye_bringup_my/environment/path.sh
+-- Symlinking: /home/yiyi/ackermann_sim/install/saye_bringup_my/share/saye_bringup_my/environment/path.dsv
+-- Symlinking: /home/yiyi/ackermann_sim/install/saye_bringup_my/share/saye_bringup_my/local_setup.bash
+-- Symlinking: /home/yiyi/ackermann_sim/install/saye_bringup_my/share/saye_bringup_my/local_setup.sh
+-- Symlinking: /home/yiyi/ackermann_sim/install/saye_bringup_my/share/saye_bringup_my/local_setup.zsh
+-- Symlinking: /home/yiyi/ackermann_sim/install/saye_bringup_my/share/saye_bringup_my/local_setup.dsv
+-- Symlinking: /home/yiyi/ackermann_sim/install/saye_bringup_my/share/saye_bringup_my/package.dsv
+-- Symlinking: /home/yiyi/ackermann_sim/install/saye_bringup_my/share/ament_index/resource_index/packages/saye_bringup_my
+-- Symlinking: /home/yiyi/ackermann_sim/install/saye_bringup_my/share/saye_bringup_my/cmake/saye_bringup_myConfig.cmake
+-- Symlinking: /home/yiyi/ackermann_sim/install/saye_bringup_my/share/saye_bringup_my/cmake/saye_bringup_myConfig-version.cmake
+-- Symlinking: /home/yiyi/ackermann_sim/install/saye_bringup_my/share/saye_bringup_my/package.xml

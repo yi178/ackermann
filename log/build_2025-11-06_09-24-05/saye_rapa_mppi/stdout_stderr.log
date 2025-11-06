@@ -1,0 +1,21 @@
+[ 50%] Building CXX object CMakeFiles/saye_rapa_mppi.dir/src/risk_aware_critic.cpp.o
+/home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_rapa_mppi/src/risk_aware_critic.cpp: In member function ‘virtual void saye_rapa_mppi::RiskAwareCritic::initialize()’:
+/home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_rapa_mppi/src/risk_aware_critic.cpp:8:22: error: base operand of ‘->’ has non-pointer type ‘rclcpp_lifecycle::LifecycleNode::WeakPtr’ {aka ‘std::weak_ptr<rclcpp_lifecycle::LifecycleNode>’}
+    8 |   auto node = parent_->shared_from_this();
+      |                      ^~
+/home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_rapa_mppi/src/risk_aware_critic.cpp:10:18: error: ‘getParam’ was not declared in this scope
+   10 |   cost_weight_ = getParam(node, "cost_weight", 1.0);
+      |                  ^~~~~~~~
+/home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_rapa_mppi/src/risk_aware_critic.cpp:14:42: error: expected primary-expression before ‘>’ token
+   14 |     saye_msgs::msg::PedestrianPredictions>(
+      |                                          ^
+/home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_rapa_mppi/src/risk_aware_critic.cpp:15:5: warning: left operand of comma operator has no effect [-Wunused-value]
+   15 |     "/pedestrian_predictions",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~
+/home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_rapa_mppi/src/risk_aware_critic.cpp: In member function ‘virtual void saye_rapa_mppi::RiskAwareCritic::score(mppi::CriticData&)’:
+/home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_rapa_mppi/src/risk_aware_critic.cpp:33:48: warning: unused parameter ‘data’ [-Wunused-parameter]
+   33 | void RiskAwareCritic::score(mppi::CriticData & data)
+      |                             ~~~~~~~~~~~~~~~~~~~^~~~
+gmake[2]: *** [CMakeFiles/saye_rapa_mppi.dir/build.make:76: CMakeFiles/saye_rapa_mppi.dir/src/risk_aware_critic.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/saye_rapa_mppi.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

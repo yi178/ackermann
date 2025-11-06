@@ -1,0 +1,106 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-43889ec782b76de131da.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.2"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "saye_description",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "actor_pose_publisher_system::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-actor_pose_publisher_system-e0758c13cb4bbfe0b8ab.json",
+					"name" : "actor_pose_publisher_system",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "generate_worlds::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-generate_worlds-930fc1e3e62189c7da95.json",
+					"name" : "generate_worlds",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pedestrian_manager_system::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pedestrian_manager_system-5c5de57a02107b75b4f1.json",
+					"name" : "pedestrian_manager_system",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "saye_description_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-saye_description_uninstall-5ee353665e126de447a5.json",
+					"name" : "saye_description_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_actor_driver_system::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_actor_driver_system-c42d0ec25cdd845ccb07.json",
+					"name" : "test_actor_driver_system",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-0ee71601b8b19a64be86.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/yiyi/ackermann_sim/build/saye_description",
+		"source" : "/home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_description"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

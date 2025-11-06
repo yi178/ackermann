@@ -1,0 +1,50 @@
+[0.622s] Invoking command in '/home/yiyi/ackermann_sim/build/saye_prediction': CMAKE_PREFIX_PATH=/home/yiyi/ackermann_sim/install/saye_msgs:/home/yiyi/ackermann_sim/install/saye_control:/home/yiyi/ackermann_sim/install/saye_mppi:/home/yiyi/ackermann_sim/install/saye_localization:/home/yiyi/ackermann_sim/install/saye_bringup_my:/home/yiyi/ackermann_sim/install/saye_bringup:/home/yiyi/ackermann_sim/install/saye_description:/home/yiyi/ackermann_sim/install/saye_behaviortree:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy /usr/bin/cmake --build /home/yiyi/ackermann_sim/build/saye_prediction -- -j16 -l16
+[0.792s] Built target ament_cmake_python_copy_saye_prediction
+[1.240s] running egg_info
+[1.285s] writing saye_prediction.egg-info/PKG-INFO
+[1.286s] writing dependency_links to saye_prediction.egg-info/dependency_links.txt
+[1.287s] writing top-level names to saye_prediction.egg-info/top_level.txt
+[1.417s] reading manifest file 'saye_prediction.egg-info/SOURCES.txt'
+[1.418s] writing manifest file 'saye_prediction.egg-info/SOURCES.txt'
+[1.504s] Built target ament_cmake_python_build_saye_prediction_egg
+[1.534s] Invoked command in '/home/yiyi/ackermann_sim/build/saye_prediction' returned '0': CMAKE_PREFIX_PATH=/home/yiyi/ackermann_sim/install/saye_msgs:/home/yiyi/ackermann_sim/install/saye_control:/home/yiyi/ackermann_sim/install/saye_mppi:/home/yiyi/ackermann_sim/install/saye_localization:/home/yiyi/ackermann_sim/install/saye_bringup_my:/home/yiyi/ackermann_sim/install/saye_bringup:/home/yiyi/ackermann_sim/install/saye_description:/home/yiyi/ackermann_sim/install/saye_behaviortree:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy /usr/bin/cmake --build /home/yiyi/ackermann_sim/build/saye_prediction -- -j16 -l16
+[1.559s] Invoking command in '/home/yiyi/ackermann_sim/build/saye_prediction': CMAKE_PREFIX_PATH=/home/yiyi/ackermann_sim/install/saye_msgs:/home/yiyi/ackermann_sim/install/saye_control:/home/yiyi/ackermann_sim/install/saye_mppi:/home/yiyi/ackermann_sim/install/saye_localization:/home/yiyi/ackermann_sim/install/saye_bringup_my:/home/yiyi/ackermann_sim/install/saye_bringup:/home/yiyi/ackermann_sim/install/saye_description:/home/yiyi/ackermann_sim/install/saye_behaviortree:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy /usr/bin/cmake --install /home/yiyi/ackermann_sim/build/saye_prediction
+[1.583s] -- Install configuration: ""
+[1.584s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_prediction/share/saye_prediction/environment/pythonpath.sh
+[1.585s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_prediction/share/saye_prediction/environment/pythonpath.dsv
+[1.585s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_prediction/lib/python3.12/site-packages/saye_prediction-0.0.1-py3.12.egg-info
+[1.586s] -- Installing: /home/yiyi/ackermann_sim/install/saye_prediction/lib/python3.12/site-packages/saye_prediction-0.0.1-py3.12.egg-info/PKG-INFO
+[1.586s] -- Installing: /home/yiyi/ackermann_sim/install/saye_prediction/lib/python3.12/site-packages/saye_prediction-0.0.1-py3.12.egg-info/SOURCES.txt
+[1.586s] -- Installing: /home/yiyi/ackermann_sim/install/saye_prediction/lib/python3.12/site-packages/saye_prediction-0.0.1-py3.12.egg-info/top_level.txt
+[1.586s] -- Installing: /home/yiyi/ackermann_sim/install/saye_prediction/lib/python3.12/site-packages/saye_prediction-0.0.1-py3.12.egg-info/dependency_links.txt
+[1.587s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_prediction/lib/python3.12/site-packages/saye_prediction
+[1.587s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_prediction/lib/python3.12/site-packages/saye_prediction/prediction_verifier.py
+[1.587s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_prediction/lib/python3.12/site-packages/saye_prediction/__init__.py
+[1.587s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_prediction/lib/python3.12/site-packages/saye_prediction/prediction_visualizer.py
+[1.587s] -- Installing: /home/yiyi/ackermann_sim/install/saye_prediction/lib/python3.12/site-packages/saye_prediction/ground_truth_predictor.py
+[1.668s] Listing '/home/yiyi/ackermann_sim/install/saye_prediction/lib/python3.12/site-packages/saye_prediction'...
+[1.668s] Compiling '/home/yiyi/ackermann_sim/install/saye_prediction/lib/python3.12/site-packages/saye_prediction/ground_truth_predictor.py'...
+[1.681s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_prediction/lib/saye_prediction/ground_truth_predictor
+[1.682s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_prediction/lib/saye_prediction/prediction_visualizer
+[1.682s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_prediction/lib/saye_prediction/prediction_verifier
+[1.682s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_prediction/share/saye_prediction/launch
+[1.683s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_prediction/share/saye_prediction/launch/ground_truth_prediction.launch.py
+[1.683s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_prediction/share/saye_prediction/config
+[1.683s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_prediction/share/saye_prediction/config/ground_truth_predictor.yaml
+[1.683s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_prediction/share/saye_prediction/config/scenario1_actors.yaml
+[1.683s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_prediction/share/ament_index/resource_index/package_run_dependencies/saye_prediction
+[1.683s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_prediction/share/ament_index/resource_index/parent_prefix_path/saye_prediction
+[1.684s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_prediction/share/saye_prediction/environment/ament_prefix_path.sh
+[1.684s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_prediction/share/saye_prediction/environment/ament_prefix_path.dsv
+[1.684s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_prediction/share/saye_prediction/environment/path.sh
+[1.684s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_prediction/share/saye_prediction/environment/path.dsv
+[1.684s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_prediction/share/saye_prediction/local_setup.bash
+[1.684s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_prediction/share/saye_prediction/local_setup.sh
+[1.684s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_prediction/share/saye_prediction/local_setup.zsh
+[1.684s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_prediction/share/saye_prediction/local_setup.dsv
+[1.685s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_prediction/share/saye_prediction/package.dsv
+[1.685s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_prediction/share/ament_index/resource_index/packages/saye_prediction
+[1.685s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_prediction/share/saye_prediction/cmake/saye_predictionConfig.cmake
+[1.685s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_prediction/share/saye_prediction/cmake/saye_predictionConfig-version.cmake
+[1.685s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_prediction/share/saye_prediction/package.xml
+[1.686s] Invoked command in '/home/yiyi/ackermann_sim/build/saye_prediction' returned '0': CMAKE_PREFIX_PATH=/home/yiyi/ackermann_sim/install/saye_msgs:/home/yiyi/ackermann_sim/install/saye_control:/home/yiyi/ackermann_sim/install/saye_mppi:/home/yiyi/ackermann_sim/install/saye_localization:/home/yiyi/ackermann_sim/install/saye_bringup_my:/home/yiyi/ackermann_sim/install/saye_bringup:/home/yiyi/ackermann_sim/install/saye_description:/home/yiyi/ackermann_sim/install/saye_behaviortree:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy /usr/bin/cmake --install /home/yiyi/ackermann_sim/build/saye_prediction

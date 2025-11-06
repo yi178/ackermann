@@ -1,0 +1,271 @@
+# Scenario 5: 6 Pedestrians Random Movement Patterns
+# Test MPPI robustness with unpredictable pedestrian behavior
+#
+# Layout:
+#   - 6 pedestrians with irregular, unpredictable trajectories
+#   - Frequent direction changes (every 2-3 seconds)
+#   - Variable speeds (0.5 to 2.0 m/s)
+#   - Non-linear paths
+#
+# Purpose: Stress test prediction and replanning capabilities
+#          Simulate realistic unpredictable human behavior
+
+pedestrians:
+  # ========== Random Pedestrian 1: Diagonal Crosser with Turns ==========
+  - name: random_diagonal
+    skin: model://walking_actor/meshes/walk.dae
+    animation: walking
+    loop: true
+    auto_start: true
+    # Starts at corner, irregular diagonal movement
+    spawn_pose: [8.0, 2.0, 1.0, 0.0, 0.0, -0.785398]  # 45° angle
+    trajectory:
+      - time: 0.0
+        pose: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      # Move diagonally (combined X and Y)
+      - time: 2.5
+        pose: [3.0, -2.5, 0.0, 0.0, 0.0, 0.0]
+      # Sharp turn
+      - time: 3.0
+        pose: [3.0, -2.5, 0.0, 0.0, 0.0, 2.35619]  # 135° turn
+      # Move back diagonally
+      - time: 5.5
+        pose: [1.0, 0.5, 0.0, 0.0, 0.0, 2.35619]
+      # Another turn
+      - time: 6.0
+        pose: [1.0, 0.5, 0.0, 0.0, 0.0, -0.785398]
+      # Continue irregular pattern
+      - time: 8.0
+        pose: [4.0, -1.5, 0.0, 0.0, 0.0, -0.785398]
+      - time: 8.5
+        pose: [4.0, -1.5, 0.0, 0.0, 0.0, 0.785398]
+      - time: 11.0
+        pose: [0.0, 0.0, 0.0, 0.0, 0.0, 0.785398]
+      - time: 11.5
+        pose: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+  # ========== Random Pedestrian 2: Zigzag Pattern ==========
+  - name: random_zigzag
+    skin: model://walking_actor/meshes/walk.dae
+    animation: walking
+    loop: true
+    auto_start: true
+    spawn_pose: [10.0, -2.0, 1.0, 0.0, 0.0, 1.047197]  # 60° angle
+    trajectory:
+      - time: 0.0
+        pose: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      # Zig right-forward
+      - time: 2.0
+        pose: [2.0, 2.0, 0.0, 0.0, 0.0, 0.0]
+      - time: 2.3
+        pose: [2.0, 2.0, 0.0, 0.0, 0.0, -1.047197]
+      # Zag left-forward
+      - time: 4.3
+        pose: [4.0, 0.0, 0.0, 0.0, 0.0, -1.047197]
+      - time: 4.6
+        pose: [4.0, 0.0, 0.0, 0.0, 0.0, 1.047197]
+      # Zig right-forward again
+      - time: 6.6
+        pose: [6.0, 2.0, 0.0, 0.0, 0.0, 1.047197]
+      - time: 7.0
+        pose: [6.0, 2.0, 0.0, 0.0, 0.0, -2.094395]
+      # Return with reverse zigzag
+      - time: 9.0
+        pose: [4.0, 0.0, 0.0, 0.0, 0.0, -2.094395]
+      - time: 9.3
+        pose: [4.0, 0.0, 0.0, 0.0, 0.0, 2.094395]
+      - time: 11.3
+        pose: [2.0, 2.0, 0.0, 0.0, 0.0, 2.094395]
+      - time: 11.6
+        pose: [2.0, 2.0, 0.0, 0.0, 0.0, -2.094395]
+      - time: 13.6
+        pose: [0.0, 0.0, 0.0, 0.0, 0.0, -2.094395]
+      - time: 14.0
+        pose: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+  # ========== Random Pedestrian 3: Fast-Slow Alternating ==========
+  - name: random_speed_var
+    skin: model://walking_actor/meshes/walk.dae
+    animation: walking
+    loop: true
+    auto_start: true
+    spawn_pose: [14.0, 0.5, 1.0, 0.0, 0.0, 0.0]
+    trajectory:
+      - time: 0.0
+        pose: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      # Fast segment: 4m in 2s = 2.0 m/s
+      - time: 2.0
+        pose: [4.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      - time: 2.2
+        pose: [4.0, 0.0, 0.0, 0.0, 0.0, 1.57079632679]
+      # Slow segment: 2m in 4s = 0.5 m/s
+      - time: 6.2
+        pose: [4.0, 2.0, 0.0, 0.0, 0.0, 1.57079632679]
+      - time: 6.4
+        pose: [4.0, 2.0, 0.0, 0.0, 0.0, 3.14159265359]
+      # Medium segment: 3m in 2s = 1.5 m/s
+      - time: 8.4
+        pose: [1.0, 2.0, 0.0, 0.0, 0.0, 3.14159265359]
+      - time: 8.6
+        pose: [1.0, 2.0, 0.0, 0.0, 0.0, -1.57079632679]
+      # Fast again: 2m in 1s = 2.0 m/s
+      - time: 9.6
+        pose: [1.0, 0.0, 0.0, 0.0, 0.0, -1.57079632679]
+      - time: 9.8
+        pose: [1.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      # Slow return: 1m in 2s = 0.5 m/s
+      - time: 11.8
+        pose: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+  # ========== Random Pedestrian 4: Multi-turn Wanderer ==========
+  - name: random_wanderer
+    skin: model://walking_actor/meshes/walk.dae
+    animation: walking
+    loop: true
+    auto_start: true
+    spawn_pose: [12.0, 1.5, 1.0, 0.0, 0.0, 0.0]
+    trajectory:
+      - time: 0.0
+        pose: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      # Short forward
+      - time: 1.5
+        pose: [1.5, 0.0, 0.0, 0.0, 0.0, 0.0]
+      # Turn right
+      - time: 1.7
+        pose: [1.5, 0.0, 0.0, 0.0, 0.0, -1.57079632679]
+      - time: 3.0
+        pose: [1.5, -1.3, 0.0, 0.0, 0.0, -1.57079632679]
+      # Turn forward
+      - time: 3.2
+        pose: [1.5, -1.3, 0.0, 0.0, 0.0, 0.0]
+      - time: 4.5
+        pose: [3.0, -1.3, 0.0, 0.0, 0.0, 0.0]
+      # Turn left
+      - time: 4.7
+        pose: [3.0, -1.3, 0.0, 0.0, 0.0, 1.57079632679]
+      - time: 6.5
+        pose: [3.0, 0.5, 0.0, 0.0, 0.0, 1.57079632679]
+      # Turn backward
+      - time: 6.7
+        pose: [3.0, 0.5, 0.0, 0.0, 0.0, 3.14159265359]
+      - time: 8.5
+        pose: [1.0, 0.5, 0.0, 0.0, 0.0, 3.14159265359]
+      # Turn right
+      - time: 8.7
+        pose: [1.0, 0.5, 0.0, 0.0, 0.0, -1.57079632679]
+      - time: 10.0
+        pose: [1.0, -1.0, 0.0, 0.0, 0.0, -1.57079632679]
+      # Turn backward
+      - time: 10.2
+        pose: [1.0, -1.0, 0.0, 0.0, 0.0, 3.14159265359]
+      - time: 11.5
+        pose: [0.0, -1.0, 0.0, 0.0, 0.0, 3.14159265359]
+      # Turn left to origin
+      - time: 11.7
+        pose: [0.0, -1.0, 0.0, 0.0, 0.0, 1.57079632679]
+      - time: 13.0
+        pose: [0.0, 0.0, 0.0, 0.0, 0.0, 1.57079632679]
+      - time: 13.2
+        pose: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+  # ========== Random Pedestrian 5: Curved Path ==========
+  - name: random_curve
+    skin: model://walking_actor/meshes/walk.dae
+    animation: walking
+    loop: true
+    auto_start: true
+    spawn_pose: [16.0, -1.8, 1.0, 0.0, 0.0, 0.52359]  # 30° start
+    trajectory:
+      # Approximate curved path with many small waypoints
+      - time: 0.0
+        pose: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      - time: 1.0
+        pose: [1.0, 0.5, 0.0, 0.0, 0.0, 0.785398]
+      - time: 2.0
+        pose: [1.8, 1.3, 0.0, 0.0, 0.0, 1.047197]
+      - time: 3.0
+        pose: [2.2, 2.2, 0.0, 0.0, 0.0, 1.57079632679]
+      - time: 4.0
+        pose: [2.2, 3.0, 0.0, 0.0, 0.0, 2.094395]
+      - time: 5.0
+        pose: [1.8, 3.6, 0.0, 0.0, 0.0, 2.35619]
+      - time: 6.0
+        pose: [1.0, 4.0, 0.0, 0.0, 0.0, 2.617993]
+      # Curve back
+      - time: 7.0
+        pose: [0.0, 4.0, 0.0, 0.0, 0.0, 3.14159265359]
+      - time: 8.0
+        pose: [-1.0, 3.6, 0.0, 0.0, 0.0, -2.35619]
+      - time: 9.0
+        pose: [-1.8, 2.8, 0.0, 0.0, 0.0, -2.094395]
+      - time: 10.0
+        pose: [-2.2, 1.8, 0.0, 0.0, 0.0, -1.57079632679]
+      - time: 11.0
+        pose: [-2.2, 0.8, 0.0, 0.0, 0.0, -1.047197]
+      - time: 12.0
+        pose: [-1.8, 0.0, 0.0, 0.0, 0.0, -0.785398]
+      - time: 13.0
+        pose: [-1.0, -0.5, 0.0, 0.0, 0.0, -0.52359]
+      - time: 14.0
+        pose: [0.0, -0.5, 0.0, 0.0, 0.0, 0.0]
+      - time: 14.5
+        pose: [0.0, 0.0, 0.0, 0.0, 0.0, 0.52359]
+
+  # ========== Random Pedestrian 6: Erratic Patrol ==========
+  - name: random_erratic
+    skin: model://walking_actor/meshes/walk.dae
+    animation: walking
+    loop: true
+    auto_start: true
+    spawn_pose: [18.0, 0.8, 1.0, 0.0, 0.0, 3.14159265359]
+    trajectory:
+      - time: 0.0
+        pose: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      # Quick burst backward
+      - time: 1.0
+        pose: [-2.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      # Sudden right turn
+      - time: 1.2
+        pose: [-2.0, 0.0, 0.0, 0.0, 0.0, -1.57079632679]
+      - time: 2.5
+        pose: [-2.0, -1.5, 0.0, 0.0, 0.0, -1.57079632679]
+      # Stop and turn around
+      - time: 3.5
+        pose: [-2.0, -1.5, 0.0, 0.0, 0.0, 1.57079632679]
+      # Move left slowly
+      - time: 6.0
+        pose: [-2.0, 0.0, 0.0, 0.0, 0.0, 1.57079632679]
+      - time: 6.2
+        pose: [-2.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      # Quick forward
+      - time: 7.2
+        pose: [-0.5, 0.0, 0.0, 0.0, 0.0, 0.0]
+      - time: 7.4
+        pose: [-0.5, 0.0, 0.0, 0.0, 0.0, -2.35619]
+      # Diagonal
+      - time: 9.4
+        pose: [1.0, -1.5, 0.0, 0.0, 0.0, -2.35619]
+      - time: 9.7
+        pose: [1.0, -1.5, 0.0, 0.0, 0.0, 2.35619]
+      # Back to start
+      - time: 11.7
+        pose: [0.0, 0.0, 0.0, 0.0, 0.0, 2.35619]
+      - time: 12.0
+        pose: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+# Random behavior characteristics:
+#   - Direction changes: every 0.5-3.0 seconds
+#   - Speed range: 0.5 m/s (slow) to 2.0 m/s (fast)
+#   - Trajectory types: diagonal, zigzag, curved, erratic
+#   - Turn angles: 30° to 180° sudden changes
+#
+# This scenario tests:
+#   - MPPI's prediction under high uncertainty
+#   - Replanning frequency and computational efficiency
+#   - Safety margins with unpredictable motion
+#   - Robustness to model mismatch (assuming constant velocity prediction)
+#
+# Expected challenge:
+#   - Constant velocity prediction will fail frequently
+#   - Robot must rely on reactive collision avoidance
+#   - Tests MPPI's ability to handle worst-case scenarios

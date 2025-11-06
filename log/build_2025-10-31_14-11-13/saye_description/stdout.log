@@ -1,0 +1,4 @@
+[ 53%] Built target generate_worlds
+[ 76%] Built target actor_pose_publisher_system
+[ 76%] Building CXX object CMakeFiles/test_actor_driver_system.dir/plugins/actor_pose_publisher/src/test_actor_driver_system.cpp.o
+[ 92%] Built target pedestrian_manager_system

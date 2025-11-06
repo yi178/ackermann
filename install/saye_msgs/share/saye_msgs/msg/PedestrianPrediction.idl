@@ -1,0 +1,39 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from saye_msgs/msg/PedestrianPrediction.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Pose.idl"
+#include "saye_msgs/msg/GMMComponent.idl"
+
+module saye_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "Prediction for a single pedestrian" "\n"
+      "单个行人的预测")
+    struct PedestrianPrediction {
+      @verbatim (language="comment", text=
+        "Unique identifier (e.g., \"walker_center\")" "\n"
+        "唯一标识符（例如：\"walker_center\"）")
+      string id;
+
+      @verbatim (language="comment", text=
+        "Current observed pose" "\n"
+        "当前观测位姿")
+      geometry_msgs::msg::Pose current_pose;
+
+      @verbatim (language="comment", text=
+        "Estimated current speed [m/s]" "\n"
+        "估计的当前速度 [m/s]")
+      double current_speed;
+
+      @verbatim (language="comment", text=
+        "GMM representation of future trajectory" "\n"
+        "未来轨迹的GMM表示" "\n"
+        "For CV model: K=1 (single mode)" "\n"
+        "For IMM model: K=3 (CV, CA, CT modes)" "\n"
+        "CV模型：K=1（单模态）" "\n"
+        "IMM模型：K=3（CV、CA、CT模式）")
+      sequence<saye_msgs::msg::GMMComponent> gmm_modes;
+    };
+  };
+};

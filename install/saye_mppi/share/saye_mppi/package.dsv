@@ -1,0 +1,11 @@
+source;share/saye_mppi/hook/cmake_prefix_path.ps1
+source;share/saye_mppi/hook/cmake_prefix_path.dsv
+source;share/saye_mppi/hook/cmake_prefix_path.sh
+source;share/saye_mppi/hook/pythonpath.ps1
+source;share/saye_mppi/hook/pythonpath.dsv
+source;share/saye_mppi/hook/pythonpath.sh
+source;share/saye_mppi/local_setup.bash
+source;share/saye_mppi/local_setup.dsv
+source;share/saye_mppi/local_setup.ps1
+source;share/saye_mppi/local_setup.sh
+source;share/saye_mppi/local_setup.zsh

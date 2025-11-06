@@ -1,0 +1,349 @@
+[0.017s] Invoking command in '/home/yiyi/ackermann_sim/build/saye_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/yiyi/ackermann_sim/build/saye_description -- -j16 -l16
+[0.063s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.368s] -- Found ament_index_cpp: 1.8.1 (/opt/ros/jazzy/share/ament_index_cpp/cmake)
+[0.370s] -- Looking for gz-plugin2 -- found version 2.0.4
+[0.382s] -- Searching for dependencies of gz-plugin2
+[0.382s] -- Looking for gz-utils2 -- found version 2.2.1
+[0.382s] -- Searching for dependencies of gz-utils2
+[0.383s] -- Searching for <gz-utils2> component [cli]
+[0.384s] -- Looking for gz-utils2-cli -- found version 2.2.1
+[0.384s] -- Searching for dependencies of gz-utils2-cli
+[0.385s] -- Looking for gz-sim8 -- found version 8.9.0
+[0.386s] -- Searching for dependencies of gz-sim8
+[0.386s] -- Looking for sdformat14 -- found version 14.8.0
+[0.386s] -- Searching for dependencies of sdformat14
+[0.393s] -- Checking for module 'tinyxml2'
+[0.418s] --   Found tinyxml2, version 10.0.0
+[0.475s] -- Looking for gz-math7 -- found version 7.5.2
+[0.475s] -- Searching for dependencies of gz-math7
+[0.476s] -- Looking for gz-utils2 -- found version 2.2.1
+[0.477s] -- Looking for gz-utils2 -- found version 2.2.1
+[0.478s] -- Looking for gz-plugin2 -- found version 2.0.4
+[0.478s] -- Searching for dependencies of gz-plugin2
+[0.479s] -- Looking for gz-utils2 -- found version 2.2.1
+[0.479s] -- Searching for <gz-plugin2> component [loader]
+[0.480s] -- Looking for gz-plugin2-loader -- found version 2.0.4
+[0.480s] -- Searching for dependencies of gz-plugin2-loader
+[0.481s] -- Searching for <gz-plugin2> component [register]
+[0.481s] -- Looking for gz-plugin2-register -- found version 2.0.4
+[0.482s] -- Searching for dependencies of gz-plugin2-register
+[0.483s] -- Looking for gz-transport13 -- found version 13.4.1
+[0.483s] -- Searching for dependencies of gz-transport13
+[6.290s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[6.297s] -- Checking for module 'libzmq >= 4'
+[6.326s] --   Found libzmq, version 4.3.5
+[6.415s] -- Checking for module 'uuid'
+[6.443s] --   Found uuid, version 2.39.3
+[6.501s] -- Looking for gz-utils2 -- found version 2.2.1
+[6.501s] -- Looking for gz-msgs10 -- found version 10.3.2
+[6.501s] -- Searching for dependencies of gz-msgs10
+[9.333s] -- Looking for gz-utils2 -- found version 2.2.1
+[9.334s] -- Looking for gz-math7 -- found version 7.5.2
+[9.344s] -- Searching for <gz-transport13> component [log]
+[9.344s] -- Looking for gz-transport13-log -- found version 13.4.1
+[9.345s] -- Searching for dependencies of gz-transport13-log
+[9.345s] -- Searching for <gz-transport13> component [parameters]
+[9.346s] -- Looking for gz-transport13-parameters -- found version 13.4.1
+[9.346s] -- Searching for dependencies of gz-transport13-parameters
+[9.347s] -- Looking for gz-msgs10 -- found version 10.3.2
+[9.348s] -- Looking for gz-common5 -- found version 5.7.1
+[9.348s] -- Searching for dependencies of gz-common5
+[9.348s] -- Looking for gz-utils2 -- found version 2.2.1
+[9.348s] -- Looking for dlfcn.h - found
+[9.349s] -- Looking for libdl - found
+[9.360s] -- Searching for <gz-common5> component [av]
+[9.360s] -- Looking for gz-common5-av -- found version 5.7.1
+[9.360s] -- Searching for dependencies of gz-common5-av
+[9.368s] -- Checking for module 'libswscale'
+[9.398s] --   Found libswscale, version 7.5.100
+[9.465s] -- Checking for module 'libavdevice >= 56.4.100'
+[9.491s] --   Found libavdevice, version 60.3.100
+[9.584s] -- Checking for module 'libavformat'
+[9.611s] --   Found libavformat, version 60.16.100
+[9.684s] -- Checking for module 'libavcodec'
+[9.708s] --   Found libavcodec, version 60.31.102
+[9.780s] -- Checking for module 'libavutil'
+[9.804s] --   Found libavutil, version 58.29.100
+[9.863s] -- Searching for <gz-common5> component [events]
+[9.863s] -- Looking for gz-common5-events -- found version 5.7.1
+[9.864s] -- Searching for dependencies of gz-common5-events
+[9.864s] -- Looking for gz-math7 -- found version 7.5.2
+[9.865s] -- Searching for <gz-common5> component [graphics]
+[9.866s] -- Looking for gz-common5-graphics -- found version 5.7.1
+[9.866s] -- Searching for dependencies of gz-common5-graphics
+[9.866s] -- Looking for gz-math7 -- found version 7.5.2
+[9.875s] -- Searching for <gz-common5> component [io]
+[9.875s] -- Looking for gz-common5-io -- found version 5.7.1
+[9.876s] -- Searching for dependencies of gz-common5-io
+[9.876s] -- Searching for <gz-common5> component [profiler]
+[9.877s] -- Looking for gz-common5-profiler -- found version 5.7.1
+[9.877s] -- Searching for dependencies of gz-common5-profiler
+[9.878s] -- Looking for gz-fuel_tools9 -- found version 9.1.1
+[9.878s] -- Searching for dependencies of gz-fuel_tools9
+[13.298s] -- Checking for module 'jsoncpp'
+[13.324s] --   Found jsoncpp, version 1.9.5
+[16.212s] -- Checking for module 'yaml-0.1'
+[16.242s] --   Found yaml-0.1, version 0.2.5
+[16.308s] -- Checking for module 'libzip'
+[16.336s] --   Found libzip, version 1.7.3
+[16.397s] -- Looking for gz-utils2 -- found version 2.2.1
+[16.397s] -- Looking for gz-common5 -- found version 5.7.1
+[16.398s] -- Searching for dependencies of gz-common5
+[16.398s] -- Looking for gz-utils2 -- found version 2.2.1
+[16.398s] -- Looking for dlfcn.h - found
+[16.399s] -- Looking for libdl - found
+[16.409s] -- Searching for <gz-common5> component [testing]
+[16.409s] -- Looking for gz-common5-testing -- found version 5.7.1
+[16.410s] -- Searching for dependencies of gz-common5-testing
+[16.411s] -- Looking for gz-math7 -- found version 7.5.2
+[16.411s] -- Looking for gz-msgs10 -- found version 10.3.2
+[16.413s] -- Looking for gz-gui8 -- found version 8.4.0
+[16.413s] -- Searching for dependencies of gz-gui8
+[19.280s] -- Looking for gz-utils2 -- found version 2.2.1
+[19.280s] -- Looking for gz-math7 -- found version 7.5.2
+[19.281s] -- Looking for gz-common5 -- found version 5.7.1
+[19.282s] -- Looking for gz-plugin2 -- found version 2.0.4
+[19.282s] -- Looking for gz-transport13 -- found version 13.4.1
+[19.283s] -- Looking for gz-rendering8 -- found version 8.2.2
+[19.283s] -- Searching for dependencies of gz-rendering8
+[19.284s] -- Looking for gz-math7 -- found version 7.5.2
+[19.284s] -- Searching for dependencies of gz-math7
+[19.284s] -- Looking for gz-utils2 -- found version 2.2.1
+[19.285s] -- Searching for <gz-math7> component [eigen3]
+[19.285s] -- Looking for gz-math7-eigen3 -- found version 7.5.2
+[19.285s] -- Searching for dependencies of gz-math7-eigen3
+[19.294s] -- Looking for gz-common5 -- found version 5.7.1
+[19.294s] -- Searching for dependencies of gz-common5
+[19.294s] -- Looking for gz-utils2 -- found version 2.2.1
+[19.295s] -- Looking for dlfcn.h - found
+[19.295s] -- Looking for libdl - found
+[19.305s] -- Searching for <gz-common5> component [graphics]
+[19.306s] -- Searching for <gz-common5> component [events]
+[19.306s] -- Searching for <gz-common5> component [geospatial]
+[19.306s] -- Looking for gz-common5-geospatial -- found version 5.7.1
+[19.307s] -- Searching for dependencies of gz-common5-geospatial
+[19.307s] -- Looking for gz-math7 -- found version 7.5.2
+[19.307s] -- Looking for gz-common5 -- found version 5.7.1
+[19.309s] -- Looking for gz-plugin2 -- found version 2.0.4
+[19.309s] -- Searching for dependencies of gz-plugin2
+[19.309s] -- Looking for gz-utils2 -- found version 2.2.1
+[19.309s] -- Searching for <gz-plugin2> component [all]
+[19.310s] -- Looking for all libraries of gz-plugin2 -- found version 2.0.4
+[19.311s] -- Looking for gz-plugin2 -- found version 2.0.4
+[19.312s] -- Looking for gz-utils2 -- found version 2.2.1
+[19.458s] -- Looking for gz-msgs10 -- found version 10.3.2
+[19.797s] -- Looking for gz-physics7 -- found version 7.5.0
+[19.798s] -- Searching for dependencies of gz-physics7
+[19.798s] -- Looking for gz-common5 -- found version 5.7.1
+[19.798s] -- Looking for gz-math7 -- found version 7.5.2
+[19.798s] -- Looking for gz-plugin2 -- found version 2.0.4
+[19.799s] -- Looking for gz-utils2 -- found version 2.2.1
+[19.801s] -- Searching for <gz-physics7> component [heightmap]
+[19.801s] -- Looking for gz-physics7-heightmap -- found version 7.5.0
+[19.801s] -- Searching for dependencies of gz-physics7-heightmap
+[19.802s] -- Looking for gz-common5 -- found version 5.7.1
+[19.802s] -- Searching for <gz-physics7> component [mesh]
+[19.803s] -- Looking for gz-physics7-mesh -- found version 7.5.0
+[19.803s] -- Searching for dependencies of gz-physics7-mesh
+[19.803s] -- Looking for gz-common5 -- found version 5.7.1
+[19.804s] -- Searching for <gz-physics7> component [sdf]
+[19.804s] -- Looking for gz-physics7-sdf -- found version 7.5.0
+[19.805s] -- Searching for dependencies of gz-physics7-sdf
+[19.805s] -- Looking for sdformat14 -- found version 14.8.0
+[19.807s] -- Looking for gz-sensors8 -- found version 8.2.2
+[19.807s] -- Searching for dependencies of gz-sensors8
+[22.636s] -- Looking for gz-math7 -- found version 7.5.2
+[22.636s] -- Looking for gz-common5 -- found version 5.7.1
+[22.637s] -- Looking for gz-transport13 -- found version 13.4.1
+[22.637s] -- Looking for gz-rendering8 -- found version 8.2.2
+[22.638s] -- Looking for gz-msgs10 -- found version 10.3.2
+[22.638s] -- Looking for sdformat14 -- found version 14.8.0
+[22.639s] -- Searching for <gz-sensors8> component [air_pressure]
+[22.640s] -- Looking for gz-sensors8-air_pressure -- found version 8.2.2
+[22.640s] -- Searching for dependencies of gz-sensors8-air_pressure
+[22.641s] -- Searching for <gz-sensors8> component [air_speed]
+[22.641s] -- Looking for gz-sensors8-air_speed -- found version 8.2.2
+[22.641s] -- Searching for dependencies of gz-sensors8-air_speed
+[22.642s] -- Searching for <gz-sensors8> component [altimeter]
+[22.642s] -- Looking for gz-sensors8-altimeter -- found version 8.2.2
+[22.643s] -- Searching for dependencies of gz-sensors8-altimeter
+[22.643s] -- Searching for <gz-sensors8> component [imu]
+[22.644s] -- Looking for gz-sensors8-imu -- found version 8.2.2
+[22.644s] -- Searching for dependencies of gz-sensors8-imu
+[22.645s] -- Searching for <gz-sensors8> component [force_torque]
+[22.645s] -- Looking for gz-sensors8-force_torque -- found version 8.2.2
+[22.646s] -- Searching for dependencies of gz-sensors8-force_torque
+[22.646s] -- Searching for <gz-sensors8> component [logical_camera]
+[22.647s] -- Looking for gz-sensors8-logical_camera -- found version 8.2.2
+[22.647s] -- Searching for dependencies of gz-sensors8-logical_camera
+[22.648s] -- Searching for <gz-sensors8> component [magnetometer]
+[22.648s] -- Looking for gz-sensors8-magnetometer -- found version 8.2.2
+[22.648s] -- Searching for dependencies of gz-sensors8-magnetometer
+[22.649s] -- Searching for <gz-sensors8> component [navsat]
+[22.649s] -- Looking for gz-sensors8-navsat -- found version 8.2.2
+[22.650s] -- Searching for dependencies of gz-sensors8-navsat
+[22.650s] -- Searching for <gz-sensors8> component [dvl]
+[22.651s] -- Looking for gz-sensors8-dvl -- found version 8.2.2
+[22.651s] -- Searching for dependencies of gz-sensors8-dvl
+[22.652s] -- Looking for gz-sensors8 -- found version 8.2.2
+[22.652s] -- Searching for dependencies of gz-sensors8
+[25.520s] -- Looking for gz-math7 -- found version 7.5.2
+[25.520s] -- Looking for gz-common5 -- found version 5.7.1
+[25.521s] -- Looking for gz-transport13 -- found version 13.4.1
+[25.522s] -- Looking for gz-rendering8 -- found version 8.2.2
+[25.522s] -- Looking for gz-msgs10 -- found version 10.3.2
+[25.523s] -- Looking for sdformat14 -- found version 14.8.0
+[25.523s] -- Searching for <gz-sensors8> component [rendering]
+[25.524s] -- Looking for gz-sensors8-rendering -- found version 8.2.2
+[25.524s] -- Searching for dependencies of gz-sensors8-rendering
+[25.525s] -- Searching for <gz-sensors8> component [rendering]
+[25.525s] -- Searching for <gz-sensors8> component [lidar]
+[25.526s] -- Looking for gz-sensors8-lidar -- found version 8.2.2
+[25.526s] -- Searching for dependencies of gz-sensors8-lidar
+[25.527s] -- Looking for gz-sensors8 -- found version 8.2.2
+[25.527s] -- Searching for <gz-sensors8> component [gpu_lidar]
+[25.528s] -- Looking for gz-sensors8-gpu_lidar -- found version 8.2.2
+[25.528s] -- Searching for dependencies of gz-sensors8-gpu_lidar
+[25.528s] -- Looking for gz-sensors8 -- found version 8.2.2
+[25.529s] -- Searching for <gz-sensors8> component [camera]
+[25.529s] -- Looking for gz-sensors8-camera -- found version 8.2.2
+[25.530s] -- Searching for dependencies of gz-sensors8-camera
+[25.530s] -- Looking for gz-sensors8 -- found version 8.2.2
+[25.531s] -- Searching for <gz-sensors8> component [boundingbox_camera]
+[25.531s] -- Looking for gz-sensors8-boundingbox_camera -- found version 8.2.2
+[25.532s] -- Searching for dependencies of gz-sensors8-boundingbox_camera
+[25.532s] -- Searching for <gz-sensors8> component [segmentation_camera]
+[25.533s] -- Looking for gz-sensors8-segmentation_camera -- found version 8.2.2
+[25.533s] -- Searching for dependencies of gz-sensors8-segmentation_camera
+[25.534s] -- Searching for <gz-sensors8> component [depth_camera]
+[25.535s] -- Looking for gz-sensors8-depth_camera -- found version 8.2.2
+[25.535s] -- Searching for dependencies of gz-sensors8-depth_camera
+[25.535s] -- Looking for gz-sensors8 -- found version 8.2.2
+[25.536s] -- Searching for <gz-sensors8> component [rgbd_camera]
+[25.536s] -- Looking for gz-sensors8-rgbd_camera -- found version 8.2.2
+[25.536s] -- Searching for dependencies of gz-sensors8-rgbd_camera
+[25.537s] -- Looking for gz-sensors8 -- found version 8.2.2
+[25.538s] -- Searching for <gz-sensors8> component [thermal_camera]
+[25.538s] -- Looking for gz-sensors8-thermal_camera -- found version 8.2.2
+[25.539s] -- Searching for dependencies of gz-sensors8-thermal_camera
+[25.539s] -- Looking for gz-sensors8 -- found version 8.2.2
+[25.539s] -- Searching for <gz-sensors8> component [wide_angle_camera]
+[25.540s] -- Looking for gz-sensors8-wide_angle_camera -- found version 8.2.2
+[25.540s] -- Searching for dependencies of gz-sensors8-wide_angle_camera
+[25.541s] -- Looking for gz-rendering8 -- found version 8.2.2
+[25.542s] -- Looking for gz-math7 -- found version 7.5.2
+[25.542s] -- Looking for gz-utils2 -- found version 2.2.1
+[28.411s] -- Looking for gz-transport13 -- found version 13.4.1
+[28.411s] -- Found robot_state_publisher: 3.3.3 (/opt/ros/jazzy/share/robot_state_publisher/cmake)
+[28.578s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[28.590s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[28.606s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[28.623s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[28.715s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[28.717s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[29.415s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[30.159s] -- Found xacro: 2.1.1 (/opt/ros/jazzy/share/xacro/cmake)
+[30.165s] -- Looking for sdformat14 -- found version 14.8.0
+[30.165s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[30.507s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[30.507s] -- Configured cppcheck include dirs: /home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_description/plugins/pedestrian_manager/include;/home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_description/plugins/actor_pose_publisher/include
+[30.507s] -- Configured cppcheck exclude dirs and/or files: 
+[30.509s] -- Added test 'flake8' to check Python code syntax and style conventions
+[30.509s] -- Configured 'flake8' exclude dirs and/or files: 
+[30.511s] -- Added test 'lint_cmake' to check CMake code style
+[30.513s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[30.524s] -- Added test 'uncrustify' to check C / C++ code style
+[30.524s] -- Configured uncrustify additional arguments: 
+[30.525s] -- Added test 'xmllint' to check XML markup files
+[30.527s] -- Configuring done (30.5s)
+[30.583s] -- Generating done (0.0s)
+[30.593s] -- Build files have been written to: /home/yiyi/ackermann_sim/build/saye_description
+[30.663s] [ 36%] Building CXX object CMakeFiles/actor_pose_publisher_system.dir/plugins/actor_pose_publisher/src/actor_pose_publisher_system.cpp.o
+[30.663s] [ 72%] Built target generate_worlds
+[30.683s] [ 90%] Built target pedestrian_manager_system
+[37.864s] [100%] Linking CXX shared library libactor_pose_publisher_system.so
+[38.596s] [100%] Built target actor_pose_publisher_system
+[38.615s] Invoked command in '/home/yiyi/ackermann_sim/build/saye_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/yiyi/ackermann_sim/build/saye_description -- -j16 -l16
+[38.630s] Invoking command in '/home/yiyi/ackermann_sim/build/saye_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/yiyi/ackermann_sim/build/saye_description
+[38.643s] -- Install configuration: ""
+[38.643s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description//models
+[38.644s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description//models/walking_actor
+[38.644s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description//models/walking_actor/thumbnails
+[38.644s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description//models/walking_actor/thumbnails/5.png
+[38.644s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description//models/walking_actor/thumbnails/1.png
+[38.644s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description//models/walking_actor/thumbnails/2.png
+[38.645s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description//models/walking_actor/thumbnails/4.png
+[38.646s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description//models/walking_actor/thumbnails/3.png
+[38.646s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description//models/walking_actor/model.config
+[38.646s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description//models/walking_actor/meshes
+[38.646s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description//models/walking_actor/meshes/walk.dae
+[38.647s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description//models/walking_actor/model.sdf
+[38.647s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description//models/saye
+[38.647s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description//models/saye/model.config
+[38.647s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description//models/saye/meshes
+[38.647s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description//models/saye/meshes/STL27L.dae
+[38.648s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description//models/saye/meshes/TopReduced.dae
+[38.648s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description//models/saye/meshes/sensor_rack_lowres_shallow_laser.dae
+[38.648s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description//models/saye/meshes/Wheel.dae
+[38.648s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description//models/saye/meshes/BaseReduced.dae
+[38.648s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description//models/saye/meshes/sensor_rack_support_lowres.dae
+[38.648s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description//models/saye/model.sdf
+[38.648s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description//models/saye/model_2d_lidar.sdf
+[38.649s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description//worlds
+[38.649s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description//worlds/saye_dynamic_corridor_generated.sdf
+[38.649s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description//worlds/templates
+[38.649s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description//worlds/templates/saye_dynamic_corridor.sdf.jinja2
+[38.649s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description//worlds/corridor_empty.sdf
+[38.649s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description//worlds/saye_dynamic_corridor.sdf
+[38.650s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description//worlds/saye_world.sdf
+[38.650s] -- Installing: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description//worlds/saye_moving_obstacles.sdf
+[38.650s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description//worlds/scenario5_6ped_random.sdf
+[38.650s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description//worlds/scenario4_6ped_static.sdf
+[38.650s] -- Installing: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description//worlds/actor_pose_bridge_test.sdf
+[38.650s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description//worlds/saye_dynamic_corridor_plugin.sdf
+[38.650s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description//worlds/scenario1_4ped_crossing.sdf
+[38.650s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description//worlds/saye_long_corridor.sdf
+[38.651s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description//worlds/warehouse
+[38.651s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description//worlds/warehouse/thumbnails
+[38.651s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description//worlds/warehouse/thumbnails/1.png
+[38.651s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description//worlds/warehouse/thumbnails/2.png
+[38.651s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description//worlds/warehouse/thumbnails/4.png
+[38.651s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description//worlds/warehouse/thumbnails/3.png
+[38.652s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description//worlds/warehouse/model.config
+[38.652s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description//worlds/warehouse/meshes
+[38.652s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description//worlds/warehouse/meshes/Tape001_1K_Color.png
+[38.652s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description//worlds/warehouse/meshes/Rough_Square_Concrete_Block.jpg
+[38.652s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description//worlds/warehouse/meshes/Asphalt010_1K_Color.jpg
+[38.652s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description//worlds/warehouse/meshes/ground.png
+[38.653s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description//worlds/warehouse/meshes/Terrazzo005_1K_Color.jpg
+[38.653s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description//worlds/warehouse/meshes/warehouse.dae
+[38.653s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description//worlds/warehouse/meshes/warehouse_colision.stl
+[38.653s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description//worlds/warehouse/model.sdf
+[38.654s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description//worlds/scenario3_12ped_crowded.sdf
+[38.654s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description//worlds/scenario2_8ped_mixed.sdf
+[38.654s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description//hooks
+[38.654s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description//hooks/ros_gz_example_description.dsv.in
+[38.654s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description//hooks/ros_gz_example_description.sh.in
+[38.654s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/lib/libpedestrian_manager_system.so
+[38.655s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description/config
+[38.655s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description/config/pedestrian_actors_plugin.yaml
+[38.655s] -- Installing: /home/yiyi/ackermann_sim/install/saye_description/lib/libactor_pose_publisher_system.so
+[38.655s] -- Set non-toolchain portion of runtime path of "/home/yiyi/ackermann_sim/install/saye_description/lib/libactor_pose_publisher_system.so" to ""
+[38.655s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description/environment/ros_gz_example_description.sh
+[38.655s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description/environment/ros_gz_example_description.dsv
+[38.655s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/ament_index/resource_index/package_run_dependencies/saye_description
+[38.655s] -- Installing: /home/yiyi/ackermann_sim/install/saye_description/share/ament_index/resource_index/parent_prefix_path/saye_description
+[38.655s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description/environment/ament_prefix_path.sh
+[38.656s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description/environment/ament_prefix_path.dsv
+[38.656s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description/environment/path.sh
+[38.656s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description/environment/path.dsv
+[38.656s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description/local_setup.bash
+[38.656s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description/local_setup.sh
+[38.656s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description/local_setup.zsh
+[38.656s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description/local_setup.dsv
+[38.656s] -- Installing: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description/package.dsv
+[38.656s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/ament_index/resource_index/packages/saye_description
+[38.656s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description/cmake/saye_descriptionConfig.cmake
+[38.657s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description/cmake/saye_descriptionConfig-version.cmake
+[38.657s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description/package.xml
+[38.658s] Invoked command in '/home/yiyi/ackermann_sim/build/saye_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/yiyi/ackermann_sim/build/saye_description

@@ -1,0 +1,26 @@
+- name: "walker_center"
+  animation: "walking"
+  skin_uri: "model://walking_actor/meshes/walk.dae"
+  loop: true
+  auto_start: true
+  initial_pose: [12.0, -2.5, 1.0, 0.0, 0.0, 1.5708]
+  waypoints:
+    - time: 0.0
+      pose: [12.0, -2.5, 1.0, 0.0, 0.0, 1.5708]
+    - time: 4.0
+      pose: [12.0,  2.5, 1.0, 0.0, 0.0, 1.5708]
+    - time: 8.0
+      pose: [12.0, -2.5, 1.0, 0.0, 0.0, -1.5708]
+- name: "walker_east"
+  animation: "walking"
+  skin_uri: "model://walking_actor/meshes/walk.dae"
+  loop: true
+  auto_start: true
+  initial_pose: [18.0, 2.8, 1.0, 0.0, 0.0, -1.5708]
+  waypoints:
+    - time: 0.0
+      pose: [18.0,  2.8, 1.0, 0.0, 0.0, -1.5708]
+    - time: 6.0
+      pose: [18.0, -2.8, 1.0, 0.0, 0.0, -1.5708]
+    - time: 12.0
+      pose: [18.0,  2.8, 1.0, 0.0, 0.0, 1.5708]

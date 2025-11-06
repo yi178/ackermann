@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-508a31bbcb2c5a125d0f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "saye_prediction",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_saye_prediction_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_saye_prediction_egg-04c1eceaa8090da495fd.json",
+					"name" : "ament_cmake_python_build_saye_prediction_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_saye_prediction::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_saye_prediction-d8bbcf07c62c6cc77f36.json",
+					"name" : "ament_cmake_python_copy_saye_prediction",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "saye_prediction_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-saye_prediction_uninstall-0579755f18e7758a56ac.json",
+					"name" : "saye_prediction_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-a7748e8fdefba261cd90.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/yiyi/ackermann_sim/build/saye_prediction",
+		"source" : "/home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_prediction"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

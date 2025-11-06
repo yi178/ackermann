@@ -1,0 +1,22 @@
+1761289163.2522283 [INFO] [launch]: All log files can be found below /home/yiyi/ackermann_sim/ros_logs/2025-10-24-14-59-23-245801-yiyi-3597
+1761289163.2524216 [INFO] [launch]: Default logging verbosity is set to INFO
+1761289164.0341077 [INFO] [gazebo-1]: process started with pid [3600]
+1761289164.0342963 [INFO] [robot_state_publisher-2]: process started with pid [3601]
+1761289164.0344059 [INFO] [parameter_bridge-3]: process started with pid [3602]
+1761289164.1300142 [robot_state_publisher-2] getifaddrs: Operation not permitted
+1761289164.1301866 [robot_state_publisher-2] getifaddrs: Operation not permitted
+1761289164.1302440 [robot_state_publisher-2] getifaddrs: Operation not permitted
+1761289164.1346900 [robot_state_publisher-2] [37;1m2025-10-24 14:59:24.134 [31;1m[[37;1mRTPS_TRANSPORT_SHM[31;1m Error] [37mFailed to create segment 4f720cb60c6fe5fd: Permission denied[34;1m -> Function [36mcompute_per_allocation_extra_size[m
+1761289164.1351235 [robot_state_publisher-2] [37;1m2025-10-24 14:59:24.134 [31;1m[[37;1mRTPS_TRANSPORT_SHM[31;1m Error] [37mFailed to create Shared Memory Manager for domain fastrtps: Permission denied[34;1m -> Function [36mcreate[m
+1761289164.1352310 [robot_state_publisher-2] [37;1m2025-10-24 14:59:24.134 [31;1m[[37;1mRTPS_PARTICIPANT[31;1m Error] [37mUnable to Register SHM Transport. SHM Transport is not supported in the current platform.[34;1m -> Function [36mRTPSParticipantImpl[m
+1761289164.1354587 [robot_state_publisher-2] [37;1m2025-10-24 14:59:24.135 [31;1m[[37;1mTRANSPORT_UDP[31;1m Error] [37mError creating socket: Operation not permitted[34;1m -> Function [36minit[m
+1761289164.1355467 [robot_state_publisher-2] [37;1m2025-10-24 14:59:24.135 [31;1m[[37;1mRTPS_PARTICIPANT[31;1m Error] [37mUser transport failed to register.[34;1m -> Function [36mRTPSParticipantImpl[m
+1761289164.1356115 [robot_state_publisher-2] [37;1m2025-10-24 14:59:24.135 [31;1m[[37;1mRTPS_PARTICIPANT[31;1m Error] [37mCannot create participant due to initialization error[34;1m -> Function [36mcreateParticipant[m
+1761289164.1358178 [robot_state_publisher-2] [37;1m2025-10-24 14:59:24.135 [31;1m[[37;1mDOMAIN_PARTICIPANT[31;1m Error] [37mProblem creating RTPSParticipant[34;1m -> Function [36menable[m
+1761289164.1363399 [robot_state_publisher-2] terminate called after throwing an instance of 'rclcpp::exceptions::RCLError'
+1761289164.1368341 [robot_state_publisher-2]   what():  failed to initialize rcl node: __create_participant failed to create participant, at ./src/participant.cpp:107, at ./src/rcl/node.c:252
+1761289164.4133143 [INFO] [gazebo-1]: process has finished cleanly [pid 3600]
+1761289164.5246215 [ERROR] [robot_state_publisher-2]: process has died [pid 3601, exit code -6, cmd '/opt/ros/jazzy/lib/robot_state_publisher/robot_state_publisher --ros-args --log-level info --ros-args -r __node:=robot_state_publisher --params-file /tmp/launch_params_fc7bqst4 --params-file /tmp/launch_params_a8f_7bkd --params-file /tmp/launch_params_fl3j5hde'].
+1761289164.9888389 [ERROR] [parameter_bridge-3]: process has died [pid 3602, exit code -6, cmd '/opt/ros/jazzy/lib/ros_gz_bridge/parameter_bridge --ros-args --params-file /tmp/launch_params_xpiao5dt'].
+1761289167.0399957 [INFO] [create-4]: process started with pid [3624]
+1761289167.7334852 [ERROR] [create-4]: process has died [pid 3624, exit code -6, cmd '/opt/ros/jazzy/lib/ros_gz_sim/create -file /home/yiyi/ackermann_sim/install/saye_description/share/saye_description/models/saye/model_2d_lidar.sdf -name saye -allow_renaming true -z 0.35 --ros-args'].

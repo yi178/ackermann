@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-2fed06aa529765cf43cf.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "saye_rapa_mppi",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "saye_rapa_mppi::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-saye_rapa_mppi-Release-63cb51aa17cf5a441170.json",
+					"name" : "saye_rapa_mppi",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "saye_rapa_mppi_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-saye_rapa_mppi_uninstall-Release-c373b1b114d5b6626e85.json",
+					"name" : "saye_rapa_mppi_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-e6dbb32ae442b7097cab.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/yiyi/ackermann_sim/build/saye_rapa_mppi",
+		"source" : "/home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_rapa_mppi"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

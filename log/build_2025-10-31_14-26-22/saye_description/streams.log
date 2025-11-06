@@ -1,0 +1,13 @@
+[0.017s] Invoking command in '/home/yiyi/ackermann_sim/build/saye_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/yiyi/ackermann_sim/build/saye_description -- -j16 -l16
+[0.101s] [ 53%] Built target generate_worlds
+[0.108s] [ 76%] Building CXX object CMakeFiles/test_actor_driver_system.dir/plugins/actor_pose_publisher/src/test_actor_driver_system.cpp.o
+[0.108s] [ 92%] Built target actor_pose_publisher_system
+[0.108s] [ 92%] Built target pedestrian_manager_system
+[0.928s] /home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_description/plugins/actor_pose_publisher/src/test_actor_driver_system.cpp:9:10: fatal error: gz/sim/components/TrajectoryPose.hh: No such file or directory
+[0.928s]     9 | #include <gz/sim/components/TrajectoryPose.hh>
+[0.928s]       |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[0.928s] compilation terminated.
+[0.948s] gmake[2]: *** [CMakeFiles/test_actor_driver_system.dir/build.make:76: CMakeFiles/test_actor_driver_system.dir/plugins/actor_pose_publisher/src/test_actor_driver_system.cpp.o] Error 1
+[0.948s] gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/test_actor_driver_system.dir/all] Error 2
+[0.949s] gmake: *** [Makefile:146: all] Error 2
+[0.954s] Invoked command in '/home/yiyi/ackermann_sim/build/saye_description' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/yiyi/ackermann_sim/build/saye_description -- -j16 -l16

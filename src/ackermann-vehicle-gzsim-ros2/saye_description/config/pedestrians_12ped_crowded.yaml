@@ -1,0 +1,257 @@
+# Scenario 3: 12 Pedestrians Crowded Environment
+# Based on DRA-MPPI paper - High density stress test
+#
+# Layout:
+#   - 6 pedestrians: main corridor dense traffic (3 pairs)
+#   - 4 pedestrians: alcove in/out movements
+#   - 2 pedestrians: slow moving obstacles
+#
+# Purpose: Extreme density test for MPPI robustness
+# Density: ~0.5 ped/m² (12 pedestrians in 24m corridor)
+
+pedestrians:
+  # ========== Main Corridor Dense Traffic (3 Oncoming Pairs) ==========
+
+  # Pair 1: Center lane
+  - name: walker_main_1a
+    skin: model://walking_actor/meshes/walk.dae
+    animation: walking
+    loop: true
+    auto_start: true
+    # Far end, center, facing backward
+    spawn_pose: [23.0, 0.0, 1.0, 0.0, 0.0, 3.14159265359]
+    trajectory:
+      - time: 0.0
+        pose: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      - time: 13.0
+        pose: [-19.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      - time: 14.0
+        pose: [-19.0, 0.0, 0.0, 0.0, 0.0, 3.14159265359]
+      - time: 27.0
+        pose: [0.0, 0.0, 0.0, 0.0, 0.0, 3.14159265359]
+      - time: 28.0
+        pose: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+  - name: walker_main_1b
+    skin: model://walking_actor/meshes/walk.dae
+    animation: walking
+    loop: true
+    auto_start: true
+    # Near end, center, facing forward
+    spawn_pose: [7.0, 0.0, 1.0, 0.0, 0.0, 0.0]
+    trajectory:
+      - time: 0.0
+        pose: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      - time: 11.0
+        pose: [16.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      - time: 12.0
+        pose: [16.0, 0.0, 0.0, 0.0, 0.0, 3.14159265359]
+      - time: 23.0
+        pose: [0.0, 0.0, 0.0, 0.0, 0.0, 3.14159265359]
+      - time: 24.0
+        pose: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+  # Pair 2: Left lane
+  - name: walker_main_2a
+    skin: model://walking_actor/meshes/walk.dae
+    animation: walking
+    loop: true
+    auto_start: true
+    spawn_pose: [21.0, 1.0, 1.0, 0.0, 0.0, 3.14159265359]
+    trajectory:
+      - time: 0.0
+        pose: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      - time: 12.0
+        pose: [-17.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      - time: 13.0
+        pose: [-17.0, 0.0, 0.0, 0.0, 0.0, 3.14159265359]
+      - time: 25.0
+        pose: [0.0, 0.0, 0.0, 0.0, 0.0, 3.14159265359]
+      - time: 26.0
+        pose: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+  - name: walker_main_2b
+    skin: model://walking_actor/meshes/walk.dae
+    animation: walking
+    loop: true
+    auto_start: true
+    spawn_pose: [9.0, 1.0, 1.0, 0.0, 0.0, 0.0]
+    trajectory:
+      - time: 0.0
+        pose: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      - time: 10.0
+        pose: [14.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      - time: 11.0
+        pose: [14.0, 0.0, 0.0, 0.0, 0.0, 3.14159265359]
+      - time: 21.0
+        pose: [0.0, 0.0, 0.0, 0.0, 0.0, 3.14159265359]
+      - time: 22.0
+        pose: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+  # Pair 3: Right lane
+  - name: walker_main_3a
+    skin: model://walking_actor/meshes/walk.dae
+    animation: walking
+    loop: true
+    auto_start: true
+    spawn_pose: [19.0, -1.0, 1.0, 0.0, 0.0, 3.14159265359]
+    trajectory:
+      - time: 0.0
+        pose: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      - time: 11.0
+        pose: [-15.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      - time: 12.0
+        pose: [-15.0, 0.0, 0.0, 0.0, 0.0, 3.14159265359]
+      - time: 23.0
+        pose: [0.0, 0.0, 0.0, 0.0, 0.0, 3.14159265359]
+      - time: 24.0
+        pose: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+  - name: walker_main_3b
+    skin: model://walking_actor/meshes/walk.dae
+    animation: walking
+    loop: true
+    auto_start: true
+    spawn_pose: [11.0, -1.0, 1.0, 0.0, 0.0, 0.0]
+    trajectory:
+      - time: 0.0
+        pose: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      - time: 9.0
+        pose: [12.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      - time: 10.0
+        pose: [12.0, 0.0, 0.0, 0.0, 0.0, 3.14159265359]
+      - time: 19.0
+        pose: [0.0, 0.0, 0.0, 0.0, 0.0, 3.14159265359]
+      - time: 20.0
+        pose: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+  # ========== Alcove In/Out Movements ==========
+
+  # Left alcove 1 (around x=7)
+  - name: walker_alcove_L1
+    skin: model://walking_actor/meshes/walk.dae
+    animation: walking
+    loop: true
+    auto_start: true
+    # Start in alcove, facing toward corridor
+    spawn_pose: [7.0, 3.5, 1.0, 0.0, 0.0, -1.57079632679]
+    trajectory:
+      - time: 0.0
+        pose: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      - time: 2.0
+        pose: [0.0, -2.0, 0.0, 0.0, 0.0, 0.0]  # Enter corridor
+      - time: 4.0
+        pose: [0.0, -2.0, 0.0, 0.0, 0.0, 3.14159265359]  # Turn around
+      - time: 6.0
+        pose: [0.0, 0.0, 0.0, 0.0, 0.0, 3.14159265359]  # Back to alcove
+      - time: 7.0
+        pose: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+  # Left alcove 2 (around x=15)
+  - name: walker_alcove_L2
+    skin: model://walking_actor/meshes/walk.dae
+    animation: walking
+    loop: true
+    auto_start: true
+    spawn_pose: [15.0, 3.5, 1.0, 0.0, 0.0, -1.57079632679]
+    trajectory:
+      - time: 0.0
+        pose: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      - time: 2.5
+        pose: [0.0, -2.5, 0.0, 0.0, 0.0, 0.0]
+      - time: 5.0
+        pose: [0.0, -2.5, 0.0, 0.0, 0.0, 3.14159265359]
+      - time: 7.5
+        pose: [0.0, 0.0, 0.0, 0.0, 0.0, 3.14159265359]
+      - time: 8.0
+        pose: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+  # Right alcove 1 (around x=7)
+  - name: walker_alcove_R1
+    skin: model://walking_actor/meshes/walk.dae
+    animation: walking
+    loop: true
+    auto_start: true
+    spawn_pose: [7.0, -3.5, 1.0, 0.0, 0.0, 1.57079632679]
+    trajectory:
+      - time: 0.0
+        pose: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      - time: 2.2
+        pose: [0.0, 2.2, 0.0, 0.0, 0.0, 0.0]
+      - time: 4.4
+        pose: [0.0, 2.2, 0.0, 0.0, 0.0, 3.14159265359]
+      - time: 6.6
+        pose: [0.0, 0.0, 0.0, 0.0, 0.0, 3.14159265359]
+      - time: 7.0
+        pose: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+  # Right alcove 2 (around x=15)
+  - name: walker_alcove_R2
+    skin: model://walking_actor/meshes/walk.dae
+    animation: walking
+    loop: true
+    auto_start: true
+    spawn_pose: [15.0, -3.5, 1.0, 0.0, 0.0, 1.57079632679]
+    trajectory:
+      - time: 0.0
+        pose: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      - time: 3.0
+        pose: [0.0, 2.8, 0.0, 0.0, 0.0, 0.0]
+      - time: 6.0
+        pose: [0.0, 2.8, 0.0, 0.0, 0.0, 3.14159265359]
+      - time: 9.0
+        pose: [0.0, 0.0, 0.0, 0.0, 0.0, 3.14159265359]
+      - time: 10.0
+        pose: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+  # ========== Slow Moving Obstacles ==========
+
+  # Slow crosser
+  - name: walker_slow_cross
+    skin: model://walking_actor/meshes/walk.dae
+    animation: walking
+    loop: true
+    auto_start: true
+    # Very slow lateral movement
+    spawn_pose: [13.0, 2.2, 1.0, 0.0, 0.0, -1.57079632679]
+    trajectory:
+      - time: 0.0
+        pose: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      - time: 8.0
+        pose: [0.0, -4.4, 0.0, 0.0, 0.0, 0.0]  # 0.55 m/s
+      - time: 9.0
+        pose: [0.0, -4.4, 0.0, 0.0, 0.0, 3.14159265359]
+      - time: 17.0
+        pose: [0.0, 0.0, 0.0, 0.0, 0.0, 3.14159265359]
+      - time: 18.0
+        pose: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+  # Slow longitudinal
+  - name: walker_slow_long
+    skin: model://walking_actor/meshes/walk.dae
+    animation: walking
+    loop: true
+    auto_start: true
+    spawn_pose: [17.0, 0.5, 1.0, 0.0, 0.0, 3.14159265359]
+    trajectory:
+      - time: 0.0
+        pose: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      - time: 15.0
+        pose: [-9.0, 0.0, 0.0, 0.0, 0.0, 0.0]  # 0.6 m/s
+      - time: 16.0
+        pose: [-9.0, 0.0, 0.0, 0.0, 0.0, 3.14159265359]
+      - time: 31.0
+        pose: [0.0, 0.0, 0.0, 0.0, 0.0, 3.14159265359]
+      - time: 32.0
+        pose: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+# Crowding characteristics:
+#   - Peak density at x=7-19m corridor section
+#   - Multiple simultaneous crossing zones
+#   - Speed variation: 0.55-1.5 m/s
+#   - Unpredictable alcove entries creating sudden obstacles
+#
+# This scenario is designed to stress-test MPPI's:
+#   - Multi-agent prediction
+#   - Real-time replanning
+#   - Safety margins in dense crowds

@@ -1,0 +1,70 @@
+[0.027s] Invoking command in '/home/yiyi/ackermann_sim/build/saye_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/yiyi/ackermann_sim/build/saye_description -- -j16 -l16
+[0.160s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.502s] -- Found robot_state_publisher: 3.3.3 (/opt/ros/jazzy/share/robot_state_publisher/cmake)
+[0.950s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.972s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.004s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.034s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.157s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.161s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.784s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.648s] -- Found xacro: 2.1.1 (/opt/ros/jazzy/share/xacro/cmake)
+[2.649s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[2.799s] -- Added test 'lint_cmake' to check CMake code style
+[2.804s] -- Added test 'xmllint' to check XML markup files
+[2.807s] -- Configuring done (2.7s)
+[2.825s] -- Generating done (0.0s)
+[2.831s] -- Build files have been written to: /home/yiyi/ackermann_sim/build/saye_description
+[2.892s] Invoked command in '/home/yiyi/ackermann_sim/build/saye_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/yiyi/ackermann_sim/build/saye_description -- -j16 -l16
+[2.913s] Invoking command in '/home/yiyi/ackermann_sim/build/saye_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/yiyi/ackermann_sim/build/saye_description
+[2.928s] -- Install configuration: ""
+[2.928s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description//models
+[2.929s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description//models/saye
+[2.929s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description//models/saye/model.config
+[2.929s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description//models/saye/meshes
+[2.929s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description//models/saye/meshes/STL27L.dae
+[2.929s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description//models/saye/meshes/TopReduced.dae
+[2.930s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description//models/saye/meshes/sensor_rack_lowres_shallow_laser.dae
+[2.930s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description//models/saye/meshes/Wheel.dae
+[2.930s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description//models/saye/meshes/BaseReduced.dae
+[2.930s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description//models/saye/meshes/sensor_rack_support_lowres.dae
+[2.930s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description//models/saye/model.sdf
+[2.930s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description//worlds
+[2.931s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description//worlds/saye_world.sdf
+[2.931s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description//worlds/warehouse
+[2.931s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description//worlds/warehouse/thumbnails
+[2.931s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description//worlds/warehouse/thumbnails/1.png
+[2.931s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description//worlds/warehouse/thumbnails/2.png
+[2.931s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description//worlds/warehouse/thumbnails/4.png
+[2.931s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description//worlds/warehouse/thumbnails/3.png
+[2.931s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description//worlds/warehouse/model.config
+[2.931s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description//worlds/warehouse/meshes
+[2.932s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description//worlds/warehouse/meshes/Tape001_1K_Color.png
+[2.932s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description//worlds/warehouse/meshes/Rough_Square_Concrete_Block.jpg
+[2.932s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description//worlds/warehouse/meshes/Asphalt010_1K_Color.jpg
+[2.932s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description//worlds/warehouse/meshes/ground.png
+[2.932s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description//worlds/warehouse/meshes/Terrazzo005_1K_Color.jpg
+[2.932s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description//worlds/warehouse/meshes/warehouse.dae
+[2.932s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description//worlds/warehouse/meshes/warehouse_colision.stl
+[2.932s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description//worlds/warehouse/model.sdf
+[2.932s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description//hooks
+[2.932s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description//hooks/ros_gz_example_description.dsv.in
+[2.933s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description//hooks/ros_gz_example_description.sh.in
+[2.933s] -- Installing: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description/environment/ros_gz_example_description.sh
+[2.933s] -- Installing: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description/environment/ros_gz_example_description.dsv
+[2.933s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/ament_index/resource_index/package_run_dependencies/saye_description
+[2.933s] -- Installing: /home/yiyi/ackermann_sim/install/saye_description/share/ament_index/resource_index/parent_prefix_path/saye_description
+[2.933s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description/environment/ament_prefix_path.sh
+[2.933s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description/environment/ament_prefix_path.dsv
+[2.933s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description/environment/path.sh
+[2.934s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description/environment/path.dsv
+[2.934s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description/local_setup.bash
+[2.934s] -- Installing: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description/local_setup.sh
+[2.935s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description/local_setup.zsh
+[2.935s] -- Installing: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description/local_setup.dsv
+[2.935s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description/package.dsv
+[2.935s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/ament_index/resource_index/packages/saye_description
+[2.936s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description/cmake/saye_descriptionConfig.cmake
+[2.936s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description/cmake/saye_descriptionConfig-version.cmake
+[2.936s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description/package.xml
+[2.939s] Invoked command in '/home/yiyi/ackermann_sim/build/saye_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/yiyi/ackermann_sim/build/saye_description

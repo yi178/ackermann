@@ -1,0 +1,12 @@
+[0.018s] Invoking command in '/home/yiyi/ackermann_sim/build/saye_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/yiyi/ackermann_sim/build/saye_description -- -j16 -l16
+[0.105s] [ 58%] Built target generate_worlds
+[0.110s] [ 75%] Built target pedestrian_manager_system
+[0.125s] [ 83%] Building CXX object CMakeFiles/actor_pose_publisher_system.dir/plugins/actor_pose_publisher/src/test_actor_driver_system.cpp.o
+[6.366s] [ 91%] Linking CXX shared library libactor_pose_publisher_system.so
+[6.737s] /usr/bin/ld: CMakeFiles/actor_pose_publisher_system.dir/plugins/actor_pose_publisher/src/test_actor_driver_system.cpp.o: in function `GzPluginHook':
+[6.739s] test_actor_driver_system.cpp:(.text+0xb): multiple definition of `GzPluginHook'; CMakeFiles/actor_pose_publisher_system.dir/plugins/actor_pose_publisher/src/actor_pose_publisher_system.cpp.o:actor_pose_publisher_system.cpp:(.text+0xb): first defined here
+[7.067s] collect2: error: ld returned 1 exit status
+[7.069s] gmake[2]: *** [CMakeFiles/actor_pose_publisher_system.dir/build.make:157: libactor_pose_publisher_system.so] Error 1
+[7.070s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/actor_pose_publisher_system.dir/all] Error 2
+[7.070s] gmake: *** [Makefile:146: all] Error 2
+[7.075s] Invoked command in '/home/yiyi/ackermann_sim/build/saye_description' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/yiyi/ackermann_sim/build/saye_description -- -j16 -l16

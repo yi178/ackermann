@@ -1,0 +1,32 @@
+# Scenario 1: 4 Pedestrians Crossing Pattern
+# 场景1：4个行人交叉模式
+
+gazebo_pose_bridge:
+  ros__parameters:
+    pose_topic: "/world/dynamic_corridor_world/pose/info"
+    output_topic: "/actor_pose_bridge"
+    frame_id: "odom"
+    actor_names: [
+      'walker_oncoming_1',
+      'walker_oncoming_2',
+      'walker_crossing_left',
+      'walker_crossing_right'
+    ]
+
+ground_truth_predictor:
+  ros__parameters:
+    prediction_horizon: 2.8
+    prediction_dt: 0.05
+
+    actor_names: [
+      'walker_oncoming_1',
+      'walker_oncoming_2',
+      'walker_crossing_left',
+      'walker_crossing_right'
+    ]
+
+    history_size: 5
+    sigma_0: 0.1
+    sigma_q: 0.5
+    publish_rate: 10.0
+    pose_topic: "/actor_pose_bridge"

@@ -1,0 +1,10 @@
+[ 50%] Building CXX object CMakeFiles/pedestrian_manager_system.dir/plugins/pedestrian_manager/src/pedestrian_manager_system.cpp.o
+In file included from /opt/ros/jazzy/opt/gz_plugin_vendor/include/gz/plugin2/gz/plugin/Register.hh:22,
+                 from /home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_description/plugins/pedestrian_manager/src/pedestrian_manager_system.cpp:12:
+/home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_description/plugins/pedestrian_manager/src/pedestrian_manager_system.cpp: In constructor ‘gz::plugin::{anonymous}::ExecuteWhenLoadingLibrary1::ExecuteWhenLoadingLibrary1()’:
+/home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_description/plugins/pedestrian_manager/src/pedestrian_manager_system.cpp:244:21: error: ‘saye’ has not been declared
+  244 |                     saye::PedestrianManagerSystem)
+      |                     ^~~~
+gmake[2]: *** [CMakeFiles/pedestrian_manager_system.dir/build.make:76: CMakeFiles/pedestrian_manager_system.dir/plugins/pedestrian_manager/src/pedestrian_manager_system.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/pedestrian_manager_system.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

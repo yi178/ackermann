@@ -1,0 +1,377 @@
+[0.000000] (-) TimerEvent: {}
+[0.000189] (-) JobUnselected: {'identifier': 'saye_behaviortree'}
+[0.000241] (-) JobUnselected: {'identifier': 'saye_bringup'}
+[0.000279] (-) JobUnselected: {'identifier': 'saye_bringup_my'}
+[0.000312] (-) JobUnselected: {'identifier': 'saye_control'}
+[0.000344] (-) JobUnselected: {'identifier': 'saye_description'}
+[0.000377] (-) JobUnselected: {'identifier': 'saye_localization'}
+[0.000408] (-) JobUnselected: {'identifier': 'saye_mppi'}
+[0.000439] (-) JobUnselected: {'identifier': 'saye_msgs'}
+[0.000470] (-) JobUnselected: {'identifier': 'saye_prediction'}
+[0.000504] (saye_rapa_mppi) JobQueued: {'identifier': 'saye_rapa_mppi', 'dependencies': OrderedDict({'saye_msgs': '/home/yiyi/ackermann_sim/install/saye_msgs'})}
+[0.001080] (saye_rapa_mppi) JobStarted: {'identifier': 'saye_rapa_mppi'}
+[0.099453] (-) TimerEvent: {}
+[0.199679] (-) TimerEvent: {}
+[0.299951] (-) TimerEvent: {}
+[0.400276] (-) TimerEvent: {}
+[0.503606] (-) TimerEvent: {}
+[0.504201] (saye_rapa_mppi) JobProgress: {'identifier': 'saye_rapa_mppi', 'progress': 'cmake'}
+[0.507589] (saye_rapa_mppi) Command: {'cmd': ['/usr/bin/cmake', '/home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_rapa_mppi', '-DCMAKE_BUILD_TYPE=Release', '-DCMAKE_INSTALL_PREFIX=/home/yiyi/ackermann_sim/install/saye_rapa_mppi'], 'cwd': '/home/yiyi/ackermann_sim/build/saye_rapa_mppi', 'env': OrderedDict({'GZ_SIM_SYSTEM_PLUGIN_PATH': '/home/yiyi/ackermann_sim/install/saye_description/lib', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'HTTPS_PROXY': 'http://127.0.0.1:7897', 'GZ_SIM_RESOURCE_PATH': '/home/yiyi/ackermann_sim/install/saye_description/share/saye_description/models:/home/yiyi/ackermann_sim/install/saye_description/share', 'no_proxy': '172.31.*,172.30.*,172.29.*,172.28.*,172.27.*,172.26.*,172.25.*,172.24.*,172.23.*,172.22.*,172.21.*,172.20.*,172.19.*,172.18.*,172.17.*,172.16.*,10.*,192.168.*,127.*,localhost,<local>', 'USER': 'yiyi', 'CLAUDE_CODE_ENTRYPOINT': 'cli', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'GIT_EDITOR': 'true', 'SHLVL': '3', 'LD_LIBRARY_PATH': '/home/yiyi/ackermann_sim/install/saye_msgs/lib:/home/yiyi/ackermann_sim/install/saye_description/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'WT_PROFILE_ID': '{d8e96812-b789-5068-a5ae-10b2fb53e95f}', 'HOME': '/home/yiyi', 'OLDPWD': '/home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2', 'NO_PROXY': '172.31.*,172.30.*,172.29.*,172.28.*,172.27.*,172.26.*,172.25.*,172.24.*,172.23.*,172.22.*,172.21.*,172.20.*,172.19.*,172.18.*,172.17.*,172.16.*,10.*,192.168.*,127.*,localhost,<local>', 'NVM_BIN': '/home/yiyi/.nvm/versions/node/v22.21.0/bin', 'NVM_INC': '/home/yiyi/.nvm/versions/node/v22.21.0/include/node', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', 'NVM_DIR': '/home/yiyi/.nvm', 'WAYLAND_DISPLAY': 'wayland-0', 'https_proxy': 'http://127.0.0.1:7897', 'COLCON_PREFIX_PATH': '/home/yiyi/ackermann_sim/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'yiyi', 'NAME': 'yiyi', 'WSL_INTEROP': '/run/WSL/4600_interop', 'http_proxy': 'http://127.0.0.1:7897', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'OTEL_EXPORTER_OTLP_METRICS_TEMPORALITY_PREFERENCE': 'delta', 'PATH': '/home/yiyi/.local/bin:/home/yiyi/.local/bin:/home/yiyi/.local/share/pnpm:/home/yiyi/.nvm/versions/node/v22.21.0/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/STMicroelectronics/stlink_server:/mnt/d/clion_for_stm32/Stm32clt/STM32CubeCLT_1.19.0:/mnt/d/clion_for_stm32/Stm32clt/STM32CubeCLT_1.19.0/CMake/bin:/mnt/d/clion_for_stm32/Stm32clt/STM32CubeCLT_1.19.0/st-arm-clang/bin:/mnt/d/clion_for_stm32/Stm32clt/STM32CubeCLT_1.19.0/Ninja/bin:/mnt/d/clion_for_stm32/Stm32clt/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin:/mnt/d/clion_for_stm32/Stm32clt/STM32CubeCLT_1.19.0/STLink-gdb-server/bin:/mnt/d/clion_for_stm32/Stm32clt/STM32CubeCLT_1.19.0/STM32CubeProgrammer/bin:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/d/Python/Python308/Scripts/:/mnt/d/Python/Python308/:/mnt/d/Vmware/bin/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/d/bandzip/Bandizip/:/mnt/d/Python/Python310/:/mnt/c/Program Files/dotnet/:/mnt/d/MYsQL8/bin:/mnt/d/JAVA/jdk1.8.0_152/jdk1.8.0_152/bin:/mnt/d/JAVA/jdk1.8.0_152/jdk1.8.0_152/jre/bin:/mnt/d/VS code/Microsoft VS Code/bin:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/DTS/Binn/:/mnt/c/Program Files/Git/cmd:/mnt/d/Matlab2024b/runtime/win64:/mnt/d/Matlab2024b/bin:/mnt/d/Windows Kits/10/Windows Performance Toolkit/:/mnt/d/cursor/cursor/resources/app/bin:/mnt/c/ProgramData/chocolatey/bin:/mnt/d/nodejs/:/mnt/d/cursor/cursor/resources/app/bin:/mnt/d/IDEAl/windsurf/Windsurf/bin:/mnt/c/Users/29705/AppData/Local/pnpm:/mnt/d/python/python312/Scripts/:/mnt/d/python/python312/:/mnt/c/Users/29705/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/29705/AppData/Local/Microsoft/WindowsApps:/mnt/d/clion/CLion 2024.1/bin:/mnt/d/pycharm/PyCharm Community Edition 2023.1.3/bin:/mnt/d/新建文件夹/miktex/bin/x64/:/mnt/d/IntelliJ IDEAIntelliJ IDEA/IntelliJ IDEA 2024.1.1/bin:/mnt/d/pycharm/PyCharm 2024.1.1/bin:/mnt/c/Users/29705/AppData/Local/JetBrains/Toolbox/scripts:/mnt/d/Modelsim/win64:/mnt/c/Users/29705/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/29705/AppData/Local/Microsoft/WindowsApps:/mnt/d/msys/ucrt64/bin:/mnt/c/Users/29705/.dotnet/tools:/mnt/d/IDEAl/kiro/Kiro/bin:/mnt/c/Users/29705/AppData/Local/Programs/Ollama:/mnt/c/Users/29705/.lmstudio/bin:/mnt/c/Users/29705/AppData/Roaming/npm:/mnt/c/Users/29705/AppData/Local/Microsoft/WinGet/Links:/mnt/d/pycharm/PyCharm 2025.2.3/bin:/mnt/d/clion/CLion 2025.2.3/bin:/mnt/c/Users/29705/.dotnet/tools:/mnt/d/Zed/bin:/snap/bin', 'COREPACK_ENABLE_AUTO_PIN': '0', 'WT_SESSION': '649e8d43-04b4-4f97-bd34-b57701a6edc3', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'NoDefaultCurrentDirectoryInExePath': '1', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/yiyi/ackermann_sim/install/saye_prediction:/home/yiyi/ackermann_sim/install/saye_control:/home/yiyi/ackermann_sim/install/saye_msgs:/home/yiyi/ackermann_sim/install/saye_mppi:/home/yiyi/ackermann_sim/install/saye_localization:/home/yiyi/ackermann_sim/install/saye_bringup_my:/home/yiyi/ackermann_sim/install/saye_bringup:/home/yiyi/ackermann_sim/install/saye_description:/home/yiyi/ackermann_sim/install/saye_behaviortree:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'CLAUDECODE': '1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/yiyi/ackermann_sim/build/saye_rapa_mppi', 'NVM_CD_FLAGS': '', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/yiyi/ackermann_sim/install/saye_msgs/lib/python3.12/site-packages:/home/yiyi/ackermann_sim/install/saye_prediction/lib/python3.12/site-packages:/home/yiyi/ackermann_sim/install/saye_mppi/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'HTTP_PROXY': 'http://127.0.0.1:7897', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'PNPM_HOME': '/home/yiyi/.local/share/pnpm', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/yiyi/ackermann_sim/install/saye_msgs:/home/yiyi/ackermann_sim/install/saye_prediction:/home/yiyi/ackermann_sim/install/saye_control:/home/yiyi/ackermann_sim/install/saye_mppi:/home/yiyi/ackermann_sim/install/saye_localization:/home/yiyi/ackermann_sim/install/saye_bringup_my:/home/yiyi/ackermann_sim/install/saye_bringup:/home/yiyi/ackermann_sim/install/saye_description:/home/yiyi/ackermann_sim/install/saye_behaviortree:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'WSLENV': 'WT_SESSION:WT_PROFILE_ID:'}), 'shell': False}
+[0.603722] (-) TimerEvent: {}
+[0.704007] (-) TimerEvent: {}
+[0.804494] (-) TimerEvent: {}
+[0.904771] (-) TimerEvent: {}
+[1.005272] (-) TimerEvent: {}
+[1.105524] (-) TimerEvent: {}
+[1.205741] (-) TimerEvent: {}
+[1.207346] (saye_rapa_mppi) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[1.305890] (-) TimerEvent: {}
+[1.406097] (-) TimerEvent: {}
+[1.506297] (-) TimerEvent: {}
+[1.606560] (-) TimerEvent: {}
+[1.706735] (-) TimerEvent: {}
+[1.806962] (-) TimerEvent: {}
+[1.907189] (-) TimerEvent: {}
+[2.007428] (-) TimerEvent: {}
+[2.107662] (-) TimerEvent: {}
+[2.207902] (-) TimerEvent: {}
+[2.308148] (-) TimerEvent: {}
+[2.408395] (-) TimerEvent: {}
+[2.508639] (-) TimerEvent: {}
+[2.608904] (-) TimerEvent: {}
+[2.709184] (-) TimerEvent: {}
+[2.809456] (-) TimerEvent: {}
+[2.909713] (-) TimerEvent: {}
+[3.009959] (-) TimerEvent: {}
+[3.110199] (-) TimerEvent: {}
+[3.210436] (-) TimerEvent: {}
+[3.310676] (-) TimerEvent: {}
+[3.410939] (-) TimerEvent: {}
+[3.511196] (-) TimerEvent: {}
+[3.611505] (-) TimerEvent: {}
+[3.618484] (saye_rapa_mppi) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[3.711630] (-) TimerEvent: {}
+[3.811864] (-) TimerEvent: {}
+[3.912109] (-) TimerEvent: {}
+[4.012340] (-) TimerEvent: {}
+[4.112618] (-) TimerEvent: {}
+[4.212868] (-) TimerEvent: {}
+[4.313091] (-) TimerEvent: {}
+[4.413333] (-) TimerEvent: {}
+[4.513562] (-) TimerEvent: {}
+[4.613794] (-) TimerEvent: {}
+[4.714063] (-) TimerEvent: {}
+[4.814294] (-) TimerEvent: {}
+[4.914526] (-) TimerEvent: {}
+[5.014840] (-) TimerEvent: {}
+[5.115092] (-) TimerEvent: {}
+[5.215351] (-) TimerEvent: {}
+[5.315605] (-) TimerEvent: {}
+[5.415847] (-) TimerEvent: {}
+[5.516115] (-) TimerEvent: {}
+[5.616428] (-) TimerEvent: {}
+[5.716735] (-) TimerEvent: {}
+[5.817001] (-) TimerEvent: {}
+[5.836225] (saye_rapa_mppi) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[5.917128] (-) TimerEvent: {}
+[6.017359] (-) TimerEvent: {}
+[6.117600] (-) TimerEvent: {}
+[6.217860] (-) TimerEvent: {}
+[6.318114] (-) TimerEvent: {}
+[6.418369] (-) TimerEvent: {}
+[6.518720] (-) TimerEvent: {}
+[6.618989] (-) TimerEvent: {}
+[6.662151] (saye_rapa_mppi) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[6.672551] (saye_rapa_mppi) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[6.676574] (saye_rapa_mppi) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[6.677631] (saye_rapa_mppi) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[6.719075] (-) TimerEvent: {}
+[6.819334] (-) TimerEvent: {}
+[6.919576] (-) TimerEvent: {}
+[7.019864] (-) TimerEvent: {}
+[7.020746] (saye_rapa_mppi) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[7.119993] (-) TimerEvent: {}
+[7.220198] (-) TimerEvent: {}
+[7.320420] (-) TimerEvent: {}
+[7.420664] (-) TimerEvent: {}
+[7.520917] (-) TimerEvent: {}
+[7.621181] (-) TimerEvent: {}
+[7.721432] (-) TimerEvent: {}
+[7.821682] (-) TimerEvent: {}
+[7.860778] (saye_rapa_mppi) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[7.871234] (saye_rapa_mppi) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[7.871774] (saye_rapa_mppi) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[7.872222] (saye_rapa_mppi) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[7.921794] (-) TimerEvent: {}
+[7.928468] (saye_rapa_mppi) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[8.021913] (-) TimerEvent: {}
+[8.122146] (-) TimerEvent: {}
+[8.185748] (saye_rapa_mppi) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[8.222274] (-) TimerEvent: {}
+[8.322515] (-) TimerEvent: {}
+[8.422733] (-) TimerEvent: {}
+[8.448135] (saye_rapa_mppi) StdoutLine: {'line': b'-- Found rclcpp: 28.1.12 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[8.522867] (-) TimerEvent: {}
+[8.623089] (-) TimerEvent: {}
+[8.723326] (-) TimerEvent: {}
+[8.823648] (-) TimerEvent: {}
+[8.923924] (-) TimerEvent: {}
+[9.024232] (-) TimerEvent: {}
+[9.047902] (saye_rapa_mppi) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[9.091029] (saye_rapa_mppi) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[9.124345] (-) TimerEvent: {}
+[9.149821] (saye_rapa_mppi) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[9.203324] (saye_rapa_mppi) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[9.224450] (-) TimerEvent: {}
+[9.324742] (-) TimerEvent: {}
+[9.407181] (saye_rapa_mppi) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[9.421278] (saye_rapa_mppi) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[9.424838] (-) TimerEvent: {}
+[9.525041] (-) TimerEvent: {}
+[9.625288] (-) TimerEvent: {}
+[9.654873] (saye_rapa_mppi) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[9.725437] (-) TimerEvent: {}
+[9.825767] (-) TimerEvent: {}
+[9.926045] (-) TimerEvent: {}
+[10.026296] (-) TimerEvent: {}
+[10.126532] (-) TimerEvent: {}
+[10.226751] (-) TimerEvent: {}
+[10.279786] (saye_rapa_mppi) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[10.326883] (-) TimerEvent: {}
+[10.427139] (-) TimerEvent: {}
+[10.527401] (-) TimerEvent: {}
+[10.622662] (saye_rapa_mppi) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[10.627529] (-) TimerEvent: {}
+[10.727806] (-) TimerEvent: {}
+[10.828151] (-) TimerEvent: {}
+[10.928401] (-) TimerEvent: {}
+[11.028625] (-) TimerEvent: {}
+[11.128849] (-) TimerEvent: {}
+[11.229114] (-) TimerEvent: {}
+[11.329576] (saye_rapa_mppi) StdoutLine: {'line': b'-- Found nav2_mppi_controller: 1.3.9 (/opt/ros/jazzy/share/nav2_mppi_controller/cmake)\n'}
+[11.329915] (-) TimerEvent: {}
+[11.430077] (-) TimerEvent: {}
+[11.530359] (-) TimerEvent: {}
+[11.630705] (-) TimerEvent: {}
+[11.731079] (-) TimerEvent: {}
+[11.831313] (-) TimerEvent: {}
+[11.931600] (-) TimerEvent: {}
+[12.031861] (-) TimerEvent: {}
+[12.132090] (-) TimerEvent: {}
+[12.232369] (-) TimerEvent: {}
+[12.332676] (-) TimerEvent: {}
+[12.432928] (-) TimerEvent: {}
+[12.475031] (saye_rapa_mppi) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)\n'}
+[12.478132] (saye_rapa_mppi) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[12.478399] (saye_rapa_mppi) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[12.533066] (-) TimerEvent: {}
+[12.633306] (-) TimerEvent: {}
+[12.733569] (-) TimerEvent: {}
+[12.833433] (saye_rapa_mppi) StdoutLine: {'line': b'-- Found saye_msgs: 0.0.0 (/home/yiyi/ackermann_sim/install/saye_msgs/share/saye_msgs/cmake)\n'}
+[12.833751] (-) TimerEvent: {}
+[12.933996] (-) TimerEvent: {}
+[13.034319] (-) TimerEvent: {}
+[13.086875] (saye_rapa_mppi) StdoutLine: {'line': b'-- Configuring done (12.5s)\n'}
+[13.134435] (-) TimerEvent: {}
+[13.234662] (-) TimerEvent: {}
+[13.334896] (-) TimerEvent: {}
+[13.348948] (saye_rapa_mppi) StdoutLine: {'line': b'-- Generating done (0.2s)\n'}
+[13.357875] (saye_rapa_mppi) StdoutLine: {'line': b'-- Build files have been written to: /home/yiyi/ackermann_sim/build/saye_rapa_mppi\n'}
+[13.377433] (saye_rapa_mppi) CommandEnded: {'returncode': 0}
+[13.379264] (saye_rapa_mppi) JobProgress: {'identifier': 'saye_rapa_mppi', 'progress': 'build'}
+[13.379576] (saye_rapa_mppi) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/yiyi/ackermann_sim/build/saye_rapa_mppi', '--', '-j16', '-l16'], 'cwd': '/home/yiyi/ackermann_sim/build/saye_rapa_mppi', 'env': OrderedDict({'GZ_SIM_SYSTEM_PLUGIN_PATH': '/home/yiyi/ackermann_sim/install/saye_description/lib', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'HTTPS_PROXY': 'http://127.0.0.1:7897', 'GZ_SIM_RESOURCE_PATH': '/home/yiyi/ackermann_sim/install/saye_description/share/saye_description/models:/home/yiyi/ackermann_sim/install/saye_description/share', 'no_proxy': '172.31.*,172.30.*,172.29.*,172.28.*,172.27.*,172.26.*,172.25.*,172.24.*,172.23.*,172.22.*,172.21.*,172.20.*,172.19.*,172.18.*,172.17.*,172.16.*,10.*,192.168.*,127.*,localhost,<local>', 'USER': 'yiyi', 'CLAUDE_CODE_ENTRYPOINT': 'cli', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'GIT_EDITOR': 'true', 'SHLVL': '3', 'LD_LIBRARY_PATH': '/home/yiyi/ackermann_sim/install/saye_msgs/lib:/home/yiyi/ackermann_sim/install/saye_description/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'WT_PROFILE_ID': '{d8e96812-b789-5068-a5ae-10b2fb53e95f}', 'HOME': '/home/yiyi', 'OLDPWD': '/home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2', 'NO_PROXY': '172.31.*,172.30.*,172.29.*,172.28.*,172.27.*,172.26.*,172.25.*,172.24.*,172.23.*,172.22.*,172.21.*,172.20.*,172.19.*,172.18.*,172.17.*,172.16.*,10.*,192.168.*,127.*,localhost,<local>', 'NVM_BIN': '/home/yiyi/.nvm/versions/node/v22.21.0/bin', 'NVM_INC': '/home/yiyi/.nvm/versions/node/v22.21.0/include/node', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', 'NVM_DIR': '/home/yiyi/.nvm', 'WAYLAND_DISPLAY': 'wayland-0', 'https_proxy': 'http://127.0.0.1:7897', 'COLCON_PREFIX_PATH': '/home/yiyi/ackermann_sim/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'yiyi', 'NAME': 'yiyi', 'WSL_INTEROP': '/run/WSL/4600_interop', 'http_proxy': 'http://127.0.0.1:7897', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'OTEL_EXPORTER_OTLP_METRICS_TEMPORALITY_PREFERENCE': 'delta', 'PATH': '/home/yiyi/.local/bin:/home/yiyi/.local/bin:/home/yiyi/.local/share/pnpm:/home/yiyi/.nvm/versions/node/v22.21.0/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/STMicroelectronics/stlink_server:/mnt/d/clion_for_stm32/Stm32clt/STM32CubeCLT_1.19.0:/mnt/d/clion_for_stm32/Stm32clt/STM32CubeCLT_1.19.0/CMake/bin:/mnt/d/clion_for_stm32/Stm32clt/STM32CubeCLT_1.19.0/st-arm-clang/bin:/mnt/d/clion_for_stm32/Stm32clt/STM32CubeCLT_1.19.0/Ninja/bin:/mnt/d/clion_for_stm32/Stm32clt/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin:/mnt/d/clion_for_stm32/Stm32clt/STM32CubeCLT_1.19.0/STLink-gdb-server/bin:/mnt/d/clion_for_stm32/Stm32clt/STM32CubeCLT_1.19.0/STM32CubeProgrammer/bin:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/d/Python/Python308/Scripts/:/mnt/d/Python/Python308/:/mnt/d/Vmware/bin/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/d/bandzip/Bandizip/:/mnt/d/Python/Python310/:/mnt/c/Program Files/dotnet/:/mnt/d/MYsQL8/bin:/mnt/d/JAVA/jdk1.8.0_152/jdk1.8.0_152/bin:/mnt/d/JAVA/jdk1.8.0_152/jdk1.8.0_152/jre/bin:/mnt/d/VS code/Microsoft VS Code/bin:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/DTS/Binn/:/mnt/c/Program Files/Git/cmd:/mnt/d/Matlab2024b/runtime/win64:/mnt/d/Matlab2024b/bin:/mnt/d/Windows Kits/10/Windows Performance Toolkit/:/mnt/d/cursor/cursor/resources/app/bin:/mnt/c/ProgramData/chocolatey/bin:/mnt/d/nodejs/:/mnt/d/cursor/cursor/resources/app/bin:/mnt/d/IDEAl/windsurf/Windsurf/bin:/mnt/c/Users/29705/AppData/Local/pnpm:/mnt/d/python/python312/Scripts/:/mnt/d/python/python312/:/mnt/c/Users/29705/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/29705/AppData/Local/Microsoft/WindowsApps:/mnt/d/clion/CLion 2024.1/bin:/mnt/d/pycharm/PyCharm Community Edition 2023.1.3/bin:/mnt/d/新建文件夹/miktex/bin/x64/:/mnt/d/IntelliJ IDEAIntelliJ IDEA/IntelliJ IDEA 2024.1.1/bin:/mnt/d/pycharm/PyCharm 2024.1.1/bin:/mnt/c/Users/29705/AppData/Local/JetBrains/Toolbox/scripts:/mnt/d/Modelsim/win64:/mnt/c/Users/29705/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/29705/AppData/Local/Microsoft/WindowsApps:/mnt/d/msys/ucrt64/bin:/mnt/c/Users/29705/.dotnet/tools:/mnt/d/IDEAl/kiro/Kiro/bin:/mnt/c/Users/29705/AppData/Local/Programs/Ollama:/mnt/c/Users/29705/.lmstudio/bin:/mnt/c/Users/29705/AppData/Roaming/npm:/mnt/c/Users/29705/AppData/Local/Microsoft/WinGet/Links:/mnt/d/pycharm/PyCharm 2025.2.3/bin:/mnt/d/clion/CLion 2025.2.3/bin:/mnt/c/Users/29705/.dotnet/tools:/mnt/d/Zed/bin:/snap/bin', 'COREPACK_ENABLE_AUTO_PIN': '0', 'WT_SESSION': '649e8d43-04b4-4f97-bd34-b57701a6edc3', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'NoDefaultCurrentDirectoryInExePath': '1', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/yiyi/ackermann_sim/install/saye_prediction:/home/yiyi/ackermann_sim/install/saye_control:/home/yiyi/ackermann_sim/install/saye_msgs:/home/yiyi/ackermann_sim/install/saye_mppi:/home/yiyi/ackermann_sim/install/saye_localization:/home/yiyi/ackermann_sim/install/saye_bringup_my:/home/yiyi/ackermann_sim/install/saye_bringup:/home/yiyi/ackermann_sim/install/saye_description:/home/yiyi/ackermann_sim/install/saye_behaviortree:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'CLAUDECODE': '1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/yiyi/ackermann_sim/build/saye_rapa_mppi', 'NVM_CD_FLAGS': '', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/yiyi/ackermann_sim/install/saye_msgs/lib/python3.12/site-packages:/home/yiyi/ackermann_sim/install/saye_prediction/lib/python3.12/site-packages:/home/yiyi/ackermann_sim/install/saye_mppi/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'HTTP_PROXY': 'http://127.0.0.1:7897', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'PNPM_HOME': '/home/yiyi/.local/share/pnpm', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/yiyi/ackermann_sim/install/saye_msgs:/home/yiyi/ackermann_sim/install/saye_prediction:/home/yiyi/ackermann_sim/install/saye_control:/home/yiyi/ackermann_sim/install/saye_mppi:/home/yiyi/ackermann_sim/install/saye_localization:/home/yiyi/ackermann_sim/install/saye_bringup_my:/home/yiyi/ackermann_sim/install/saye_bringup:/home/yiyi/ackermann_sim/install/saye_description:/home/yiyi/ackermann_sim/install/saye_behaviortree:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'WSLENV': 'WT_SESSION:WT_PROFILE_ID:'}), 'shell': False}
+[13.435218] (-) TimerEvent: {}
+[13.487704] (saye_rapa_mppi) StdoutLine: {'line': b'[ 50%] Building CXX object CMakeFiles/saye_rapa_mppi.dir/src/risk_aware_critic.cpp.o\n'}
+[13.535479] (-) TimerEvent: {}
+[13.635743] (-) TimerEvent: {}
+[13.736000] (-) TimerEvent: {}
+[13.836237] (-) TimerEvent: {}
+[13.936486] (-) TimerEvent: {}
+[14.036768] (-) TimerEvent: {}
+[14.137005] (-) TimerEvent: {}
+[14.237250] (-) TimerEvent: {}
+[14.337463] (-) TimerEvent: {}
+[14.437685] (-) TimerEvent: {}
+[14.537950] (-) TimerEvent: {}
+[14.638224] (-) TimerEvent: {}
+[14.738464] (-) TimerEvent: {}
+[14.838715] (-) TimerEvent: {}
+[14.938937] (-) TimerEvent: {}
+[15.039173] (-) TimerEvent: {}
+[15.139526] (-) TimerEvent: {}
+[15.239873] (-) TimerEvent: {}
+[15.340093] (-) TimerEvent: {}
+[15.440331] (-) TimerEvent: {}
+[15.540668] (-) TimerEvent: {}
+[15.640984] (-) TimerEvent: {}
+[15.741217] (-) TimerEvent: {}
+[15.841457] (-) TimerEvent: {}
+[15.941670] (-) TimerEvent: {}
+[16.041949] (-) TimerEvent: {}
+[16.142373] (-) TimerEvent: {}
+[16.242684] (-) TimerEvent: {}
+[16.342992] (-) TimerEvent: {}
+[16.443238] (-) TimerEvent: {}
+[16.543556] (-) TimerEvent: {}
+[16.643915] (-) TimerEvent: {}
+[16.744223] (-) TimerEvent: {}
+[16.844469] (-) TimerEvent: {}
+[16.944716] (-) TimerEvent: {}
+[17.044993] (-) TimerEvent: {}
+[17.145241] (-) TimerEvent: {}
+[17.245506] (-) TimerEvent: {}
+[17.345817] (-) TimerEvent: {}
+[17.446059] (-) TimerEvent: {}
+[17.546371] (-) TimerEvent: {}
+[17.646667] (-) TimerEvent: {}
+[17.746978] (-) TimerEvent: {}
+[17.847231] (-) TimerEvent: {}
+[17.947482] (-) TimerEvent: {}
+[18.047791] (-) TimerEvent: {}
+[18.148041] (-) TimerEvent: {}
+[18.248312] (-) TimerEvent: {}
+[18.348564] (-) TimerEvent: {}
+[18.448823] (-) TimerEvent: {}
+[18.549172] (-) TimerEvent: {}
+[18.649476] (-) TimerEvent: {}
+[18.749727] (-) TimerEvent: {}
+[18.850033] (-) TimerEvent: {}
+[18.950346] (-) TimerEvent: {}
+[19.050681] (-) TimerEvent: {}
+[19.150983] (-) TimerEvent: {}
+[19.251237] (-) TimerEvent: {}
+[19.351567] (-) TimerEvent: {}
+[19.451854] (-) TimerEvent: {}
+[19.552106] (-) TimerEvent: {}
+[19.652398] (-) TimerEvent: {}
+[19.713942] (saye_rapa_mppi) StderrLine: {'line': b'In file included from /home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_rapa_mppi/src/risk_aware_critic.cpp:1:\n'}
+[19.714333] (saye_rapa_mppi) StderrLine: {'line': b'/home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_rapa_mppi/include/saye_rapa_mppi/risk_aware_critic.hpp:17:32: error: \xe2\x80\x98nav2_mppi_controller\xe2\x80\x99 has not been declared\n'}
+[19.714498] (saye_rapa_mppi) StderrLine: {'line': b'   17 | class RiskAwareCritic : public nav2_mppi_controller::critics::CriticFunction\n'}
+[19.714617] (saye_rapa_mppi) StderrLine: {'line': b'      |                                ^~~~~~~~~~~~~~~~~~~~\n'}
+[19.714722] (saye_rapa_mppi) StderrLine: {'line': b'/home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_rapa_mppi/include/saye_rapa_mppi/risk_aware_critic.hpp:17:63: error: expected \xe2\x80\x98{\xe2\x80\x99 before \xe2\x80\x98CriticFunction\xe2\x80\x99\n'}
+[19.714866] (saye_rapa_mppi) StderrLine: {'line': b'   17 | class RiskAwareCritic : public nav2_mppi_controller::critics::CriticFunction\n'}
+[19.714984] (saye_rapa_mppi) StderrLine: {'line': b'      |                                                               ^~~~~~~~~~~~~~\n'}
+[19.715090] (saye_rapa_mppi) StderrLine: {'line': b'/home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_rapa_mppi/include/saye_rapa_mppi/risk_aware_critic.hpp:19:1: error: expected primary-expression before \xe2\x80\x98public\xe2\x80\x99\n'}
+[19.715207] (saye_rapa_mppi) StderrLine: {'line': b'   19 | public:\n'}
+[19.715310] (saye_rapa_mppi) StderrLine: {'line': b'      | ^~~~~~\n'}
+[19.715440] (saye_rapa_mppi) StderrLine: {'line': b'/home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_rapa_mppi/include/saye_rapa_mppi/risk_aware_critic.hpp:19:1: error: expected \xe2\x80\x98}\xe2\x80\x99 before \xe2\x80\x98public\xe2\x80\x99\n'}
+[19.715516] (saye_rapa_mppi) StderrLine: {'line': b'/home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_rapa_mppi/include/saye_rapa_mppi/risk_aware_critic.hpp:18:1: note: to match this \xe2\x80\x98{\xe2\x80\x99\n'}
+[19.715617] (saye_rapa_mppi) StderrLine: {'line': b'   18 | {\n'}
+[19.715682] (saye_rapa_mppi) StderrLine: {'line': b'      | ^\n'}
+[19.715749] (saye_rapa_mppi) StderrLine: {'line': b'/home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_rapa_mppi/include/saye_rapa_mppi/risk_aware_critic.hpp:21:8: error: variable or field \xe2\x80\x98score\xe2\x80\x99 declared void\n'}
+[19.715835] (saye_rapa_mppi) StderrLine: {'line': b'   21 |   void score(CriticData & data) override;\n'}
+[19.715920] (saye_rapa_mppi) StderrLine: {'line': b'      |        ^~~~~\n'}
+[19.719421] (saye_rapa_mppi) StderrLine: {'line': b'/home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_rapa_mppi/include/saye_rapa_mppi/risk_aware_critic.hpp:21:14: error: \xe2\x80\x98CriticData\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98mppi::CriticData\xe2\x80\x99?\n'}
+[19.719708] (saye_rapa_mppi) StderrLine: {'line': b'   21 |   void score(CriticData & data) override;\n'}
+[19.719884] (saye_rapa_mppi) StderrLine: {'line': b'      |              ^~~~~~~~~~\n'}
+[19.720045] (saye_rapa_mppi) StderrLine: {'line': b'      |              mppi::CriticData\n'}
+[19.720175] (saye_rapa_mppi) StderrLine: {'line': b'In file included from /opt/ros/jazzy/include/nav2_mppi_controller/critic_function.hpp:25,\n'}
+[19.720270] (saye_rapa_mppi) StderrLine: {'line': b'                 from /home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_rapa_mppi/include/saye_rapa_mppi/risk_aware_critic.hpp:9:\n'}
+[19.720339] (saye_rapa_mppi) StderrLine: {'line': b'/opt/ros/jazzy/include/nav2_mppi_controller/critic_data.hpp:44:8: note: \xe2\x80\x98mppi::CriticData\xe2\x80\x99 declared here\n'}
+[19.720405] (saye_rapa_mppi) StderrLine: {'line': b'   44 | struct CriticData\n'}
+[19.720477] (saye_rapa_mppi) StderrLine: {'line': b'      |        ^~~~~~~~~~\n'}
+[19.721274] (saye_rapa_mppi) StderrLine: {'line': b'/home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_rapa_mppi/include/saye_rapa_mppi/risk_aware_critic.hpp:21:27: error: \xe2\x80\x98data\xe2\x80\x99 was not declared in this scope\n'}
+[19.721547] (saye_rapa_mppi) StderrLine: {'line': b'   21 |   void score(CriticData & data) override;\n'}
+[19.721693] (saye_rapa_mppi) StderrLine: {'line': b'      |                           ^~~~\n'}
+[19.722258] (saye_rapa_mppi) StderrLine: {'line': b'/home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_rapa_mppi/include/saye_rapa_mppi/risk_aware_critic.hpp:21:27: note: suggested alternatives:\n'}
+[19.722400] (saye_rapa_mppi) StderrLine: {'line': b'In file included from /usr/include/c++/13/string:53,\n'}
+[19.722500] (saye_rapa_mppi) StderrLine: {'line': b'                 from /home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_rapa_mppi/include/saye_rapa_mppi/risk_aware_critic.hpp:5:\n'}
+[19.722568] (saye_rapa_mppi) StderrLine: {'line': b'/usr/include/c++/13/bits/range_access.h:346:5: note:   \xe2\x80\x98std::data\xe2\x80\x99\n'}
+[19.722634] (saye_rapa_mppi) StderrLine: {'line': b'  346 |     data(initializer_list<_Tp> __il) noexcept\n'}
+[19.722708] (saye_rapa_mppi) StderrLine: {'line': b'      |     ^~~~\n'}
+[19.722776] (saye_rapa_mppi) StderrLine: {'line': b'/usr/include/c++/13/bits/range_access.h:314:5: note:   \xe2\x80\x98std::data\xe2\x80\x99\n'}
+[19.722841] (saye_rapa_mppi) StderrLine: {'line': b'  314 |     data(_Container& __cont) noexcept(noexcept(__cont.data()))\n'}
+[19.722904] (saye_rapa_mppi) StderrLine: {'line': b'      |     ^~~~\n'}
+[19.722966] (saye_rapa_mppi) StderrLine: {'line': b'/home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_rapa_mppi/include/saye_rapa_mppi/risk_aware_critic.hpp:23:1: error: expected unqualified-id before \xe2\x80\x98protected\xe2\x80\x99\n'}
+[19.723030] (saye_rapa_mppi) StderrLine: {'line': b'   23 | protected:\n'}
+[19.723091] (saye_rapa_mppi) StderrLine: {'line': b'      | ^~~~~~~~~\n'}
+[19.723178] (saye_rapa_mppi) StderrLine: {'line': b'/home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_rapa_mppi/include/saye_rapa_mppi/risk_aware_critic.hpp:27:1: error: expected unqualified-id before \xe2\x80\x98private\xe2\x80\x99\n'}
+[19.723257] (saye_rapa_mppi) StderrLine: {'line': b'   27 | private:\n'}
+[19.723325] (saye_rapa_mppi) StderrLine: {'line': b'      | ^~~~~~~\n'}
+[19.724531] (saye_rapa_mppi) StderrLine: {'line': b'/home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_rapa_mppi/include/saye_rapa_mppi/risk_aware_critic.hpp:38:1: error: expected declaration before \xe2\x80\x98}\xe2\x80\x99 token\n'}
+[19.724650] (saye_rapa_mppi) StderrLine: {'line': b'   38 | }  // namespace saye_rapa_mppi\n'}
+[19.724732] (saye_rapa_mppi) StderrLine: {'line': b'      | ^\n'}
+[19.724800] (saye_rapa_mppi) StderrLine: {'line': b'/home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_rapa_mppi/src/risk_aware_critic.cpp:6:34: error: invalid use of incomplete type \xe2\x80\x98class saye_rapa_mppi::RiskAwareCritic\xe2\x80\x99\n'}
+[19.724866] (saye_rapa_mppi) StderrLine: {'line': b'    6 | void RiskAwareCritic::initialize()\n'}
+[19.724944] (saye_rapa_mppi) StderrLine: {'line': b'      |                                  ^\n'}
+[19.725009] (saye_rapa_mppi) StderrLine: {'line': b'/home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_rapa_mppi/include/saye_rapa_mppi/risk_aware_critic.hpp:17:7: note: forward declaration of \xe2\x80\x98class saye_rapa_mppi::RiskAwareCritic\xe2\x80\x99\n'}
+[19.725073] (saye_rapa_mppi) StderrLine: {'line': b'   17 | class RiskAwareCritic : public nav2_mppi_controller::critics::CriticFunction\n'}
+[19.725134] (saye_rapa_mppi) StderrLine: {'line': b'      |       ^~~~~~~~~~~~~~~\n'}
+[19.725194] (saye_rapa_mppi) StderrLine: {'line': b'/home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_rapa_mppi/src/risk_aware_critic.cpp:27:61: error: invalid use of incomplete type \xe2\x80\x98class saye_rapa_mppi::RiskAwareCritic\xe2\x80\x99\n'}
+[19.725263] (saye_rapa_mppi) StderrLine: {'line': b'   27 |   const saye_msgs::msg::PedestrianPredictions::SharedPtr msg)\n'}
+[19.725326] (saye_rapa_mppi) StderrLine: {'line': b'      |                                                             ^\n'}
+[19.725402] (saye_rapa_mppi) StderrLine: {'line': b'/home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_rapa_mppi/include/saye_rapa_mppi/risk_aware_critic.hpp:17:7: note: forward declaration of \xe2\x80\x98class saye_rapa_mppi::RiskAwareCritic\xe2\x80\x99\n'}
+[19.725496] (saye_rapa_mppi) StderrLine: {'line': b'   17 | class RiskAwareCritic : public nav2_mppi_controller::critics::CriticFunction\n'}
+[19.725564] (saye_rapa_mppi) StderrLine: {'line': b'      |       ^~~~~~~~~~~~~~~\n'}
+[19.725628] (saye_rapa_mppi) StderrLine: {'line': b'/home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_rapa_mppi/src/risk_aware_critic.cpp:33:29: error: invalid use of incomplete type \xe2\x80\x98class saye_rapa_mppi::RiskAwareCritic\xe2\x80\x99\n'}
+[19.725690] (saye_rapa_mppi) StderrLine: {'line': b'   33 | void RiskAwareCritic::score(CriticData & data)\n'}
+[19.725752] (saye_rapa_mppi) StderrLine: {'line': b'      |                             ^~~~~~~~~~\n'}
+[19.725816] (saye_rapa_mppi) StderrLine: {'line': b'/home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_rapa_mppi/include/saye_rapa_mppi/risk_aware_critic.hpp:17:7: note: forward declaration of \xe2\x80\x98class saye_rapa_mppi::RiskAwareCritic\xe2\x80\x99\n'}
+[19.725880] (saye_rapa_mppi) StderrLine: {'line': b'   17 | class RiskAwareCritic : public nav2_mppi_controller::critics::CriticFunction\n'}
+[19.726072] (saye_rapa_mppi) StderrLine: {'line': b'      |       ^~~~~~~~~~~~~~~\n'}
+[19.726158] (saye_rapa_mppi) StderrLine: {'line': b'/home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_rapa_mppi/src/risk_aware_critic.cpp:33:29: error: \xe2\x80\x98CriticData\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98mppi::CriticData\xe2\x80\x99?\n'}
+[19.726227] (saye_rapa_mppi) StderrLine: {'line': b'   33 | void RiskAwareCritic::score(CriticData & data)\n'}
+[19.726292] (saye_rapa_mppi) StderrLine: {'line': b'      |                             ^~~~~~~~~~\n'}
+[19.726353] (saye_rapa_mppi) StderrLine: {'line': b'      |                             mppi::CriticData\n'}
+[19.726444] (saye_rapa_mppi) StderrLine: {'line': b'/opt/ros/jazzy/include/nav2_mppi_controller/critic_data.hpp:44:8: note: \xe2\x80\x98mppi::CriticData\xe2\x80\x99 declared here\n'}
+[19.726524] (saye_rapa_mppi) StderrLine: {'line': b'   44 | struct CriticData\n'}
+[19.726840] (saye_rapa_mppi) StderrLine: {'line': b'      |        ^~~~~~~~~~\n'}
+[19.726916] (saye_rapa_mppi) StderrLine: {'line': b'/home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_rapa_mppi/src/risk_aware_critic.cpp:33:42: error: \xe2\x80\x98data\xe2\x80\x99 was not declared in this scope\n'}
+[19.726987] (saye_rapa_mppi) StderrLine: {'line': b'   33 | void RiskAwareCritic::score(CriticData & data)\n'}
+[19.727050] (saye_rapa_mppi) StderrLine: {'line': b'      |                                          ^~~~\n'}
+[19.727112] (saye_rapa_mppi) StderrLine: {'line': b'/home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_rapa_mppi/src/risk_aware_critic.cpp:33:42: note: suggested alternatives:\n'}
+[19.727175] (saye_rapa_mppi) StderrLine: {'line': b'/usr/include/c++/13/bits/range_access.h:346:5: note:   \xe2\x80\x98std::data\xe2\x80\x99\n'}
+[19.727237] (saye_rapa_mppi) StderrLine: {'line': b'  346 |     data(initializer_list<_Tp> __il) noexcept\n'}
+[19.727314] (saye_rapa_mppi) StderrLine: {'line': b'      |     ^~~~\n'}
+[19.727445] (saye_rapa_mppi) StderrLine: {'line': b'/usr/include/c++/13/bits/range_access.h:314:5: note:   \xe2\x80\x98std::data\xe2\x80\x99\n'}
+[19.727528] (saye_rapa_mppi) StderrLine: {'line': b'  314 |     data(_Container& __cont) noexcept(noexcept(__cont.data()))\n'}
+[19.727596] (saye_rapa_mppi) StderrLine: {'line': b'      |     ^~~~\n'}
+[19.731942] (saye_rapa_mppi) StderrLine: {'line': b'In file included from /opt/ros/jazzy/include/class_loader/class_loader/class_loader.hpp:56,\n'}
+[19.732128] (saye_rapa_mppi) StderrLine: {'line': b'                 from /opt/ros/jazzy/include/class_loader/class_loader/multi_library_class_loader.hpp:52,\n'}
+[19.732249] (saye_rapa_mppi) StderrLine: {'line': b'                 from /opt/ros/jazzy/include/pluginlib/pluginlib/class_loader.hpp:38,\n'}
+[19.732360] (saye_rapa_mppi) StderrLine: {'line': b'                 from /opt/ros/jazzy/include/nav2_costmap_2d/nav2_costmap_2d/costmap_2d_ros.hpp:56,\n'}
+[19.732490] (saye_rapa_mppi) StderrLine: {'line': b'                 from /opt/ros/jazzy/include/nav2_mppi_controller/critic_function.hpp:22:\n'}
+[19.732645] (saye_rapa_mppi) StderrLine: {'line': b'/home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_rapa_mppi/src/risk_aware_critic.cpp:58:3: error: \xe2\x80\x98nav2_mppi_controller\xe2\x80\x99 does not name a type\n'}
+[19.732765] (saye_rapa_mppi) StderrLine: {'line': b'   58 |   nav2_mppi_controller::critics::CriticFunction\n'}
+[19.732882] (saye_rapa_mppi) StderrLine: {'line': b'      |   ^~~~~~~~~~~~~~~~~~~~\n'}
+[19.740484] (saye_rapa_mppi) StderrLine: {'line': b'/home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_rapa_mppi/src/risk_aware_critic.cpp: In constructor \xe2\x80\x98{anonymous}::ProxyExec0::ProxyExec0()\xe2\x80\x99:\n'}
+[19.740758] (saye_rapa_mppi) StderrLine: {'line': b'/home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_rapa_mppi/src/risk_aware_critic.cpp:56:1: error: \xe2\x80\x98_base\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98__bases\xe2\x80\x99?\n'}
+[19.740897] (saye_rapa_mppi) StderrLine: {'line': b'   56 | PLUGINLIB_EXPORT_CLASS(\n'}
+[19.741016] (saye_rapa_mppi) StderrLine: {'line': b'      | ^~~~~~~~~~~~~~~~~~~~~~\n'}
+[19.741128] (saye_rapa_mppi) StderrLine: {'line': b'/home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_rapa_mppi/src/risk_aware_critic.cpp:56:1: error: no matching function for call to \xe2\x80\x98registerPlugin<{anonymous}::ProxyExec0::_derived, <expression error> >(const char [32], const char [46])\xe2\x80\x99\n'}
+[19.741318] (saye_rapa_mppi) StderrLine: {'line': b'   56 | PLUGINLIB_EXPORT_CLASS(\n'}
+[19.741457] (saye_rapa_mppi) StderrLine: {'line': b'      | ^~~~~~~~~~~~~~~~~~~~~~\n'}
+[19.741538] (saye_rapa_mppi) StderrLine: {'line': b'In file included from /opt/ros/jazzy/include/class_loader/class_loader/class_loader.hpp:55:\n'}
+[19.741607] (saye_rapa_mppi) StderrLine: {'line': b'/opt/ros/jazzy/include/class_loader/class_loader/class_loader_core.hpp:241:1: note: candidate: \xe2\x80\x98template<class Derived, class Base> class_loader::impl::UniquePtr<class_loader::impl::AbstractMetaObjectBase> class_loader::impl::registerPlugin(const std::string&, const std::string&)\xe2\x80\x99\n'}
+[19.741675] (saye_rapa_mppi) StderrLine: {'line': b'  241 | registerPlugin(const std::string & class_name, const std::string & base_class_name)\n'}
+[19.741738] (saye_rapa_mppi) StderrLine: {'line': b'      | ^~~~~~~~~~~~~~\n'}
+[19.741801] (saye_rapa_mppi) StderrLine: {'line': b'/opt/ros/jazzy/include/class_loader/class_loader/class_loader_core.hpp:241:1: note:   template argument deduction/substitution failed:\n'}
+[19.741864] (saye_rapa_mppi) StderrLine: {'line': b'/home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_rapa_mppi/src/risk_aware_critic.cpp:56:1: error: template argument 2 is invalid\n'}
+[19.741930] (saye_rapa_mppi) StderrLine: {'line': b'   56 | PLUGINLIB_EXPORT_CLASS(\n'}
+[19.741992] (saye_rapa_mppi) StderrLine: {'line': b'      | ^~~~~~~~~~~~~~~~~~~~~~\n'}
+[19.752500] (-) TimerEvent: {}
+[19.852752] (-) TimerEvent: {}
+[19.953097] (-) TimerEvent: {}
+[20.053356] (-) TimerEvent: {}
+[20.153629] (-) TimerEvent: {}
+[20.253865] (-) TimerEvent: {}
+[20.354099] (-) TimerEvent: {}
+[20.454388] (-) TimerEvent: {}
+[20.554653] (-) TimerEvent: {}
+[20.654946] (-) TimerEvent: {}
+[20.755308] (-) TimerEvent: {}
+[20.855689] (-) TimerEvent: {}
+[20.955958] (-) TimerEvent: {}
+[21.056224] (-) TimerEvent: {}
+[21.156540] (-) TimerEvent: {}
+[21.256871] (-) TimerEvent: {}
+[21.357139] (-) TimerEvent: {}
+[21.457421] (-) TimerEvent: {}
+[21.557663] (-) TimerEvent: {}
+[21.657937] (-) TimerEvent: {}
+[21.716677] (saye_rapa_mppi) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/saye_rapa_mppi.dir/build.make:76: CMakeFiles/saye_rapa_mppi.dir/src/risk_aware_critic.cpp.o] Error 1\n'}
+[21.717202] (saye_rapa_mppi) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/saye_rapa_mppi.dir/all] Error 2\n'}
+[21.717960] (saye_rapa_mppi) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[21.721491] (saye_rapa_mppi) CommandEnded: {'returncode': 2}
+[21.744915] (saye_rapa_mppi) JobEnded: {'identifier': 'saye_rapa_mppi', 'rc': 2}
+[21.746106] (-) EventReactorShutdown: {}

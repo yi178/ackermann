@@ -1,0 +1,68 @@
+# Pedestrian Configuration for Dynamic Corridor World
+# This file defines all pedestrian actors that will be generated in the world
+
+pedestrians:
+  # Pedestrian 1: walks in center lane (lateral movement, right to left)
+  - name: walker_center
+    skin: model://walking_actor/meshes/walk.dae
+    animation: walking
+    loop: true
+    auto_start: true
+    # Start at right side (y=-2.5), facing left (+Y direction)
+    spawn_pose: [12.0, -2.5, 1.0, 0.0, 0.0, 1.57079632679]  # yaw=π/2
+    trajectory:
+      # Start position, facing left (+Y)
+      - time: 0.0
+        pose: [0.0, 0.0, 0.0, 0.0, 0.0, 1.57079632679]
+      # Walk left 5m, still facing left
+      - time: 4.0
+        pose: [0.0, 5.0, 0.0, 0.0, 0.0, 1.57079632679]
+      # Turn around to face right (-Y)
+      - time: 5.0
+        pose: [0.0, 5.0, 0.0, 0.0, 0.0, -1.57079632679]
+      # Walk right 5m, facing right
+      - time: 9.0
+        pose: [0.0, 0.0, 0.0, 0.0, 0.0, -1.57079632679]
+      # Turn around to face left (+Y) again
+      - time: 10.0
+        pose: [0.0, 0.0, 0.0, 0.0, 0.0, 1.57079632679]
+
+  # Pedestrian 2: walks on east side (lateral movement, left to right)
+  - name: walker_east
+    skin: model://walking_actor/meshes/walk.dae
+    animation: walking
+    loop: true
+    auto_start: true
+    # Start at left side (y=2.8), facing right (-Y direction)
+    spawn_pose: [18.0, 2.8, 1.0, 0.0, 0.0, -1.57079632679]  # yaw=-π/2
+    trajectory:
+      # Start position, facing right (-Y)
+      - time: 0.0
+        pose: [0.0, 0.0, 0.0, 0.0, 0.0, -1.57079632679]
+      # Walk right 5.6m, still facing right
+      - time: 6.0
+        pose: [0.0, -5.6, 0.0, 0.0, 0.0, -1.57079632679]
+      # Turn around to face left (+Y)
+      - time: 7.0
+        pose: [0.0, -5.6, 0.0, 0.0, 0.0, 1.57079632679]
+      # Walk left 5.6m, facing left
+      - time: 13.0
+        pose: [0.0, 0.0, 0.0, 0.0, 0.0, 1.57079632679]
+      # Turn around to face right (-Y) again
+      - time: 14.0
+        pose: [0.0, 0.0, 0.0, 0.0, 0.0, -1.57079632679]
+
+  # Example: Add more pedestrians by copying the block above
+  # - name: walker_west
+  #   skin: model://walking_actor/meshes/walk.dae
+  #   animation: walking
+  #   loop: true
+  #   auto_start: true
+  #   spawn_pose: [15.0, -2.0, 1.0, 0.0, 0.0, 0.0]
+  #   trajectory:
+  #     - time: 0.0
+  #       pose: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+  #     - time: 5.0
+  #       pose: [3.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+  #     - time: 10.0
+  #       pose: [0.0, 0.0, 0.0, 0.0, 0.0, 3.14159265359]

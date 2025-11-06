@@ -1,0 +1,84 @@
+[0.435s] Invoking command in '/home/yiyi/ackermann_sim/build/saye_control': AMENT_PREFIX_PATH=/home/yiyi/ackermann_sim/install/saye_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yiyi/ackermann_sim/install/saye_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/home/yiyi/ackermann_sim/install/saye_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/yiyi/ackermann_sim/install/saye_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_control -DCMAKE_INSTALL_PREFIX=/home/yiyi/ackermann_sim/install/saye_control
+[0.799s] -- The C compiler identification is GNU 13.3.0
+[2.772s] -- The CXX compiler identification is GNU 13.3.0
+[4.706s] -- Detecting C compiler ABI info
+[5.420s] -- Detecting C compiler ABI info - done
+[5.430s] -- Check for working C compiler: /usr/bin/cc - skipped
+[5.431s] -- Detecting C compile features
+[5.431s] -- Detecting C compile features - done
+[5.738s] -- Detecting CXX compiler ABI info
+[6.452s] -- Detecting CXX compiler ABI info - done
+[6.463s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[6.463s] -- Detecting CXX compile features
+[6.463s] -- Detecting CXX compile features - done
+[6.470s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[6.697s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[6.882s] -- Found rclcpp: 28.1.12 (/opt/ros/jazzy/share/rclcpp/cmake)
+[7.305s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[7.333s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[7.365s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[7.399s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.531s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[7.538s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[7.707s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[8.237s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[8.537s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[9.029s] -- Found rclpy: 7.1.5 (/opt/ros/jazzy/share/rclpy/cmake)
+[9.034s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[9.116s] -- Found saye_msgs: 0.0.0 (/home/yiyi/ackermann_sim/install/saye_msgs/share/saye_msgs/cmake)
+[9.376s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[9.528s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[9.529s] -- Configured cppcheck include dirs: /home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_control/include
+[9.529s] -- Configured cppcheck exclude dirs and/or files: 
+[9.531s] -- Added test 'lint_cmake' to check CMake code style
+[9.534s] -- Added test 'uncrustify' to check C / C++ code style
+[9.534s] -- Configured uncrustify additional arguments: 
+[9.535s] -- Added test 'xmllint' to check XML markup files
+[9.539s] -- Configuring done (9.1s)
+[9.572s] -- Generating done (0.0s)
+[9.579s] -- Build files have been written to: /home/yiyi/ackermann_sim/build/saye_control
+[9.596s] Invoked command in '/home/yiyi/ackermann_sim/build/saye_control' returned '0': AMENT_PREFIX_PATH=/home/yiyi/ackermann_sim/install/saye_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yiyi/ackermann_sim/install/saye_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/home/yiyi/ackermann_sim/install/saye_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/yiyi/ackermann_sim/install/saye_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_control -DCMAKE_INSTALL_PREFIX=/home/yiyi/ackermann_sim/install/saye_control
+[9.597s] Invoking command in '/home/yiyi/ackermann_sim/build/saye_control': AMENT_PREFIX_PATH=/home/yiyi/ackermann_sim/install/saye_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yiyi/ackermann_sim/install/saye_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/home/yiyi/ackermann_sim/install/saye_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/yiyi/ackermann_sim/install/saye_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/yiyi/ackermann_sim/build/saye_control -- -j16 -l16
+[9.697s] [ 50%] [32mBuilding CXX object CMakeFiles/client.dir/src/client.cpp.o[0m
+[9.697s] [ 50%] [32mBuilding CXX object CMakeFiles/main.dir/src/main.cpp.o[0m
+[12.701s] In file included from [01m[K/home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_control/src/client.cpp:1[m[K:
+[12.702s] [01m[K/home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_control/include/saye_control/control.hpp:[m[K In member function ‘[01m[Kvoid Control::[01;32m[Kservice_callback[m[K(saye_msgs::srv::ShareMap_Request_<std::allocator<void> >::SharedPtr, saye_msgs::srv::ShareMap_Response_<std::allocator<void> >::SharedPtr)[m[K’:
+[12.702s] [01m[K/home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_control/include/saye_control/control.hpp:95:83:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[12.702s]    95 | void Control::service_callback([01;35m[Kconst saye_msgs::srv::ShareMap::Request::SharedPtr request[m[K, const saye_msgs::srv::ShareMap::Response::SharedPtr response)
+[12.702s]       |                                [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[12.708s] In file included from [01m[K/home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_control/src/main.cpp:1[m[K:
+[12.708s] [01m[K/home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_control/include/saye_control/control.hpp:[m[K In member function ‘[01m[Kvoid Control::[01;32m[Kservice_callback[m[K(saye_msgs::srv::ShareMap_Request_<std::allocator<void> >::SharedPtr, saye_msgs::srv::ShareMap_Response_<std::allocator<void> >::SharedPtr)[m[K’:
+[12.708s] [01m[K/home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_control/include/saye_control/control.hpp:95:83:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[12.708s]    95 | void Control::service_callback([01;35m[Kconst saye_msgs::srv::ShareMap::Request::SharedPtr request[m[K, const saye_msgs::srv::ShareMap::Response::SharedPtr response)
+[12.708s]       |                                [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[21.447s] [ 75%] [32m[1mLinking CXX executable client[0m
+[22.347s] [ 75%] Built target client
+[25.183s] [100%] [32m[1mLinking CXX executable main[0m
+[26.157s] [100%] Built target main
+[26.182s] Invoked command in '/home/yiyi/ackermann_sim/build/saye_control' returned '0': AMENT_PREFIX_PATH=/home/yiyi/ackermann_sim/install/saye_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yiyi/ackermann_sim/install/saye_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/home/yiyi/ackermann_sim/install/saye_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/yiyi/ackermann_sim/install/saye_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/yiyi/ackermann_sim/build/saye_control -- -j16 -l16
+[26.184s] Invoking command in '/home/yiyi/ackermann_sim/build/saye_control': AMENT_PREFIX_PATH=/home/yiyi/ackermann_sim/install/saye_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yiyi/ackermann_sim/install/saye_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/home/yiyi/ackermann_sim/install/saye_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/yiyi/ackermann_sim/install/saye_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/yiyi/ackermann_sim/build/saye_control
+[26.199s] -- Install configuration: ""
+[26.200s] -- Installing: /home/yiyi/ackermann_sim/install/saye_control/include/include
+[26.201s] -- Installing: /home/yiyi/ackermann_sim/install/saye_control/include/include/saye_control
+[26.202s] -- Installing: /home/yiyi/ackermann_sim/install/saye_control/include/include/saye_control/control.hpp
+[26.202s] -- Installing: /home/yiyi/ackermann_sim/install/saye_control/include/include/saye_control/joystick_controller_simulation.hpp
+[26.203s] -- Installing: /home/yiyi/ackermann_sim/install/saye_control/lib/saye_control/main
+[26.222s] -- Set non-toolchain portion of runtime path of "/home/yiyi/ackermann_sim/install/saye_control/lib/saye_control/main" to ""
+[26.222s] -- Installing: /home/yiyi/ackermann_sim/install/saye_control/lib/saye_control/client
+[26.235s] -- Set non-toolchain portion of runtime path of "/home/yiyi/ackermann_sim/install/saye_control/lib/saye_control/client" to ""
+[26.238s] -- Installing: /home/yiyi/ackermann_sim/install/saye_control/share/ament_index/resource_index/package_run_dependencies/saye_control
+[26.239s] -- Installing: /home/yiyi/ackermann_sim/install/saye_control/share/ament_index/resource_index/parent_prefix_path/saye_control
+[26.240s] -- Installing: /home/yiyi/ackermann_sim/install/saye_control/share/saye_control/environment/ament_prefix_path.sh
+[26.240s] -- Installing: /home/yiyi/ackermann_sim/install/saye_control/share/saye_control/environment/ament_prefix_path.dsv
+[26.241s] -- Installing: /home/yiyi/ackermann_sim/install/saye_control/share/saye_control/environment/path.sh
+[26.241s] -- Installing: /home/yiyi/ackermann_sim/install/saye_control/share/saye_control/environment/path.dsv
+[26.241s] -- Installing: /home/yiyi/ackermann_sim/install/saye_control/share/saye_control/local_setup.bash
+[26.242s] -- Installing: /home/yiyi/ackermann_sim/install/saye_control/share/saye_control/local_setup.sh
+[26.242s] -- Installing: /home/yiyi/ackermann_sim/install/saye_control/share/saye_control/local_setup.zsh
+[26.242s] -- Installing: /home/yiyi/ackermann_sim/install/saye_control/share/saye_control/local_setup.dsv
+[26.243s] -- Installing: /home/yiyi/ackermann_sim/install/saye_control/share/saye_control/package.dsv
+[26.243s] -- Installing: /home/yiyi/ackermann_sim/install/saye_control/share/ament_index/resource_index/packages/saye_control
+[26.244s] -- Installing: /home/yiyi/ackermann_sim/install/saye_control/share/saye_control/cmake/saye_controlConfig.cmake
+[26.244s] -- Installing: /home/yiyi/ackermann_sim/install/saye_control/share/saye_control/cmake/saye_controlConfig-version.cmake
+[26.245s] -- Installing: /home/yiyi/ackermann_sim/install/saye_control/share/saye_control/package.xml
+[26.249s] Invoked command in '/home/yiyi/ackermann_sim/build/saye_control' returned '0': AMENT_PREFIX_PATH=/home/yiyi/ackermann_sim/install/saye_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yiyi/ackermann_sim/install/saye_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/home/yiyi/ackermann_sim/install/saye_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/yiyi/ackermann_sim/install/saye_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/yiyi/ackermann_sim/build/saye_control

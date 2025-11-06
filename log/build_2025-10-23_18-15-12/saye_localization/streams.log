@@ -1,0 +1,67 @@
+[0.031s] Invoking command in '/home/yiyi/ackermann_sim/build/saye_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_localization -DCMAKE_INSTALL_PREFIX=/home/yiyi/ackermann_sim/install/saye_localization
+[0.369s] -- The C compiler identification is GNU 13.3.0
+[2.428s] -- The CXX compiler identification is GNU 13.3.0
+[4.328s] -- Detecting C compiler ABI info
+[4.942s] -- Detecting C compiler ABI info - done
+[4.952s] -- Check for working C compiler: /usr/bin/cc - skipped
+[4.953s] -- Detecting C compile features
+[4.953s] -- Detecting C compile features - done
+[5.184s] -- Detecting CXX compiler ABI info
+[5.812s] -- Detecting CXX compiler ABI info - done
+[5.823s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[5.823s] -- Detecting CXX compile features
+[5.824s] -- Detecting CXX compile features - done
+[5.830s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[6.065s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[6.253s] -- Found rclcpp: 28.1.12 (/opt/ros/jazzy/share/rclcpp/cmake)
+[6.608s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[6.634s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[6.665s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.697s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.836s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[6.846s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[7.006s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[7.577s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[7.836s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[8.306s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[8.402s] -- Found nav2_msgs: 1.3.9 (/opt/ros/jazzy/share/nav2_msgs/cmake)
+[8.625s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[8.783s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[8.784s] -- Configured cppcheck include dirs: /home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_localization/include
+[8.784s] -- Configured cppcheck exclude dirs and/or files: 
+[8.785s] -- Added test 'lint_cmake' to check CMake code style
+[8.788s] -- Added test 'uncrustify' to check C / C++ code style
+[8.788s] -- Configured uncrustify additional arguments: 
+[8.790s] -- Added test 'xmllint' to check XML markup files
+[8.794s] -- Configuring done (8.7s)
+[8.826s] -- Generating done (0.0s)
+[8.832s] -- Build files have been written to: /home/yiyi/ackermann_sim/build/saye_localization
+[8.849s] Invoked command in '/home/yiyi/ackermann_sim/build/saye_localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_localization -DCMAKE_INSTALL_PREFIX=/home/yiyi/ackermann_sim/install/saye_localization
+[8.851s] Invoking command in '/home/yiyi/ackermann_sim/build/saye_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/yiyi/ackermann_sim/build/saye_localization -- -j16 -l16
+[8.960s] [ 50%] [32mBuilding CXX object CMakeFiles/main.dir/src/main.cpp.o[0m
+[21.279s] [100%] [32m[1mLinking CXX executable main[0m
+[22.106s] [100%] Built target main
+[22.127s] Invoked command in '/home/yiyi/ackermann_sim/build/saye_localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/yiyi/ackermann_sim/build/saye_localization -- -j16 -l16
+[22.129s] Invoking command in '/home/yiyi/ackermann_sim/build/saye_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/yiyi/ackermann_sim/build/saye_localization
+[22.144s] -- Install configuration: ""
+[22.144s] -- Installing: /home/yiyi/ackermann_sim/install/saye_localization/include/include
+[22.146s] -- Installing: /home/yiyi/ackermann_sim/install/saye_localization/include/include/saye_localization
+[22.147s] -- Installing: /home/yiyi/ackermann_sim/install/saye_localization/include/include/saye_localization/kalman_filter.hpp
+[22.148s] -- Installing: /home/yiyi/ackermann_sim/install/saye_localization/lib/saye_localization/main
+[22.162s] -- Set non-toolchain portion of runtime path of "/home/yiyi/ackermann_sim/install/saye_localization/lib/saye_localization/main" to ""
+[22.165s] -- Installing: /home/yiyi/ackermann_sim/install/saye_localization/share/ament_index/resource_index/package_run_dependencies/saye_localization
+[22.165s] -- Installing: /home/yiyi/ackermann_sim/install/saye_localization/share/ament_index/resource_index/parent_prefix_path/saye_localization
+[22.167s] -- Installing: /home/yiyi/ackermann_sim/install/saye_localization/share/saye_localization/environment/ament_prefix_path.sh
+[22.167s] -- Installing: /home/yiyi/ackermann_sim/install/saye_localization/share/saye_localization/environment/ament_prefix_path.dsv
+[22.167s] -- Installing: /home/yiyi/ackermann_sim/install/saye_localization/share/saye_localization/environment/path.sh
+[22.167s] -- Installing: /home/yiyi/ackermann_sim/install/saye_localization/share/saye_localization/environment/path.dsv
+[22.168s] -- Installing: /home/yiyi/ackermann_sim/install/saye_localization/share/saye_localization/local_setup.bash
+[22.168s] -- Installing: /home/yiyi/ackermann_sim/install/saye_localization/share/saye_localization/local_setup.sh
+[22.168s] -- Installing: /home/yiyi/ackermann_sim/install/saye_localization/share/saye_localization/local_setup.zsh
+[22.169s] -- Installing: /home/yiyi/ackermann_sim/install/saye_localization/share/saye_localization/local_setup.dsv
+[22.169s] -- Installing: /home/yiyi/ackermann_sim/install/saye_localization/share/saye_localization/package.dsv
+[22.170s] -- Installing: /home/yiyi/ackermann_sim/install/saye_localization/share/ament_index/resource_index/packages/saye_localization
+[22.171s] -- Installing: /home/yiyi/ackermann_sim/install/saye_localization/share/saye_localization/cmake/saye_localizationConfig.cmake
+[22.171s] -- Installing: /home/yiyi/ackermann_sim/install/saye_localization/share/saye_localization/cmake/saye_localizationConfig-version.cmake
+[22.172s] -- Installing: /home/yiyi/ackermann_sim/install/saye_localization/share/saye_localization/package.xml
+[22.175s] Invoked command in '/home/yiyi/ackermann_sim/build/saye_localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/yiyi/ackermann_sim/build/saye_localization

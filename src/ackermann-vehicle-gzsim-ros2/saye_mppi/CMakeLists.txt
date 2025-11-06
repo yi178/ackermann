@@ -1,0 +1,30 @@
+cmake_minimum_required(VERSION 3.8)
+project(saye_mppi)
+
+if(NOT CMAKE_C_STANDARD)
+  set(CMAKE_C_STANDARD 17)
+endif()
+if(NOT CMAKE_CXX_STANDARD)
+  set(CMAKE_CXX_STANDARD 17)
+endif()
+
+find_package(ament_cmake REQUIRED)
+find_package(ament_cmake_python REQUIRED)
+
+ament_python_install_package(${PROJECT_NAME})
+
+install(DIRECTORY
+  launch
+  config
+  worlds
+  DESTINATION share/${PROJECT_NAME}
+)
+
+install(PROGRAMS
+  scripts/straight_path_commander
+  scripts/moving_obstacles
+  scripts/pedestrian_manager
+  DESTINATION lib/${PROJECT_NAME}
+)
+
+ament_package()

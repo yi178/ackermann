@@ -1,0 +1,7 @@
+/home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_description/plugins/actor_pose_publisher/src/test_actor_driver_system.cpp:9:10: fatal error: gz/sim/components/TrajectoryPose.hh: No such file or directory
+    9 | #include <gz/sim/components/TrajectoryPose.hh>
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+gmake[2]: *** [CMakeFiles/test_actor_driver_system.dir/build.make:76: CMakeFiles/test_actor_driver_system.dir/plugins/actor_pose_publisher/src/test_actor_driver_system.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/test_actor_driver_system.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

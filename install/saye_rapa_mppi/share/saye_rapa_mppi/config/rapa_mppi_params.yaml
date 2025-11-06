@@ -1,0 +1,103 @@
+controller_server:
+  ros__parameters:
+    controller_frequency: 20.0
+    FollowPath:
+      plugin: "nav2_mppi_controller::MPPIController"
+      time_steps: 56
+      model_dt: 0.05
+      batch_size: 2000
+      vx_std: 0.2
+      vy_std: 0.0
+      wz_std: 0.3
+      vx_max: 2.0
+      vx_min: -0.5
+      vy_max: 0.0
+      wz_max: 1.0
+      iteration_count: 1
+      temperature: 0.3
+      gamma: 0.015
+
+      motion_model: "Ackermann"
+
+      critics: [
+        "ConstraintCritic",
+        "GoalCritic",
+        "GoalAngleCritic",
+        "PathAlignCritic",
+        "PathFollowCritic",
+        "PathAngleCritic",
+        "ObstaclesCritic",
+        "RiskAwareCritic"
+      ]
+
+      ConstraintCritic:
+        enabled: true
+        cost_power: 1
+        cost_weight: 4.0
+
+      GoalCritic:
+        enabled: true
+        cost_power: 1
+        cost_weight: 5.0
+        threshold_to_consider: 1.4
+
+      GoalAngleCritic:
+        enabled: true
+        cost_power: 1
+        cost_weight: 3.0
+        threshold_to_consider: 0.5
+
+      PathAlignCritic:
+        enabled: true
+        cost_power: 1
+        cost_weight: 14.0
+        max_path_occupancy_ratio: 0.05
+        trajectory_point_step: 3
+        threshold_to_consider: 0.5
+
+      PathFollowCritic:
+        enabled: true
+        cost_power: 1
+        cost_weight: 5.0
+        offset_from_path: 1.0
+        threshold_to_consider: 1.4
+
+      PathAngleCritic:
+        enabled: true
+        cost_power: 1
+        cost_weight: 2.0
+        offset_from_path: 0.8
+        threshold_to_consider: 0.5
+        max_angle_to_furthest: 1.0
+
+      ObstaclesCritic:
+        enabled: true
+        cost_power: 1
+        cost_weight: 3.0
+        inflation_radius: 0.8
+        collision_cost: 10000.0
+        collision_margin_distance: 0.3
+        near_goal_distance: 0.5
+
+      # 新增: RiskAwareCritic
+      RiskAwareCritic:
+        enabled: true
+        cost_power: 1
+        cost_weight: 50.0
+
+        # CP剪枝参数
+        sigma_prune: 0.3
+        prune_penalty: 1000.0
+        collision_radius: 0.6
+        mc_samples: 100
+
+        # CVaR参数
+        enable_cvar: true
+        alpha: 0.1
+        risk_budget: 50.0
+        cvar_weight: 100.0
+        cvar_samples: 50
+
+        # 性能参数
+        enable_parallel: true
+        enable_guided_sampling: false

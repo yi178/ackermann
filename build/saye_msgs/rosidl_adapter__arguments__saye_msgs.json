@@ -1,0 +1,10 @@
+{
+  "package_name": "saye_msgs",
+  "non_idl_tuples": [
+    "/home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_msgs:msg/Map.msg",
+    "/home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_msgs:msg/GMMComponent.msg",
+    "/home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_msgs:msg/PedestrianPrediction.msg",
+    "/home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_msgs:msg/PedestrianPredictions.msg",
+    "/home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_msgs:srv/ShareMap.srv"
+  ]
+}

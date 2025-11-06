@@ -1,0 +1,48 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from saye_msgs/msg/GMMComponent.msg
+// generated code does not contain a copyright notice
+
+
+module saye_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "Gaussian Mixture Model Component" "\n"
+      "Represents one mode in a multi-modal prediction" "\n"
+      "高斯混合模型的一个分量")
+    struct GMMComponent {
+      @verbatim (language="comment", text=
+        "Weight of this mode, sum of all weights = 1.0" "\n"
+        "该模式的权重，所有权重之和为1.0")
+      double weight;
+
+      @verbatim (language="comment", text=
+        "Predicted mean trajectory (56 time steps, dt=0.05s, total 2.8s)" "\n"
+        "预测的均值轨迹（56个时间步，dt=0.05秒，总共2.8秒）" "\n"
+        "X position means")
+      @unit (value="m")
+      sequence<double> mean_x;
+
+      @verbatim (language="comment", text=
+        "Y position means")
+      @unit (value="m")
+      sequence<double> mean_y;
+
+      @verbatim (language="comment", text=
+        "Predicted covariance (uncertainty grows with time)" "\n"
+        "预测的协方差（不确定性随时间增长）" "\n"
+        "Variance in X direction")
+      @unit (value="m²")
+      sequence<double> cov_xx;
+
+      @verbatim (language="comment", text=
+        "Variance in Y direction")
+      @unit (value="m²")
+      sequence<double> cov_yy;
+
+      @verbatim (language="comment", text=
+        "Covariance between X and Y")
+      @unit (value="m²")
+      sequence<double> cov_xy;
+    };
+  };
+};

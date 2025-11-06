@@ -1,0 +1,10 @@
+[ 58%] Built target generate_worlds
+[ 75%] Built target pedestrian_manager_system
+[ 83%] Building CXX object CMakeFiles/actor_pose_publisher_system.dir/plugins/actor_pose_publisher/src/test_actor_driver_system.cpp.o
+[ 91%] Linking CXX shared library libactor_pose_publisher_system.so
+/usr/bin/ld: CMakeFiles/actor_pose_publisher_system.dir/plugins/actor_pose_publisher/src/test_actor_driver_system.cpp.o: in function `GzPluginHook':
+test_actor_driver_system.cpp:(.text+0xb): multiple definition of `GzPluginHook'; CMakeFiles/actor_pose_publisher_system.dir/plugins/actor_pose_publisher/src/actor_pose_publisher_system.cpp.o:actor_pose_publisher_system.cpp:(.text+0xb): first defined here
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/actor_pose_publisher_system.dir/build.make:157: libactor_pose_publisher_system.so] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/actor_pose_publisher_system.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,11 @@
+source;share/saye_prediction/hook/cmake_prefix_path.ps1
+source;share/saye_prediction/hook/cmake_prefix_path.dsv
+source;share/saye_prediction/hook/cmake_prefix_path.sh
+source;share/saye_prediction/hook/pythonpath.ps1
+source;share/saye_prediction/hook/pythonpath.dsv
+source;share/saye_prediction/hook/pythonpath.sh
+source;share/saye_prediction/local_setup.bash
+source;share/saye_prediction/local_setup.dsv
+source;share/saye_prediction/local_setup.ps1
+source;share/saye_prediction/local_setup.sh
+source;share/saye_prediction/local_setup.zsh

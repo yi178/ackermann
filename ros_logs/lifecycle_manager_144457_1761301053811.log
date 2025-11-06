@@ -1,0 +1,11 @@
+[INFO] [1761301055.551204234] [lifecycle_manager_navigation]: Creating
+[INFO] [1761301055.566406673] [lifecycle_manager_navigation]: [34m[1mCreating and initializing lifecycle service clients[0m[0m
+[INFO] [1761301055.924440088] [lifecycle_manager_navigation]: [34m[1mStarting managed nodes bringup...[0m[0m
+[INFO] [1761301055.924549138] [lifecycle_manager_navigation]: [34m[1mConfiguring controller_server[0m[0m
+[INFO] [1761301056.061469041] [lifecycle_manager_navigation]: [34m[1mConfiguring behavior_server[0m[0m
+[INFO] [1761301056.120982918] [lifecycle_manager_navigation]: [34m[1mConfiguring velocity_smoother[0m[0m
+[INFO] [1761301056.128237699] [lifecycle_manager_navigation]: [34m[1mConfiguring collision_monitor[0m[0m
+[ERROR] [1761301056.150098034] [lifecycle_manager_navigation]: Failed to change state for node: collision_monitor
+[ERROR] [1761301056.150203617] [lifecycle_manager_navigation]: Failed to bring up all requested nodes. Aborting bringup.
+[INFO] [1761301556.014986481] [rclcpp]: signal_handler(signum=2)
+[INFO] [1761301556.021808455] [lifecycle_manager_navigation]: Running Nav2 LifecycleManager rcl preshutdown (lifecycle_manager_navigation)

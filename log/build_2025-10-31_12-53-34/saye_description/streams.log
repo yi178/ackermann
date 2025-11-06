@@ -1,0 +1,90 @@
+[0.027s] Invoking command in '/home/yiyi/ackermann_sim/build/saye_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/yiyi/ackermann_sim/build/saye_description -- -j16 -l16
+[0.149s] [ 63%] Built target generate_worlds
+[0.164s] [ 81%] Built target pedestrian_manager_system
+[0.172s] [ 90%] Building CXX object CMakeFiles/actor_pose_publisher_system.dir/plugins/actor_pose_publisher/src/actor_pose_publisher_system.cpp.o
+[10.637s] [100%] Linking CXX shared library libactor_pose_publisher_system.so
+[11.605s] [100%] Built target actor_pose_publisher_system
+[11.629s] Invoked command in '/home/yiyi/ackermann_sim/build/saye_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/yiyi/ackermann_sim/build/saye_description -- -j16 -l16
+[11.649s] Invoking command in '/home/yiyi/ackermann_sim/build/saye_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/yiyi/ackermann_sim/build/saye_description
+[11.665s] -- Install configuration: ""
+[11.666s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description//models
+[11.666s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description//models/walking_actor
+[11.666s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description//models/walking_actor/thumbnails
+[11.667s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description//models/walking_actor/thumbnails/5.png
+[11.667s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description//models/walking_actor/thumbnails/1.png
+[11.668s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description//models/walking_actor/thumbnails/2.png
+[11.668s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description//models/walking_actor/thumbnails/4.png
+[11.668s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description//models/walking_actor/thumbnails/3.png
+[11.669s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description//models/walking_actor/model.config
+[11.669s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description//models/walking_actor/meshes
+[11.669s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description//models/walking_actor/meshes/walk.dae
+[11.669s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description//models/walking_actor/model.sdf
+[11.669s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description//models/saye
+[11.670s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description//models/saye/model.config
+[11.670s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description//models/saye/meshes
+[11.670s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description//models/saye/meshes/STL27L.dae
+[11.670s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description//models/saye/meshes/TopReduced.dae
+[11.670s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description//models/saye/meshes/sensor_rack_lowres_shallow_laser.dae
+[11.670s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description//models/saye/meshes/Wheel.dae
+[11.670s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description//models/saye/meshes/BaseReduced.dae
+[11.671s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description//models/saye/meshes/sensor_rack_support_lowres.dae
+[11.671s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description//models/saye/model.sdf
+[11.671s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description//models/saye/model_2d_lidar.sdf
+[11.671s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description//worlds
+[11.671s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description//worlds/saye_dynamic_corridor_generated.sdf
+[11.672s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description//worlds/templates
+[11.672s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description//worlds/templates/saye_dynamic_corridor.sdf.jinja2
+[11.672s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description//worlds/corridor_empty.sdf
+[11.672s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description//worlds/saye_dynamic_corridor.sdf
+[11.672s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description//worlds/saye_world.sdf
+[11.672s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description//worlds/saye_moving_obstacles.sdf
+[11.672s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description//worlds/scenario5_6ped_random.sdf
+[11.672s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description//worlds/scenario4_6ped_static.sdf
+[11.672s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description//worlds/actor_pose_bridge_test.sdf
+[11.673s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description//worlds/saye_dynamic_corridor_plugin.sdf
+[11.673s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description//worlds/scenario1_4ped_crossing.sdf
+[11.673s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description//worlds/saye_long_corridor.sdf
+[11.673s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description//worlds/warehouse
+[11.673s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description//worlds/warehouse/thumbnails
+[11.673s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description//worlds/warehouse/thumbnails/1.png
+[11.673s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description//worlds/warehouse/thumbnails/2.png
+[11.673s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description//worlds/warehouse/thumbnails/4.png
+[11.673s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description//worlds/warehouse/thumbnails/3.png
+[11.673s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description//worlds/warehouse/model.config
+[11.674s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description//worlds/warehouse/meshes
+[11.674s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description//worlds/warehouse/meshes/Tape001_1K_Color.png
+[11.674s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description//worlds/warehouse/meshes/Rough_Square_Concrete_Block.jpg
+[11.674s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description//worlds/warehouse/meshes/Asphalt010_1K_Color.jpg
+[11.674s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description//worlds/warehouse/meshes/ground.png
+[11.674s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description//worlds/warehouse/meshes/Terrazzo005_1K_Color.jpg
+[11.674s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description//worlds/warehouse/meshes/warehouse.dae
+[11.674s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description//worlds/warehouse/meshes/warehouse_colision.stl
+[11.674s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description//worlds/warehouse/model.sdf
+[11.674s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description//worlds/scenario3_12ped_crowded.sdf
+[11.674s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description//worlds/scenario2_8ped_mixed.sdf
+[11.674s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description//hooks
+[11.674s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description//hooks/ros_gz_example_description.dsv.in
+[11.675s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description//hooks/ros_gz_example_description.sh.in
+[11.675s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/lib/libpedestrian_manager_system.so
+[11.675s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description/config
+[11.675s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description/config/pedestrian_actors_plugin.yaml
+[11.675s] -- Installing: /home/yiyi/ackermann_sim/install/saye_description/lib/libactor_pose_publisher_system.so
+[11.676s] -- Set non-toolchain portion of runtime path of "/home/yiyi/ackermann_sim/install/saye_description/lib/libactor_pose_publisher_system.so" to ""
+[11.677s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description/environment/ros_gz_example_description.sh
+[11.678s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description/environment/ros_gz_example_description.dsv
+[11.678s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/ament_index/resource_index/package_run_dependencies/saye_description
+[11.678s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/ament_index/resource_index/parent_prefix_path/saye_description
+[11.678s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description/environment/ament_prefix_path.sh
+[11.679s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description/environment/ament_prefix_path.dsv
+[11.679s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description/environment/path.sh
+[11.679s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description/environment/path.dsv
+[11.679s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description/local_setup.bash
+[11.679s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description/local_setup.sh
+[11.679s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description/local_setup.zsh
+[11.679s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description/local_setup.dsv
+[11.680s] -- Installing: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description/package.dsv
+[11.680s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/ament_index/resource_index/packages/saye_description
+[11.680s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description/cmake/saye_descriptionConfig.cmake
+[11.680s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description/cmake/saye_descriptionConfig-version.cmake
+[11.680s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_description/share/saye_description/package.xml
+[11.682s] Invoked command in '/home/yiyi/ackermann_sim/build/saye_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/yiyi/ackermann_sim/build/saye_description

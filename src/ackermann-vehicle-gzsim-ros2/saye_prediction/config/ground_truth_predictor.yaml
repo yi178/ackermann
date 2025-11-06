@@ -1,0 +1,37 @@
+# Ground Truth Predictor Configuration
+# 真值预测器配置
+
+gazebo_pose_bridge:
+  ros__parameters:
+    pose_topic: "/world/dynamic_corridor_world/pose/info"
+    output_topic: "/actor_pose_bridge"
+    frame_id: "odom"
+    actor_names: [
+      'walker_center',
+      'walker_east'
+    ]
+
+ground_truth_predictor:
+  ros__parameters:
+    # 预测参数
+    prediction_horizon: 2.8          # 预测时域（秒）
+    prediction_dt: 0.05              # 时间步长（秒）
+
+    # 要追踪的actor列表
+    # 根据场景修改
+    actor_names: [
+      'walker_center',
+      'walker_east'
+    ]
+
+    # 速度估计参数
+    history_size: 5                  # 历史帧数（用于速度估计）
+
+    # 不确定性参数
+    sigma_0: 0.1                     # 初始位置不确定性（米）
+    sigma_q: 0.5                     # 过程噪声强度（m/s）
+
+    # 发布参数
+    publish_rate: 10.0               # 发布频率（Hz）
+    pose_topic: "/world/moving_obstacles_world/pose/info" # World pose/info
+    world_name: "moving_obstacles_world"

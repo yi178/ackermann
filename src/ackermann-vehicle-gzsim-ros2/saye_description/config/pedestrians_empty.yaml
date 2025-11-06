@@ -1,0 +1,18 @@
+# Empty Pedestrian Configuration - For SLAM Mapping
+# This configuration generates a world with NO pedestrians
+# Use this for SLAM mapping to create a clean static map
+#
+# Workflow:
+#   1. Use this config to generate an empty world
+#   2. Run SLAM and create map
+#   3. Save the map
+#   4. Switch to a pedestrian-populated world for navigation testing
+
+pedestrians: []  # Empty list - no pedestrians will be generated
+
+# After mapping with this world, you can test navigation with:
+#   - scenario1_4ped_crossing.sdf (4 pedestrians)
+#   - scenario2_8ped_mixed.sdf (8 pedestrians)
+#   - scenario3_12ped_crowded.sdf (12 pedestrians)
+#   - scenario4_6ped_static.sdf (6 pedestrians)
+#   - scenario5_6ped_random.sdf (6 pedestrians)

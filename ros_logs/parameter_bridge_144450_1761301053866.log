@@ -1,0 +1,8 @@
+[INFO] [1761301056.945034591] [ros_gz_bridge]: Creating GZ->ROS Bridge: [/cmd_vel (gz.msgs.Twist) -> /cmd_vel (geometry_msgs/msg/Twist)] (Lazy 0)
+[INFO] [1761301056.952233646] [ros_gz_bridge]: Creating ROS->GZ Bridge: [/cmd_vel (geometry_msgs/msg/Twist) -> /cmd_vel (gz.msgs.Twist)] (Lazy 0)
+[INFO] [1761301056.955227908] [ros_gz_bridge]: Creating GZ->ROS Bridge: [clock (gz.msgs.Clock) -> clock (rosgraph_msgs/msg/Clock)] (Lazy 0)
+[INFO] [1761301056.961935034] [ros_gz_bridge]: Creating GZ->ROS Bridge: [/odom (gz.msgs.Odometry) -> /odom (nav_msgs/msg/Odometry)] (Lazy 0)
+[INFO] [1761301056.967358291] [ros_gz_bridge]: Creating GZ->ROS Bridge: [/scan (gz.msgs.LaserScan) -> /scan (sensor_msgs/msg/LaserScan)] (Lazy 0)
+[INFO] [1761301056.973245825] [ros_gz_bridge]: Creating GZ->ROS Bridge: [/model/saye/pose (gz.msgs.Pose_V) -> /tf (tf2_msgs/msg/TFMessage)] (Lazy 0)
+[INFO] [1761301056.979448245] [ros_gz_bridge]: Creating GZ->ROS Bridge: [/imu (gz.msgs.IMU) -> /imu (sensor_msgs/msg/Imu)] (Lazy 0)
+[INFO] [1761301056.982039728] [ros_gz_bridge]: Creating GZ->ROS Bridge: [/camera_front (gz.msgs.Image) -> /camera/front_raw (sensor_msgs/msg/Image)] (Lazy 0)

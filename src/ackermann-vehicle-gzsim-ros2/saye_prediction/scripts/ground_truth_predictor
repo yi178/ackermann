@@ -1,0 +1,5 @@
+#!/usr/bin/env python3
+from saye_prediction.ground_truth_predictor import main
+
+if __name__ == '__main__':
+    main()

@@ -1,0 +1,10 @@
+msg/GMMComponent.idl
+msg/GMMComponent.msg
+msg/Map.idl
+msg/Map.msg
+msg/PedestrianPrediction.idl
+msg/PedestrianPrediction.msg
+msg/PedestrianPredictions.idl
+msg/PedestrianPredictions.msg
+srv/ShareMap.idl
+srv/ShareMap.srv

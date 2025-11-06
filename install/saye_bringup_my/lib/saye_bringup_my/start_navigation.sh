@@ -1,0 +1,1 @@
+/home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_bringup_my/scripts/start_navigation.sh

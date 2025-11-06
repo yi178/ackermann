@@ -1,0 +1,7 @@
+#!/usr/bin/env python3
+
+from saye_mppi.moving_obstacles import main
+
+
+if __name__ == "__main__":
+    main()

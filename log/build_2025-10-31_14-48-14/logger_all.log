@@ -1,0 +1,351 @@
+[0.711s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'saye_prediction']
+[0.711s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['saye_prediction'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x767f15317fe0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x767f155908c0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x767f155908c0>>)
+[0.794s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.794s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.795s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.795s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.795s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.795s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.795s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/yiyi/ackermann_sim'
+[0.795s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.795s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.795s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.795s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.795s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.795s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.795s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.795s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.796s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.860s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.860s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.860s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.860s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.860s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.861s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.861s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.861s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.861s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.862s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.862s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.862s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.862s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.862s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.863s] Level 1:colcon.colcon_core.package_identification:_identify(ros_logs) by extensions ['ignore', 'ignore_ament_install']
+[0.863s] Level 1:colcon.colcon_core.package_identification:_identify(ros_logs) by extension 'ignore'
+[0.863s] Level 1:colcon.colcon_core.package_identification:_identify(ros_logs) by extension 'ignore_ament_install'
+[0.863s] Level 1:colcon.colcon_core.package_identification:_identify(ros_logs) by extensions ['colcon_pkg']
+[0.863s] Level 1:colcon.colcon_core.package_identification:_identify(ros_logs) by extension 'colcon_pkg'
+[0.863s] Level 1:colcon.colcon_core.package_identification:_identify(ros_logs) by extensions ['colcon_meta']
+[0.863s] Level 1:colcon.colcon_core.package_identification:_identify(ros_logs) by extension 'colcon_meta'
+[0.863s] Level 1:colcon.colcon_core.package_identification:_identify(ros_logs) by extensions ['ros']
+[0.863s] Level 1:colcon.colcon_core.package_identification:_identify(ros_logs) by extension 'ros'
+[0.863s] Level 1:colcon.colcon_core.package_identification:_identify(ros_logs) by extensions ['cmake', 'python']
+[0.864s] Level 1:colcon.colcon_core.package_identification:_identify(ros_logs) by extension 'cmake'
+[0.864s] Level 1:colcon.colcon_core.package_identification:_identify(ros_logs) by extension 'python'
+[0.864s] Level 1:colcon.colcon_core.package_identification:_identify(ros_logs) by extensions ['python_setup_py']
+[0.864s] Level 1:colcon.colcon_core.package_identification:_identify(ros_logs) by extension 'python_setup_py'
+[0.864s] Level 1:colcon.colcon_core.package_identification:_identify(ros_logs/2025-10-24-11-44-08-209871-yiyi-67974) by extensions ['ignore', 'ignore_ament_install']
+[0.864s] Level 1:colcon.colcon_core.package_identification:_identify(ros_logs/2025-10-24-11-44-08-209871-yiyi-67974) by extension 'ignore'
+[0.864s] Level 1:colcon.colcon_core.package_identification:_identify(ros_logs/2025-10-24-11-44-08-209871-yiyi-67974) by extension 'ignore_ament_install'
+[0.864s] Level 1:colcon.colcon_core.package_identification:_identify(ros_logs/2025-10-24-11-44-08-209871-yiyi-67974) by extensions ['colcon_pkg']
+[0.864s] Level 1:colcon.colcon_core.package_identification:_identify(ros_logs/2025-10-24-11-44-08-209871-yiyi-67974) by extension 'colcon_pkg'
+[0.864s] Level 1:colcon.colcon_core.package_identification:_identify(ros_logs/2025-10-24-11-44-08-209871-yiyi-67974) by extensions ['colcon_meta']
+[0.865s] Level 1:colcon.colcon_core.package_identification:_identify(ros_logs/2025-10-24-11-44-08-209871-yiyi-67974) by extension 'colcon_meta'
+[0.865s] Level 1:colcon.colcon_core.package_identification:_identify(ros_logs/2025-10-24-11-44-08-209871-yiyi-67974) by extensions ['ros']
+[0.865s] Level 1:colcon.colcon_core.package_identification:_identify(ros_logs/2025-10-24-11-44-08-209871-yiyi-67974) by extension 'ros'
+[0.865s] Level 1:colcon.colcon_core.package_identification:_identify(ros_logs/2025-10-24-11-44-08-209871-yiyi-67974) by extensions ['cmake', 'python']
+[0.865s] Level 1:colcon.colcon_core.package_identification:_identify(ros_logs/2025-10-24-11-44-08-209871-yiyi-67974) by extension 'cmake'
+[0.865s] Level 1:colcon.colcon_core.package_identification:_identify(ros_logs/2025-10-24-11-44-08-209871-yiyi-67974) by extension 'python'
+[0.865s] Level 1:colcon.colcon_core.package_identification:_identify(ros_logs/2025-10-24-11-44-08-209871-yiyi-67974) by extensions ['python_setup_py']
+[0.865s] Level 1:colcon.colcon_core.package_identification:_identify(ros_logs/2025-10-24-11-44-08-209871-yiyi-67974) by extension 'python_setup_py'
+[0.865s] Level 1:colcon.colcon_core.package_identification:_identify(ros_logs/2025-10-24-14-59-23-245801-yiyi-3597) by extensions ['ignore', 'ignore_ament_install']
+[0.866s] Level 1:colcon.colcon_core.package_identification:_identify(ros_logs/2025-10-24-14-59-23-245801-yiyi-3597) by extension 'ignore'
+[0.866s] Level 1:colcon.colcon_core.package_identification:_identify(ros_logs/2025-10-24-14-59-23-245801-yiyi-3597) by extension 'ignore_ament_install'
+[0.866s] Level 1:colcon.colcon_core.package_identification:_identify(ros_logs/2025-10-24-14-59-23-245801-yiyi-3597) by extensions ['colcon_pkg']
+[0.866s] Level 1:colcon.colcon_core.package_identification:_identify(ros_logs/2025-10-24-14-59-23-245801-yiyi-3597) by extension 'colcon_pkg'
+[0.866s] Level 1:colcon.colcon_core.package_identification:_identify(ros_logs/2025-10-24-14-59-23-245801-yiyi-3597) by extensions ['colcon_meta']
+[0.866s] Level 1:colcon.colcon_core.package_identification:_identify(ros_logs/2025-10-24-14-59-23-245801-yiyi-3597) by extension 'colcon_meta'
+[0.866s] Level 1:colcon.colcon_core.package_identification:_identify(ros_logs/2025-10-24-14-59-23-245801-yiyi-3597) by extensions ['ros']
+[0.866s] Level 1:colcon.colcon_core.package_identification:_identify(ros_logs/2025-10-24-14-59-23-245801-yiyi-3597) by extension 'ros'
+[0.866s] Level 1:colcon.colcon_core.package_identification:_identify(ros_logs/2025-10-24-14-59-23-245801-yiyi-3597) by extensions ['cmake', 'python']
+[0.866s] Level 1:colcon.colcon_core.package_identification:_identify(ros_logs/2025-10-24-14-59-23-245801-yiyi-3597) by extension 'cmake'
+[0.866s] Level 1:colcon.colcon_core.package_identification:_identify(ros_logs/2025-10-24-14-59-23-245801-yiyi-3597) by extension 'python'
+[0.866s] Level 1:colcon.colcon_core.package_identification:_identify(ros_logs/2025-10-24-14-59-23-245801-yiyi-3597) by extensions ['python_setup_py']
+[0.866s] Level 1:colcon.colcon_core.package_identification:_identify(ros_logs/2025-10-24-14-59-23-245801-yiyi-3597) by extension 'python_setup_py'
+[0.867s] Level 1:colcon.colcon_core.package_identification:_identify(ros_logs/2025-10-24-18-10-36-096974-yiyi-139307) by extensions ['ignore', 'ignore_ament_install']
+[0.867s] Level 1:colcon.colcon_core.package_identification:_identify(ros_logs/2025-10-24-18-10-36-096974-yiyi-139307) by extension 'ignore'
+[0.867s] Level 1:colcon.colcon_core.package_identification:_identify(ros_logs/2025-10-24-18-10-36-096974-yiyi-139307) by extension 'ignore_ament_install'
+[0.867s] Level 1:colcon.colcon_core.package_identification:_identify(ros_logs/2025-10-24-18-10-36-096974-yiyi-139307) by extensions ['colcon_pkg']
+[0.867s] Level 1:colcon.colcon_core.package_identification:_identify(ros_logs/2025-10-24-18-10-36-096974-yiyi-139307) by extension 'colcon_pkg'
+[0.867s] Level 1:colcon.colcon_core.package_identification:_identify(ros_logs/2025-10-24-18-10-36-096974-yiyi-139307) by extensions ['colcon_meta']
+[0.867s] Level 1:colcon.colcon_core.package_identification:_identify(ros_logs/2025-10-24-18-10-36-096974-yiyi-139307) by extension 'colcon_meta'
+[0.867s] Level 1:colcon.colcon_core.package_identification:_identify(ros_logs/2025-10-24-18-10-36-096974-yiyi-139307) by extensions ['ros']
+[0.867s] Level 1:colcon.colcon_core.package_identification:_identify(ros_logs/2025-10-24-18-10-36-096974-yiyi-139307) by extension 'ros'
+[0.867s] Level 1:colcon.colcon_core.package_identification:_identify(ros_logs/2025-10-24-18-10-36-096974-yiyi-139307) by extensions ['cmake', 'python']
+[0.867s] Level 1:colcon.colcon_core.package_identification:_identify(ros_logs/2025-10-24-18-10-36-096974-yiyi-139307) by extension 'cmake'
+[0.867s] Level 1:colcon.colcon_core.package_identification:_identify(ros_logs/2025-10-24-18-10-36-096974-yiyi-139307) by extension 'python'
+[0.867s] Level 1:colcon.colcon_core.package_identification:_identify(ros_logs/2025-10-24-18-10-36-096974-yiyi-139307) by extensions ['python_setup_py']
+[0.868s] Level 1:colcon.colcon_core.package_identification:_identify(ros_logs/2025-10-24-18-10-36-096974-yiyi-139307) by extension 'python_setup_py'
+[0.868s] Level 1:colcon.colcon_core.package_identification:_identify(ros_logs/2025-10-24-18-17-33-103458-yiyi-144431) by extensions ['ignore', 'ignore_ament_install']
+[0.868s] Level 1:colcon.colcon_core.package_identification:_identify(ros_logs/2025-10-24-18-17-33-103458-yiyi-144431) by extension 'ignore'
+[0.868s] Level 1:colcon.colcon_core.package_identification:_identify(ros_logs/2025-10-24-18-17-33-103458-yiyi-144431) by extension 'ignore_ament_install'
+[0.868s] Level 1:colcon.colcon_core.package_identification:_identify(ros_logs/2025-10-24-18-17-33-103458-yiyi-144431) by extensions ['colcon_pkg']
+[0.868s] Level 1:colcon.colcon_core.package_identification:_identify(ros_logs/2025-10-24-18-17-33-103458-yiyi-144431) by extension 'colcon_pkg'
+[0.868s] Level 1:colcon.colcon_core.package_identification:_identify(ros_logs/2025-10-24-18-17-33-103458-yiyi-144431) by extensions ['colcon_meta']
+[0.868s] Level 1:colcon.colcon_core.package_identification:_identify(ros_logs/2025-10-24-18-17-33-103458-yiyi-144431) by extension 'colcon_meta'
+[0.868s] Level 1:colcon.colcon_core.package_identification:_identify(ros_logs/2025-10-24-18-17-33-103458-yiyi-144431) by extensions ['ros']
+[0.868s] Level 1:colcon.colcon_core.package_identification:_identify(ros_logs/2025-10-24-18-17-33-103458-yiyi-144431) by extension 'ros'
+[0.868s] Level 1:colcon.colcon_core.package_identification:_identify(ros_logs/2025-10-24-18-17-33-103458-yiyi-144431) by extensions ['cmake', 'python']
+[0.868s] Level 1:colcon.colcon_core.package_identification:_identify(ros_logs/2025-10-24-18-17-33-103458-yiyi-144431) by extension 'cmake'
+[0.868s] Level 1:colcon.colcon_core.package_identification:_identify(ros_logs/2025-10-24-18-17-33-103458-yiyi-144431) by extension 'python'
+[0.868s] Level 1:colcon.colcon_core.package_identification:_identify(ros_logs/2025-10-24-18-17-33-103458-yiyi-144431) by extensions ['python_setup_py']
+[0.869s] Level 1:colcon.colcon_core.package_identification:_identify(ros_logs/2025-10-24-18-17-33-103458-yiyi-144431) by extension 'python_setup_py'
+[0.869s] Level 1:colcon.colcon_core.package_identification:_identify(ros_logs/2025-10-24-18-36-50-129632-yiyi-158281) by extensions ['ignore', 'ignore_ament_install']
+[0.869s] Level 1:colcon.colcon_core.package_identification:_identify(ros_logs/2025-10-24-18-36-50-129632-yiyi-158281) by extension 'ignore'
+[0.869s] Level 1:colcon.colcon_core.package_identification:_identify(ros_logs/2025-10-24-18-36-50-129632-yiyi-158281) by extension 'ignore_ament_install'
+[0.869s] Level 1:colcon.colcon_core.package_identification:_identify(ros_logs/2025-10-24-18-36-50-129632-yiyi-158281) by extensions ['colcon_pkg']
+[0.869s] Level 1:colcon.colcon_core.package_identification:_identify(ros_logs/2025-10-24-18-36-50-129632-yiyi-158281) by extension 'colcon_pkg'
+[0.869s] Level 1:colcon.colcon_core.package_identification:_identify(ros_logs/2025-10-24-18-36-50-129632-yiyi-158281) by extensions ['colcon_meta']
+[0.869s] Level 1:colcon.colcon_core.package_identification:_identify(ros_logs/2025-10-24-18-36-50-129632-yiyi-158281) by extension 'colcon_meta'
+[0.869s] Level 1:colcon.colcon_core.package_identification:_identify(ros_logs/2025-10-24-18-36-50-129632-yiyi-158281) by extensions ['ros']
+[0.869s] Level 1:colcon.colcon_core.package_identification:_identify(ros_logs/2025-10-24-18-36-50-129632-yiyi-158281) by extension 'ros'
+[0.869s] Level 1:colcon.colcon_core.package_identification:_identify(ros_logs/2025-10-24-18-36-50-129632-yiyi-158281) by extensions ['cmake', 'python']
+[0.869s] Level 1:colcon.colcon_core.package_identification:_identify(ros_logs/2025-10-24-18-36-50-129632-yiyi-158281) by extension 'cmake'
+[0.869s] Level 1:colcon.colcon_core.package_identification:_identify(ros_logs/2025-10-24-18-36-50-129632-yiyi-158281) by extension 'python'
+[0.869s] Level 1:colcon.colcon_core.package_identification:_identify(ros_logs/2025-10-24-18-36-50-129632-yiyi-158281) by extensions ['python_setup_py']
+[0.870s] Level 1:colcon.colcon_core.package_identification:_identify(ros_logs/2025-10-24-18-36-50-129632-yiyi-158281) by extension 'python_setup_py'
+[0.870s] Level 1:colcon.colcon_core.package_identification:_identify(ros_logs/gz) by extensions ['ignore', 'ignore_ament_install']
+[0.870s] Level 1:colcon.colcon_core.package_identification:_identify(ros_logs/gz) by extension 'ignore'
+[0.870s] Level 1:colcon.colcon_core.package_identification:_identify(ros_logs/gz) by extension 'ignore_ament_install'
+[0.870s] Level 1:colcon.colcon_core.package_identification:_identify(ros_logs/gz) by extensions ['colcon_pkg']
+[0.870s] Level 1:colcon.colcon_core.package_identification:_identify(ros_logs/gz) by extension 'colcon_pkg'
+[0.870s] Level 1:colcon.colcon_core.package_identification:_identify(ros_logs/gz) by extensions ['colcon_meta']
+[0.870s] Level 1:colcon.colcon_core.package_identification:_identify(ros_logs/gz) by extension 'colcon_meta'
+[0.870s] Level 1:colcon.colcon_core.package_identification:_identify(ros_logs/gz) by extensions ['ros']
+[0.870s] Level 1:colcon.colcon_core.package_identification:_identify(ros_logs/gz) by extension 'ros'
+[0.870s] Level 1:colcon.colcon_core.package_identification:_identify(ros_logs/gz) by extensions ['cmake', 'python']
+[0.870s] Level 1:colcon.colcon_core.package_identification:_identify(ros_logs/gz) by extension 'cmake'
+[0.871s] Level 1:colcon.colcon_core.package_identification:_identify(ros_logs/gz) by extension 'python'
+[0.871s] Level 1:colcon.colcon_core.package_identification:_identify(ros_logs/gz) by extensions ['python_setup_py']
+[0.871s] Level 1:colcon.colcon_core.package_identification:_identify(ros_logs/gz) by extension 'python_setup_py'
+[0.871s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.871s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.871s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.871s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.871s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.871s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.871s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.871s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.871s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.872s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.872s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.872s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.872s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.872s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.872s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann-vehicle-gzsim-ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.872s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann-vehicle-gzsim-ros2) by extension 'ignore'
+[0.872s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann-vehicle-gzsim-ros2) by extension 'ignore_ament_install'
+[0.872s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann-vehicle-gzsim-ros2) by extensions ['colcon_pkg']
+[0.872s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann-vehicle-gzsim-ros2) by extension 'colcon_pkg'
+[0.872s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann-vehicle-gzsim-ros2) by extensions ['colcon_meta']
+[0.872s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann-vehicle-gzsim-ros2) by extension 'colcon_meta'
+[0.873s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann-vehicle-gzsim-ros2) by extensions ['ros']
+[0.873s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann-vehicle-gzsim-ros2) by extension 'ros'
+[0.873s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann-vehicle-gzsim-ros2) by extensions ['cmake', 'python']
+[0.873s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann-vehicle-gzsim-ros2) by extension 'cmake'
+[0.873s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann-vehicle-gzsim-ros2) by extension 'python'
+[0.873s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann-vehicle-gzsim-ros2) by extensions ['python_setup_py']
+[0.873s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann-vehicle-gzsim-ros2) by extension 'python_setup_py'
+[0.873s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann-vehicle-gzsim-ros2/saye_behaviortree) by extensions ['ignore', 'ignore_ament_install']
+[0.873s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann-vehicle-gzsim-ros2/saye_behaviortree) by extension 'ignore'
+[0.874s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann-vehicle-gzsim-ros2/saye_behaviortree) by extension 'ignore_ament_install'
+[0.874s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann-vehicle-gzsim-ros2/saye_behaviortree) by extensions ['colcon_pkg']
+[0.874s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann-vehicle-gzsim-ros2/saye_behaviortree) by extension 'colcon_pkg'
+[0.874s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann-vehicle-gzsim-ros2/saye_behaviortree) by extensions ['colcon_meta']
+[0.874s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann-vehicle-gzsim-ros2/saye_behaviortree) by extension 'colcon_meta'
+[0.874s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann-vehicle-gzsim-ros2/saye_behaviortree) by extensions ['ros']
+[0.874s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann-vehicle-gzsim-ros2/saye_behaviortree) by extension 'ros'
+[0.880s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ackermann-vehicle-gzsim-ros2/saye_behaviortree' with type 'ros.ament_cmake' and name 'saye_behaviortree'
+[0.880s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann-vehicle-gzsim-ros2/saye_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.881s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann-vehicle-gzsim-ros2/saye_bringup) by extension 'ignore'
+[0.881s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann-vehicle-gzsim-ros2/saye_bringup) by extension 'ignore_ament_install'
+[0.881s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann-vehicle-gzsim-ros2/saye_bringup) by extensions ['colcon_pkg']
+[0.881s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann-vehicle-gzsim-ros2/saye_bringup) by extension 'colcon_pkg'
+[0.881s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann-vehicle-gzsim-ros2/saye_bringup) by extensions ['colcon_meta']
+[0.881s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann-vehicle-gzsim-ros2/saye_bringup) by extension 'colcon_meta'
+[0.881s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann-vehicle-gzsim-ros2/saye_bringup) by extensions ['ros']
+[0.881s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann-vehicle-gzsim-ros2/saye_bringup) by extension 'ros'
+[0.884s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ackermann-vehicle-gzsim-ros2/saye_bringup' with type 'ros.ament_cmake' and name 'saye_bringup'
+[0.885s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann-vehicle-gzsim-ros2/saye_bringup_my) by extensions ['ignore', 'ignore_ament_install']
+[0.885s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann-vehicle-gzsim-ros2/saye_bringup_my) by extension 'ignore'
+[0.885s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann-vehicle-gzsim-ros2/saye_bringup_my) by extension 'ignore_ament_install'
+[0.885s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann-vehicle-gzsim-ros2/saye_bringup_my) by extensions ['colcon_pkg']
+[0.885s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann-vehicle-gzsim-ros2/saye_bringup_my) by extension 'colcon_pkg'
+[0.885s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann-vehicle-gzsim-ros2/saye_bringup_my) by extensions ['colcon_meta']
+[0.885s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann-vehicle-gzsim-ros2/saye_bringup_my) by extension 'colcon_meta'
+[0.886s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann-vehicle-gzsim-ros2/saye_bringup_my) by extensions ['ros']
+[0.886s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann-vehicle-gzsim-ros2/saye_bringup_my) by extension 'ros'
+[0.888s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ackermann-vehicle-gzsim-ros2/saye_bringup_my' with type 'ros.ament_cmake' and name 'saye_bringup_my'
+[0.888s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann-vehicle-gzsim-ros2/saye_control) by extensions ['ignore', 'ignore_ament_install']
+[0.888s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann-vehicle-gzsim-ros2/saye_control) by extension 'ignore'
+[0.888s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann-vehicle-gzsim-ros2/saye_control) by extension 'ignore_ament_install'
+[0.888s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann-vehicle-gzsim-ros2/saye_control) by extensions ['colcon_pkg']
+[0.888s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann-vehicle-gzsim-ros2/saye_control) by extension 'colcon_pkg'
+[0.888s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann-vehicle-gzsim-ros2/saye_control) by extensions ['colcon_meta']
+[0.888s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann-vehicle-gzsim-ros2/saye_control) by extension 'colcon_meta'
+[0.888s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann-vehicle-gzsim-ros2/saye_control) by extensions ['ros']
+[0.889s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann-vehicle-gzsim-ros2/saye_control) by extension 'ros'
+[0.890s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ackermann-vehicle-gzsim-ros2/saye_control' with type 'ros.ament_cmake' and name 'saye_control'
+[0.890s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann-vehicle-gzsim-ros2/saye_description) by extensions ['ignore', 'ignore_ament_install']
+[0.890s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann-vehicle-gzsim-ros2/saye_description) by extension 'ignore'
+[0.890s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann-vehicle-gzsim-ros2/saye_description) by extension 'ignore_ament_install'
+[0.890s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann-vehicle-gzsim-ros2/saye_description) by extensions ['colcon_pkg']
+[0.891s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann-vehicle-gzsim-ros2/saye_description) by extension 'colcon_pkg'
+[0.891s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann-vehicle-gzsim-ros2/saye_description) by extensions ['colcon_meta']
+[0.891s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann-vehicle-gzsim-ros2/saye_description) by extension 'colcon_meta'
+[0.891s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann-vehicle-gzsim-ros2/saye_description) by extensions ['ros']
+[0.891s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann-vehicle-gzsim-ros2/saye_description) by extension 'ros'
+[0.892s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ackermann-vehicle-gzsim-ros2/saye_description' with type 'ros.ament_cmake' and name 'saye_description'
+[0.892s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann-vehicle-gzsim-ros2/saye_localization) by extensions ['ignore', 'ignore_ament_install']
+[0.892s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann-vehicle-gzsim-ros2/saye_localization) by extension 'ignore'
+[0.892s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann-vehicle-gzsim-ros2/saye_localization) by extension 'ignore_ament_install'
+[0.893s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann-vehicle-gzsim-ros2/saye_localization) by extensions ['colcon_pkg']
+[0.893s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann-vehicle-gzsim-ros2/saye_localization) by extension 'colcon_pkg'
+[0.893s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann-vehicle-gzsim-ros2/saye_localization) by extensions ['colcon_meta']
+[0.893s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann-vehicle-gzsim-ros2/saye_localization) by extension 'colcon_meta'
+[0.893s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann-vehicle-gzsim-ros2/saye_localization) by extensions ['ros']
+[0.893s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann-vehicle-gzsim-ros2/saye_localization) by extension 'ros'
+[0.894s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ackermann-vehicle-gzsim-ros2/saye_localization' with type 'ros.ament_cmake' and name 'saye_localization'
+[0.894s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann-vehicle-gzsim-ros2/saye_mppi) by extensions ['ignore', 'ignore_ament_install']
+[0.895s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann-vehicle-gzsim-ros2/saye_mppi) by extension 'ignore'
+[0.895s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann-vehicle-gzsim-ros2/saye_mppi) by extension 'ignore_ament_install'
+[0.895s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann-vehicle-gzsim-ros2/saye_mppi) by extensions ['colcon_pkg']
+[0.895s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann-vehicle-gzsim-ros2/saye_mppi) by extension 'colcon_pkg'
+[0.895s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann-vehicle-gzsim-ros2/saye_mppi) by extensions ['colcon_meta']
+[0.895s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann-vehicle-gzsim-ros2/saye_mppi) by extension 'colcon_meta'
+[0.895s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann-vehicle-gzsim-ros2/saye_mppi) by extensions ['ros']
+[0.895s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann-vehicle-gzsim-ros2/saye_mppi) by extension 'ros'
+[0.896s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ackermann-vehicle-gzsim-ros2/saye_mppi' with type 'ros.ament_cmake' and name 'saye_mppi'
+[0.896s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann-vehicle-gzsim-ros2/saye_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.896s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann-vehicle-gzsim-ros2/saye_msgs) by extension 'ignore'
+[0.897s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann-vehicle-gzsim-ros2/saye_msgs) by extension 'ignore_ament_install'
+[0.897s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann-vehicle-gzsim-ros2/saye_msgs) by extensions ['colcon_pkg']
+[0.897s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann-vehicle-gzsim-ros2/saye_msgs) by extension 'colcon_pkg'
+[0.897s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann-vehicle-gzsim-ros2/saye_msgs) by extensions ['colcon_meta']
+[0.897s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann-vehicle-gzsim-ros2/saye_msgs) by extension 'colcon_meta'
+[0.897s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann-vehicle-gzsim-ros2/saye_msgs) by extensions ['ros']
+[0.897s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann-vehicle-gzsim-ros2/saye_msgs) by extension 'ros'
+[0.898s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ackermann-vehicle-gzsim-ros2/saye_msgs' with type 'ros.ament_cmake' and name 'saye_msgs'
+[0.899s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann-vehicle-gzsim-ros2/saye_prediction) by extensions ['ignore', 'ignore_ament_install']
+[0.899s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann-vehicle-gzsim-ros2/saye_prediction) by extension 'ignore'
+[0.899s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann-vehicle-gzsim-ros2/saye_prediction) by extension 'ignore_ament_install'
+[0.899s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann-vehicle-gzsim-ros2/saye_prediction) by extensions ['colcon_pkg']
+[0.899s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann-vehicle-gzsim-ros2/saye_prediction) by extension 'colcon_pkg'
+[0.899s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann-vehicle-gzsim-ros2/saye_prediction) by extensions ['colcon_meta']
+[0.899s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann-vehicle-gzsim-ros2/saye_prediction) by extension 'colcon_meta'
+[0.899s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann-vehicle-gzsim-ros2/saye_prediction) by extensions ['ros']
+[0.899s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann-vehicle-gzsim-ros2/saye_prediction) by extension 'ros'
+[0.901s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ackermann-vehicle-gzsim-ros2/saye_prediction' with type 'ros.ament_cmake' and name 'saye_prediction'
+[0.901s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.901s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.901s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.901s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.901s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.936s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'saye_behaviortree' in 'src/ackermann-vehicle-gzsim-ros2/saye_behaviortree'
+[0.936s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'saye_description' in 'src/ackermann-vehicle-gzsim-ros2/saye_description'
+[0.936s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'saye_localization' in 'src/ackermann-vehicle-gzsim-ros2/saye_localization'
+[0.936s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'saye_mppi' in 'src/ackermann-vehicle-gzsim-ros2/saye_mppi'
+[0.936s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'saye_msgs' in 'src/ackermann-vehicle-gzsim-ros2/saye_msgs'
+[0.936s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'saye_bringup' in 'src/ackermann-vehicle-gzsim-ros2/saye_bringup'
+[0.936s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'saye_bringup_my' in 'src/ackermann-vehicle-gzsim-ros2/saye_bringup_my'
+[0.936s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'saye_control' in 'src/ackermann-vehicle-gzsim-ros2/saye_control'
+[0.937s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.937s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.943s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 9 installed packages in /home/yiyi/ackermann_sim/install
+[0.947s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 380 installed packages in /opt/ros/jazzy
+[0.952s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.059s] Level 5:colcon.colcon_core.verb:set package 'saye_prediction' build argument 'cmake_args' from command line to 'None'
+[1.060s] Level 5:colcon.colcon_core.verb:set package 'saye_prediction' build argument 'cmake_target' from command line to 'None'
+[1.060s] Level 5:colcon.colcon_core.verb:set package 'saye_prediction' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.060s] Level 5:colcon.colcon_core.verb:set package 'saye_prediction' build argument 'cmake_clean_cache' from command line to 'False'
+[1.060s] Level 5:colcon.colcon_core.verb:set package 'saye_prediction' build argument 'cmake_clean_first' from command line to 'False'
+[1.060s] Level 5:colcon.colcon_core.verb:set package 'saye_prediction' build argument 'cmake_force_configure' from command line to 'False'
+[1.060s] Level 5:colcon.colcon_core.verb:set package 'saye_prediction' build argument 'ament_cmake_args' from command line to 'None'
+[1.060s] Level 5:colcon.colcon_core.verb:set package 'saye_prediction' build argument 'catkin_cmake_args' from command line to 'None'
+[1.060s] Level 5:colcon.colcon_core.verb:set package 'saye_prediction' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.060s] DEBUG:colcon.colcon_core.verb:Building package 'saye_prediction' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yiyi/ackermann_sim/build/saye_prediction', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yiyi/ackermann_sim/install/saye_prediction', 'merge_install': False, 'path': '/home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_prediction', 'symlink_install': False, 'test_result_base': None}
+[1.061s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.065s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.066s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_prediction' with build type 'ament_cmake'
+[1.066s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_prediction'
+[1.070s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.070s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.071s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.872s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yiyi/ackermann_sim/build/saye_prediction': CMAKE_PREFIX_PATH=/home/yiyi/ackermann_sim/install/saye_msgs:/home/yiyi/ackermann_sim/install/saye_prediction:/home/yiyi/ackermann_sim/install/saye_control:/home/yiyi/ackermann_sim/install/saye_mppi:/home/yiyi/ackermann_sim/install/saye_localization:/home/yiyi/ackermann_sim/install/saye_bringup_my:/home/yiyi/ackermann_sim/install/saye_bringup:/home/yiyi/ackermann_sim/install/saye_description:/home/yiyi/ackermann_sim/install/saye_behaviortree:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy PYTHONPATH=/home/yiyi/ackermann_sim/install/saye_msgs/lib/python3.12/site-packages:/home/yiyi/ackermann_sim/install/saye_prediction/lib/python3.12/site-packages:/home/yiyi/ackermann_sim/install/saye_mppi/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --build /home/yiyi/ackermann_sim/build/saye_prediction -- -j16 -l16
+[5.586s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yiyi/ackermann_sim/build/saye_prediction' returned '0': CMAKE_PREFIX_PATH=/home/yiyi/ackermann_sim/install/saye_msgs:/home/yiyi/ackermann_sim/install/saye_prediction:/home/yiyi/ackermann_sim/install/saye_control:/home/yiyi/ackermann_sim/install/saye_mppi:/home/yiyi/ackermann_sim/install/saye_localization:/home/yiyi/ackermann_sim/install/saye_bringup_my:/home/yiyi/ackermann_sim/install/saye_bringup:/home/yiyi/ackermann_sim/install/saye_description:/home/yiyi/ackermann_sim/install/saye_behaviortree:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy PYTHONPATH=/home/yiyi/ackermann_sim/install/saye_msgs/lib/python3.12/site-packages:/home/yiyi/ackermann_sim/install/saye_prediction/lib/python3.12/site-packages:/home/yiyi/ackermann_sim/install/saye_mppi/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --build /home/yiyi/ackermann_sim/build/saye_prediction -- -j16 -l16
+[5.627s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yiyi/ackermann_sim/build/saye_prediction': CMAKE_PREFIX_PATH=/home/yiyi/ackermann_sim/install/saye_msgs:/home/yiyi/ackermann_sim/install/saye_prediction:/home/yiyi/ackermann_sim/install/saye_control:/home/yiyi/ackermann_sim/install/saye_mppi:/home/yiyi/ackermann_sim/install/saye_localization:/home/yiyi/ackermann_sim/install/saye_bringup_my:/home/yiyi/ackermann_sim/install/saye_bringup:/home/yiyi/ackermann_sim/install/saye_description:/home/yiyi/ackermann_sim/install/saye_behaviortree:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy PYTHONPATH=/home/yiyi/ackermann_sim/install/saye_msgs/lib/python3.12/site-packages:/home/yiyi/ackermann_sim/install/saye_prediction/lib/python3.12/site-packages:/home/yiyi/ackermann_sim/install/saye_mppi/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --install /home/yiyi/ackermann_sim/build/saye_prediction
+[5.781s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(saye_prediction)
+[5.786s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yiyi/ackermann_sim/build/saye_prediction' returned '0': CMAKE_PREFIX_PATH=/home/yiyi/ackermann_sim/install/saye_msgs:/home/yiyi/ackermann_sim/install/saye_prediction:/home/yiyi/ackermann_sim/install/saye_control:/home/yiyi/ackermann_sim/install/saye_mppi:/home/yiyi/ackermann_sim/install/saye_localization:/home/yiyi/ackermann_sim/install/saye_bringup_my:/home/yiyi/ackermann_sim/install/saye_bringup:/home/yiyi/ackermann_sim/install/saye_description:/home/yiyi/ackermann_sim/install/saye_behaviortree:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy PYTHONPATH=/home/yiyi/ackermann_sim/install/saye_msgs/lib/python3.12/site-packages:/home/yiyi/ackermann_sim/install/saye_prediction/lib/python3.12/site-packages:/home/yiyi/ackermann_sim/install/saye_mppi/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --install /home/yiyi/ackermann_sim/build/saye_prediction
+[5.788s] Level 1:colcon.colcon_core.environment:checking '/home/yiyi/ackermann_sim/install/saye_prediction' for CMake module files
+[5.789s] Level 1:colcon.colcon_core.environment:checking '/home/yiyi/ackermann_sim/install/saye_prediction' for CMake config files
+[5.789s] Level 1:colcon.colcon_core.shell:create_environment_hook('saye_prediction', 'cmake_prefix_path')
+[5.790s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yiyi/ackermann_sim/install/saye_prediction/share/saye_prediction/hook/cmake_prefix_path.ps1'
+[5.791s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yiyi/ackermann_sim/install/saye_prediction/share/saye_prediction/hook/cmake_prefix_path.dsv'
+[5.792s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yiyi/ackermann_sim/install/saye_prediction/share/saye_prediction/hook/cmake_prefix_path.sh'
+[5.794s] Level 1:colcon.colcon_core.environment:checking '/home/yiyi/ackermann_sim/install/saye_prediction/lib'
+[5.795s] Level 1:colcon.colcon_core.environment:checking '/home/yiyi/ackermann_sim/install/saye_prediction/bin'
+[5.795s] Level 1:colcon.colcon_core.environment:checking '/home/yiyi/ackermann_sim/install/saye_prediction/lib/pkgconfig/saye_prediction.pc'
+[5.795s] Level 1:colcon.colcon_core.environment:checking '/home/yiyi/ackermann_sim/install/saye_prediction/lib/python3.12/site-packages'
+[5.795s] Level 1:colcon.colcon_core.shell:create_environment_hook('saye_prediction', 'pythonpath')
+[5.796s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yiyi/ackermann_sim/install/saye_prediction/share/saye_prediction/hook/pythonpath.ps1'
+[5.796s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yiyi/ackermann_sim/install/saye_prediction/share/saye_prediction/hook/pythonpath.dsv'
+[5.797s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yiyi/ackermann_sim/install/saye_prediction/share/saye_prediction/hook/pythonpath.sh'
+[5.798s] Level 1:colcon.colcon_core.environment:checking '/home/yiyi/ackermann_sim/install/saye_prediction/bin'
+[5.799s] INFO:colcon.colcon_core.shell:Creating package script '/home/yiyi/ackermann_sim/install/saye_prediction/share/saye_prediction/package.ps1'
+[5.800s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yiyi/ackermann_sim/install/saye_prediction/share/saye_prediction/package.dsv'
+[5.801s] INFO:colcon.colcon_core.shell:Creating package script '/home/yiyi/ackermann_sim/install/saye_prediction/share/saye_prediction/package.sh'
+[5.803s] INFO:colcon.colcon_core.shell:Creating package script '/home/yiyi/ackermann_sim/install/saye_prediction/share/saye_prediction/package.bash'
+[5.804s] INFO:colcon.colcon_core.shell:Creating package script '/home/yiyi/ackermann_sim/install/saye_prediction/share/saye_prediction/package.zsh'
+[5.805s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yiyi/ackermann_sim/install/saye_prediction/share/colcon-core/packages/saye_prediction)
+[5.806s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(saye_prediction)
+[5.808s] Level 1:colcon.colcon_core.environment:checking '/home/yiyi/ackermann_sim/install/saye_prediction' for CMake module files
+[5.809s] Level 1:colcon.colcon_core.environment:checking '/home/yiyi/ackermann_sim/install/saye_prediction' for CMake config files
+[5.810s] Level 1:colcon.colcon_core.shell:create_environment_hook('saye_prediction', 'cmake_prefix_path')
+[5.810s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yiyi/ackermann_sim/install/saye_prediction/share/saye_prediction/hook/cmake_prefix_path.ps1'
+[5.811s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yiyi/ackermann_sim/install/saye_prediction/share/saye_prediction/hook/cmake_prefix_path.dsv'
+[5.812s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yiyi/ackermann_sim/install/saye_prediction/share/saye_prediction/hook/cmake_prefix_path.sh'
+[5.813s] Level 1:colcon.colcon_core.environment:checking '/home/yiyi/ackermann_sim/install/saye_prediction/lib'
+[5.813s] Level 1:colcon.colcon_core.environment:checking '/home/yiyi/ackermann_sim/install/saye_prediction/bin'
+[5.814s] Level 1:colcon.colcon_core.environment:checking '/home/yiyi/ackermann_sim/install/saye_prediction/lib/pkgconfig/saye_prediction.pc'
+[5.814s] Level 1:colcon.colcon_core.environment:checking '/home/yiyi/ackermann_sim/install/saye_prediction/lib/python3.12/site-packages'
+[5.814s] Level 1:colcon.colcon_core.shell:create_environment_hook('saye_prediction', 'pythonpath')
+[5.814s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yiyi/ackermann_sim/install/saye_prediction/share/saye_prediction/hook/pythonpath.ps1'
+[5.815s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yiyi/ackermann_sim/install/saye_prediction/share/saye_prediction/hook/pythonpath.dsv'
+[5.816s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yiyi/ackermann_sim/install/saye_prediction/share/saye_prediction/hook/pythonpath.sh'
+[5.817s] Level 1:colcon.colcon_core.environment:checking '/home/yiyi/ackermann_sim/install/saye_prediction/bin'
+[5.817s] INFO:colcon.colcon_core.shell:Creating package script '/home/yiyi/ackermann_sim/install/saye_prediction/share/saye_prediction/package.ps1'
+[5.819s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yiyi/ackermann_sim/install/saye_prediction/share/saye_prediction/package.dsv'
+[5.820s] INFO:colcon.colcon_core.shell:Creating package script '/home/yiyi/ackermann_sim/install/saye_prediction/share/saye_prediction/package.sh'
+[5.820s] INFO:colcon.colcon_core.shell:Creating package script '/home/yiyi/ackermann_sim/install/saye_prediction/share/saye_prediction/package.bash'
+[5.821s] INFO:colcon.colcon_core.shell:Creating package script '/home/yiyi/ackermann_sim/install/saye_prediction/share/saye_prediction/package.zsh'
+[5.822s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yiyi/ackermann_sim/install/saye_prediction/share/colcon-core/packages/saye_prediction)
+[5.823s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[5.823s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[5.823s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[5.823s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[4.407s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[4.407s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[4.407s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[4.407s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[4.409s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[4.410s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[4.410s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yiyi/ackermann_sim/install/local_setup.ps1'
+[4.412s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/yiyi/ackermann_sim/install/_local_setup_util_ps1.py'
+[4.414s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yiyi/ackermann_sim/install/setup.ps1'
+[4.417s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yiyi/ackermann_sim/install/local_setup.sh'
+[4.418s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/yiyi/ackermann_sim/install/_local_setup_util_sh.py'
+[4.419s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yiyi/ackermann_sim/install/setup.sh'
+[4.422s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yiyi/ackermann_sim/install/local_setup.bash'
+[4.423s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yiyi/ackermann_sim/install/setup.bash'
+[4.425s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yiyi/ackermann_sim/install/local_setup.zsh'
+[4.426s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yiyi/ackermann_sim/install/setup.zsh'

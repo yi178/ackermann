@@ -1,0 +1,23 @@
+[0.020s] Invoking command in '/home/yiyi/ackermann_sim/build/saye_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/yiyi/ackermann_sim/build/saye_description -- -j16 -l16
+[0.131s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.448s] -- Found ament_index_cpp: 1.8.1 (/opt/ros/jazzy/share/ament_index_cpp/cmake)
+[2.951s] CMake Error at CMakeLists.txt:10 (find_package):
+[2.951s]   By not providing "Findgz-plugin7.cmake" in CMAKE_MODULE_PATH this project
+[2.951s]   has asked CMake to find a package configuration file provided by
+[2.951s]   "gz-plugin7", but CMake did not find one.
+[2.951s] 
+[2.951s]   Could not find a package configuration file provided by "gz-plugin7" with
+[2.951s]   any of the following names:
+[2.951s] 
+[2.952s]     gz-plugin7Config.cmake
+[2.952s]     gz-plugin7-config.cmake
+[2.952s] 
+[2.952s]   Add the installation prefix of "gz-plugin7" to CMAKE_PREFIX_PATH or set
+[2.952s]   "gz-plugin7_DIR" to a directory containing one of the above files.  If
+[2.952s]   "gz-plugin7" provides a separate development package or SDK, be sure it has
+[2.952s]   been installed.
+[2.952s] 
+[2.952s] 
+[2.952s] -- Configuring incomplete, errors occurred!
+[2.965s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[2.970s] Invoked command in '/home/yiyi/ackermann_sim/build/saye_description' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/yiyi/ackermann_sim/build/saye_description -- -j16 -l16

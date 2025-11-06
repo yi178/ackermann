@@ -1,0 +1,21 @@
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found ament_index_cpp: 1.8.1 (/opt/ros/jazzy/share/ament_index_cpp/cmake)
+CMake Error at CMakeLists.txt:10 (find_package):
+  By not providing "Findgz-plugin7.cmake" in CMAKE_MODULE_PATH this project
+  has asked CMake to find a package configuration file provided by
+  "gz-plugin7", but CMake did not find one.
+
+  Could not find a package configuration file provided by "gz-plugin7" with
+  any of the following names:
+
+    gz-plugin7Config.cmake
+    gz-plugin7-config.cmake
+
+  Add the installation prefix of "gz-plugin7" to CMAKE_PREFIX_PATH or set
+  "gz-plugin7_DIR" to a directory containing one of the above files.  If
+  "gz-plugin7" provides a separate development package or SDK, be sure it has
+  been installed.
+
+
+-- Configuring incomplete, errors occurred!
+gmake: *** [Makefile:226: cmake_check_build_system] Error 1

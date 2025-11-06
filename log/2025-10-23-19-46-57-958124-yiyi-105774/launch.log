@@ -1,0 +1,3 @@
+1761220017.9606361 [INFO] [launch]: All log files can be found below /home/yiyi/ackermann_sim/log/2025-10-23-19-46-57-958124-yiyi-105774
+1761220017.9608588 [INFO] [launch]: Default logging verbosity is set to INFO
+1761220018.3031936 [ERROR] [launch]: Caught exception in launch (see debug for traceback): error creating node: __create_participant failed to create participant, at ./src/participant.cpp:107, at ./src/rcl/node.c:252

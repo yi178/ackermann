@@ -1,0 +1,2 @@
+prepend-non-duplicate;GZ_SIM_RESOURCE_PATH;share;/home/yiyi/ackermann_sim/install/saye_description/share/saye_description/models
+prepend-non-duplicate;GZ_SIM_SYSTEM_PLUGIN_PATH;lib;/home/yiyi/ackermann_sim/install/saye_description/lib

@@ -1,0 +1,9 @@
+straight_path_commander:
+  ros__parameters:
+    base_frame: "saye/base_link"
+    path_frame: "map"
+    goal: [22.0, 0.0, 0.0]
+    path_resolution: 0.25
+    goal_tolerance: 0.1
+    wait_for_server_timeout: 30.0
+    max_send_attempts: 10

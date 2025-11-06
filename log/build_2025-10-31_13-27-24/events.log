@@ -1,0 +1,689 @@
+[0.000000] (-) TimerEvent: {}
+[0.000473] (-) JobUnselected: {'identifier': 'saye_behaviortree'}
+[0.001132] (-) JobUnselected: {'identifier': 'saye_bringup'}
+[0.001188] (-) JobUnselected: {'identifier': 'saye_bringup_my'}
+[0.001226] (-) JobUnselected: {'identifier': 'saye_control'}
+[0.001262] (-) JobUnselected: {'identifier': 'saye_localization'}
+[0.001297] (-) JobUnselected: {'identifier': 'saye_mppi'}
+[0.001318] (-) JobUnselected: {'identifier': 'saye_msgs'}
+[0.001352] (-) JobUnselected: {'identifier': 'saye_prediction'}
+[0.001394] (saye_description) JobQueued: {'identifier': 'saye_description', 'dependencies': OrderedDict()}
+[0.001434] (saye_description) JobStarted: {'identifier': 'saye_description'}
+[0.017079] (saye_description) JobProgress: {'identifier': 'saye_description', 'progress': 'cmake'}
+[0.018419] (saye_description) JobProgress: {'identifier': 'saye_description', 'progress': 'build'}
+[0.019531] (saye_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/yiyi/ackermann_sim/build/saye_description', '--', '-j16', '-l16'], 'cwd': '/home/yiyi/ackermann_sim/build/saye_description', 'env': OrderedDict({'GZ_SIM_SYSTEM_PLUGIN_PATH': '/home/yiyi/ackermann_sim/install/saye_description/lib', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'HTTPS_PROXY': 'http://127.0.0.1:7897', 'GZ_SIM_RESOURCE_PATH': '/home/yiyi/ackermann_sim/install/saye_description/share/saye_description/models:/home/yiyi/ackermann_sim/install/saye_description/share', 'no_proxy': '172.31.*,172.30.*,172.29.*,172.28.*,172.27.*,172.26.*,172.25.*,172.24.*,172.23.*,172.22.*,172.21.*,172.20.*,172.19.*,172.18.*,172.17.*,172.16.*,10.*,192.168.*,127.*,localhost,<local>', 'USER': 'yiyi', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'SHLVL': '1', 'WT_PROFILE_ID': '{d8e96812-b789-5068-a5ae-10b2fb53e95f}', 'HOME': '/home/yiyi', 'OLDPWD': '/home/yiyi', 'NO_PROXY': '172.31.*,172.30.*,172.29.*,172.28.*,172.27.*,172.26.*,172.25.*,172.24.*,172.23.*,172.22.*,172.21.*,172.20.*,172.19.*,172.18.*,172.17.*,172.16.*,10.*,192.168.*,127.*,localhost,<local>', 'NVM_BIN': '/home/yiyi/.nvm/versions/node/v22.21.0/bin', 'NVM_INC': '/home/yiyi/.nvm/versions/node/v22.21.0/include/node', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', 'NVM_DIR': '/home/yiyi/.nvm', 'WAYLAND_DISPLAY': 'wayland-0', 'https_proxy': 'http://127.0.0.1:7897', 'COLCON_PREFIX_PATH': '/home/yiyi/ackermann_sim/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'yiyi', 'NAME': 'yiyi', 'WSL_INTEROP': '/run/WSL/15619_interop', 'http_proxy': 'http://127.0.0.1:7897', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/home/yiyi/.local/bin:/tmp/.tmpPMtxZI:/home/yiyi/.nvm/versions/node/v22.21.0/lib/node_modules/@openai/codex/vendor/x86_64-unknown-linux-musl/path:/home/yiyi/.local/bin:/home/yiyi/.local/bin:/home/yiyi/.local/share/pnpm:/home/yiyi/.nvm/versions/node/v22.21.0/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/d/Python/Python308/Scripts/:/mnt/d/Python/Python308/:/mnt/d/Vmware/bin/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/d/bandzip/Bandizip/:/mnt/d/Python/Python310/:/mnt/c/Program Files/dotnet/:/mnt/d/MYsQL8/bin:/mnt/d/JAVA/jdk1.8.0_152/jdk1.8.0_152/bin:/mnt/d/JAVA/jdk1.8.0_152/jdk1.8.0_152/jre/bin:/mnt/d/VS code/Microsoft VS Code/bin:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/DTS/Binn/:/mnt/c/Program Files/Git/cmd:/mnt/d/Matlab2024b/runtime/win64:/mnt/d/Matlab2024b/bin:/mnt/d/Windows Kits/10/Windows Performance Toolkit/:/mnt/d/cursor/cursor/resources/app/bin:/mnt/c/ProgramData/chocolatey/bin:/mnt/d/nodejs/:/mnt/d/cursor/cursor/resources/app/bin:/mnt/d/IDEAl/windsurf/Windsurf/bin:/mnt/c/Users/29705/AppData/Local/pnpm:/mnt/d/python/python312/Scripts/:/mnt/d/python/python312/:/mnt/c/Users/29705/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/29705/AppData/Local/Microsoft/WindowsApps:/mnt/d/clion/CLion 2024.1/bin:/mnt/d/pycharm/PyCharm Community Edition 2023.1.3/bin:/mnt/d/新建文件夹/miktex/bin/x64/:/mnt/d/IntelliJ IDEAIntelliJ IDEA/IntelliJ IDEA 2024.1.1/bin:/mnt/d/pycharm/PyCharm 2024.1.1/bin:/mnt/c/Users/29705/AppData/Local/JetBrains/Toolbox/scripts:/mnt/d/Modelsim/win64:/mnt/c/Users/29705/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/29705/AppData/Local/Microsoft/WindowsApps:/mnt/d/msys/ucrt64/bin:/mnt/c/Users/29705/.dotnet/tools:/mnt/d/IDEAl/kiro/Kiro/bin:/mnt/c/Users/29705/AppData/Local/Programs/Ollama:/mnt/c/Users/29705/.lmstudio/bin:/mnt/c/Users/29705/AppData/Roaming/npm:/mnt/c/Users/29705/AppData/Local/Microsoft/WinGet/Links:/mnt/d/pycharm/PyCharm 2025.2.3/bin:/mnt/d/clion/CLion 2025.2.3/bin:/mnt/c/Users/29705/.dotnet/tools:/mnt/d/Zed/bin:/snap/bin', 'WT_SESSION': '6c2f859e-9cff-41ee-9ff7-154a451610dc', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/yiyi/ackermann_sim/install/saye_prediction:/home/yiyi/ackermann_sim/install/saye_control:/home/yiyi/ackermann_sim/install/saye_msgs:/home/yiyi/ackermann_sim/install/saye_mppi:/home/yiyi/ackermann_sim/install/saye_localization:/home/yiyi/ackermann_sim/install/saye_bringup_my:/home/yiyi/ackermann_sim/install/saye_bringup:/home/yiyi/ackermann_sim/install/saye_description:/home/yiyi/ackermann_sim/install/saye_behaviortree:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/yiyi/ackermann_sim/build/saye_description', 'NVM_CD_FLAGS': '', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/yiyi/ackermann_sim/install/saye_prediction/lib/python3.12/site-packages:/home/yiyi/ackermann_sim/install/saye_msgs/lib/python3.12/site-packages:/home/yiyi/ackermann_sim/install/saye_mppi/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'HTTP_PROXY': 'http://127.0.0.1:7897', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'PNPM_HOME': '/home/yiyi/.local/share/pnpm', 'CODEX_MANAGED_BY_NPM': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/yiyi/ackermann_sim/install/saye_prediction:/home/yiyi/ackermann_sim/install/saye_control:/home/yiyi/ackermann_sim/install/saye_msgs:/home/yiyi/ackermann_sim/install/saye_mppi:/home/yiyi/ackermann_sim/install/saye_localization:/home/yiyi/ackermann_sim/install/saye_bringup_my:/home/yiyi/ackermann_sim/install/saye_bringup:/home/yiyi/ackermann_sim/install/saye_description:/home/yiyi/ackermann_sim/install/saye_behaviortree:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'WSLENV': 'WT_SESSION:WT_PROFILE_ID:'}), 'shell': False}
+[0.077105] (saye_description) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.099590] (-) TimerEvent: {}
+[0.200618] (-) TimerEvent: {}
+[0.300932] (-) TimerEvent: {}
+[0.401228] (-) TimerEvent: {}
+[0.462906] (saye_description) StdoutLine: {'line': b'-- Found ament_index_cpp: 1.8.1 (/opt/ros/jazzy/share/ament_index_cpp/cmake)\n'}
+[0.463587] (saye_description) StdoutLine: {'line': b'-- Looking for gz-plugin2 -- found version 2.0.4\n'}
+[0.471814] (saye_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-plugin2\n'}
+[0.472254] (saye_description) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.1\n'}
+[0.472600] (saye_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-utils2\n'}
+[0.473141] (saye_description) StdoutLine: {'line': b'-- Searching for <gz-utils2> component [cli]\n'}
+[0.473770] (saye_description) StdoutLine: {'line': b'-- Looking for gz-utils2-cli -- found version 2.2.1\n'}
+[0.474030] (saye_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-utils2-cli\n'}
+[0.475695] (saye_description) StdoutLine: {'line': b'-- Looking for gz-sim8 -- found version 8.9.0\n'}
+[0.476068] (saye_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-sim8\n'}
+[0.476511] (saye_description) StdoutLine: {'line': b'-- Looking for sdformat14 -- found version 14.8.0\n'}
+[0.476716] (saye_description) StdoutLine: {'line': b'-- Searching for dependencies of sdformat14\n'}
+[0.484918] (saye_description) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[0.501452] (-) TimerEvent: {}
+[0.515483] (saye_description) StdoutLine: {'line': b'--   Found tinyxml2, version 10.0.0\n'}
+[0.581236] (saye_description) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.2\n'}
+[0.581608] (saye_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-math7\n'}
+[0.581969] (saye_description) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.1\n'}
+[0.584979] (saye_description) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.1\n'}
+[0.585503] (saye_description) StdoutLine: {'line': b'-- Looking for gz-plugin2 -- found version 2.0.4\n'}
+[0.585644] (saye_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-plugin2\n'}
+[0.586008] (saye_description) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.1\n'}
+[0.586405] (saye_description) StdoutLine: {'line': b'-- Searching for <gz-plugin2> component [loader]\n'}
+[0.586932] (saye_description) StdoutLine: {'line': b'-- Looking for gz-plugin2-loader -- found version 2.0.4\n'}
+[0.587314] (saye_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-plugin2-loader\n'}
+[0.588400] (saye_description) StdoutLine: {'line': b'-- Searching for <gz-plugin2> component [register]\n'}
+[0.589886] (saye_description) StdoutLine: {'line': b'-- Looking for gz-plugin2-register -- found version 2.0.4\n'}
+[0.590160] (saye_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-plugin2-register\n'}
+[0.590726] (saye_description) StdoutLine: {'line': b'-- Looking for gz-transport13 -- found version 13.4.1\n'}
+[0.591082] (saye_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-transport13\n'}
+[0.601653] (-) TimerEvent: {}
+[0.702020] (-) TimerEvent: {}
+[0.802406] (-) TimerEvent: {}
+[0.902895] (-) TimerEvent: {}
+[1.003288] (-) TimerEvent: {}
+[1.103690] (-) TimerEvent: {}
+[1.204135] (-) TimerEvent: {}
+[1.304470] (-) TimerEvent: {}
+[1.404756] (-) TimerEvent: {}
+[1.505120] (-) TimerEvent: {}
+[1.605832] (-) TimerEvent: {}
+[1.706246] (-) TimerEvent: {}
+[1.806649] (-) TimerEvent: {}
+[1.907027] (-) TimerEvent: {}
+[2.007443] (-) TimerEvent: {}
+[2.108379] (-) TimerEvent: {}
+[2.208701] (-) TimerEvent: {}
+[2.309047] (-) TimerEvent: {}
+[2.409380] (-) TimerEvent: {}
+[2.509794] (-) TimerEvent: {}
+[2.610232] (-) TimerEvent: {}
+[2.711029] (-) TimerEvent: {}
+[2.812606] (-) TimerEvent: {}
+[2.912958] (-) TimerEvent: {}
+[3.013311] (-) TimerEvent: {}
+[3.113728] (-) TimerEvent: {}
+[3.214147] (-) TimerEvent: {}
+[3.314512] (-) TimerEvent: {}
+[3.414908] (-) TimerEvent: {}
+[3.515324] (-) TimerEvent: {}
+[3.616153] (-) TimerEvent: {}
+[3.716480] (-) TimerEvent: {}
+[3.816773] (-) TimerEvent: {}
+[3.917050] (-) TimerEvent: {}
+[4.017369] (-) TimerEvent: {}
+[4.117727] (-) TimerEvent: {}
+[4.218158] (-) TimerEvent: {}
+[4.318541] (-) TimerEvent: {}
+[4.418912] (-) TimerEvent: {}
+[4.519228] (-) TimerEvent: {}
+[4.619752] (-) TimerEvent: {}
+[4.720287] (-) TimerEvent: {}
+[4.820608] (-) TimerEvent: {}
+[4.922072] (-) TimerEvent: {}
+[5.022457] (-) TimerEvent: {}
+[5.122874] (-) TimerEvent: {}
+[5.223234] (-) TimerEvent: {}
+[5.323685] (-) TimerEvent: {}
+[5.424060] (-) TimerEvent: {}
+[5.525084] (-) TimerEvent: {}
+[5.625471] (-) TimerEvent: {}
+[5.725812] (-) TimerEvent: {}
+[5.826220] (-) TimerEvent: {}
+[5.926558] (-) TimerEvent: {}
+[6.026907] (-) TimerEvent: {}
+[6.127325] (-) TimerEvent: {}
+[6.227758] (-) TimerEvent: {}
+[6.328147] (-) TimerEvent: {}
+[6.428521] (-) TimerEvent: {}
+[6.528916] (-) TimerEvent: {}
+[6.629263] (-) TimerEvent: {}
+[6.729596] (-) TimerEvent: {}
+[6.829893] (-) TimerEvent: {}
+[6.930510] (-) TimerEvent: {}
+[7.030845] (-) TimerEvent: {}
+[7.131306] (-) TimerEvent: {}
+[7.231977] (-) TimerEvent: {}
+[7.332304] (-) TimerEvent: {}
+[7.432648] (-) TimerEvent: {}
+[7.532988] (-) TimerEvent: {}
+[7.633356] (-) TimerEvent: {}
+[7.733667] (-) TimerEvent: {}
+[7.834050] (-) TimerEvent: {}
+[7.934477] (-) TimerEvent: {}
+[8.034872] (-) TimerEvent: {}
+[8.069474] (saye_description) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[8.077042] (saye_description) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[8.107844] (saye_description) StdoutLine: {'line': b'--   Found libzmq, version 4.3.5\n'}
+[8.135154] (-) TimerEvent: {}
+[8.208173] (saye_description) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[8.235436] (-) TimerEvent: {}
+[8.236982] (saye_description) StdoutLine: {'line': b'--   Found uuid, version 2.39.3\n'}
+[8.307013] (saye_description) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.1\n'}
+[8.307636] (saye_description) StdoutLine: {'line': b'-- Looking for gz-msgs10 -- found version 10.3.2\n'}
+[8.307768] (saye_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-msgs10\n'}
+[8.335742] (-) TimerEvent: {}
+[8.436175] (-) TimerEvent: {}
+[8.536477] (-) TimerEvent: {}
+[8.636850] (-) TimerEvent: {}
+[8.737151] (-) TimerEvent: {}
+[8.837467] (-) TimerEvent: {}
+[8.938381] (-) TimerEvent: {}
+[9.038807] (-) TimerEvent: {}
+[9.139210] (-) TimerEvent: {}
+[9.239676] (-) TimerEvent: {}
+[9.340148] (-) TimerEvent: {}
+[9.440476] (-) TimerEvent: {}
+[9.540787] (-) TimerEvent: {}
+[9.641132] (-) TimerEvent: {}
+[9.741449] (-) TimerEvent: {}
+[9.841836] (-) TimerEvent: {}
+[9.942313] (-) TimerEvent: {}
+[10.043768] (-) TimerEvent: {}
+[10.144181] (-) TimerEvent: {}
+[10.244457] (-) TimerEvent: {}
+[10.344762] (-) TimerEvent: {}
+[10.445066] (-) TimerEvent: {}
+[10.545642] (-) TimerEvent: {}
+[10.645995] (-) TimerEvent: {}
+[10.746381] (-) TimerEvent: {}
+[10.846687] (-) TimerEvent: {}
+[10.948874] (-) TimerEvent: {}
+[11.049180] (-) TimerEvent: {}
+[11.149568] (-) TimerEvent: {}
+[11.250623] (-) TimerEvent: {}
+[11.351359] (-) TimerEvent: {}
+[11.451693] (-) TimerEvent: {}
+[11.552181] (-) TimerEvent: {}
+[11.652519] (-) TimerEvent: {}
+[11.752807] (-) TimerEvent: {}
+[11.853442] (-) TimerEvent: {}
+[11.953732] (-) TimerEvent: {}
+[12.032677] (saye_description) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.1\n'}
+[12.033149] (saye_description) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.2\n'}
+[12.043120] (saye_description) StdoutLine: {'line': b'-- Searching for <gz-transport13> component [log]\n'}
+[12.043671] (saye_description) StdoutLine: {'line': b'-- Looking for gz-transport13-log -- found version 13.4.1\n'}
+[12.043999] (saye_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-transport13-log\n'}
+[12.044496] (saye_description) StdoutLine: {'line': b'-- Searching for <gz-transport13> component [parameters]\n'}
+[12.045100] (saye_description) StdoutLine: {'line': b'-- Looking for gz-transport13-parameters -- found version 13.4.1\n'}
+[12.045347] (saye_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-transport13-parameters\n'}
+[12.046358] (saye_description) StdoutLine: {'line': b'-- Looking for gz-msgs10 -- found version 10.3.2\n'}
+[12.046908] (saye_description) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.7.1\n'}
+[12.047300] (saye_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5\n'}
+[12.047556] (saye_description) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.1\n'}
+[12.047830] (saye_description) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[12.047924] (saye_description) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[12.054112] (-) TimerEvent: {}
+[12.058972] (saye_description) StdoutLine: {'line': b'-- Searching for <gz-common5> component [av]\n'}
+[12.059597] (saye_description) StdoutLine: {'line': b'-- Looking for gz-common5-av -- found version 5.7.1\n'}
+[12.060184] (saye_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5-av\n'}
+[12.067352] (saye_description) StdoutLine: {'line': b"-- Checking for module 'libswscale'\n"}
+[12.095690] (saye_description) StdoutLine: {'line': b'--   Found libswscale, version 7.5.100\n'}
+[12.154932] (-) TimerEvent: {}
+[12.171137] (saye_description) StdoutLine: {'line': b"-- Checking for module 'libavdevice >= 56.4.100'\n"}
+[12.197702] (saye_description) StdoutLine: {'line': b'--   Found libavdevice, version 60.3.100\n'}
+[12.255087] (-) TimerEvent: {}
+[12.291059] (saye_description) StdoutLine: {'line': b"-- Checking for module 'libavformat'\n"}
+[12.319282] (saye_description) StdoutLine: {'line': b'--   Found libavformat, version 60.16.100\n'}
+[12.355398] (-) TimerEvent: {}
+[12.398758] (saye_description) StdoutLine: {'line': b"-- Checking for module 'libavcodec'\n"}
+[12.428275] (saye_description) StdoutLine: {'line': b'--   Found libavcodec, version 60.31.102\n'}
+[12.455670] (-) TimerEvent: {}
+[12.507181] (saye_description) StdoutLine: {'line': b"-- Checking for module 'libavutil'\n"}
+[12.535004] (saye_description) StdoutLine: {'line': b'--   Found libavutil, version 58.29.100\n'}
+[12.555995] (-) TimerEvent: {}
+[12.600867] (saye_description) StdoutLine: {'line': b'-- Searching for <gz-common5> component [events]\n'}
+[12.601481] (saye_description) StdoutLine: {'line': b'-- Looking for gz-common5-events -- found version 5.7.1\n'}
+[12.602007] (saye_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5-events\n'}
+[12.602412] (saye_description) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.2\n'}
+[12.602644] (saye_description) StdoutLine: {'line': b'-- Searching for <gz-common5> component [graphics]\n'}
+[12.603056] (saye_description) StdoutLine: {'line': b'-- Looking for gz-common5-graphics -- found version 5.7.1\n'}
+[12.603274] (saye_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5-graphics\n'}
+[12.603760] (saye_description) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.2\n'}
+[12.606764] (saye_description) StdoutLine: {'line': b'-- Searching for <gz-common5> component [io]\n'}
+[12.607216] (saye_description) StdoutLine: {'line': b'-- Looking for gz-common5-io -- found version 5.7.1\n'}
+[12.607694] (saye_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5-io\n'}
+[12.608122] (saye_description) StdoutLine: {'line': b'-- Searching for <gz-common5> component [profiler]\n'}
+[12.608527] (saye_description) StdoutLine: {'line': b'-- Looking for gz-common5-profiler -- found version 5.7.1\n'}
+[12.608940] (saye_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5-profiler\n'}
+[12.610040] (saye_description) StdoutLine: {'line': b'-- Looking for gz-fuel_tools9 -- found version 9.1.1\n'}
+[12.610337] (saye_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-fuel_tools9\n'}
+[12.656318] (-) TimerEvent: {}
+[12.756584] (-) TimerEvent: {}
+[12.857689] (-) TimerEvent: {}
+[12.958300] (-) TimerEvent: {}
+[13.058891] (-) TimerEvent: {}
+[13.159430] (-) TimerEvent: {}
+[13.259877] (-) TimerEvent: {}
+[13.360331] (-) TimerEvent: {}
+[13.460856] (-) TimerEvent: {}
+[13.561495] (-) TimerEvent: {}
+[13.662136] (-) TimerEvent: {}
+[13.762811] (-) TimerEvent: {}
+[13.863335] (-) TimerEvent: {}
+[13.963946] (-) TimerEvent: {}
+[14.064636] (-) TimerEvent: {}
+[14.165096] (-) TimerEvent: {}
+[14.265395] (-) TimerEvent: {}
+[14.365937] (-) TimerEvent: {}
+[14.467733] (-) TimerEvent: {}
+[14.568276] (-) TimerEvent: {}
+[14.670145] (-) TimerEvent: {}
+[14.771956] (-) TimerEvent: {}
+[14.872842] (-) TimerEvent: {}
+[14.974757] (-) TimerEvent: {}
+[15.075060] (-) TimerEvent: {}
+[15.175469] (-) TimerEvent: {}
+[15.275865] (-) TimerEvent: {}
+[15.376238] (-) TimerEvent: {}
+[15.476599] (-) TimerEvent: {}
+[15.577058] (-) TimerEvent: {}
+[15.677744] (-) TimerEvent: {}
+[15.778064] (-) TimerEvent: {}
+[15.878458] (-) TimerEvent: {}
+[15.982805] (-) TimerEvent: {}
+[16.087319] (-) TimerEvent: {}
+[16.188307] (-) TimerEvent: {}
+[16.202953] (saye_description) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[16.231735] (saye_description) StdoutLine: {'line': b'--   Found jsoncpp, version 1.9.5\n'}
+[16.288503] (-) TimerEvent: {}
+[16.388802] (-) TimerEvent: {}
+[16.489082] (-) TimerEvent: {}
+[16.589385] (-) TimerEvent: {}
+[16.689723] (-) TimerEvent: {}
+[16.790079] (-) TimerEvent: {}
+[16.890436] (-) TimerEvent: {}
+[16.990779] (-) TimerEvent: {}
+[17.091185] (-) TimerEvent: {}
+[17.191584] (-) TimerEvent: {}
+[17.292529] (-) TimerEvent: {}
+[17.393497] (-) TimerEvent: {}
+[17.496319] (-) TimerEvent: {}
+[17.599107] (-) TimerEvent: {}
+[17.702448] (-) TimerEvent: {}
+[17.805817] (-) TimerEvent: {}
+[17.906582] (-) TimerEvent: {}
+[18.010146] (-) TimerEvent: {}
+[18.111165] (-) TimerEvent: {}
+[18.211732] (-) TimerEvent: {}
+[18.312207] (-) TimerEvent: {}
+[18.416018] (-) TimerEvent: {}
+[18.520011] (-) TimerEvent: {}
+[18.623872] (-) TimerEvent: {}
+[18.728274] (-) TimerEvent: {}
+[18.828542] (-) TimerEvent: {}
+[18.928817] (-) TimerEvent: {}
+[19.029166] (-) TimerEvent: {}
+[19.129846] (-) TimerEvent: {}
+[19.232347] (-) TimerEvent: {}
+[19.240598] (saye_description) StdoutLine: {'line': b"-- Checking for module 'yaml-0.1'\n"}
+[19.266991] (saye_description) StdoutLine: {'line': b'--   Found yaml-0.1, version 0.2.5\n'}
+[19.332714] (-) TimerEvent: {}
+[19.339801] (saye_description) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[19.368398] (saye_description) StdoutLine: {'line': b'--   Found libzip, version 1.7.3\n'}
+[19.432942] (-) TimerEvent: {}
+[19.434940] (saye_description) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.1\n'}
+[19.435490] (saye_description) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.7.1\n'}
+[19.435858] (saye_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5\n'}
+[19.436079] (saye_description) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.1\n'}
+[19.436399] (saye_description) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[19.436562] (saye_description) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[19.447673] (saye_description) StdoutLine: {'line': b'-- Searching for <gz-common5> component [testing]\n'}
+[19.448395] (saye_description) StdoutLine: {'line': b'-- Looking for gz-common5-testing -- found version 5.7.1\n'}
+[19.448812] (saye_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5-testing\n'}
+[19.449764] (saye_description) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.2\n'}
+[19.450249] (saye_description) StdoutLine: {'line': b'-- Looking for gz-msgs10 -- found version 10.3.2\n'}
+[19.451458] (saye_description) StdoutLine: {'line': b'-- Looking for gz-gui8 -- found version 8.4.0\n'}
+[19.451730] (saye_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-gui8\n'}
+[19.533359] (-) TimerEvent: {}
+[19.633738] (-) TimerEvent: {}
+[19.734197] (-) TimerEvent: {}
+[19.834685] (-) TimerEvent: {}
+[19.934975] (-) TimerEvent: {}
+[20.035554] (-) TimerEvent: {}
+[20.135931] (-) TimerEvent: {}
+[20.236648] (-) TimerEvent: {}
+[20.337148] (-) TimerEvent: {}
+[20.437495] (-) TimerEvent: {}
+[20.538141] (-) TimerEvent: {}
+[20.642363] (-) TimerEvent: {}
+[20.746856] (-) TimerEvent: {}
+[20.848593] (-) TimerEvent: {}
+[20.948931] (-) TimerEvent: {}
+[21.049543] (-) TimerEvent: {}
+[21.150012] (-) TimerEvent: {}
+[21.250348] (-) TimerEvent: {}
+[21.350970] (-) TimerEvent: {}
+[21.451368] (-) TimerEvent: {}
+[21.552083] (-) TimerEvent: {}
+[21.652549] (-) TimerEvent: {}
+[21.752930] (-) TimerEvent: {}
+[21.853540] (-) TimerEvent: {}
+[21.956426] (-) TimerEvent: {}
+[22.060872] (-) TimerEvent: {}
+[22.162287] (-) TimerEvent: {}
+[22.262562] (-) TimerEvent: {}
+[22.363082] (-) TimerEvent: {}
+[22.463453] (-) TimerEvent: {}
+[22.478328] (saye_description) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.1\n'}
+[22.478961] (saye_description) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.2\n'}
+[22.479490] (saye_description) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.7.1\n'}
+[22.480009] (saye_description) StdoutLine: {'line': b'-- Looking for gz-plugin2 -- found version 2.0.4\n'}
+[22.480627] (saye_description) StdoutLine: {'line': b'-- Looking for gz-transport13 -- found version 13.4.1\n'}
+[22.481125] (saye_description) StdoutLine: {'line': b'-- Looking for gz-rendering8 -- found version 8.2.2\n'}
+[22.481407] (saye_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-rendering8\n'}
+[22.481826] (saye_description) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.2\n'}
+[22.482107] (saye_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-math7\n'}
+[22.482504] (saye_description) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.1\n'}
+[22.482788] (saye_description) StdoutLine: {'line': b'-- Searching for <gz-math7> component [eigen3]\n'}
+[22.483195] (saye_description) StdoutLine: {'line': b'-- Looking for gz-math7-eigen3 -- found version 7.5.2\n'}
+[22.483436] (saye_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-math7-eigen3\n'}
+[22.485508] (saye_description) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.7.1\n'}
+[22.485910] (saye_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5\n'}
+[22.486239] (saye_description) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.1\n'}
+[22.486551] (saye_description) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[22.486706] (saye_description) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[22.497023] (saye_description) StdoutLine: {'line': b'-- Searching for <gz-common5> component [graphics]\n'}
+[22.497416] (saye_description) StdoutLine: {'line': b'-- Searching for <gz-common5> component [events]\n'}
+[22.497520] (saye_description) StdoutLine: {'line': b'-- Searching for <gz-common5> component [geospatial]\n'}
+[22.497880] (saye_description) StdoutLine: {'line': b'-- Looking for gz-common5-geospatial -- found version 5.7.1\n'}
+[22.497980] (saye_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5-geospatial\n'}
+[22.498309] (saye_description) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.2\n'}
+[22.498848] (saye_description) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.7.1\n'}
+[22.500058] (saye_description) StdoutLine: {'line': b'-- Looking for gz-plugin2 -- found version 2.0.4\n'}
+[22.500411] (saye_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-plugin2\n'}
+[22.500880] (saye_description) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.1\n'}
+[22.501271] (saye_description) StdoutLine: {'line': b'-- Searching for <gz-plugin2> component [all]\n'}
+[22.501520] (saye_description) StdoutLine: {'line': b'-- Looking for all libraries of gz-plugin2 -- found version 2.0.4\n'}
+[22.502167] (saye_description) StdoutLine: {'line': b'-- Looking for gz-plugin2 -- found version 2.0.4\n'}
+[22.503179] (saye_description) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.1\n'}
+[22.563663] (-) TimerEvent: {}
+[22.648970] (saye_description) StdoutLine: {'line': b'-- Looking for gz-msgs10 -- found version 10.3.2\n'}
+[22.664508] (-) TimerEvent: {}
+[22.765041] (-) TimerEvent: {}
+[22.867060] (-) TimerEvent: {}
+[22.961210] (saye_description) StdoutLine: {'line': b'-- Looking for gz-physics7 -- found version 7.5.0\n'}
+[22.961549] (saye_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-physics7\n'}
+[22.961765] (saye_description) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.7.1\n'}
+[22.962189] (saye_description) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.2\n'}
+[22.962678] (saye_description) StdoutLine: {'line': b'-- Looking for gz-plugin2 -- found version 2.0.4\n'}
+[22.963123] (saye_description) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.1\n'}
+[22.964511] (saye_description) StdoutLine: {'line': b'-- Searching for <gz-physics7> component [heightmap]\n'}
+[22.965006] (saye_description) StdoutLine: {'line': b'-- Looking for gz-physics7-heightmap -- found version 7.5.0\n'}
+[22.965230] (saye_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-physics7-heightmap\n'}
+[22.965993] (saye_description) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.7.1\n'}
+[22.966598] (saye_description) StdoutLine: {'line': b'-- Searching for <gz-physics7> component [mesh]\n'}
+[22.967086] (saye_description) StdoutLine: {'line': b'-- Looking for gz-physics7-mesh -- found version 7.5.0\n'}
+[22.967209] (-) TimerEvent: {}
+[22.967344] (saye_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-physics7-mesh\n'}
+[22.967833] (saye_description) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.7.1\n'}
+[22.968380] (saye_description) StdoutLine: {'line': b'-- Searching for <gz-physics7> component [sdf]\n'}
+[22.968880] (saye_description) StdoutLine: {'line': b'-- Looking for gz-physics7-sdf -- found version 7.5.0\n'}
+[22.969128] (saye_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-physics7-sdf\n'}
+[22.969541] (saye_description) StdoutLine: {'line': b'-- Looking for sdformat14 -- found version 14.8.0\n'}
+[22.970585] (saye_description) StdoutLine: {'line': b'-- Looking for gz-sensors8 -- found version 8.2.2\n'}
+[22.971002] (saye_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8\n'}
+[23.071324] (-) TimerEvent: {}
+[23.175348] (-) TimerEvent: {}
+[23.277480] (-) TimerEvent: {}
+[23.377907] (-) TimerEvent: {}
+[23.478379] (-) TimerEvent: {}
+[23.579015] (-) TimerEvent: {}
+[23.679524] (-) TimerEvent: {}
+[23.780081] (-) TimerEvent: {}
+[23.880851] (-) TimerEvent: {}
+[23.981512] (-) TimerEvent: {}
+[24.082244] (-) TimerEvent: {}
+[24.183062] (-) TimerEvent: {}
+[24.283864] (-) TimerEvent: {}
+[24.384674] (-) TimerEvent: {}
+[24.485300] (-) TimerEvent: {}
+[24.586244] (-) TimerEvent: {}
+[24.687106] (-) TimerEvent: {}
+[24.788091] (-) TimerEvent: {}
+[24.888321] (-) TimerEvent: {}
+[24.989363] (-) TimerEvent: {}
+[25.090355] (-) TimerEvent: {}
+[25.191395] (-) TimerEvent: {}
+[25.292540] (-) TimerEvent: {}
+[25.393675] (-) TimerEvent: {}
+[25.494636] (-) TimerEvent: {}
+[25.595028] (-) TimerEvent: {}
+[25.696296] (-) TimerEvent: {}
+[25.797658] (-) TimerEvent: {}
+[25.898001] (-) TimerEvent: {}
+[25.938663] (saye_description) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.2\n'}
+[25.940535] (saye_description) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.7.1\n'}
+[25.941013] (saye_description) StdoutLine: {'line': b'-- Looking for gz-transport13 -- found version 13.4.1\n'}
+[25.941128] (saye_description) StdoutLine: {'line': b'-- Looking for gz-rendering8 -- found version 8.2.2\n'}
+[25.941208] (saye_description) StdoutLine: {'line': b'-- Looking for gz-msgs10 -- found version 10.3.2\n'}
+[25.941502] (saye_description) StdoutLine: {'line': b'-- Looking for sdformat14 -- found version 14.8.0\n'}
+[25.943242] (saye_description) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [air_pressure]\n'}
+[25.943944] (saye_description) StdoutLine: {'line': b'-- Looking for gz-sensors8-air_pressure -- found version 8.2.2\n'}
+[25.946234] (saye_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-air_pressure\n'}
+[25.946691] (saye_description) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [air_speed]\n'}
+[25.946796] (saye_description) StdoutLine: {'line': b'-- Looking for gz-sensors8-air_speed -- found version 8.2.2\n'}
+[25.946880] (saye_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-air_speed\n'}
+[25.947571] (saye_description) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [altimeter]\n'}
+[25.948683] (saye_description) StdoutLine: {'line': b'-- Looking for gz-sensors8-altimeter -- found version 8.2.2\n'}
+[25.948913] (saye_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-altimeter\n'}
+[25.949401] (saye_description) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [imu]\n'}
+[25.949964] (saye_description) StdoutLine: {'line': b'-- Looking for gz-sensors8-imu -- found version 8.2.2\n'}
+[25.950164] (saye_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-imu\n'}
+[25.950735] (saye_description) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [force_torque]\n'}
+[25.951225] (saye_description) StdoutLine: {'line': b'-- Looking for gz-sensors8-force_torque -- found version 8.2.2\n'}
+[25.951462] (saye_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-force_torque\n'}
+[25.951988] (saye_description) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [logical_camera]\n'}
+[25.952515] (saye_description) StdoutLine: {'line': b'-- Looking for gz-sensors8-logical_camera -- found version 8.2.2\n'}
+[25.952772] (saye_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-logical_camera\n'}
+[25.953384] (saye_description) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [magnetometer]\n'}
+[25.953849] (saye_description) StdoutLine: {'line': b'-- Looking for gz-sensors8-magnetometer -- found version 8.2.2\n'}
+[25.954189] (saye_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-magnetometer\n'}
+[25.954667] (saye_description) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [navsat]\n'}
+[25.955131] (saye_description) StdoutLine: {'line': b'-- Looking for gz-sensors8-navsat -- found version 8.2.2\n'}
+[25.955329] (saye_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-navsat\n'}
+[25.955960] (saye_description) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [dvl]\n'}
+[25.956471] (saye_description) StdoutLine: {'line': b'-- Looking for gz-sensors8-dvl -- found version 8.2.2\n'}
+[25.956710] (saye_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-dvl\n'}
+[25.957225] (saye_description) StdoutLine: {'line': b'-- Looking for gz-sensors8 -- found version 8.2.2\n'}
+[25.957556] (saye_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8\n'}
+[25.999384] (-) TimerEvent: {}
+[26.100018] (-) TimerEvent: {}
+[26.201539] (-) TimerEvent: {}
+[26.303113] (-) TimerEvent: {}
+[26.404740] (-) TimerEvent: {}
+[26.505226] (-) TimerEvent: {}
+[26.607033] (-) TimerEvent: {}
+[26.710591] (-) TimerEvent: {}
+[26.811000] (-) TimerEvent: {}
+[26.911413] (-) TimerEvent: {}
+[27.015009] (-) TimerEvent: {}
+[27.119541] (-) TimerEvent: {}
+[27.219925] (-) TimerEvent: {}
+[27.320707] (-) TimerEvent: {}
+[27.421220] (-) TimerEvent: {}
+[27.521516] (-) TimerEvent: {}
+[27.621853] (-) TimerEvent: {}
+[27.722216] (-) TimerEvent: {}
+[27.824688] (-) TimerEvent: {}
+[27.926501] (-) TimerEvent: {}
+[28.029210] (-) TimerEvent: {}
+[28.131920] (-) TimerEvent: {}
+[28.232626] (-) TimerEvent: {}
+[28.335629] (-) TimerEvent: {}
+[28.438780] (-) TimerEvent: {}
+[28.541699] (-) TimerEvent: {}
+[28.642008] (-) TimerEvent: {}
+[28.742342] (-) TimerEvent: {}
+[28.845461] (-) TimerEvent: {}
+[28.919141] (saye_description) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.2\n'}
+[28.919778] (saye_description) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.7.1\n'}
+[28.920345] (saye_description) StdoutLine: {'line': b'-- Looking for gz-transport13 -- found version 13.4.1\n'}
+[28.921020] (saye_description) StdoutLine: {'line': b'-- Looking for gz-rendering8 -- found version 8.2.2\n'}
+[28.921459] (saye_description) StdoutLine: {'line': b'-- Looking for gz-msgs10 -- found version 10.3.2\n'}
+[28.921986] (saye_description) StdoutLine: {'line': b'-- Looking for sdformat14 -- found version 14.8.0\n'}
+[28.922360] (saye_description) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [rendering]\n'}
+[28.922768] (saye_description) StdoutLine: {'line': b'-- Looking for gz-sensors8-rendering -- found version 8.2.2\n'}
+[28.922985] (saye_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-rendering\n'}
+[28.924611] (saye_description) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [rendering]\n'}
+[28.924765] (saye_description) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [lidar]\n'}
+[28.925344] (saye_description) StdoutLine: {'line': b'-- Looking for gz-sensors8-lidar -- found version 8.2.2\n'}
+[28.925464] (saye_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-lidar\n'}
+[28.925780] (saye_description) StdoutLine: {'line': b'-- Looking for gz-sensors8 -- found version 8.2.2\n'}
+[28.926332] (saye_description) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [gpu_lidar]\n'}
+[28.926783] (saye_description) StdoutLine: {'line': b'-- Looking for gz-sensors8-gpu_lidar -- found version 8.2.2\n'}
+[28.927199] (saye_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-gpu_lidar\n'}
+[28.927539] (saye_description) StdoutLine: {'line': b'-- Looking for gz-sensors8 -- found version 8.2.2\n'}
+[28.927998] (saye_description) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [camera]\n'}
+[28.928665] (saye_description) StdoutLine: {'line': b'-- Looking for gz-sensors8-camera -- found version 8.2.2\n'}
+[28.929072] (saye_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-camera\n'}
+[28.929312] (saye_description) StdoutLine: {'line': b'-- Looking for gz-sensors8 -- found version 8.2.2\n'}
+[28.929994] (saye_description) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [boundingbox_camera]\n'}
+[28.930449] (saye_description) StdoutLine: {'line': b'-- Looking for gz-sensors8-boundingbox_camera -- found version 8.2.2\n'}
+[28.930783] (saye_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-boundingbox_camera\n'}
+[28.931227] (saye_description) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [segmentation_camera]\n'}
+[28.931746] (saye_description) StdoutLine: {'line': b'-- Looking for gz-sensors8-segmentation_camera -- found version 8.2.2\n'}
+[28.932144] (saye_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-segmentation_camera\n'}
+[28.932665] (saye_description) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [depth_camera]\n'}
+[28.933361] (saye_description) StdoutLine: {'line': b'-- Looking for gz-sensors8-depth_camera -- found version 8.2.2\n'}
+[28.933599] (saye_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-depth_camera\n'}
+[28.934011] (saye_description) StdoutLine: {'line': b'-- Looking for gz-sensors8 -- found version 8.2.2\n'}
+[28.934826] (saye_description) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [rgbd_camera]\n'}
+[28.935264] (saye_description) StdoutLine: {'line': b'-- Looking for gz-sensors8-rgbd_camera -- found version 8.2.2\n'}
+[28.935543] (saye_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-rgbd_camera\n'}
+[28.936122] (saye_description) StdoutLine: {'line': b'-- Looking for gz-sensors8 -- found version 8.2.2\n'}
+[28.936857] (saye_description) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [thermal_camera]\n'}
+[28.937377] (saye_description) StdoutLine: {'line': b'-- Looking for gz-sensors8-thermal_camera -- found version 8.2.2\n'}
+[28.937678] (saye_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-thermal_camera\n'}
+[28.938014] (saye_description) StdoutLine: {'line': b'-- Looking for gz-sensors8 -- found version 8.2.2\n'}
+[28.938637] (saye_description) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [wide_angle_camera]\n'}
+[28.939158] (saye_description) StdoutLine: {'line': b'-- Looking for gz-sensors8-wide_angle_camera -- found version 8.2.2\n'}
+[28.939404] (saye_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-wide_angle_camera\n'}
+[28.940676] (saye_description) StdoutLine: {'line': b'-- Looking for gz-rendering8 -- found version 8.2.2\n'}
+[28.941166] (saye_description) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.2\n'}
+[28.941674] (saye_description) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.1\n'}
+[28.945739] (-) TimerEvent: {}
+[29.046064] (-) TimerEvent: {}
+[29.146747] (-) TimerEvent: {}
+[29.247149] (-) TimerEvent: {}
+[29.347511] (-) TimerEvent: {}
+[29.448253] (-) TimerEvent: {}
+[29.548864] (-) TimerEvent: {}
+[29.649241] (-) TimerEvent: {}
+[29.749902] (-) TimerEvent: {}
+[29.852105] (-) TimerEvent: {}
+[29.953720] (-) TimerEvent: {}
+[30.054104] (-) TimerEvent: {}
+[30.154743] (-) TimerEvent: {}
+[30.255105] (-) TimerEvent: {}
+[30.358576] (-) TimerEvent: {}
+[30.462948] (-) TimerEvent: {}
+[30.567529] (-) TimerEvent: {}
+[30.671698] (-) TimerEvent: {}
+[30.771993] (-) TimerEvent: {}
+[30.872655] (-) TimerEvent: {}
+[30.973055] (-) TimerEvent: {}
+[31.073746] (-) TimerEvent: {}
+[31.174205] (-) TimerEvent: {}
+[31.274500] (-) TimerEvent: {}
+[31.375089] (-) TimerEvent: {}
+[31.475489] (-) TimerEvent: {}
+[31.575893] (-) TimerEvent: {}
+[31.676615] (-) TimerEvent: {}
+[31.777227] (-) TimerEvent: {}
+[31.877657] (-) TimerEvent: {}
+[31.907745] (saye_description) StdoutLine: {'line': b'-- Looking for gz-transport13 -- found version 13.4.1\n'}
+[31.908494] (saye_description) StdoutLine: {'line': b'-- Found robot_state_publisher: 3.3.3 (/opt/ros/jazzy/share/robot_state_publisher/cmake)\n'}
+[31.977940] (-) TimerEvent: {}
+[32.078065] (saye_description) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[32.078344] (-) TimerEvent: {}
+[32.089613] (saye_description) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[32.104927] (saye_description) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[32.122729] (saye_description) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[32.180020] (-) TimerEvent: {}
+[32.208436] (saye_description) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[32.210494] (saye_description) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[32.281614] (-) TimerEvent: {}
+[32.383270] (-) TimerEvent: {}
+[32.484801] (-) TimerEvent: {}
+[32.585358] (-) TimerEvent: {}
+[32.686015] (-) TimerEvent: {}
+[32.786519] (-) TimerEvent: {}
+[32.886868] (-) TimerEvent: {}
+[32.912771] (saye_description) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[32.987454] (-) TimerEvent: {}
+[33.088024] (-) TimerEvent: {}
+[33.188484] (-) TimerEvent: {}
+[33.289256] (-) TimerEvent: {}
+[33.389576] (-) TimerEvent: {}
+[33.490176] (-) TimerEvent: {}
+[33.590563] (-) TimerEvent: {}
+[33.672148] (saye_description) StdoutLine: {'line': b'-- Found xacro: 2.1.1 (/opt/ros/jazzy/share/xacro/cmake)\n'}
+[33.673629] (saye_description) StdoutLine: {'line': b'-- Looking for sdformat14 -- found version 14.8.0\n'}
+[33.674006] (saye_description) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[33.690822] (-) TimerEvent: {}
+[33.791275] (-) TimerEvent: {}
+[33.891719] (-) TimerEvent: {}
+[33.992125] (-) TimerEvent: {}
+[33.997552] (saye_description) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[33.998194] (saye_description) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_description/plugins/pedestrian_manager/include;/home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_description/plugins/actor_pose_publisher/include\n'}
+[33.998492] (saye_description) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[33.999459] (saye_description) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[33.999598] (saye_description) StdoutLine: {'line': b"-- Configured 'flake8' exclude dirs and/or files: \n"}
+[34.001992] (saye_description) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[34.003400] (saye_description) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[34.015045] (saye_description) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[34.015304] (saye_description) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[34.016669] (saye_description) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[34.018001] (saye_description) StdoutLine: {'line': b'-- Configuring done (33.9s)\n'}
+[34.061611] (saye_description) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[34.071557] (saye_description) StdoutLine: {'line': b'-- Build files have been written to: /home/yiyi/ackermann_sim/build/saye_description\n'}
+[34.092271] (-) TimerEvent: {}
+[34.141324] (saye_description) StdoutLine: {'line': b'[ 58%] Built target generate_worlds\n'}
+[34.156309] (saye_description) StdoutLine: {'line': b'[ 66%] Building CXX object CMakeFiles/actor_pose_publisher_system.dir/plugins/actor_pose_publisher/src/test_actor_driver_system.cpp.o\n'}
+[34.159205] (saye_description) StdoutLine: {'line': b'[ 83%] Built target pedestrian_manager_system\n'}
+[34.192441] (-) TimerEvent: {}
+[34.292729] (-) TimerEvent: {}
+[34.394055] (-) TimerEvent: {}
+[34.498134] (-) TimerEvent: {}
+[34.602353] (-) TimerEvent: {}
+[34.705020] (-) TimerEvent: {}
+[34.808315] (-) TimerEvent: {}
+[34.912350] (-) TimerEvent: {}
+[35.013329] (-) TimerEvent: {}
+[35.117188] (-) TimerEvent: {}
+[35.220698] (-) TimerEvent: {}
+[35.325366] (-) TimerEvent: {}
+[35.429964] (-) TimerEvent: {}
+[35.534569] (-) TimerEvent: {}
+[35.639045] (-) TimerEvent: {}
+[35.739546] (-) TimerEvent: {}
+[35.844027] (-) TimerEvent: {}
+[35.946384] (-) TimerEvent: {}
+[36.048809] (-) TimerEvent: {}
+[36.153256] (-) TimerEvent: {}
+[36.257426] (-) TimerEvent: {}
+[36.362015] (-) TimerEvent: {}
+[36.466584] (-) TimerEvent: {}
+[36.571115] (-) TimerEvent: {}
+[36.675705] (-) TimerEvent: {}
+[36.780355] (-) TimerEvent: {}
+[36.885043] (-) TimerEvent: {}
+[36.989645] (-) TimerEvent: {}
+[37.093293] (-) TimerEvent: {}
+[37.197872] (-) TimerEvent: {}
+[37.302429] (-) TimerEvent: {}
+[37.407067] (-) TimerEvent: {}
+[37.511555] (-) TimerEvent: {}
+[37.616158] (-) TimerEvent: {}
+[37.717087] (-) TimerEvent: {}
+[37.774770] (saye_description) StderrLine: {'line': b'/home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_description/plugins/actor_pose_publisher/src/test_actor_driver_system.cpp: In member function \xe2\x80\x98virtual void saye_description::TestActorDriverSystem::PreUpdate(const gz::sim::v8::UpdateInfo&, gz::sim::v8::EntityComponentManager&)\xe2\x80\x99:\n'}
+[37.775100] (saye_description) StderrLine: {'line': b'/home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_description/plugins/actor_pose_publisher/src/test_actor_driver_system.cpp:81:56: error: \xe2\x80\x98halfPi\xe2\x80\x99 is not a member of \xe2\x80\x98gz::math\xe2\x80\x99\n'}
+[37.775192] (saye_description) StderrLine: {'line': b'   81 |   pose.Rot().SetFromEuler({0.0, 0.0, angle + gz::math::halfPi});\n'}
+[37.775270] (saye_description) StderrLine: {'line': b'      |                                                        ^~~~~~\n'}
+[37.775342] (saye_description) StderrLine: {'line': b'/home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_description/plugins/actor_pose_publisher/src/test_actor_driver_system.cpp:81:26: error: no matching function for call to \xe2\x80\x98gz::math::v7::Quaternion<double>::SetFromEuler(<brace-enclosed initializer list>)\xe2\x80\x99\n'}
+[37.775417] (saye_description) StderrLine: {'line': b'   81 |   pose.Rot().SetFromEuler({0.0, 0.0, angle + gz::math::halfPi});\n'}
+[37.775505] (saye_description) StderrLine: {'line': b'      |   ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n'}
+[37.778693] (saye_description) StderrLine: {'line': b'In file included from /opt/ros/jazzy/opt/gz_math_vendor/include/gz/math7/gz/math/Pose3.hh:20,\n'}
+[37.778899] (saye_description) StderrLine: {'line': b'                 from /opt/ros/jazzy/opt/sdformat_vendor/include/gz/sdformat14/sdf/Param.hh:38,\n'}
+[37.779031] (saye_description) StderrLine: {'line': b'                 from /opt/ros/jazzy/opt/sdformat_vendor/include/gz/sdformat14/sdf/Element.hh:29,\n'}
+[37.779155] (saye_description) StderrLine: {'line': b'                 from /opt/ros/jazzy/opt/gz_sim_vendor/include/gz/sim8/gz/sim/System.hh:31,\n'}
+[37.779253] (saye_description) StderrLine: {'line': b'                 from /home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_description/plugins/actor_pose_publisher/include/saye_description/test_actor_driver_system.hpp:6,\n'}
+[37.779327] (saye_description) StderrLine: {'line': b'                 from /home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_description/plugins/actor_pose_publisher/src/test_actor_driver_system.cpp:1:\n'}
+[37.779410] (saye_description) StderrLine: {'line': b'/opt/ros/jazzy/opt/gz_math_vendor/include/gz/math7/gz/math/Quaternion.hh:384:18: note: candidate: \xe2\x80\x98void gz::math::v7::Quaternion<T>::SetFromEuler(const gz::math::v7::Vector3<T>&) [with T = double]\xe2\x80\x99\n'}
+[37.779498] (saye_description) StderrLine: {'line': b'  384 |     public: void SetFromEuler(const Vector3<T> &_vec)\n'}
+[37.779583] (saye_description) StderrLine: {'line': b'      |                  ^~~~~~~~~~~~\n'}
+[37.779760] (saye_description) StderrLine: {'line': b'/opt/ros/jazzy/opt/gz_math_vendor/include/gz/math7/gz/math/Quaternion.hh:384:49: note:   no known conversion for argument 1 from \xe2\x80\x98<brace-enclosed initializer list>\xe2\x80\x99 to \xe2\x80\x98const gz::math::v7::Vector3<double>&\xe2\x80\x99\n'}
+[37.780095] (saye_description) StderrLine: {'line': b'  384 |     public: void SetFromEuler(const Vector3<T> &_vec)\n'}
+[37.780242] (saye_description) StderrLine: {'line': b'      |                               ~~~~~~~~~~~~~~~~~~^~~~\n'}
+[37.780338] (saye_description) StderrLine: {'line': b'/opt/ros/jazzy/opt/gz_math_vendor/include/gz/math7/gz/math/Quaternion.hh:403:18: note: candidate: \xe2\x80\x98void gz::math::v7::Quaternion<T>::SetFromEuler(T, T, T) [with T = double]\xe2\x80\x99\n'}
+[37.780431] (saye_description) StderrLine: {'line': b'  403 |     public: void SetFromEuler(T _roll, T _pitch, T _yaw)\n'}
+[37.780503] (saye_description) StderrLine: {'line': b'      |                  ^~~~~~~~~~~~\n'}
+[37.780571] (saye_description) StderrLine: {'line': b'/opt/ros/jazzy/opt/gz_math_vendor/include/gz/math7/gz/math/Quaternion.hh:403:18: note:   candidate expects 3 arguments, 1 provided\n'}
+[37.818815] (-) TimerEvent: {}
+[37.923131] (-) TimerEvent: {}
+[38.023973] (-) TimerEvent: {}
+[38.124733] (-) TimerEvent: {}
+[38.227654] (-) TimerEvent: {}
+[38.332277] (-) TimerEvent: {}
+[38.435403] (-) TimerEvent: {}
+[38.539986] (-) TimerEvent: {}
+[38.643385] (-) TimerEvent: {}
+[38.744100] (-) TimerEvent: {}
+[38.844391] (-) TimerEvent: {}
+[38.884526] (saye_description) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/actor_pose_publisher_system.dir/build.make:90: CMakeFiles/actor_pose_publisher_system.dir/plugins/actor_pose_publisher/src/test_actor_driver_system.cpp.o] Error 1\n'}
+[38.885259] (saye_description) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/actor_pose_publisher_system.dir/all] Error 2\n'}
+[38.885739] (saye_description) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[38.889652] (saye_description) CommandEnded: {'returncode': 2}
+[38.904172] (saye_description) JobEnded: {'identifier': 'saye_description', 'rc': 2}
+[38.914728] (-) EventReactorShutdown: {}

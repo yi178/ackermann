@@ -1,0 +1,57 @@
+[0.016s] Invoking command in '/home/yiyi/ackermann_sim/build/saye_mppi': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/yiyi/ackermann_sim/build/saye_mppi -- -j16 -l16
+[0.052s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.655s] -- Configuring done (0.6s)
+[0.662s] -- Generating done (0.0s)
+[0.666s] -- Build files have been written to: /home/yiyi/ackermann_sim/build/saye_mppi
+[0.726s] Built target ament_cmake_python_copy_saye_mppi_setup
+[0.728s] Built target ament_cmake_python_copy_saye_mppi
+[1.059s] running egg_info
+[1.090s] writing saye_mppi.egg-info/PKG-INFO
+[1.091s] writing dependency_links to saye_mppi.egg-info/dependency_links.txt
+[1.091s] writing top-level names to saye_mppi.egg-info/top_level.txt
+[1.183s] reading manifest file 'saye_mppi.egg-info/SOURCES.txt'
+[1.184s] writing manifest file 'saye_mppi.egg-info/SOURCES.txt'
+[1.240s] Built target ament_cmake_python_build_saye_mppi_egg
+[1.257s] Invoked command in '/home/yiyi/ackermann_sim/build/saye_mppi' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/yiyi/ackermann_sim/build/saye_mppi -- -j16 -l16
+[1.273s] Invoking command in '/home/yiyi/ackermann_sim/build/saye_mppi': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/yiyi/ackermann_sim/build/saye_mppi
+[1.287s] -- Install configuration: ""
+[1.288s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_mppi/share/saye_mppi/environment/pythonpath.sh
+[1.288s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_mppi/share/saye_mppi/environment/pythonpath.dsv
+[1.288s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_mppi/lib/python3.12/site-packages/saye_mppi-0.0.0-py3.12.egg-info
+[1.288s] -- Installing: /home/yiyi/ackermann_sim/install/saye_mppi/lib/python3.12/site-packages/saye_mppi-0.0.0-py3.12.egg-info/PKG-INFO
+[1.288s] -- Installing: /home/yiyi/ackermann_sim/install/saye_mppi/lib/python3.12/site-packages/saye_mppi-0.0.0-py3.12.egg-info/SOURCES.txt
+[1.288s] -- Installing: /home/yiyi/ackermann_sim/install/saye_mppi/lib/python3.12/site-packages/saye_mppi-0.0.0-py3.12.egg-info/top_level.txt
+[1.289s] -- Installing: /home/yiyi/ackermann_sim/install/saye_mppi/lib/python3.12/site-packages/saye_mppi-0.0.0-py3.12.egg-info/dependency_links.txt
+[1.289s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_mppi/lib/python3.12/site-packages/saye_mppi
+[1.290s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_mppi/lib/python3.12/site-packages/saye_mppi/__init__.py
+[1.290s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_mppi/lib/python3.12/site-packages/saye_mppi/path_commander.py
+[1.290s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_mppi/lib/python3.12/site-packages/saye_mppi/moving_obstacles.py
+[1.343s] Listing '/home/yiyi/ackermann_sim/install/saye_mppi/lib/python3.12/site-packages/saye_mppi'...
+[1.344s] Compiling '/home/yiyi/ackermann_sim/install/saye_mppi/lib/python3.12/site-packages/saye_mppi/moving_obstacles.py'...
+[1.344s] *** Sorry: IndentationError: unexpected indent (moving_obstacles.py, line 73)
+[1.352s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_mppi/share/saye_mppi/launch
+[1.352s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_mppi/share/saye_mppi/launch/mppi_experiment.launch.py
+[1.353s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_mppi/share/saye_mppi/config
+[1.353s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_mppi/share/saye_mppi/config/mppi_nav2_params.yaml
+[1.353s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_mppi/share/saye_mppi/config/moving_obstacles.yaml
+[1.353s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_mppi/share/saye_mppi/config/path_commander.yaml
+[1.354s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_mppi/share/saye_mppi/worlds
+[1.354s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_mppi/share/saye_mppi/worlds/saye_mppi_world.sdf
+[1.354s] -- Installing: /home/yiyi/ackermann_sim/install/saye_mppi/lib/saye_mppi/straight_path_commander
+[1.354s] -- Installing: /home/yiyi/ackermann_sim/install/saye_mppi/lib/saye_mppi/moving_obstacles
+[1.355s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_mppi/share/ament_index/resource_index/package_run_dependencies/saye_mppi
+[1.355s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_mppi/share/ament_index/resource_index/parent_prefix_path/saye_mppi
+[1.355s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_mppi/share/saye_mppi/environment/ament_prefix_path.sh
+[1.355s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_mppi/share/saye_mppi/environment/ament_prefix_path.dsv
+[1.355s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_mppi/share/saye_mppi/environment/path.sh
+[1.355s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_mppi/share/saye_mppi/environment/path.dsv
+[1.355s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_mppi/share/saye_mppi/local_setup.bash
+[1.356s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_mppi/share/saye_mppi/local_setup.sh
+[1.356s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_mppi/share/saye_mppi/local_setup.zsh
+[1.356s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_mppi/share/saye_mppi/local_setup.dsv
+[1.356s] -- Installing: /home/yiyi/ackermann_sim/install/saye_mppi/share/saye_mppi/package.dsv
+[1.356s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_mppi/share/ament_index/resource_index/packages/saye_mppi
+[1.356s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_mppi/share/saye_mppi/cmake/saye_mppiConfig.cmake
+[1.357s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_mppi/share/saye_mppi/cmake/saye_mppiConfig-version.cmake
+[1.357s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_mppi/share/saye_mppi/package.xml
+[1.358s] Invoked command in '/home/yiyi/ackermann_sim/build/saye_mppi' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/yiyi/ackermann_sim/build/saye_mppi

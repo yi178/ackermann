@@ -1,0 +1,16 @@
+[0.016s] Invoking command in '/home/yiyi/ackermann_sim/build/saye_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/yiyi/ackermann_sim/build/saye_description -- -j16 -l16
+[0.100s] [ 77%] Built target generate_worlds
+[0.108s] [ 88%] Building CXX object CMakeFiles/pedestrian_manager_system.dir/plugins/pedestrian_manager/src/pedestrian_manager_system.cpp.o
+[5.328s] /home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_description/plugins/pedestrian_manager/src/pedestrian_manager_system.cpp: In member function ‘virtual void saye_description::PedestrianManagerSystem::PostUpdate(const gz::sim::v8::UpdateInfo&, const gz::sim::v8::EntityComponentManager&)’:
+[5.329s] /home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_description/plugins/pedestrian_manager/src/pedestrian_manager_system.cpp:245:17: error: ‘class gz::transport::v13::Node’ has no member named ‘Publish’; did you mean ‘Publisher’?
+[5.329s]   245 |     this->node_.Publish(topic, msg);
+[5.329s]       |                 ^~~~~~~
+[5.329s]       |                 Publisher
+[5.330s] /home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_description/plugins/pedestrian_manager/src/pedestrian_manager_system.cpp: In member function ‘void saye_description::PedestrianManagerSystem::RefreshActorEntities(const gz::sim::v8::EntityComponentManager&)’:
+[5.330s] /home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_description/plugins/pedestrian_manager/src/pedestrian_manager_system.cpp:258:36: error: ‘entitiesFromName’ is not a member of ‘gz::sim’
+[5.330s]   258 |     const auto entities = gz::sim::entitiesFromName(ecm, spec.name);
+[5.330s]       |                                    ^~~~~~~~~~~~~~~~
+[6.464s] gmake[2]: *** [CMakeFiles/pedestrian_manager_system.dir/build.make:76: CMakeFiles/pedestrian_manager_system.dir/plugins/pedestrian_manager/src/pedestrian_manager_system.cpp.o] Error 1
+[6.465s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/pedestrian_manager_system.dir/all] Error 2
+[6.465s] gmake: *** [Makefile:146: all] Error 2
+[6.469s] Invoked command in '/home/yiyi/ackermann_sim/build/saye_description' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/yiyi/ackermann_sim/build/saye_description -- -j16 -l16

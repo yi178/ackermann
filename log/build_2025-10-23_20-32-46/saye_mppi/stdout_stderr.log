@@ -1,0 +1,49 @@
+Built target ament_cmake_python_copy_saye_mppi
+Built target ament_cmake_python_copy_saye_mppi_setup
+running egg_info
+writing saye_mppi.egg-info/PKG-INFO
+writing dependency_links to saye_mppi.egg-info/dependency_links.txt
+writing top-level names to saye_mppi.egg-info/top_level.txt
+reading manifest file 'saye_mppi.egg-info/SOURCES.txt'
+writing manifest file 'saye_mppi.egg-info/SOURCES.txt'
+Built target ament_cmake_python_build_saye_mppi_egg
+-- Install configuration: ""
+-- Up-to-date: /home/yiyi/ackermann_sim/install/saye_mppi/share/saye_mppi/environment/pythonpath.sh
+-- Up-to-date: /home/yiyi/ackermann_sim/install/saye_mppi/share/saye_mppi/environment/pythonpath.dsv
+-- Up-to-date: /home/yiyi/ackermann_sim/install/saye_mppi/lib/python3.12/site-packages/saye_mppi-0.0.0-py3.12.egg-info
+-- Installing: /home/yiyi/ackermann_sim/install/saye_mppi/lib/python3.12/site-packages/saye_mppi-0.0.0-py3.12.egg-info/PKG-INFO
+-- Installing: /home/yiyi/ackermann_sim/install/saye_mppi/lib/python3.12/site-packages/saye_mppi-0.0.0-py3.12.egg-info/SOURCES.txt
+-- Installing: /home/yiyi/ackermann_sim/install/saye_mppi/lib/python3.12/site-packages/saye_mppi-0.0.0-py3.12.egg-info/top_level.txt
+-- Installing: /home/yiyi/ackermann_sim/install/saye_mppi/lib/python3.12/site-packages/saye_mppi-0.0.0-py3.12.egg-info/dependency_links.txt
+-- Up-to-date: /home/yiyi/ackermann_sim/install/saye_mppi/lib/python3.12/site-packages/saye_mppi
+-- Up-to-date: /home/yiyi/ackermann_sim/install/saye_mppi/lib/python3.12/site-packages/saye_mppi/__init__.py
+-- Installing: /home/yiyi/ackermann_sim/install/saye_mppi/lib/python3.12/site-packages/saye_mppi/path_commander.py
+-- Installing: /home/yiyi/ackermann_sim/install/saye_mppi/lib/python3.12/site-packages/saye_mppi/moving_obstacles.py
+Listing '/home/yiyi/ackermann_sim/install/saye_mppi/lib/python3.12/site-packages/saye_mppi'...
+Compiling '/home/yiyi/ackermann_sim/install/saye_mppi/lib/python3.12/site-packages/saye_mppi/moving_obstacles.py'...
+Compiling '/home/yiyi/ackermann_sim/install/saye_mppi/lib/python3.12/site-packages/saye_mppi/path_commander.py'...
+-- Up-to-date: /home/yiyi/ackermann_sim/install/saye_mppi/share/saye_mppi/launch
+-- Up-to-date: /home/yiyi/ackermann_sim/install/saye_mppi/share/saye_mppi/launch/mppi_experiment.launch.py
+-- Up-to-date: /home/yiyi/ackermann_sim/install/saye_mppi/share/saye_mppi/config
+-- Installing: /home/yiyi/ackermann_sim/install/saye_mppi/share/saye_mppi/config/mppi_nav2_params.yaml
+-- Up-to-date: /home/yiyi/ackermann_sim/install/saye_mppi/share/saye_mppi/config/moving_obstacles.yaml
+-- Up-to-date: /home/yiyi/ackermann_sim/install/saye_mppi/share/saye_mppi/config/path_commander.yaml
+-- Up-to-date: /home/yiyi/ackermann_sim/install/saye_mppi/share/saye_mppi/worlds
+-- Up-to-date: /home/yiyi/ackermann_sim/install/saye_mppi/share/saye_mppi/worlds/saye_mppi_world.sdf
+-- Up-to-date: /home/yiyi/ackermann_sim/install/saye_mppi/lib/saye_mppi/straight_path_commander
+-- Up-to-date: /home/yiyi/ackermann_sim/install/saye_mppi/lib/saye_mppi/moving_obstacles
+-- Up-to-date: /home/yiyi/ackermann_sim/install/saye_mppi/share/ament_index/resource_index/package_run_dependencies/saye_mppi
+-- Up-to-date: /home/yiyi/ackermann_sim/install/saye_mppi/share/ament_index/resource_index/parent_prefix_path/saye_mppi
+-- Up-to-date: /home/yiyi/ackermann_sim/install/saye_mppi/share/saye_mppi/environment/ament_prefix_path.sh
+-- Up-to-date: /home/yiyi/ackermann_sim/install/saye_mppi/share/saye_mppi/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/yiyi/ackermann_sim/install/saye_mppi/share/saye_mppi/environment/path.sh
+-- Up-to-date: /home/yiyi/ackermann_sim/install/saye_mppi/share/saye_mppi/environment/path.dsv
+-- Up-to-date: /home/yiyi/ackermann_sim/install/saye_mppi/share/saye_mppi/local_setup.bash
+-- Up-to-date: /home/yiyi/ackermann_sim/install/saye_mppi/share/saye_mppi/local_setup.sh
+-- Up-to-date: /home/yiyi/ackermann_sim/install/saye_mppi/share/saye_mppi/local_setup.zsh
+-- Up-to-date: /home/yiyi/ackermann_sim/install/saye_mppi/share/saye_mppi/local_setup.dsv
+-- Installing: /home/yiyi/ackermann_sim/install/saye_mppi/share/saye_mppi/package.dsv
+-- Up-to-date: /home/yiyi/ackermann_sim/install/saye_mppi/share/ament_index/resource_index/packages/saye_mppi
+-- Up-to-date: /home/yiyi/ackermann_sim/install/saye_mppi/share/saye_mppi/cmake/saye_mppiConfig.cmake
+-- Up-to-date: /home/yiyi/ackermann_sim/install/saye_mppi/share/saye_mppi/cmake/saye_mppiConfig-version.cmake
+-- Up-to-date: /home/yiyi/ackermann_sim/install/saye_mppi/share/saye_mppi/package.xml

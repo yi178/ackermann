@@ -1,0 +1,26 @@
+/home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_description/plugins/actor_pose_publisher/src/test_actor_driver_system.cpp: In member function ‘virtual void saye_description::TestActorDriverSystem::PreUpdate(const gz::sim::v8::UpdateInfo&, gz::sim::v8::EntityComponentManager&)’:
+/home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_description/plugins/actor_pose_publisher/src/test_actor_driver_system.cpp:81:56: error: ‘halfPi’ is not a member of ‘gz::math’
+   81 |   pose.Rot().SetFromEuler({0.0, 0.0, angle + gz::math::halfPi});
+      |                                                        ^~~~~~
+/home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_description/plugins/actor_pose_publisher/src/test_actor_driver_system.cpp:81:26: error: no matching function for call to ‘gz::math::v7::Quaternion<double>::SetFromEuler(<brace-enclosed initializer list>)’
+   81 |   pose.Rot().SetFromEuler({0.0, 0.0, angle + gz::math::halfPi});
+      |   ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /opt/ros/jazzy/opt/gz_math_vendor/include/gz/math7/gz/math/Pose3.hh:20,
+                 from /opt/ros/jazzy/opt/sdformat_vendor/include/gz/sdformat14/sdf/Param.hh:38,
+                 from /opt/ros/jazzy/opt/sdformat_vendor/include/gz/sdformat14/sdf/Element.hh:29,
+                 from /opt/ros/jazzy/opt/gz_sim_vendor/include/gz/sim8/gz/sim/System.hh:31,
+                 from /home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_description/plugins/actor_pose_publisher/include/saye_description/test_actor_driver_system.hpp:6,
+                 from /home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_description/plugins/actor_pose_publisher/src/test_actor_driver_system.cpp:1:
+/opt/ros/jazzy/opt/gz_math_vendor/include/gz/math7/gz/math/Quaternion.hh:384:18: note: candidate: ‘void gz::math::v7::Quaternion<T>::SetFromEuler(const gz::math::v7::Vector3<T>&) [with T = double]’
+  384 |     public: void SetFromEuler(const Vector3<T> &_vec)
+      |                  ^~~~~~~~~~~~
+/opt/ros/jazzy/opt/gz_math_vendor/include/gz/math7/gz/math/Quaternion.hh:384:49: note:   no known conversion for argument 1 from ‘<brace-enclosed initializer list>’ to ‘const gz::math::v7::Vector3<double>&’
+  384 |     public: void SetFromEuler(const Vector3<T> &_vec)
+      |                               ~~~~~~~~~~~~~~~~~~^~~~
+/opt/ros/jazzy/opt/gz_math_vendor/include/gz/math7/gz/math/Quaternion.hh:403:18: note: candidate: ‘void gz::math::v7::Quaternion<T>::SetFromEuler(T, T, T) [with T = double]’
+  403 |     public: void SetFromEuler(T _roll, T _pitch, T _yaw)
+      |                  ^~~~~~~~~~~~
+/opt/ros/jazzy/opt/gz_math_vendor/include/gz/math7/gz/math/Quaternion.hh:403:18: note:   candidate expects 3 arguments, 1 provided
+gmake[2]: *** [CMakeFiles/actor_pose_publisher_system.dir/build.make:90: CMakeFiles/actor_pose_publisher_system.dir/plugins/actor_pose_publisher/src/test_actor_driver_system.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/actor_pose_publisher_system.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

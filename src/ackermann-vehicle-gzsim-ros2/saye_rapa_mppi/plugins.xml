@@ -1,0 +1,10 @@
+<library path="libsaye_rapa_mppi">
+  <class type="saye_rapa_mppi::RiskAwareCritic"
+         base_class_type="mppi::critics::CriticFunction">
+    <description>
+      RAPA-MPPI Risk-Aware Critic: Two-stage risk assessment using
+      Collision Probability (CP) pruning and Conditional Value-at-Risk (CVaR)
+      evaluation for dynamic obstacle avoidance.
+    </description>
+  </class>
+</library>

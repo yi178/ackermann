@@ -1,0 +1,6 @@
+[INFO] [1761301059.860350871] [rviz2]: Stereo is NOT SUPPORTED
+[INFO] [1761301059.860498536] [rviz2]: OpenGl version: 4.5 (GLSL 4.5)
+[INFO] [1761301059.947604761] [rviz2]: Stereo is NOT SUPPORTED
+[INFO] [1761301060.327817993] [rviz2]: Stereo is NOT SUPPORTED
+[WARN] [1761301060.553507345] [sdformat_urdf]: SDFormat link [base_link] has a <sensor>, but URDF does not support this
+[INFO] [1761301556.014758136] [rclcpp]: signal_handler(signum=2)

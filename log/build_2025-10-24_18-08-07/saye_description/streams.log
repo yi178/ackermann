@@ -1,0 +1,12 @@
+[0.016s] Invoking command in '/home/yiyi/ackermann_sim/build/saye_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/yiyi/ackermann_sim/build/saye_description -- -j16 -l16
+[0.114s] [ 50%] Building CXX object CMakeFiles/pedestrian_manager_system.dir/plugins/pedestrian_manager/src/pedestrian_manager_system.cpp.o
+[3.334s] In file included from /opt/ros/jazzy/opt/gz_plugin_vendor/include/gz/plugin2/gz/plugin/Register.hh:22,
+[3.335s]                  from /home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_description/plugins/pedestrian_manager/src/pedestrian_manager_system.cpp:12:
+[3.335s] /home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_description/plugins/pedestrian_manager/src/pedestrian_manager_system.cpp: In constructor ‘gz::plugin::{anonymous}::ExecuteWhenLoadingLibrary1::ExecuteWhenLoadingLibrary1()’:
+[3.335s] /home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_description/plugins/pedestrian_manager/src/pedestrian_manager_system.cpp:248:1: error: expected primary-expression before ‘)’ token
+[3.335s]   248 | GZ_ADD_PLUGIN_ALIAS(saye_description::PedestrianManagerSystem,
+[3.335s]       | ^~~~~~~~~~~~~~~~~~~
+[4.184s] gmake[2]: *** [CMakeFiles/pedestrian_manager_system.dir/build.make:76: CMakeFiles/pedestrian_manager_system.dir/plugins/pedestrian_manager/src/pedestrian_manager_system.cpp.o] Error 1
+[4.185s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/pedestrian_manager_system.dir/all] Error 2
+[4.185s] gmake: *** [Makefile:146: all] Error 2
+[4.189s] Invoked command in '/home/yiyi/ackermann_sim/build/saye_description' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/yiyi/ackermann_sim/build/saye_description -- -j16 -l16

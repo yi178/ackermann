@@ -1,0 +1,416 @@
+[0.017s] Invoking command in '/home/yiyi/ackermann_sim/build/saye_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/yiyi/ackermann_sim/build/saye_description -- -j16 -l16
+[0.095s] [ 50%] Building CXX object CMakeFiles/pedestrian_manager_system.dir/plugins/pedestrian_manager/src/pedestrian_manager_system.cpp.o
+[3.247s] /home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_description/plugins/pedestrian_manager/src/pedestrian_manager_system.cpp: In member function ‘virtual void saye_description::PedestrianManagerSystem::Configure(const gz::sim::v8::Entity&, const std::shared_ptr<const sdf::v14::Element>&, gz::sim::v8::EntityComponentManager&, gz::sim::v8::EventManager&)’:
+[3.248s] /home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_description/plugins/pedestrian_manager/src/pedestrian_manager_system.cpp:72:19: error: ‘isAbsolutePath’ is not a member of ‘gz::common’
+[3.248s]    72 |   if (gz::common::isAbsolutePath(config_file))
+[3.248s]       |                   ^~~~~~~~~~~~~~
+[3.255s] /home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_description/plugins/pedestrian_manager/src/pedestrian_manager_system.cpp: In member function ‘virtual void saye_description::PedestrianManagerSystem::PreUpdate(const gz::sim::v8::UpdateInfo&, gz::sim::v8::EntityComponentManager&)’:
+[3.255s] /home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_description/plugins/pedestrian_manager/src/pedestrian_manager_system.cpp:120:72: error: no match for ‘operator<<’ (operand types are ‘std::basic_ostream<char>’ and ‘std::optional<std::__cxx11::basic_string<char> >’)
+[3.255s]   120 |   gzdbg << "pedestrian_manager_system: Spawning pedestrians in world " << worldName << std::endl;
+[3.255s]       |                                                                        ^~ ~~~~~~~~~
+[3.255s]       |                                                                           |
+[3.255s]       |                                                                           std::optional<std::__cxx11::basic_string<char> >
+[3.255s] /home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_description/plugins/pedestrian_manager/src/pedestrian_manager_system.cpp:120:72: note: candidate: ‘operator<<(int, int)’ (built-in)
+[3.256s]   120 |   gzdbg << "pedestrian_manager_system: Spawning pedestrians in world " << worldName << std::endl;
+[3.257s]       |                                                                        ^
+[3.257s] /home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_description/plugins/pedestrian_manager/src/pedestrian_manager_system.cpp:120:72: note:   no known conversion for argument 2 from ‘std::optional<std::__cxx11::basic_string<char> >’ to ‘int’
+[3.257s] In file included from /usr/include/c++/13/iostream:41,
+[3.257s]                  from /usr/include/google/protobuf/stubs/common.h:39,
+[3.257s]                  from /usr/include/google/protobuf/io/coded_stream.h:131,
+[3.258s]                  from /opt/ros/jazzy/opt/gz_msgs_vendor/include/gz/msgs10/gz/msgs/details/serialized.pb.h:23,
+[3.259s]                  from /opt/ros/jazzy/opt/gz_msgs_vendor/include/gz/msgs10/gz/msgs/serialized.pb.h:12,
+[3.259s]                  from /opt/ros/jazzy/opt/gz_sim_vendor/include/gz/sim8/gz/sim/EntityComponentManager.hh:20,
+[3.259s]                  from /opt/ros/jazzy/opt/gz_sim_vendor/include/gz/sim8/gz/sim/System.hh:24,
+[3.259s]                  from /home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_description/plugins/pedestrian_manager/include/saye_description/pedestrian_manager_system.hpp:9,
+[3.260s]                  from /home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_description/plugins/pedestrian_manager/src/pedestrian_manager_system.cpp:1:
+[3.260s] /usr/include/c++/13/ostream:110:7: note: candidate: ‘std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(__ostream_type& (*)(__ostream_type&)) [with _CharT = char; _Traits = std::char_traits<char>; __ostream_type = std::basic_ostream<char>]’
+[3.260s]   110 |       operator<<(__ostream_type& (*__pf)(__ostream_type&))
+[3.260s]       |       ^~~~~~~~
+[3.260s] /usr/include/c++/13/ostream:110:36: note:   no known conversion for argument 1 from ‘std::optional<std::__cxx11::basic_string<char> >’ to ‘std::basic_ostream<char>::__ostream_type& (*)(std::basic_ostream<char>::__ostream_type&)’ {aka ‘std::basic_ostream<char>& (*)(std::basic_ostream<char>&)’}
+[3.261s]   110 |       operator<<(__ostream_type& (*__pf)(__ostream_type&))
+[3.261s]       |                  ~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~
+[3.261s] /usr/include/c++/13/ostream:119:7: note: candidate: ‘std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(__ios_type& (*)(__ios_type&)) [with _CharT = char; _Traits = std::char_traits<char>; __ostream_type = std::basic_ostream<char>; __ios_type = std::basic_ios<char>]’
+[3.261s]   119 |       operator<<(__ios_type& (*__pf)(__ios_type&))
+[3.261s]       |       ^~~~~~~~
+[3.261s] /usr/include/c++/13/ostream:119:32: note:   no known conversion for argument 1 from ‘std::optional<std::__cxx11::basic_string<char> >’ to ‘std::basic_ostream<char>::__ios_type& (*)(std::basic_ostream<char>::__ios_type&)’ {aka ‘std::basic_ios<char>& (*)(std::basic_ios<char>&)’}
+[3.261s]   119 |       operator<<(__ios_type& (*__pf)(__ios_type&))
+[3.261s]       |                  ~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~
+[3.261s] /usr/include/c++/13/ostream:129:7: note: candidate: ‘std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(std::ios_base& (*)(std::ios_base&)) [with _CharT = char; _Traits = std::char_traits<char>; __ostream_type = std::basic_ostream<char>]’
+[3.261s]   129 |       operator<<(ios_base& (*__pf) (ios_base&))
+[3.262s]       |       ^~~~~~~~
+[3.262s] /usr/include/c++/13/ostream:129:30: note:   no known conversion for argument 1 from ‘std::optional<std::__cxx11::basic_string<char> >’ to ‘std::ios_base& (*)(std::ios_base&)’
+[3.262s]   129 |       operator<<(ios_base& (*__pf) (ios_base&))
+[3.262s]       |                  ~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+[3.262s] /usr/include/c++/13/ostream:168:7: note: candidate: ‘std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long int) [with _CharT = char; _Traits = std::char_traits<char>; __ostream_type = std::basic_ostream<char>]’
+[3.262s]   168 |       operator<<(long __n)
+[3.262s]       |       ^~~~~~~~
+[3.262s] /usr/include/c++/13/ostream:168:23: note:   no known conversion for argument 1 from ‘std::optional<std::__cxx11::basic_string<char> >’ to ‘long int’
+[3.262s]   168 |       operator<<(long __n)
+[3.262s]       |                  ~~~~~^~~
+[3.262s] /usr/include/c++/13/ostream:172:7: note: candidate: ‘std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; __ostream_type = std::basic_ostream<char>]’
+[3.262s]   172 |       operator<<(unsigned long __n)
+[3.262s]       |       ^~~~~~~~
+[3.262s] /usr/include/c++/13/ostream:172:32: note:   no known conversion for argument 1 from ‘std::optional<std::__cxx11::basic_string<char> >’ to ‘long unsigned int’
+[3.262s]   172 |       operator<<(unsigned long __n)
+[3.263s]       |                  ~~~~~~~~~~~~~~^~~
+[3.263s] /usr/include/c++/13/ostream:176:7: note: candidate: ‘std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(bool) [with _CharT = char; _Traits = std::char_traits<char>; __ostream_type = std::basic_ostream<char>]’
+[3.263s]   176 |       operator<<(bool __n)
+[3.263s]       |       ^~~~~~~~
+[3.263s] /usr/include/c++/13/ostream:176:23: note:   no known conversion for argument 1 from ‘std::optional<std::__cxx11::basic_string<char> >’ to ‘bool’
+[3.263s]   176 |       operator<<(bool __n)
+[3.263s]       |                  ~~~~~^~~
+[3.263s] In file included from /usr/include/c++/13/ostream:880:
+[3.263s] /usr/include/c++/13/bits/ostream.tcc:96:5: note: candidate: ‘std::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(short int) [with _CharT = char; _Traits = std::char_traits<char>]’
+[3.263s]    96 |     basic_ostream<_CharT, _Traits>::
+[3.263s]       |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[3.263s] /usr/include/c++/13/bits/ostream.tcc:97:22: note:   no known conversion for argument 1 from ‘std::optional<std::__cxx11::basic_string<char> >’ to ‘short int’
+[3.264s]    97 |     operator<<(short __n)
+[3.264s]       |                ~~~~~~^~~
+[3.264s] /usr/include/c++/13/ostream:183:7: note: candidate: ‘std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(short unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; __ostream_type = std::basic_ostream<char>]’
+[3.264s]   183 |       operator<<(unsigned short __n)
+[3.264s]       |       ^~~~~~~~
+[3.264s] /usr/include/c++/13/ostream:183:33: note:   no known conversion for argument 1 from ‘std::optional<std::__cxx11::basic_string<char> >’ to ‘short unsigned int’
+[3.264s]   183 |       operator<<(unsigned short __n)
+[3.264s]       |                  ~~~~~~~~~~~~~~~^~~
+[3.264s] /usr/include/c++/13/bits/ostream.tcc:110:5: note: candidate: ‘std::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(int) [with _CharT = char; _Traits = std::char_traits<char>]’
+[3.264s]   110 |     basic_ostream<_CharT, _Traits>::
+[3.265s]       |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[3.265s] /usr/include/c++/13/bits/ostream.tcc:111:20: note:   no known conversion for argument 1 from ‘std::optional<std::__cxx11::basic_string<char> >’ to ‘int’
+[3.265s]   111 |     operator<<(int __n)
+[3.265s]       |                ~~~~^~~
+[3.265s] /usr/include/c++/13/ostream:194:7: note: candidate: ‘std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; __ostream_type = std::basic_ostream<char>]’
+[3.265s]   194 |       operator<<(unsigned int __n)
+[3.265s]       |       ^~~~~~~~
+[3.265s] /usr/include/c++/13/ostream:194:31: note:   no known conversion for argument 1 from ‘std::optional<std::__cxx11::basic_string<char> >’ to ‘unsigned int’
+[3.265s]   194 |       operator<<(unsigned int __n)
+[3.265s]       |                  ~~~~~~~~~~~~~^~~
+[3.265s] /usr/include/c++/13/ostream:203:7: note: candidate: ‘std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long long int) [with _CharT = char; _Traits = std::char_traits<char>; __ostream_type = std::basic_ostream<char>]’
+[3.265s]   203 |       operator<<(long long __n)
+[3.265s]       |       ^~~~~~~~
+[3.265s] /usr/include/c++/13/ostream:203:28: note:   no known conversion for argument 1 from ‘std::optional<std::__cxx11::basic_string<char> >’ to ‘long long int’
+[3.265s]   203 |       operator<<(long long __n)
+[3.266s]       |                  ~~~~~~~~~~^~~
+[3.266s] /usr/include/c++/13/ostream:207:7: note: candidate: ‘std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long long unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; __ostream_type = std::basic_ostream<char>]’
+[3.266s]   207 |       operator<<(unsigned long long __n)
+[3.266s]       |       ^~~~~~~~
+[3.266s] /usr/include/c++/13/ostream:207:37: note:   no known conversion for argument 1 from ‘std::optional<std::__cxx11::basic_string<char> >’ to ‘long long unsigned int’
+[3.266s]   207 |       operator<<(unsigned long long __n)
+[3.266s]       |                  ~~~~~~~~~~~~~~~~~~~^~~
+[3.266s] /usr/include/c++/13/ostream:222:7: note: candidate: ‘std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(double) [with _CharT = char; _Traits = std::char_traits<char>; __ostream_type = std::basic_ostream<char>]’
+[3.266s]   222 |       operator<<(double __f)
+[3.266s]       |       ^~~~~~~~
+[3.266s] /usr/include/c++/13/ostream:222:25: note:   no known conversion for argument 1 from ‘std::optional<std::__cxx11::basic_string<char> >’ to ‘double’
+[3.266s]   222 |       operator<<(double __f)
+[3.266s]       |                  ~~~~~~~^~~
+[3.266s] /usr/include/c++/13/ostream:226:7: note: candidate: ‘std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(float) [with _CharT = char; _Traits = std::char_traits<char>; __ostream_type = std::basic_ostream<char>]’
+[3.266s]   226 |       operator<<(float __f)
+[3.266s]       |       ^~~~~~~~
+[3.267s] /usr/include/c++/13/ostream:226:24: note:   no known conversion for argument 1 from ‘std::optional<std::__cxx11::basic_string<char> >’ to ‘float’
+[3.267s]   226 |       operator<<(float __f)
+[3.267s]       |                  ~~~~~~^~~
+[3.267s] /usr/include/c++/13/ostream:234:7: note: candidate: ‘std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long double) [with _CharT = char; _Traits = std::char_traits<char>; __ostream_type = std::basic_ostream<char>]’
+[3.267s]   234 |       operator<<(long double __f)
+[3.267s]       |       ^~~~~~~~
+[3.267s] /usr/include/c++/13/ostream:234:30: note:   no known conversion for argument 1 from ‘std::optional<std::__cxx11::basic_string<char> >’ to ‘long double’
+[3.267s]   234 |       operator<<(long double __f)
+[3.267s]       |                  ~~~~~~~~~~~~^~~
+[3.267s] /usr/include/c++/13/ostream:292:7: note: candidate: ‘std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(const void*) [with _CharT = char; _Traits = std::char_traits<char>; __ostream_type = std::basic_ostream<char>]’
+[3.267s]   292 |       operator<<(const void* __p)
+[3.267s]       |       ^~~~~~~~
+[3.267s] /usr/include/c++/13/ostream:292:30: note:   no known conversion for argument 1 from ‘std::optional<std::__cxx11::basic_string<char> >’ to ‘const void*’
+[3.267s]   292 |       operator<<(const void* __p)
+[3.267s]       |                  ~~~~~~~~~~~~^~~
+[3.267s] /usr/include/c++/13/ostream:297:7: note: candidate: ‘std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(std::nullptr_t) [with _CharT = char; _Traits = std::char_traits<char>; __ostream_type = std::basic_ostream<char>; std::nullptr_t = std::nullptr_t]’
+[3.268s]   297 |       operator<<(nullptr_t)
+[3.268s]       |       ^~~~~~~~
+[3.268s] /usr/include/c++/13/ostream:297:18: note:   no known conversion for argument 1 from ‘std::optional<std::__cxx11::basic_string<char> >’ to ‘std::nullptr_t’
+[3.268s]   297 |       operator<<(nullptr_t)
+[3.268s]       |                  ^~~~~~~~~
+[3.268s] /usr/include/c++/13/bits/ostream.tcc:124:5: note: candidate: ‘std::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(__streambuf_type*) [with _CharT = char; _Traits = std::char_traits<char>; __streambuf_type = std::basic_streambuf<char>]’
+[3.268s]   124 |     basic_ostream<_CharT, _Traits>::
+[3.268s]       |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[3.268s] /usr/include/c++/13/bits/ostream.tcc:125:34: note:   no known conversion for argument 1 from ‘std::optional<std::__cxx11::basic_string<char> >’ to ‘std::basic_ostream<char>::__streambuf_type*’ {aka ‘std::basic_streambuf<char>*’}
+[3.268s]   125 |     operator<<(__streambuf_type* __sbin)
+[3.268s]       |                ~~~~~~~~~~~~~~~~~~^~~~~~
+[3.268s] In file included from /usr/include/c++/13/bits/basic_string.h:47,
+[3.268s]                  from /usr/include/c++/13/string:54,
+[3.268s]                  from /home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_description/plugins/pedestrian_manager/include/saye_description/pedestrian_manager_system.hpp:6:
+[3.269s] /usr/include/c++/13/string_view:761:5: note: candidate: ‘template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(basic_ostream<_CharT, _Traits>&, basic_string_view<_CharT, _Traits>)’
+[3.269s]   761 |     operator<<(basic_ostream<_CharT, _Traits>& __os,
+[3.269s]       |     ^~~~~~~~
+[3.269s] /usr/include/c++/13/string_view:761:5: note:   template argument deduction/substitution failed:
+[3.269s] /home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_description/plugins/pedestrian_manager/src/pedestrian_manager_system.cpp:120:75: note:   ‘std::optional<std::__cxx11::basic_string<char> >’ is not derived from ‘std::basic_string_view<_CharT, _Traits>’
+[3.269s]   120 |   gzdbg << "pedestrian_manager_system: Spawning pedestrians in world " << worldName << std::endl;
+[3.269s]       |                                                                           ^~~~~~~~~
+[3.269s] /usr/include/c++/13/bits/basic_string.h:4032:5: note: candidate: ‘template<class _CharT, class _Traits, class _Alloc> std::basic_ostream<_CharT, _Traits>& std::operator<<(basic_ostream<_CharT, _Traits>&, const __cxx11::basic_string<_CharT, _Traits, _Allocator>&)’
+[3.269s]  4032 |     operator<<(basic_ostream<_CharT, _Traits>& __os,
+[3.269s]       |     ^~~~~~~~
+[3.269s] /usr/include/c++/13/bits/basic_string.h:4032:5: note:   template argument deduction/substitution failed:
+[3.269s] /home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_description/plugins/pedestrian_manager/src/pedestrian_manager_system.cpp:120:75: note:   ‘std::optional<std::__cxx11::basic_string<char> >’ is not derived from ‘const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>’
+[3.269s]   120 |   gzdbg << "pedestrian_manager_system: Spawning pedestrians in world " << worldName << std::endl;
+[3.269s]       |                                                                           ^~~~~~~~~
+[3.270s] In file included from /usr/include/c++/13/bits/memory_resource.h:38,
+[3.270s]                  from /usr/include/c++/13/string:58:
+[3.270s] /usr/include/c++/13/cstddef:124:5: note: candidate: ‘template<class _IntegerType> constexpr std::__byte_op_t<_IntegerType> std::operator<<(byte, _IntegerType)’
+[3.270s]   124 |     operator<<(byte __b, _IntegerType __shift) noexcept
+[3.270s]       |     ^~~~~~~~
+[3.270s] /usr/include/c++/13/cstddef:124:5: note:   template argument deduction/substitution failed:
+[3.270s] /home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_description/plugins/pedestrian_manager/src/pedestrian_manager_system.cpp:120:9: note:   cannot convert ‘std::operator<< <char_traits<char> >(gz::common::Console::dbg.gz::common::Logger::operator()(std::__cxx11::basic_string<char>(((const char*)"/home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_description/plugins/pedestrian_manager/src/pedestrian_manager_system.cpp"), std::allocator<char>()), 120).gz::common::Logger::<anonymous>, ((const char*)"pedestrian_manager_system: Spawning pedestrians in world "))’ (type ‘std::basic_ostream<char>’) to type ‘std::byte’
+[3.270s]   120 |   gzdbg << "pedestrian_manager_system: Spawning pedestrians in world " << worldName << std::endl;
+[3.270s]       |         ^
+[3.270s] In file included from /usr/include/c++/13/memory:80,
+[3.270s]                  from /opt/ros/jazzy/opt/gz_sim_vendor/include/gz/sim8/gz/sim/System.hh:21:
+[3.270s] /usr/include/c++/13/bits/shared_ptr.h:70:5: note: candidate: ‘template<class _Ch, class _Tr, class _Tp, __gnu_cxx::_Lock_policy _Lp> std::basic_ostream<_CharT, _Traits>& std::operator<<(basic_ostream<_CharT, _Traits>&, const __shared_ptr<_Tp, _Lp>&)’
+[3.270s]    70 |     operator<<(std::basic_ostream<_Ch, _Tr>& __os,
+[3.270s]       |     ^~~~~~~~
+[3.270s] /usr/include/c++/13/bits/shared_ptr.h:70:5: note:   template argument deduction/substitution failed:
+[3.271s] /home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_description/plugins/pedestrian_manager/src/pedestrian_manager_system.cpp:120:75: note:   ‘std::optional<std::__cxx11::basic_string<char> >’ is not derived from ‘const std::__shared_ptr<_Tp, _Lp>’
+[3.271s]   120 |   gzdbg << "pedestrian_manager_system: Spawning pedestrians in world " << worldName << std::endl;
+[3.271s]       |                                                                           ^~~~~~~~~
+[3.271s] In file included from /usr/include/c++/13/bits/ios_base.h:46,
+[3.271s]                  from /usr/include/c++/13/ios:44,
+[3.271s]                  from /usr/include/c++/13/ostream:40:
+[3.271s] /usr/include/c++/13/system_error:339:5: note: candidate: ‘template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(basic_ostream<_CharT, _Traits>&, const error_code&)’
+[3.271s]   339 |     operator<<(basic_ostream<_CharT, _Traits>& __os, const error_code& __e)
+[3.271s]       |     ^~~~~~~~
+[3.271s] /usr/include/c++/13/system_error:339:5: note:   template argument deduction/substitution failed:
+[3.271s] /home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_description/plugins/pedestrian_manager/src/pedestrian_manager_system.cpp:120:75: note:   cannot convert ‘worldName’ (type ‘std::optional<std::__cxx11::basic_string<char> >’) to type ‘const std::error_code&’
+[3.271s]   120 |   gzdbg << "pedestrian_manager_system: Spawning pedestrians in world " << worldName << std::endl;
+[3.271s]       |                                                                           ^~~~~~~~~
+[3.271s] /usr/include/c++/13/ostream:554:5: note: candidate: ‘template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(basic_ostream<_CharT, _Traits>&, _CharT)’
+[3.271s]   554 |     operator<<(basic_ostream<_CharT, _Traits>& __out, _CharT __c)
+[3.271s]       |     ^~~~~~~~
+[3.272s] /usr/include/c++/13/ostream:554:5: note:   template argument deduction/substitution failed:
+[3.272s] /home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_description/plugins/pedestrian_manager/src/pedestrian_manager_system.cpp:120:75: note:   deduced conflicting types for parameter ‘_CharT’ (‘char’ and ‘std::optional<std::__cxx11::basic_string<char> >’)
+[3.272s]   120 |   gzdbg << "pedestrian_manager_system: Spawning pedestrians in world " << worldName << std::endl;
+[3.272s]       |                                                                           ^~~~~~~~~
+[3.272s] /usr/include/c++/13/ostream:564:5: note: candidate: ‘template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(basic_ostream<_CharT, _Traits>&, char)’
+[3.272s]   564 |     operator<<(basic_ostream<_CharT, _Traits>& __out, char __c)
+[3.272s]       |     ^~~~~~~~
+[3.272s] /usr/include/c++/13/ostream:564:5: note:   template argument deduction/substitution failed:
+[3.272s] /home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_description/plugins/pedestrian_manager/src/pedestrian_manager_system.cpp:120:75: note:   cannot convert ‘worldName’ (type ‘std::optional<std::__cxx11::basic_string<char> >’) to type ‘char’
+[3.272s]   120 |   gzdbg << "pedestrian_manager_system: Spawning pedestrians in world " << worldName << std::endl;
+[3.272s]       |                                                                           ^~~~~~~~~
+[3.272s] /usr/include/c++/13/ostream:570:5: note: candidate: ‘template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(basic_ostream<char, _Traits>&, char)’
+[3.272s]   570 |     operator<<(basic_ostream<char, _Traits>& __out, char __c)
+[3.272s]       |     ^~~~~~~~
+[3.273s] /usr/include/c++/13/ostream:570:5: note:   template argument deduction/substitution failed:
+[3.273s] /home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_description/plugins/pedestrian_manager/src/pedestrian_manager_system.cpp:120:75: note:   cannot convert ‘worldName’ (type ‘std::optional<std::__cxx11::basic_string<char> >’) to type ‘char’
+[3.273s]   120 |   gzdbg << "pedestrian_manager_system: Spawning pedestrians in world " << worldName << std::endl;
+[3.273s]       |                                                                           ^~~~~~~~~
+[3.273s] /usr/include/c++/13/ostream:581:5: note: candidate: ‘template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(basic_ostream<char, _Traits>&, signed char)’
+[3.273s]   581 |     operator<<(basic_ostream<char, _Traits>& __out, signed char __c)
+[3.273s]       |     ^~~~~~~~
+[3.273s] /usr/include/c++/13/ostream:581:5: note:   template argument deduction/substitution failed:
+[3.273s] /home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_description/plugins/pedestrian_manager/src/pedestrian_manager_system.cpp:120:75: note:   cannot convert ‘worldName’ (type ‘std::optional<std::__cxx11::basic_string<char> >’) to type ‘signed char’
+[3.273s]   120 |   gzdbg << "pedestrian_manager_system: Spawning pedestrians in world " << worldName << std::endl;
+[3.273s]       |                                                                           ^~~~~~~~~
+[3.273s] /usr/include/c++/13/ostream:586:5: note: candidate: ‘template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(basic_ostream<char, _Traits>&, unsigned char)’
+[3.273s]   586 |     operator<<(basic_ostream<char, _Traits>& __out, unsigned char __c)
+[3.273s]       |     ^~~~~~~~
+[3.273s] /usr/include/c++/13/ostream:586:5: note:   template argument deduction/substitution failed:
+[3.273s] /home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_description/plugins/pedestrian_manager/src/pedestrian_manager_system.cpp:120:75: note:   cannot convert ‘worldName’ (type ‘std::optional<std::__cxx11::basic_string<char> >’) to type ‘unsigned char’
+[3.274s]   120 |   gzdbg << "pedestrian_manager_system: Spawning pedestrians in world " << worldName << std::endl;
+[3.274s]       |                                                                           ^~~~~~~~~
+[3.274s] /usr/include/c++/13/ostream:645:5: note: candidate: ‘template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(basic_ostream<_CharT, _Traits>&, const _CharT*)’
+[3.274s]   645 |     operator<<(basic_ostream<_CharT, _Traits>& __out, const _CharT* __s)
+[3.274s]       |     ^~~~~~~~
+[3.274s] /usr/include/c++/13/ostream:645:5: note:   template argument deduction/substitution failed:
+[3.274s] /home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_description/plugins/pedestrian_manager/src/pedestrian_manager_system.cpp:120:75: note:   mismatched types ‘const _CharT*’ and ‘std::optional<std::__cxx11::basic_string<char> >’
+[3.274s]   120 |   gzdbg << "pedestrian_manager_system: Spawning pedestrians in world " << worldName << std::endl;
+[3.274s]       |                                                                           ^~~~~~~~~
+[3.274s] /usr/include/c++/13/bits/ostream.tcc:307:5: note: candidate: ‘template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(basic_ostream<_CharT, _Traits>&, const char*)’
+[3.274s]   307 |     operator<<(basic_ostream<_CharT, _Traits>& __out, const char* __s)
+[3.274s]       |     ^~~~~~~~
+[3.274s] /usr/include/c++/13/bits/ostream.tcc:307:5: note:   template argument deduction/substitution failed:
+[3.275s] /home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_description/plugins/pedestrian_manager/src/pedestrian_manager_system.cpp:120:75: note:   cannot convert ‘worldName’ (type ‘std::optional<std::__cxx11::basic_string<char> >’) to type ‘const char*’
+[3.275s]   120 |   gzdbg << "pedestrian_manager_system: Spawning pedestrians in world " << worldName << std::endl;
+[3.275s]       |                                                                           ^~~~~~~~~
+[3.275s] /usr/include/c++/13/ostream:662:5: note: candidate: ‘template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(basic_ostream<char, _Traits>&, const char*)’
+[3.275s]   662 |     operator<<(basic_ostream<char, _Traits>& __out, const char* __s)
+[3.275s]       |     ^~~~~~~~
+[3.275s] /usr/include/c++/13/ostream:662:5: note:   template argument deduction/substitution failed:
+[3.275s] /home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_description/plugins/pedestrian_manager/src/pedestrian_manager_system.cpp:120:75: note:   cannot convert ‘worldName’ (type ‘std::optional<std::__cxx11::basic_string<char> >’) to type ‘const char*’
+[3.275s]   120 |   gzdbg << "pedestrian_manager_system: Spawning pedestrians in world " << worldName << std::endl;
+[3.275s]       |                                                                           ^~~~~~~~~
+[3.275s] /usr/include/c++/13/ostream:675:5: note: candidate: ‘template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(basic_ostream<char, _Traits>&, const signed char*)’
+[3.275s]   675 |     operator<<(basic_ostream<char, _Traits>& __out, const signed char* __s)
+[3.275s]       |     ^~~~~~~~
+[3.275s] /usr/include/c++/13/ostream:675:5: note:   template argument deduction/substitution failed:
+[3.276s] /home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_description/plugins/pedestrian_manager/src/pedestrian_manager_system.cpp:120:75: note:   cannot convert ‘worldName’ (type ‘std::optional<std::__cxx11::basic_string<char> >’) to type ‘const signed char*’
+[3.276s]   120 |   gzdbg << "pedestrian_manager_system: Spawning pedestrians in world " << worldName << std::endl;
+[3.276s]       |                                                                           ^~~~~~~~~
+[3.276s] /usr/include/c++/13/ostream:680:5: note: candidate: ‘template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(basic_ostream<char, _Traits>&, const unsigned char*)’
+[3.276s]   680 |     operator<<(basic_ostream<char, _Traits>& __out, const unsigned char* __s)
+[3.276s]       |     ^~~~~~~~
+[3.276s] /usr/include/c++/13/ostream:680:5: note:   template argument deduction/substitution failed:
+[3.276s] /home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_description/plugins/pedestrian_manager/src/pedestrian_manager_system.cpp:120:75: note:   cannot convert ‘worldName’ (type ‘std::optional<std::__cxx11::basic_string<char> >’) to type ‘const unsigned char*’
+[3.276s]   120 |   gzdbg << "pedestrian_manager_system: Spawning pedestrians in world " << worldName << std::endl;
+[3.276s]       |                                                                           ^~~~~~~~~
+[3.276s] /usr/include/c++/13/ostream:801:5: note: candidate: ‘template<class _Ostream, class _Tp> _Ostream&& std::operator<<(_Ostream&&, const _Tp&)’
+[3.276s]   801 |     operator<<(_Ostream&& __os, const _Tp& __x)
+[3.276s]       |     ^~~~~~~~
+[3.276s] /usr/include/c++/13/ostream:801:5: note:   template argument deduction/substitution failed:
+[3.277s] /usr/include/c++/13/ostream: In substitution of ‘template<class _Ostream, class _Tp> _Ostream&& std::operator<<(_Ostream&&, const _Tp&) [with _Ostream = std::basic_ostream<char>&; _Tp = std::optional<std::__cxx11::basic_string<char> >]’:
+[3.277s] /home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_description/plugins/pedestrian_manager/src/pedestrian_manager_system.cpp:120:75:   required from here
+[3.277s] /usr/include/c++/13/ostream:801:5: error: no type named ‘type’ in ‘struct std::enable_if<false, void>’
+[3.277s] In file included from /opt/ros/jazzy/opt/gz_common_vendor/include/gz/common5/gz/common/Util.hh:25,
+[3.277s]                  from /opt/ros/jazzy/opt/gz_common_vendor/include/gz/common5/gz/common/Console.hh:29,
+[3.277s]                  from /opt/ros/jazzy/opt/gz_sim_vendor/include/gz/sim8/gz/sim/EntityComponentManager.hh:35:
+[3.277s] /usr/include/c++/13/thread:97:5: note: candidate: ‘template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(basic_ostream<_CharT, _Traits>&, thread::id)’
+[3.277s]    97 |     operator<<(basic_ostream<_CharT, _Traits>& __out, thread::id __id)
+[3.277s]       |     ^~~~~~~~
+[3.277s] /usr/include/c++/13/thread:97:5: note:   template argument deduction/substitution failed:
+[3.277s] /home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_description/plugins/pedestrian_manager/src/pedestrian_manager_system.cpp:120:75: note:   cannot convert ‘worldName’ (type ‘std::optional<std::__cxx11::basic_string<char> >’) to type ‘std::thread::id’
+[3.277s]   120 |   gzdbg << "pedestrian_manager_system: Spawning pedestrians in world " << worldName << std::endl;
+[3.277s]       |                                                                           ^~~~~~~~~
+[3.277s] In file included from /opt/ros/jazzy/opt/sdformat_vendor/include/gz/sdformat14/sdf/Param.hh:26,
+[3.277s]                  from /opt/ros/jazzy/opt/sdformat_vendor/include/gz/sdformat14/sdf/Element.hh:29,
+[3.278s]                  from /opt/ros/jazzy/opt/gz_sim_vendor/include/gz/sim8/gz/sim/System.hh:31:
+[3.278s] /usr/include/c++/13/iomanip:81:5: note: candidate: ‘template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(basic_ostream<_CharT, _Traits>&, _Resetiosflags)’
+[3.278s]    81 |     operator<<(basic_ostream<_CharT, _Traits>& __os, _Resetiosflags __f)
+[3.278s]       |     ^~~~~~~~
+[3.278s] /usr/include/c++/13/iomanip:81:5: note:   template argument deduction/substitution failed:
+[3.278s] /home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_description/plugins/pedestrian_manager/src/pedestrian_manager_system.cpp:120:75: note:   cannot convert ‘worldName’ (type ‘std::optional<std::__cxx11::basic_string<char> >’) to type ‘std::_Resetiosflags’
+[3.278s]   120 |   gzdbg << "pedestrian_manager_system: Spawning pedestrians in world " << worldName << std::endl;
+[3.278s]       |                                                                           ^~~~~~~~~
+[3.278s] /usr/include/c++/13/iomanip:111:5: note: candidate: ‘template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(basic_ostream<_CharT, _Traits>&, _Setiosflags)’
+[3.278s]   111 |     operator<<(basic_ostream<_CharT, _Traits>& __os, _Setiosflags __f)
+[3.278s]       |     ^~~~~~~~
+[3.278s] /usr/include/c++/13/iomanip:111:5: note:   template argument deduction/substitution failed:
+[3.278s] /home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_description/plugins/pedestrian_manager/src/pedestrian_manager_system.cpp:120:75: note:   cannot convert ‘worldName’ (type ‘std::optional<std::__cxx11::basic_string<char> >’) to type ‘std::_Setiosflags’
+[3.278s]   120 |   gzdbg << "pedestrian_manager_system: Spawning pedestrians in world " << worldName << std::endl;
+[3.278s]       |                                                                           ^~~~~~~~~
+[3.279s] /usr/include/c++/13/iomanip:145:5: note: candidate: ‘template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(basic_ostream<_CharT, _Traits>&, _Setbase)’
+[3.279s]   145 |     operator<<(basic_ostream<_CharT, _Traits>& __os, _Setbase __f)
+[3.279s]       |     ^~~~~~~~
+[3.279s] /usr/include/c++/13/iomanip:145:5: note:   template argument deduction/substitution failed:
+[3.279s] /home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_description/plugins/pedestrian_manager/src/pedestrian_manager_system.cpp:120:75: note:   cannot convert ‘worldName’ (type ‘std::optional<std::__cxx11::basic_string<char> >’) to type ‘std::_Setbase’
+[3.279s]   120 |   gzdbg << "pedestrian_manager_system: Spawning pedestrians in world " << worldName << std::endl;
+[3.279s]       |                                                                           ^~~~~~~~~
+[3.279s] /usr/include/c++/13/iomanip:180:5: note: candidate: ‘template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(basic_ostream<_CharT, _Traits>&, _Setfill<_CharT>)’
+[3.279s]   180 |     operator<<(basic_ostream<_CharT, _Traits>& __os, _Setfill<_CharT> __f)
+[3.279s]       |     ^~~~~~~~
+[3.279s] /usr/include/c++/13/iomanip:180:5: note:   template argument deduction/substitution failed:
+[3.279s] /home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_description/plugins/pedestrian_manager/src/pedestrian_manager_system.cpp:120:75: note:   ‘std::optional<std::__cxx11::basic_string<char> >’ is not derived from ‘std::_Setfill<_CharT>’
+[3.279s]   120 |   gzdbg << "pedestrian_manager_system: Spawning pedestrians in world " << worldName << std::endl;
+[3.279s]       |                                                                           ^~~~~~~~~
+[3.279s] /usr/include/c++/13/iomanip:210:5: note: candidate: ‘template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(basic_ostream<_CharT, _Traits>&, _Setprecision)’
+[3.279s]   210 |     operator<<(basic_ostream<_CharT, _Traits>& __os, _Setprecision __f)
+[3.280s]       |     ^~~~~~~~
+[3.280s] /usr/include/c++/13/iomanip:210:5: note:   template argument deduction/substitution failed:
+[3.280s] /home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_description/plugins/pedestrian_manager/src/pedestrian_manager_system.cpp:120:75: note:   cannot convert ‘worldName’ (type ‘std::optional<std::__cxx11::basic_string<char> >’) to type ‘std::_Setprecision’
+[3.280s]   120 |   gzdbg << "pedestrian_manager_system: Spawning pedestrians in world " << worldName << std::endl;
+[3.280s]       |                                                                           ^~~~~~~~~
+[3.280s] /usr/include/c++/13/iomanip:240:5: note: candidate: ‘template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(basic_ostream<_CharT, _Traits>&, _Setw)’
+[3.280s]   240 |     operator<<(basic_ostream<_CharT, _Traits>& __os, _Setw __f)
+[3.280s]       |     ^~~~~~~~
+[3.280s] /usr/include/c++/13/iomanip:240:5: note:   template argument deduction/substitution failed:
+[3.280s] /home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_description/plugins/pedestrian_manager/src/pedestrian_manager_system.cpp:120:75: note:   cannot convert ‘worldName’ (type ‘std::optional<std::__cxx11::basic_string<char> >’) to type ‘std::_Setw’
+[3.280s]   120 |   gzdbg << "pedestrian_manager_system: Spawning pedestrians in world " << worldName << std::endl;
+[3.280s]       |                                                                           ^~~~~~~~~
+[3.280s] /usr/include/c++/13/iomanip:313:5: note: candidate: ‘template<class _CharT, class _Traits, class _MoneyT> std::basic_ostream<_CharT, _Traits>& std::operator<<(basic_ostream<_CharT, _Traits>&, _Put_money<_MoneyT>)’
+[3.281s]   313 |     operator<<(basic_ostream<_CharT, _Traits>& __os, _Put_money<_MoneyT> __f)
+[3.281s]       |     ^~~~~~~~
+[3.281s] /usr/include/c++/13/iomanip:313:5: note:   template argument deduction/substitution failed:
+[3.281s] /home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_description/plugins/pedestrian_manager/src/pedestrian_manager_system.cpp:120:75: note:   ‘std::optional<std::__cxx11::basic_string<char> >’ is not derived from ‘std::_Put_money<_MoneyT>’
+[3.281s]   120 |   gzdbg << "pedestrian_manager_system: Spawning pedestrians in world " << worldName << std::endl;
+[3.281s]       |                                                                           ^~~~~~~~~
+[3.281s] /usr/include/c++/13/iomanip:365:5: note: candidate: ‘template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(basic_ostream<_CharT, _Traits>&, _Put_time<_CharT>)’
+[3.281s]   365 |     operator<<(basic_ostream<_CharT, _Traits>& __os, _Put_time<_CharT> __f)
+[3.281s]       |     ^~~~~~~~
+[3.281s] /usr/include/c++/13/iomanip:365:5: note:   template argument deduction/substitution failed:
+[3.281s] /home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_description/plugins/pedestrian_manager/src/pedestrian_manager_system.cpp:120:75: note:   ‘std::optional<std::__cxx11::basic_string<char> >’ is not derived from ‘std::_Put_time<_CharT>’
+[3.281s]   120 |   gzdbg << "pedestrian_manager_system: Spawning pedestrians in world " << worldName << std::endl;
+[3.281s]       |                                                                           ^~~~~~~~~
+[3.281s] In file included from /usr/include/c++/13/valarray:605,
+[3.282s]                  from /usr/include/yaml-cpp/node/convert.h:18,
+[3.282s]                  from /usr/include/yaml-cpp/yaml.h:18,
+[3.282s]                  from /home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_description/plugins/pedestrian_manager/src/pedestrian_manager_system.cpp:18:
+[3.282s] /usr/include/c++/13/bits/valarray_after.h:413:5: note: candidate: ‘template<class _Dom1, class _Dom2> std::_Expr<std::__detail::_BinClos<std::__shift_left, std::_Expr, std::_Expr, _Dom1, _Dom2>, typename std::__fun<std::__shift_left, typename _Dom1::value_type>::result_type> std::operator<<(const _Expr<_Dom1, typename _Dom1::value_type>&, const _Expr<_Dom2, typename _Dom2::value_type>&)’
+[3.282s]   413 |     _DEFINE_EXPR_BINARY_OPERATOR(<<, struct std::__shift_left)
+[3.282s]       |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[3.282s] /usr/include/c++/13/bits/valarray_after.h:413:5: note:   template argument deduction/substitution failed:
+[3.282s] /home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_description/plugins/pedestrian_manager/src/pedestrian_manager_system.cpp:120:75: note:   ‘std::basic_ostream<char>’ is not derived from ‘const std::_Expr<_Dom1, typename _Dom1::value_type>’
+[3.282s]   120 |   gzdbg << "pedestrian_manager_system: Spawning pedestrians in world " << worldName << std::endl;
+[3.282s]       |                                                                           ^~~~~~~~~
+[3.282s] /usr/include/c++/13/bits/valarray_after.h:413:5: note: candidate: ‘template<class _Dom> std::_Expr<std::__detail::_BinClos<std::__shift_left, std::_Expr, std::_Constant, _Dom, typename _Dom::value_type>, typename std::__fun<std::__shift_left, typename _Dom1::value_type>::result_type> std::operator<<(const _Expr<_Dom1, typename _Dom1::value_type>&, const typename _Dom::value_type&)’
+[3.282s]   413 |     _DEFINE_EXPR_BINARY_OPERATOR(<<, struct std::__shift_left)
+[3.282s]       |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[3.282s] /usr/include/c++/13/bits/valarray_after.h:413:5: note:   template argument deduction/substitution failed:
+[3.282s] /home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_description/plugins/pedestrian_manager/src/pedestrian_manager_system.cpp:120:75: note:   ‘std::basic_ostream<char>’ is not derived from ‘const std::_Expr<_Dom1, typename _Dom1::value_type>’
+[3.282s]   120 |   gzdbg << "pedestrian_manager_system: Spawning pedestrians in world " << worldName << std::endl;
+[3.282s]       |                                                                           ^~~~~~~~~
+[3.283s] /usr/include/c++/13/bits/valarray_after.h:413:5: note: candidate: ‘template<class _Dom> std::_Expr<std::__detail::_BinClos<std::__shift_left, std::_Constant, std::_Expr, typename _Dom::value_type, _Dom>, typename std::__fun<std::__shift_left, typename _Dom1::value_type>::result_type> std::operator<<(const typename _Dom::value_type&, const _Expr<_Dom1, typename _Dom1::value_type>&)’
+[3.283s]   413 |     _DEFINE_EXPR_BINARY_OPERATOR(<<, struct std::__shift_left)
+[3.283s]       |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[3.283s] /usr/include/c++/13/bits/valarray_after.h:413:5: note:   template argument deduction/substitution failed:
+[3.283s] /home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_description/plugins/pedestrian_manager/src/pedestrian_manager_system.cpp:120:75: note:   ‘std::optional<std::__cxx11::basic_string<char> >’ is not derived from ‘const std::_Expr<_Dom1, typename _Dom1::value_type>’
+[3.283s]   120 |   gzdbg << "pedestrian_manager_system: Spawning pedestrians in world " << worldName << std::endl;
+[3.283s]       |                                                                           ^~~~~~~~~
+[3.283s] /usr/include/c++/13/bits/valarray_after.h:413:5: note: candidate: ‘template<class _Dom> std::_Expr<std::__detail::_BinClos<std::__shift_left, std::_Expr, std::_ValArray, _Dom, typename _Dom::value_type>, typename std::__fun<std::__shift_left, typename _Dom1::value_type>::result_type> std::operator<<(const _Expr<_Dom1, typename _Dom1::value_type>&, const valarray<typename _Dom::value_type>&)’
+[3.283s]   413 |     _DEFINE_EXPR_BINARY_OPERATOR(<<, struct std::__shift_left)
+[3.283s]       |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[3.283s] /usr/include/c++/13/bits/valarray_after.h:413:5: note:   template argument deduction/substitution failed:
+[3.283s] /home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_description/plugins/pedestrian_manager/src/pedestrian_manager_system.cpp:120:75: note:   ‘std::basic_ostream<char>’ is not derived from ‘const std::_Expr<_Dom1, typename _Dom1::value_type>’
+[3.283s]   120 |   gzdbg << "pedestrian_manager_system: Spawning pedestrians in world " << worldName << std::endl;
+[3.283s]       |                                                                           ^~~~~~~~~
+[3.283s] /usr/include/c++/13/bits/valarray_after.h:413:5: note: candidate: ‘template<class _Dom> std::_Expr<std::__detail::_BinClos<std::__shift_left, std::_ValArray, std::_Expr, typename _Dom::value_type, _Dom>, typename std::__fun<std::__shift_left, typename _Dom1::value_type>::result_type> std::operator<<(const valarray<typename _Dom::value_type>&, const _Expr<_Dom1, typename _Dom1::value_type>&)’
+[3.284s]   413 |     _DEFINE_EXPR_BINARY_OPERATOR(<<, struct std::__shift_left)
+[3.284s]       |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[3.284s] /usr/include/c++/13/bits/valarray_after.h:413:5: note:   template argument deduction/substitution failed:
+[3.284s] /home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_description/plugins/pedestrian_manager/src/pedestrian_manager_system.cpp:120:75: note:   ‘std::optional<std::__cxx11::basic_string<char> >’ is not derived from ‘const std::_Expr<_Dom1, typename _Dom1::value_type>’
+[3.284s]   120 |   gzdbg << "pedestrian_manager_system: Spawning pedestrians in world " << worldName << std::endl;
+[3.284s]       |                                                                           ^~~~~~~~~
+[3.284s] /usr/include/c++/13/valarray:1204:1: note: candidate: ‘template<class _Tp> std::_Expr<std::__detail::_BinClos<std::__shift_left, std::_ValArray, std::_ValArray, _Tp, _Tp>, typename std::__fun<std::__shift_left, _Tp>::result_type> std::operator<<(const valarray<_Tp>&, const valarray<_Tp>&)’
+[3.284s]  1204 | _DEFINE_BINARY_OPERATOR(<<, __shift_left)
+[3.284s]       | ^~~~~~~~~~~~~~~~~~~~~~~
+[3.284s] /usr/include/c++/13/valarray:1204:1: note:   template argument deduction/substitution failed:
+[3.284s] /home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_description/plugins/pedestrian_manager/src/pedestrian_manager_system.cpp:120:75: note:   ‘std::basic_ostream<char>’ is not derived from ‘const std::valarray<_Tp>’
+[3.284s]   120 |   gzdbg << "pedestrian_manager_system: Spawning pedestrians in world " << worldName << std::endl;
+[3.284s]       |                                                                           ^~~~~~~~~
+[3.284s] /usr/include/c++/13/valarray:1204:1: note: candidate: ‘template<class _Tp> std::_Expr<std::__detail::_BinClos<std::__shift_left, std::_ValArray, std::_Constant, _Tp, _Tp>, typename std::__fun<std::__shift_left, _Tp>::result_type> std::operator<<(const valarray<_Tp>&, const typename valarray<_Tp>::value_type&)’
+[3.284s]  1204 | _DEFINE_BINARY_OPERATOR(<<, __shift_left)
+[3.285s]       | ^~~~~~~~~~~~~~~~~~~~~~~
+[3.285s] /usr/include/c++/13/valarray:1204:1: note:   template argument deduction/substitution failed:
+[3.285s] /home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_description/plugins/pedestrian_manager/src/pedestrian_manager_system.cpp:120:75: note:   ‘std::basic_ostream<char>’ is not derived from ‘const std::valarray<_Tp>’
+[3.285s]   120 |   gzdbg << "pedestrian_manager_system: Spawning pedestrians in world " << worldName << std::endl;
+[3.285s]       |                                                                           ^~~~~~~~~
+[3.285s] /usr/include/c++/13/valarray:1204:1: note: candidate: ‘template<class _Tp> std::_Expr<std::__detail::_BinClos<std::__shift_left, std::_Constant, std::_ValArray, _Tp, _Tp>, typename std::__fun<std::__shift_left, _Tp>::result_type> std::operator<<(const typename valarray<_Tp>::value_type&, const valarray<_Tp>&)’
+[3.285s]  1204 | _DEFINE_BINARY_OPERATOR(<<, __shift_left)
+[3.285s]       | ^~~~~~~~~~~~~~~~~~~~~~~
+[3.285s] /usr/include/c++/13/valarray:1204:1: note:   template argument deduction/substitution failed:
+[3.285s] /home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_description/plugins/pedestrian_manager/src/pedestrian_manager_system.cpp:120:75: note:   ‘std::optional<std::__cxx11::basic_string<char> >’ is not derived from ‘const std::valarray<_Tp>’
+[3.285s]   120 |   gzdbg << "pedestrian_manager_system: Spawning pedestrians in world " << worldName << std::endl;
+[3.285s]       |                                                                           ^~~~~~~~~
+[3.285s] /home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_description/plugins/pedestrian_manager/src/pedestrian_manager_system.cpp:122:31: error: no matching function for call to ‘gz::sim::v8::SdfEntityCreator::SdfEntityCreator(gz::sim::v8::EntityComponentManager&)’
+[3.285s]   122 |   SdfEntityCreator creator(ecm);
+[3.286s]       |                               ^
+[3.286s] In file included from /home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_description/plugins/pedestrian_manager/src/pedestrian_manager_system.cpp:14:
+[3.286s] /opt/ros/jazzy/opt/gz_sim_vendor/include/gz/sim8/gz/sim/SdfEntityCreator.hh:75:15: note: candidate: ‘gz::sim::v8::SdfEntityCreator::SdfEntityCreator(gz::sim::v8::SdfEntityCreator&&)’
+[3.286s]    75 |       public: SdfEntityCreator(SdfEntityCreator &&_creator) noexcept;
+[3.286s]       |               ^~~~~~~~~~~~~~~~
+[3.286s] /opt/ros/jazzy/opt/gz_sim_vendor/include/gz/sim8/gz/sim/SdfEntityCreator.hh:75:51: note:   no known conversion for argument 1 from ‘gz::sim::v8::EntityComponentManager’ to ‘gz::sim::v8::SdfEntityCreator&&’
+[3.286s]    75 |       public: SdfEntityCreator(SdfEntityCreator &&_creator) noexcept;
+[3.286s]       |                                ~~~~~~~~~~~~~~~~~~~^~~~~~~~
+[3.286s] /opt/ros/jazzy/opt/gz_sim_vendor/include/gz/sim8/gz/sim/SdfEntityCreator.hh:71:15: note: candidate: ‘gz::sim::v8::SdfEntityCreator::SdfEntityCreator(const gz::sim::v8::SdfEntityCreator&)’
+[3.286s]    71 |       public: SdfEntityCreator(const SdfEntityCreator &_creator);
+[3.286s]       |               ^~~~~~~~~~~~~~~~
+[3.286s] /opt/ros/jazzy/opt/gz_sim_vendor/include/gz/sim8/gz/sim/SdfEntityCreator.hh:71:56: note:   no known conversion for argument 1 from ‘gz::sim::v8::EntityComponentManager’ to ‘const gz::sim::v8::SdfEntityCreator&’
+[3.286s]    71 |       public: SdfEntityCreator(const SdfEntityCreator &_creator);
+[3.286s]       |                                ~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~
+[3.286s] /opt/ros/jazzy/opt/gz_sim_vendor/include/gz/sim8/gz/sim/SdfEntityCreator.hh:66:24: note: candidate: ‘gz::sim::v8::SdfEntityCreator::SdfEntityCreator(gz::sim::v8::EntityComponentManager&, gz::sim::v8::EventManager&)’
+[3.286s]    66 |       public: explicit SdfEntityCreator(EntityComponentManager &_ecm,
+[3.287s]       |                        ^~~~~~~~~~~~~~~~
+[3.287s] /opt/ros/jazzy/opt/gz_sim_vendor/include/gz/sim8/gz/sim/SdfEntityCreator.hh:66:24: note:   candidate expects 2 arguments, 1 provided
+[3.287s] /home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_description/plugins/pedestrian_manager/src/pedestrian_manager_system.cpp:123:11: error: ‘class gz::sim::v8::SdfEntityCreator’ has no member named ‘SetWorld’
+[3.287s]   123 |   creator.SetWorld(this->world_entity_);
+[3.287s]       |           ^~~~~~~~
+[3.287s] /home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_description/plugins/pedestrian_manager/src/pedestrian_manager_system.cpp:136:13: error: ‘class gz::sim::v8::SdfEntityCreator’ has no member named ‘CreateEntitiesFromSdf’; did you mean ‘CreateEntities’?
+[3.287s]   136 |     creator.CreateEntitiesFromSdf(actorElem);
+[3.287s]       |             ^~~~~~~~~~~~~~~~~~~~~
+[3.287s]       |             CreateEntities
+[4.052s] gmake[2]: *** [CMakeFiles/pedestrian_manager_system.dir/build.make:76: CMakeFiles/pedestrian_manager_system.dir/plugins/pedestrian_manager/src/pedestrian_manager_system.cpp.o] Error 1
+[4.053s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/pedestrian_manager_system.dir/all] Error 2
+[4.053s] gmake: *** [Makefile:146: all] Error 2
+[4.057s] Invoked command in '/home/yiyi/ackermann_sim/build/saye_description' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/yiyi/ackermann_sim/build/saye_description -- -j16 -l16

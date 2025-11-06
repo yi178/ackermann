@@ -1,0 +1,121 @@
+# Scenario 1: 4 Pedestrians Crossing Pattern
+# Based on DRA-MPPI paper - Basic collision avoidance scenario
+#
+# Layout:
+#   - 2 pedestrians: oncoming (longitudinal movement)
+#   - 2 pedestrians: crossing (lateral movement)
+#
+# Purpose: Test basic dynamic obstacle avoidance with mixed directions
+
+pedestrians:
+  # ========== Oncoming Pedestrians (Longitudinal) ==========
+
+  # Pedestrian 1: Moving from far end toward robot start (backward direction)
+  - name: walker_oncoming_1
+    skin: model://walking_actor/meshes/walk.dae
+    animation: walking
+    loop: true
+    auto_start: true
+    # Start at x=20, facing backward (-X direction, yaw=π)
+    spawn_pose: [20.0, -1.0, 1.0, 0.0, 0.0, 3.14159265359]
+    trajectory:
+      # Start position, facing backward
+      - time: 0.0
+        pose: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      # Walk backward 15 meters (relative -X), still facing same direction
+      - time: 10.0
+        pose: [-15.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      # Turn around to face forward (+X direction)
+      - time: 11.0
+        pose: [-15.0, 0.0, 0.0, 0.0, 0.0, 3.14159265359]
+      # Walk forward 15 meters back to start
+      - time: 21.0
+        pose: [0.0, 0.0, 0.0, 0.0, 0.0, 3.14159265359]
+      # Turn around to face backward again
+      - time: 22.0
+        pose: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+  # Pedestrian 2: Moving from near end away from robot (forward direction)
+  - name: walker_oncoming_2
+    skin: model://walking_actor/meshes/walk.dae
+    animation: walking
+    loop: true
+    auto_start: true
+    # Start at x=5, facing forward (+X direction, yaw=0)
+    spawn_pose: [5.0, 1.0, 1.0, 0.0, 0.0, 0.0]
+    trajectory:
+      # Start position, facing forward
+      - time: 0.0
+        pose: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      # Walk forward 15 meters (relative +X)
+      - time: 10.0
+        pose: [15.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      # Turn around to face backward (-X direction)
+      - time: 11.0
+        pose: [15.0, 0.0, 0.0, 0.0, 0.0, 3.14159265359]
+      # Walk backward 15 meters to start
+      - time: 21.0
+        pose: [0.0, 0.0, 0.0, 0.0, 0.0, 3.14159265359]
+      # Turn around to face forward again
+      - time: 22.0
+        pose: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+  # ========== Crossing Pedestrians (Lateral) ==========
+
+  # Pedestrian 3: Crossing from left to right (-Y direction)
+  - name: walker_crossing_left
+    skin: model://walking_actor/meshes/walk.dae
+    animation: walking
+    loop: true
+    auto_start: true
+    # Start at y=2.5 (left side), facing right (-Y direction, yaw=-π/2)
+    spawn_pose: [12.0, 2.5, 1.0, 0.0, 0.0, -1.57079632679]
+    trajectory:
+      # Start position, facing right
+      - time: 0.0
+        pose: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      # Cross to right side (relative -Y, 5 meters)
+      - time: 4.0
+        pose: [0.0, -5.0, 0.0, 0.0, 0.0, 0.0]
+      # Turn around to face left (+Y direction)
+      - time: 4.5
+        pose: [0.0, -5.0, 0.0, 0.0, 0.0, 3.14159265359]
+      # Cross back to left side (relative +Y, 5 meters)
+      - time: 8.5
+        pose: [0.0, 0.0, 0.0, 0.0, 0.0, 3.14159265359]
+      # Turn around to face right again
+      - time: 9.0
+        pose: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+  # Pedestrian 4: Crossing from right to left (+Y direction)
+  - name: walker_crossing_right
+    skin: model://walking_actor/meshes/walk.dae
+    animation: walking
+    loop: true
+    auto_start: true
+    # Start at y=-2.5 (right side), facing left (+Y direction, yaw=π/2)
+    spawn_pose: [16.0, -2.5, 1.0, 0.0, 0.0, 1.57079632679]
+    trajectory:
+      # Start position, facing left
+      - time: 0.0
+        pose: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      # Cross to left side (relative +Y, 5 meters)
+      - time: 4.0
+        pose: [0.0, 5.0, 0.0, 0.0, 0.0, 0.0]
+      # Turn around to face right (-Y direction)
+      - time: 4.5
+        pose: [0.0, 5.0, 0.0, 0.0, 0.0, 3.14159265359]
+      # Cross back to right side (relative -Y, 5 meters)
+      - time: 8.5
+        pose: [0.0, 0.0, 0.0, 0.0, 0.0, 3.14159265359]
+      # Turn around to face left again
+      - time: 9.0
+        pose: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+# Collision risk zones:
+#   - Longitudinal: x=5 to x=20, center lane
+#   - Lateral: x=12 and x=16, crossing points
+#
+# Speed parameters:
+#   - Oncoming: ~1.5 m/s (15m in 10s)
+#   - Crossing: ~1.25 m/s (5m in 4s)

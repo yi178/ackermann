@@ -1,0 +1,30 @@
+1761302210.1342795 [INFO] [launch]: All log files can be found below /home/yiyi/ackermann_sim/ros_logs/2025-10-24-18-36-50-129632-yiyi-158281
+1761302210.1344481 [INFO] [launch]: Default logging verbosity is set to INFO
+1761302210.7677145 [INFO] [gazebo-1]: process started with pid [158311]
+1761302210.7679319 [INFO] [robot_state_publisher-2]: process started with pid [158312]
+1761302210.7680428 [INFO] [parameter_bridge-3]: process started with pid [158313]
+1761302211.0878625 [robot_state_publisher-2] [1;33mWarning [Utils.cc:132][0m [/sdf/model[@name="saye"]/link[@name="base_link"]/gz_frame_id:<data-string>:L7]: XML Element[gz_frame_id], child of element[link], not defined in SDF. Copying[gz_frame_id] as children of [link].
+1761302211.0942855 [robot_state_publisher-2] [1;33mWarning [Utils.cc:132][0m [/sdf/model[@name="saye"]/link[@name="base_link"]/sensor[@name="gpu_lidar"]/gz_frame_id:<data-string>:L169]: XML Element[gz_frame_id], child of element[sensor], not defined in SDF. Copying[gz_frame_id] as children of [sensor].
+1761302211.1096764 [robot_state_publisher-2] [1;33mWarning [Utils.cc:132][0m [/sdf/model[@name="saye"]/joint[@name="front_left_wheel_joint"]/axis/use_parent_model_frame:<data-string>:L482]: XML Element[use_parent_model_frame], child of element[axis], not defined in SDF. Copying[use_parent_model_frame] as children of [axis].
+1761302211.1109891 [robot_state_publisher-2] [1;33mWarning [Utils.cc:132][0m [/sdf/model[@name="saye"]/joint[@name="front_left_wheel_steering_joint"]/axis/use_parent_model_frame:<data-string>:L497]: XML Element[use_parent_model_frame], child of element[axis], not defined in SDF. Copying[use_parent_model_frame] as children of [axis].
+1761302211.1194324 [robot_state_publisher-2] [1;33mWarning [Utils.cc:132][0m [/sdf/model[@name="saye"]/joint[@name="front_right_wheel_joint"]/axis/use_parent_model_frame:<data-string>:L569]: XML Element[use_parent_model_frame], child of element[axis], not defined in SDF. Copying[use_parent_model_frame] as children of [axis].
+1761302211.1209342 [robot_state_publisher-2] [1;33mWarning [Utils.cc:132][0m [/sdf/model[@name="saye"]/joint[@name="front_right_wheel_steering_joint"]/axis/use_parent_model_frame:<data-string>:L584]: XML Element[use_parent_model_frame], child of element[axis], not defined in SDF. Copying[use_parent_model_frame] as children of [axis].
+1761302211.1223543 [robot_state_publisher-2] [1;33mWarning [Utils.cc:132][0m [/sdf/model[@name="saye"]/joint[@name="rear_right_wheel_joint"]/axis/use_parent_model_frame:<data-string>:L603]: XML Element[use_parent_model_frame], child of element[axis], not defined in SDF. Copying[use_parent_model_frame] as children of [axis].
+1761302211.1245716 [robot_state_publisher-2] [1;33mWarning [Utils.cc:132][0m [/sdf/model[@name="saye"]/joint[@name="rear_left_wheel_joint"]/axis/use_parent_model_frame:<data-string>:L620]: XML Element[use_parent_model_frame], child of element[axis], not defined in SDF. Copying[use_parent_model_frame] as children of [axis].
+1761302211.1348705 [robot_state_publisher-2] [WARN] [1761302211.134448846] [sdformat_urdf]: SDFormat link [base_link] has a <sensor>, but URDF does not support this
+1761302211.1433358 [robot_state_publisher-2] [WARN] [1761302211.143014438] [kdl_parser]: The root link base_link has an inertia specified in the URDF, but KDL does not support a root link with an inertia.  As a workaround, you can add an extra dummy link to your URDF.
+1761302211.1529539 [robot_state_publisher-2] [INFO] [1761302211.152601466] [robot_state_publisher]: Robot initialized
+1761302213.7711234 [INFO] [create-4]: process started with pid [158555]
+1761302214.4541664 [INFO] [create-4]: process has finished cleanly [pid 158555]
+1761302215.7716098 [INFO] [rviz2-5]: process started with pid [158693]
+1761302216.2887633 [rviz2-5] [INFO] [1761302216.288450040] [rviz2]: Stereo is NOT SUPPORTED
+1761302216.2889590 [rviz2-5] [INFO] [1761302216.288581274] [rviz2]: OpenGl version: 4.5 (GLSL 4.5)
+1761302216.3753102 [rviz2-5] [INFO] [1761302216.375036020] [rviz2]: Stereo is NOT SUPPORTED
+1761302216.7989316 [rviz2-5] [INFO] [1761302216.798557854] [rviz2]: Stereo is NOT SUPPORTED
+1761302632.3619814 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1761302632.3664196 [rviz2-5] [INFO] [1761302632.361566651] [rclcpp]: signal_handler(signum=2)
+1761302632.3695993 [robot_state_publisher-2] [INFO] [1761302632.361610182] [rclcpp]: signal_handler(signum=2)
+1761302632.4876323 [INFO] [parameter_bridge-3]: process has finished cleanly [pid 158313]
+1761302632.4891055 [INFO] [robot_state_publisher-2]: process has finished cleanly [pid 158312]
+1761302632.5984640 [INFO] [rviz2-5]: process has finished cleanly [pid 158693]
+1761302633.8186238 [ERROR] [gazebo-1]: process has died [pid 158311, exit code -2, cmd 'ruby /opt/ros/jazzy/opt/gz_tools_vendor/bin/gz sim /home/yiyi/ackermann_sim/install/saye_description/share/saye_description/worlds/saye_dynamic_corridor.sdf --force-version 8'].

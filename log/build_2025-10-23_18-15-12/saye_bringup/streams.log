@@ -1,0 +1,58 @@
+[0.155s] Invoking command in '/home/yiyi/ackermann_sim/build/saye_bringup': AMENT_PREFIX_PATH=/home/yiyi/ackermann_sim/install/saye_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yiyi/ackermann_sim/install/saye_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy /usr/bin/cmake /home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_bringup -DCMAKE_INSTALL_PREFIX=/home/yiyi/ackermann_sim/install/saye_bringup
+[0.550s] -- The C compiler identification is GNU 13.3.0
+[2.486s] -- The CXX compiler identification is GNU 13.3.0
+[4.359s] -- Detecting C compiler ABI info
+[5.091s] -- Detecting C compiler ABI info - done
+[5.101s] -- Check for working C compiler: /usr/bin/cc - skipped
+[5.101s] -- Detecting C compile features
+[5.101s] -- Detecting C compile features - done
+[5.393s] -- Detecting CXX compiler ABI info
+[6.113s] -- Detecting CXX compiler ABI info - done
+[6.125s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[6.125s] -- Detecting CXX compile features
+[6.126s] -- Detecting CXX compile features - done
+[6.135s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[6.409s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[6.628s] -- Found saye_description: 0.0.0 (/home/yiyi/ackermann_sim/install/saye_description/share/saye_description/cmake)
+[6.634s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[6.766s] -- Configuring done (6.6s)
+[6.776s] -- Generating done (0.0s)
+[6.779s] -- Build files have been written to: /home/yiyi/ackermann_sim/build/saye_bringup
+[6.788s] Invoked command in '/home/yiyi/ackermann_sim/build/saye_bringup' returned '0': AMENT_PREFIX_PATH=/home/yiyi/ackermann_sim/install/saye_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yiyi/ackermann_sim/install/saye_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy /usr/bin/cmake /home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_bringup -DCMAKE_INSTALL_PREFIX=/home/yiyi/ackermann_sim/install/saye_bringup
+[6.789s] Invoking command in '/home/yiyi/ackermann_sim/build/saye_bringup': AMENT_PREFIX_PATH=/home/yiyi/ackermann_sim/install/saye_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yiyi/ackermann_sim/install/saye_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy /usr/bin/cmake --build /home/yiyi/ackermann_sim/build/saye_bringup -- -j16 -l16
+[6.865s] Invoked command in '/home/yiyi/ackermann_sim/build/saye_bringup' returned '0': AMENT_PREFIX_PATH=/home/yiyi/ackermann_sim/install/saye_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yiyi/ackermann_sim/install/saye_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy /usr/bin/cmake --build /home/yiyi/ackermann_sim/build/saye_bringup -- -j16 -l16
+[6.867s] Invoking command in '/home/yiyi/ackermann_sim/build/saye_bringup': AMENT_PREFIX_PATH=/home/yiyi/ackermann_sim/install/saye_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yiyi/ackermann_sim/install/saye_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy /usr/bin/cmake --install /home/yiyi/ackermann_sim/build/saye_bringup
+[6.882s] -- Install configuration: ""
+[6.882s] -- Installing: /home/yiyi/ackermann_sim/install/saye_bringup/share/saye_bringup//launch
+[6.885s] -- Installing: /home/yiyi/ackermann_sim/install/saye_bringup/share/saye_bringup//launch/slam.launch.py
+[6.885s] -- Installing: /home/yiyi/ackermann_sim/install/saye_bringup/share/saye_bringup//launch/amcl.launch.py
+[6.885s] -- Installing: /home/yiyi/ackermann_sim/install/saye_bringup/share/saye_bringup//launch/navigation_bringup.launch.py
+[6.886s] -- Installing: /home/yiyi/ackermann_sim/install/saye_bringup/share/saye_bringup//launch/saye_spawn.launch.py
+[6.886s] -- Installing: /home/yiyi/ackermann_sim/install/saye_bringup/share/saye_bringup//maps
+[6.886s] -- Installing: /home/yiyi/ackermann_sim/install/saye_bringup/share/saye_bringup//maps/map.yaml
+[6.887s] -- Installing: /home/yiyi/ackermann_sim/install/saye_bringup/share/saye_bringup//maps/map.pgm
+[6.888s] -- Installing: /home/yiyi/ackermann_sim/install/saye_bringup/share/saye_bringup//rviz
+[6.889s] -- Installing: /home/yiyi/ackermann_sim/install/saye_bringup/share/saye_bringup//rviz/navigation.rviz
+[6.889s] -- Installing: /home/yiyi/ackermann_sim/install/saye_bringup/share/saye_bringup//rviz/saye.rviz
+[6.889s] -- Installing: /home/yiyi/ackermann_sim/install/saye_bringup/share/saye_bringup//config
+[6.890s] -- Installing: /home/yiyi/ackermann_sim/install/saye_bringup/share/saye_bringup//config/ros_gz_bridge.yaml
+[6.890s] -- Installing: /home/yiyi/ackermann_sim/install/saye_bringup/share/saye_bringup//config/slam.yaml
+[6.891s] -- Installing: /home/yiyi/ackermann_sim/install/saye_bringup/share/saye_bringup//config/amcl.yaml
+[6.891s] -- Installing: /home/yiyi/ackermann_sim/install/saye_bringup/share/saye_bringup//config/navigation.yaml
+[6.891s] -- Installing: /home/yiyi/ackermann_sim/install/saye_bringup/share/saye_bringup//config/nav2_params.yaml
+[6.893s] -- Installing: /home/yiyi/ackermann_sim/install/saye_bringup/share/ament_index/resource_index/package_run_dependencies/saye_bringup
+[6.894s] -- Installing: /home/yiyi/ackermann_sim/install/saye_bringup/share/ament_index/resource_index/parent_prefix_path/saye_bringup
+[6.895s] -- Installing: /home/yiyi/ackermann_sim/install/saye_bringup/share/saye_bringup/environment/ament_prefix_path.sh
+[6.895s] -- Installing: /home/yiyi/ackermann_sim/install/saye_bringup/share/saye_bringup/environment/ament_prefix_path.dsv
+[6.895s] -- Installing: /home/yiyi/ackermann_sim/install/saye_bringup/share/saye_bringup/environment/path.sh
+[6.896s] -- Installing: /home/yiyi/ackermann_sim/install/saye_bringup/share/saye_bringup/environment/path.dsv
+[6.896s] -- Installing: /home/yiyi/ackermann_sim/install/saye_bringup/share/saye_bringup/local_setup.bash
+[6.896s] -- Installing: /home/yiyi/ackermann_sim/install/saye_bringup/share/saye_bringup/local_setup.sh
+[6.897s] -- Installing: /home/yiyi/ackermann_sim/install/saye_bringup/share/saye_bringup/local_setup.zsh
+[6.897s] -- Installing: /home/yiyi/ackermann_sim/install/saye_bringup/share/saye_bringup/local_setup.dsv
+[6.897s] -- Installing: /home/yiyi/ackermann_sim/install/saye_bringup/share/saye_bringup/package.dsv
+[6.899s] -- Installing: /home/yiyi/ackermann_sim/install/saye_bringup/share/ament_index/resource_index/packages/saye_bringup
+[6.901s] -- Installing: /home/yiyi/ackermann_sim/install/saye_bringup/share/saye_bringup/cmake/saye_bringupConfig.cmake
+[6.901s] -- Installing: /home/yiyi/ackermann_sim/install/saye_bringup/share/saye_bringup/cmake/saye_bringupConfig-version.cmake
+[6.901s] -- Installing: /home/yiyi/ackermann_sim/install/saye_bringup/share/saye_bringup/package.xml
+[6.905s] Invoked command in '/home/yiyi/ackermann_sim/build/saye_bringup' returned '0': AMENT_PREFIX_PATH=/home/yiyi/ackermann_sim/install/saye_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yiyi/ackermann_sim/install/saye_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy /usr/bin/cmake --install /home/yiyi/ackermann_sim/build/saye_bringup

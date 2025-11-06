@@ -1,0 +1,25 @@
+[0.031s] Invoking command in '/home/yiyi/ackermann_sim/build/saye_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/yiyi/ackermann_sim/build/saye_localization -- -j16 -l16
+[0.157s] [100%] Built target main
+[0.196s] Invoked command in '/home/yiyi/ackermann_sim/build/saye_localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/yiyi/ackermann_sim/build/saye_localization -- -j16 -l16
+[0.199s] Invoking command in '/home/yiyi/ackermann_sim/build/saye_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/yiyi/ackermann_sim/build/saye_localization
+[0.220s] -- Install configuration: ""
+[0.220s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_localization/include/include
+[0.220s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_localization/include/include/saye_localization
+[0.220s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_localization/include/include/saye_localization/kalman_filter.hpp
+[0.221s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_localization/lib/saye_localization/main
+[0.222s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_localization/share/ament_index/resource_index/package_run_dependencies/saye_localization
+[0.222s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_localization/share/ament_index/resource_index/parent_prefix_path/saye_localization
+[0.222s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_localization/share/saye_localization/environment/ament_prefix_path.sh
+[0.223s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_localization/share/saye_localization/environment/ament_prefix_path.dsv
+[0.223s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_localization/share/saye_localization/environment/path.sh
+[0.223s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_localization/share/saye_localization/environment/path.dsv
+[0.223s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_localization/share/saye_localization/local_setup.bash
+[0.223s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_localization/share/saye_localization/local_setup.sh
+[0.224s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_localization/share/saye_localization/local_setup.zsh
+[0.224s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_localization/share/saye_localization/local_setup.dsv
+[0.224s] -- Installing: /home/yiyi/ackermann_sim/install/saye_localization/share/saye_localization/package.dsv
+[0.224s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_localization/share/ament_index/resource_index/packages/saye_localization
+[0.225s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_localization/share/saye_localization/cmake/saye_localizationConfig.cmake
+[0.225s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_localization/share/saye_localization/cmake/saye_localizationConfig-version.cmake
+[0.225s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_localization/share/saye_localization/package.xml
+[0.229s] Invoked command in '/home/yiyi/ackermann_sim/build/saye_localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/yiyi/ackermann_sim/build/saye_localization

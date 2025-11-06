@@ -1,0 +1,3 @@
+source;share/saye_rapa_mppi/environment/ament_prefix_path.sh
+source;share/saye_rapa_mppi/environment/library_path.sh
+source;share/saye_rapa_mppi/environment/path.sh

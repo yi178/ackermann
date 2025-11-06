@@ -1,0 +1,470 @@
+[0.000000] (-) TimerEvent: {}
+[0.000263] (-) JobUnselected: {'identifier': 'saye_behaviortree'}
+[0.000327] (-) JobUnselected: {'identifier': 'saye_bringup'}
+[0.000389] (-) JobUnselected: {'identifier': 'saye_bringup_my'}
+[0.000449] (-) JobUnselected: {'identifier': 'saye_control'}
+[0.000511] (-) JobUnselected: {'identifier': 'saye_localization'}
+[0.000581] (-) JobUnselected: {'identifier': 'saye_mppi'}
+[0.000626] (-) JobUnselected: {'identifier': 'saye_msgs'}
+[0.000663] (saye_description) JobQueued: {'identifier': 'saye_description', 'dependencies': OrderedDict()}
+[0.000748] (saye_description) JobStarted: {'identifier': 'saye_description'}
+[0.012775] (saye_description) JobProgress: {'identifier': 'saye_description', 'progress': 'cmake'}
+[0.014087] (saye_description) JobProgress: {'identifier': 'saye_description', 'progress': 'build'}
+[0.015367] (saye_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/yiyi/ackermann_sim/build/saye_description', '--', '-j16', '-l16'], 'cwd': '/home/yiyi/ackermann_sim/build/saye_description', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'HTTPS_PROXY': 'http://127.0.0.1:7897', 'GZ_SIM_RESOURCE_PATH': '/home/yiyi/ackermann_sim/install/saye_description/share/saye_description/models:/home/yiyi/ackermann_sim/install/saye_description/share', 'no_proxy': '172.31.*,172.30.*,172.29.*,172.28.*,172.27.*,172.26.*,172.25.*,172.24.*,172.23.*,172.22.*,172.21.*,172.20.*,172.19.*,172.18.*,172.17.*,172.16.*,10.*,192.168.*,127.*,localhost,<local>', 'USER': 'yiyi', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'SHLVL': '1', 'WT_PROFILE_ID': '{d8e96812-b789-5068-a5ae-10b2fb53e95f}', 'HOME': '/home/yiyi', 'OLDPWD': '/home/yiyi', 'NO_PROXY': '172.31.*,172.30.*,172.29.*,172.28.*,172.27.*,172.26.*,172.25.*,172.24.*,172.23.*,172.22.*,172.21.*,172.20.*,172.19.*,172.18.*,172.17.*,172.16.*,10.*,192.168.*,127.*,localhost,<local>', 'NVM_BIN': '/home/yiyi/.nvm/versions/node/v22.21.0/bin', 'NVM_INC': '/home/yiyi/.nvm/versions/node/v22.21.0/include/node', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', 'NVM_DIR': '/home/yiyi/.nvm', 'WAYLAND_DISPLAY': 'wayland-0', 'https_proxy': 'http://127.0.0.1:7897', 'COLCON_PREFIX_PATH': '/home/yiyi/ackermann_sim/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'yiyi', 'NAME': 'yiyi', 'WSL_INTEROP': '/run/WSL/353_interop', 'http_proxy': 'http://127.0.0.1:7897', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/home/yiyi/.local/bin:/tmp/.tmpqMfqZD:/home/yiyi/.nvm/versions/node/v22.21.0/lib/node_modules/@openai/codex/vendor/x86_64-unknown-linux-musl/path:/home/yiyi/.local/share/pnpm:/home/yiyi/.nvm/versions/node/v22.21.0/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/d/Python/Python308/Scripts/:/mnt/d/Python/Python308/:/mnt/d/Vmware/bin/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/d/bandzip/Bandizip/:/mnt/d/Python/Python310/:/mnt/c/Program Files/dotnet/:/mnt/d/MYsQL8/bin:/mnt/d/JAVA/jdk1.8.0_152/jdk1.8.0_152/bin:/mnt/d/JAVA/jdk1.8.0_152/jdk1.8.0_152/jre/bin:/mnt/d/VS code/Microsoft VS Code/bin:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/DTS/Binn/:/mnt/c/Program Files/Git/cmd:/mnt/d/Matlab2024b/runtime/win64:/mnt/d/Matlab2024b/bin:/mnt/d/Windows Kits/10/Windows Performance Toolkit/:/mnt/d/cursor/cursor/resources/app/bin:/mnt/c/ProgramData/chocolatey/bin:/mnt/d/nodejs/:/mnt/d/cursor/cursor/resources/app/bin:/mnt/d/IDEAl/windsurf/Windsurf/bin:/mnt/c/Users/29705/AppData/Local/pnpm:/mnt/d/python/python312/Scripts/:/mnt/d/python/python312/:/mnt/c/Users/29705/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/29705/AppData/Local/Microsoft/WindowsApps:/mnt/d/clion/CLion 2024.1/bin:/mnt/d/pycharm/PyCharm Community Edition 2023.1.3/bin:/mnt/d/新建文件夹/miktex/bin/x64/:/mnt/d/IntelliJ IDEAIntelliJ IDEA/IntelliJ IDEA 2024.1.1/bin:/mnt/d/pycharm/PyCharm 2024.1.1/bin:/mnt/c/Users/29705/AppData/Local/JetBrains/Toolbox/scripts:/mnt/d/Modelsim/win64:/mnt/c/Users/29705/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/29705/AppData/Local/Microsoft/WindowsApps:/mnt/d/msys/ucrt64/bin:/mnt/c/Users/29705/.dotnet/tools:/mnt/d/IDEAl/kiro/Kiro/bin:/mnt/c/Users/29705/AppData/Local/Programs/Ollama:/mnt/c/Users/29705/.lmstudio/bin:/mnt/c/Users/29705/AppData/Roaming/npm:/mnt/c/Users/29705/AppData/Local/Microsoft/WinGet/Links:/mnt/d/pycharm/PyCharm 2025.2.3/bin:/mnt/d/clion/CLion 2025.2.3/bin:/mnt/c/Users/29705/.dotnet/tools:/mnt/d/Zed/bin:/snap/bin', 'WT_SESSION': 'be09b544-aed0-42c2-a7f5-20c18f3ea2de', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'CODEX_SANDBOX_NETWORK_DISABLED': '1', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/yiyi/ackermann_sim/install/saye_control:/home/yiyi/ackermann_sim/install/saye_msgs:/home/yiyi/ackermann_sim/install/saye_mppi:/home/yiyi/ackermann_sim/install/saye_localization:/home/yiyi/ackermann_sim/install/saye_bringup_my:/home/yiyi/ackermann_sim/install/saye_bringup:/home/yiyi/ackermann_sim/install/saye_description:/home/yiyi/ackermann_sim/install/saye_behaviortree:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/yiyi/ackermann_sim/build/saye_description', 'NVM_CD_FLAGS': '', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/yiyi/ackermann_sim/install/saye_msgs/lib/python3.12/site-packages:/home/yiyi/ackermann_sim/install/saye_mppi/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'HTTP_PROXY': 'http://127.0.0.1:7897', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'PNPM_HOME': '/home/yiyi/.local/share/pnpm', 'CODEX_MANAGED_BY_NPM': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/yiyi/ackermann_sim/install/saye_control:/home/yiyi/ackermann_sim/install/saye_msgs:/home/yiyi/ackermann_sim/install/saye_mppi:/home/yiyi/ackermann_sim/install/saye_localization:/home/yiyi/ackermann_sim/install/saye_bringup_my:/home/yiyi/ackermann_sim/install/saye_bringup:/home/yiyi/ackermann_sim/install/saye_description:/home/yiyi/ackermann_sim/install/saye_behaviortree:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'WSLENV': 'WT_SESSION:WT_PROFILE_ID:'}), 'shell': False}
+[0.095605] (saye_description) StdoutLine: {'line': b'[ 50%] Building CXX object CMakeFiles/pedestrian_manager_system.dir/plugins/pedestrian_manager/src/pedestrian_manager_system.cpp.o\n'}
+[0.098683] (-) TimerEvent: {}
+[0.198910] (-) TimerEvent: {}
+[0.299162] (-) TimerEvent: {}
+[0.399436] (-) TimerEvent: {}
+[0.499683] (-) TimerEvent: {}
+[0.599959] (-) TimerEvent: {}
+[0.700216] (-) TimerEvent: {}
+[0.800479] (-) TimerEvent: {}
+[0.900760] (-) TimerEvent: {}
+[1.001018] (-) TimerEvent: {}
+[1.101304] (-) TimerEvent: {}
+[1.201678] (-) TimerEvent: {}
+[1.301977] (-) TimerEvent: {}
+[1.402261] (-) TimerEvent: {}
+[1.502579] (-) TimerEvent: {}
+[1.602869] (-) TimerEvent: {}
+[1.703119] (-) TimerEvent: {}
+[1.803359] (-) TimerEvent: {}
+[1.903681] (-) TimerEvent: {}
+[2.003987] (-) TimerEvent: {}
+[2.104266] (-) TimerEvent: {}
+[2.204584] (-) TimerEvent: {}
+[2.304837] (-) TimerEvent: {}
+[2.405092] (-) TimerEvent: {}
+[2.505377] (-) TimerEvent: {}
+[2.605624] (-) TimerEvent: {}
+[2.705919] (-) TimerEvent: {}
+[2.806195] (-) TimerEvent: {}
+[2.906399] (-) TimerEvent: {}
+[3.006635] (-) TimerEvent: {}
+[3.106853] (-) TimerEvent: {}
+[3.207123] (-) TimerEvent: {}
+[3.248019] (saye_description) StderrLine: {'line': b'/home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_description/plugins/pedestrian_manager/src/pedestrian_manager_system.cpp: In member function \xe2\x80\x98virtual void saye_description::PedestrianManagerSystem::Configure(const gz::sim::v8::Entity&, const std::shared_ptr<const sdf::v14::Element>&, gz::sim::v8::EntityComponentManager&, gz::sim::v8::EventManager&)\xe2\x80\x99:\n'}
+[3.248298] (saye_description) StderrLine: {'line': b'/home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_description/plugins/pedestrian_manager/src/pedestrian_manager_system.cpp:72:19: error: \xe2\x80\x98isAbsolutePath\xe2\x80\x99 is not a member of \xe2\x80\x98gz::common\xe2\x80\x99\n'}
+[3.248393] (saye_description) StderrLine: {'line': b'   72 |   if (gz::common::isAbsolutePath(config_file))\n'}
+[3.248466] (saye_description) StderrLine: {'line': b'      |                   ^~~~~~~~~~~~~~\n'}
+[3.255220] (saye_description) StderrLine: {'line': b'/home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_description/plugins/pedestrian_manager/src/pedestrian_manager_system.cpp: In member function \xe2\x80\x98virtual void saye_description::PedestrianManagerSystem::PreUpdate(const gz::sim::v8::UpdateInfo&, gz::sim::v8::EntityComponentManager&)\xe2\x80\x99:\n'}
+[3.255448] (saye_description) StderrLine: {'line': b'/home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_description/plugins/pedestrian_manager/src/pedestrian_manager_system.cpp:120:72: error: no match for \xe2\x80\x98operator<<\xe2\x80\x99 (operand types are \xe2\x80\x98std::basic_ostream<char>\xe2\x80\x99 and \xe2\x80\x98std::optional<std::__cxx11::basic_string<char> >\xe2\x80\x99)\n'}
+[3.255559] (saye_description) StderrLine: {'line': b'  120 |   gzdbg << "pedestrian_manager_system: Spawning pedestrians in world " << worldName << std::endl;\n'}
+[3.255636] (saye_description) StderrLine: {'line': b'      |                                                                        ^~ ~~~~~~~~~\n'}
+[3.255703] (saye_description) StderrLine: {'line': b'      |                                                                           |\n'}
+[3.255817] (saye_description) StderrLine: {'line': b'      |                                                                           std::optional<std::__cxx11::basic_string<char> >\n'}
+[3.255892] (saye_description) StderrLine: {'line': b'/home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_description/plugins/pedestrian_manager/src/pedestrian_manager_system.cpp:120:72: note: candidate: \xe2\x80\x98operator<<(int, int)\xe2\x80\x99 (built-in)\n'}
+[3.255959] (saye_description) StderrLine: {'line': b'  120 |   gzdbg << "pedestrian_manager_system: Spawning pedestrians in world " << worldName << std::endl;\n'}
+[3.257408] (saye_description) StderrLine: {'line': b'      |                                                                        ^\n'}
+[3.257577] (saye_description) StderrLine: {'line': b'/home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_description/plugins/pedestrian_manager/src/pedestrian_manager_system.cpp:120:72: note:   no known conversion for argument 2 from \xe2\x80\x98std::optional<std::__cxx11::basic_string<char> >\xe2\x80\x99 to \xe2\x80\x98int\xe2\x80\x99\n'}
+[3.257671] (saye_description) StderrLine: {'line': b'In file included from /usr/include/c++/13/iostream:41,\n'}
+[3.257812] (saye_description) StderrLine: {'line': b'                 from /usr/include/google/protobuf/stubs/common.h:39,\n'}
+[3.257955] (saye_description) StderrLine: {'line': b'                 from /usr/include/google/protobuf/io/coded_stream.h:131,\n'}
+[3.258179] (saye_description) StderrLine: {'line': b'                 from /opt/ros/jazzy/opt/gz_msgs_vendor/include/gz/msgs10/gz/msgs/details/serialized.pb.h:23,\n'}
+[3.258429] (saye_description) StderrLine: {'line': b'                 from /opt/ros/jazzy/opt/gz_msgs_vendor/include/gz/msgs10/gz/msgs/serialized.pb.h:12,\n'}
+[3.259786] (saye_description) StderrLine: {'line': b'                 from /opt/ros/jazzy/opt/gz_sim_vendor/include/gz/sim8/gz/sim/EntityComponentManager.hh:20,\n'}
+[3.259949] (saye_description) StderrLine: {'line': b'                 from /opt/ros/jazzy/opt/gz_sim_vendor/include/gz/sim8/gz/sim/System.hh:24,\n'}
+[3.260118] (saye_description) StderrLine: {'line': b'                 from /home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_description/plugins/pedestrian_manager/include/saye_description/pedestrian_manager_system.hpp:9,\n'}
+[3.260288] (saye_description) StderrLine: {'line': b'                 from /home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_description/plugins/pedestrian_manager/src/pedestrian_manager_system.cpp:1:\n'}
+[3.260383] (saye_description) StderrLine: {'line': b'/usr/include/c++/13/ostream:110:7: note: candidate: \xe2\x80\x98std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(__ostream_type& (*)(__ostream_type&)) [with _CharT = char; _Traits = std::char_traits<char>; __ostream_type = std::basic_ostream<char>]\xe2\x80\x99\n'}
+[3.260587] (saye_description) StderrLine: {'line': b'  110 |       operator<<(__ostream_type& (*__pf)(__ostream_type&))\n'}
+[3.260692] (saye_description) StderrLine: {'line': b'      |       ^~~~~~~~\n'}
+[3.260809] (saye_description) StderrLine: {'line': b'/usr/include/c++/13/ostream:110:36: note:   no known conversion for argument 1 from \xe2\x80\x98std::optional<std::__cxx11::basic_string<char> >\xe2\x80\x99 to \xe2\x80\x98std::basic_ostream<char>::__ostream_type& (*)(std::basic_ostream<char>::__ostream_type&)\xe2\x80\x99 {aka \xe2\x80\x98std::basic_ostream<char>& (*)(std::basic_ostream<char>&)\xe2\x80\x99}\n'}
+[3.261202] (saye_description) StderrLine: {'line': b'  110 |       operator<<(__ostream_type& (*__pf)(__ostream_type&))\n'}
+[3.261315] (saye_description) StderrLine: {'line': b'      |                  ~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~\n'}
+[3.261404] (saye_description) StderrLine: {'line': b'/usr/include/c++/13/ostream:119:7: note: candidate: \xe2\x80\x98std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(__ios_type& (*)(__ios_type&)) [with _CharT = char; _Traits = std::char_traits<char>; __ostream_type = std::basic_ostream<char>; __ios_type = std::basic_ios<char>]\xe2\x80\x99\n'}
+[3.261479] (saye_description) StderrLine: {'line': b'  119 |       operator<<(__ios_type& (*__pf)(__ios_type&))\n'}
+[3.261545] (saye_description) StderrLine: {'line': b'      |       ^~~~~~~~\n'}
+[3.261667] (saye_description) StderrLine: {'line': b'/usr/include/c++/13/ostream:119:32: note:   no known conversion for argument 1 from \xe2\x80\x98std::optional<std::__cxx11::basic_string<char> >\xe2\x80\x99 to \xe2\x80\x98std::basic_ostream<char>::__ios_type& (*)(std::basic_ostream<char>::__ios_type&)\xe2\x80\x99 {aka \xe2\x80\x98std::basic_ios<char>& (*)(std::basic_ios<char>&)\xe2\x80\x99}\n'}
+[3.261762] (saye_description) StderrLine: {'line': b'  119 |       operator<<(__ios_type& (*__pf)(__ios_type&))\n'}
+[3.262032] (saye_description) StderrLine: {'line': b'      |                  ~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~\n'}
+[3.262120] (saye_description) StderrLine: {'line': b'/usr/include/c++/13/ostream:129:7: note: candidate: \xe2\x80\x98std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(std::ios_base& (*)(std::ios_base&)) [with _CharT = char; _Traits = std::char_traits<char>; __ostream_type = std::basic_ostream<char>]\xe2\x80\x99\n'}
+[3.262191] (saye_description) StderrLine: {'line': b'  129 |       operator<<(ios_base& (*__pf) (ios_base&))\n'}
+[3.262256] (saye_description) StderrLine: {'line': b'      |       ^~~~~~~~\n'}
+[3.262319] (saye_description) StderrLine: {'line': b'/usr/include/c++/13/ostream:129:30: note:   no known conversion for argument 1 from \xe2\x80\x98std::optional<std::__cxx11::basic_string<char> >\xe2\x80\x99 to \xe2\x80\x98std::ios_base& (*)(std::ios_base&)\xe2\x80\x99\n'}
+[3.262381] (saye_description) StderrLine: {'line': b'  129 |       operator<<(ios_base& (*__pf) (ios_base&))\n'}
+[3.262442] (saye_description) StderrLine: {'line': b'      |                  ~~~~~~~~~~~~^~~~~~~~~~~~~~~~~\n'}
+[3.262503] (saye_description) StderrLine: {'line': b'/usr/include/c++/13/ostream:168:7: note: candidate: \xe2\x80\x98std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long int) [with _CharT = char; _Traits = std::char_traits<char>; __ostream_type = std::basic_ostream<char>]\xe2\x80\x99\n'}
+[3.262568] (saye_description) StderrLine: {'line': b'  168 |       operator<<(long __n)\n'}
+[3.262629] (saye_description) StderrLine: {'line': b'      |       ^~~~~~~~\n'}
+[3.262690] (saye_description) StderrLine: {'line': b'/usr/include/c++/13/ostream:168:23: note:   no known conversion for argument 1 from \xe2\x80\x98std::optional<std::__cxx11::basic_string<char> >\xe2\x80\x99 to \xe2\x80\x98long int\xe2\x80\x99\n'}
+[3.262755] (saye_description) StderrLine: {'line': b'  168 |       operator<<(long __n)\n'}
+[3.262841] (saye_description) StderrLine: {'line': b'      |                  ~~~~~^~~\n'}
+[3.262913] (saye_description) StderrLine: {'line': b'/usr/include/c++/13/ostream:172:7: note: candidate: \xe2\x80\x98std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; __ostream_type = std::basic_ostream<char>]\xe2\x80\x99\n'}
+[3.262978] (saye_description) StderrLine: {'line': b'  172 |       operator<<(unsigned long __n)\n'}
+[3.263052] (saye_description) StderrLine: {'line': b'      |       ^~~~~~~~\n'}
+[3.263116] (saye_description) StderrLine: {'line': b'/usr/include/c++/13/ostream:172:32: note:   no known conversion for argument 1 from \xe2\x80\x98std::optional<std::__cxx11::basic_string<char> >\xe2\x80\x99 to \xe2\x80\x98long unsigned int\xe2\x80\x99\n'}
+[3.263179] (saye_description) StderrLine: {'line': b'  172 |       operator<<(unsigned long __n)\n'}
+[3.263239] (saye_description) StderrLine: {'line': b'      |                  ~~~~~~~~~~~~~~^~~\n'}
+[3.263309] (saye_description) StderrLine: {'line': b'/usr/include/c++/13/ostream:176:7: note: candidate: \xe2\x80\x98std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(bool) [with _CharT = char; _Traits = std::char_traits<char>; __ostream_type = std::basic_ostream<char>]\xe2\x80\x99\n'}
+[3.263386] (saye_description) StderrLine: {'line': b'  176 |       operator<<(bool __n)\n'}
+[3.263450] (saye_description) StderrLine: {'line': b'      |       ^~~~~~~~\n'}
+[3.263512] (saye_description) StderrLine: {'line': b'/usr/include/c++/13/ostream:176:23: note:   no known conversion for argument 1 from \xe2\x80\x98std::optional<std::__cxx11::basic_string<char> >\xe2\x80\x99 to \xe2\x80\x98bool\xe2\x80\x99\n'}
+[3.263574] (saye_description) StderrLine: {'line': b'  176 |       operator<<(bool __n)\n'}
+[3.263634] (saye_description) StderrLine: {'line': b'      |                  ~~~~~^~~\n'}
+[3.263939] (saye_description) StderrLine: {'line': b'In file included from /usr/include/c++/13/ostream:880:\n'}
+[3.264023] (saye_description) StderrLine: {'line': b'/usr/include/c++/13/bits/ostream.tcc:96:5: note: candidate: \xe2\x80\x98std::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(short int) [with _CharT = char; _Traits = std::char_traits<char>]\xe2\x80\x99\n'}
+[3.264093] (saye_description) StderrLine: {'line': b'   96 |     basic_ostream<_CharT, _Traits>::\n'}
+[3.264155] (saye_description) StderrLine: {'line': b'      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n'}
+[3.264216] (saye_description) StderrLine: {'line': b'/usr/include/c++/13/bits/ostream.tcc:97:22: note:   no known conversion for argument 1 from \xe2\x80\x98std::optional<std::__cxx11::basic_string<char> >\xe2\x80\x99 to \xe2\x80\x98short int\xe2\x80\x99\n'}
+[3.264282] (saye_description) StderrLine: {'line': b'   97 |     operator<<(short __n)\n'}
+[3.264365] (saye_description) StderrLine: {'line': b'      |                ~~~~~~^~~\n'}
+[3.264429] (saye_description) StderrLine: {'line': b'/usr/include/c++/13/ostream:183:7: note: candidate: \xe2\x80\x98std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(short unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; __ostream_type = std::basic_ostream<char>]\xe2\x80\x99\n'}
+[3.264526] (saye_description) StderrLine: {'line': b'  183 |       operator<<(unsigned short __n)\n'}
+[3.264766] (saye_description) StderrLine: {'line': b'      |       ^~~~~~~~\n'}
+[3.264864] (saye_description) StderrLine: {'line': b'/usr/include/c++/13/ostream:183:33: note:   no known conversion for argument 1 from \xe2\x80\x98std::optional<std::__cxx11::basic_string<char> >\xe2\x80\x99 to \xe2\x80\x98short unsigned int\xe2\x80\x99\n'}
+[3.264933] (saye_description) StderrLine: {'line': b'  183 |       operator<<(unsigned short __n)\n'}
+[3.264996] (saye_description) StderrLine: {'line': b'      |                  ~~~~~~~~~~~~~~~^~~\n'}
+[3.265057] (saye_description) StderrLine: {'line': b'/usr/include/c++/13/bits/ostream.tcc:110:5: note: candidate: \xe2\x80\x98std::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(int) [with _CharT = char; _Traits = std::char_traits<char>]\xe2\x80\x99\n'}
+[3.265156] (saye_description) StderrLine: {'line': b'  110 |     basic_ostream<_CharT, _Traits>::\n'}
+[3.265224] (saye_description) StderrLine: {'line': b'      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n'}
+[3.265298] (saye_description) StderrLine: {'line': b'/usr/include/c++/13/bits/ostream.tcc:111:20: note:   no known conversion for argument 1 from \xe2\x80\x98std::optional<std::__cxx11::basic_string<char> >\xe2\x80\x99 to \xe2\x80\x98int\xe2\x80\x99\n'}
+[3.265368] (saye_description) StderrLine: {'line': b'  111 |     operator<<(int __n)\n'}
+[3.265431] (saye_description) StderrLine: {'line': b'      |                ~~~~^~~\n'}
+[3.265494] (saye_description) StderrLine: {'line': b'/usr/include/c++/13/ostream:194:7: note: candidate: \xe2\x80\x98std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; __ostream_type = std::basic_ostream<char>]\xe2\x80\x99\n'}
+[3.265598] (saye_description) StderrLine: {'line': b'  194 |       operator<<(unsigned int __n)\n'}
+[3.265677] (saye_description) StderrLine: {'line': b'      |       ^~~~~~~~\n'}
+[3.265743] (saye_description) StderrLine: {'line': b'/usr/include/c++/13/ostream:194:31: note:   no known conversion for argument 1 from \xe2\x80\x98std::optional<std::__cxx11::basic_string<char> >\xe2\x80\x99 to \xe2\x80\x98unsigned int\xe2\x80\x99\n'}
+[3.265808] (saye_description) StderrLine: {'line': b'  194 |       operator<<(unsigned int __n)\n'}
+[3.265870] (saye_description) StderrLine: {'line': b'      |                  ~~~~~~~~~~~~~^~~\n'}
+[3.265931] (saye_description) StderrLine: {'line': b'/usr/include/c++/13/ostream:203:7: note: candidate: \xe2\x80\x98std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long long int) [with _CharT = char; _Traits = std::char_traits<char>; __ostream_type = std::basic_ostream<char>]\xe2\x80\x99\n'}
+[3.265993] (saye_description) StderrLine: {'line': b'  203 |       operator<<(long long __n)\n'}
+[3.266052] (saye_description) StderrLine: {'line': b'      |       ^~~~~~~~\n'}
+[3.266110] (saye_description) StderrLine: {'line': b'/usr/include/c++/13/ostream:203:28: note:   no known conversion for argument 1 from \xe2\x80\x98std::optional<std::__cxx11::basic_string<char> >\xe2\x80\x99 to \xe2\x80\x98long long int\xe2\x80\x99\n'}
+[3.266170] (saye_description) StderrLine: {'line': b'  203 |       operator<<(long long __n)\n'}
+[3.266228] (saye_description) StderrLine: {'line': b'      |                  ~~~~~~~~~~^~~\n'}
+[3.266287] (saye_description) StderrLine: {'line': b'/usr/include/c++/13/ostream:207:7: note: candidate: \xe2\x80\x98std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long long unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; __ostream_type = std::basic_ostream<char>]\xe2\x80\x99\n'}
+[3.266348] (saye_description) StderrLine: {'line': b'  207 |       operator<<(unsigned long long __n)\n'}
+[3.266412] (saye_description) StderrLine: {'line': b'      |       ^~~~~~~~\n'}
+[3.266471] (saye_description) StderrLine: {'line': b'/usr/include/c++/13/ostream:207:37: note:   no known conversion for argument 1 from \xe2\x80\x98std::optional<std::__cxx11::basic_string<char> >\xe2\x80\x99 to \xe2\x80\x98long long unsigned int\xe2\x80\x99\n'}
+[3.266531] (saye_description) StderrLine: {'line': b'  207 |       operator<<(unsigned long long __n)\n'}
+[3.266621] (saye_description) StderrLine: {'line': b'      |                  ~~~~~~~~~~~~~~~~~~~^~~\n'}
+[3.266691] (saye_description) StderrLine: {'line': b'/usr/include/c++/13/ostream:222:7: note: candidate: \xe2\x80\x98std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(double) [with _CharT = char; _Traits = std::char_traits<char>; __ostream_type = std::basic_ostream<char>]\xe2\x80\x99\n'}
+[3.266756] (saye_description) StderrLine: {'line': b'  222 |       operator<<(double __f)\n'}
+[3.266825] (saye_description) StderrLine: {'line': b'      |       ^~~~~~~~\n'}
+[3.266889] (saye_description) StderrLine: {'line': b'/usr/include/c++/13/ostream:222:25: note:   no known conversion for argument 1 from \xe2\x80\x98std::optional<std::__cxx11::basic_string<char> >\xe2\x80\x99 to \xe2\x80\x98double\xe2\x80\x99\n'}
+[3.266963] (saye_description) StderrLine: {'line': b'  222 |       operator<<(double __f)\n'}
+[3.267024] (saye_description) StderrLine: {'line': b'      |                  ~~~~~~~^~~\n'}
+[3.267085] (saye_description) StderrLine: {'line': b'/usr/include/c++/13/ostream:226:7: note: candidate: \xe2\x80\x98std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(float) [with _CharT = char; _Traits = std::char_traits<char>; __ostream_type = std::basic_ostream<char>]\xe2\x80\x99\n'}
+[3.267147] (saye_description) StderrLine: {'line': b'  226 |       operator<<(float __f)\n'}
+[3.267206] (saye_description) StderrLine: {'line': b'      |       ^~~~~~~~\n'}
+[3.267265] (saye_description) StderrLine: {'line': b'/usr/include/c++/13/ostream:226:24: note:   no known conversion for argument 1 from \xe2\x80\x98std::optional<std::__cxx11::basic_string<char> >\xe2\x80\x99 to \xe2\x80\x98float\xe2\x80\x99\n'}
+[3.267324] (saye_description) StderrLine: {'line': b'  226 |       operator<<(float __f)\n'}
+[3.267382] (saye_description) StderrLine: {'line': b'      |                  ~~~~~~^~~\n'}
+[3.267446] (saye_description) StderrLine: {'line': b'/usr/include/c++/13/ostream:234:7: note: candidate: \xe2\x80\x98std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long double) [with _CharT = char; _Traits = std::char_traits<char>; __ostream_type = std::basic_ostream<char>]\xe2\x80\x99\n'}
+[3.267508] (saye_description) StderrLine: {'line': b'  234 |       operator<<(long double __f)\n'}
+[3.267582] (saye_description) StderrLine: {'line': b'      |       ^~~~~~~~\n'}
+[3.267642] (saye_description) StderrLine: {'line': b'/usr/include/c++/13/ostream:234:30: note:   no known conversion for argument 1 from \xe2\x80\x98std::optional<std::__cxx11::basic_string<char> >\xe2\x80\x99 to \xe2\x80\x98long double\xe2\x80\x99\n'}
+[3.267711] (saye_description) StderrLine: {'line': b'  234 |       operator<<(long double __f)\n'}
+[3.267769] (saye_description) StderrLine: {'line': b'      |                  ~~~~~~~~~~~~^~~\n'}
+[3.267828] (saye_description) StderrLine: {'line': b'/usr/include/c++/13/ostream:292:7: note: candidate: \xe2\x80\x98std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(const void*) [with _CharT = char; _Traits = std::char_traits<char>; __ostream_type = std::basic_ostream<char>]\xe2\x80\x99\n'}
+[3.267888] (saye_description) StderrLine: {'line': b'  292 |       operator<<(const void* __p)\n'}
+[3.267945] (saye_description) StderrLine: {'line': b'      |       ^~~~~~~~\n'}
+[3.268003] (saye_description) StderrLine: {'line': b'/usr/include/c++/13/ostream:292:30: note:   no known conversion for argument 1 from \xe2\x80\x98std::optional<std::__cxx11::basic_string<char> >\xe2\x80\x99 to \xe2\x80\x98const void*\xe2\x80\x99\n'}
+[3.268062] (saye_description) StderrLine: {'line': b'  292 |       operator<<(const void* __p)\n'}
+[3.268121] (saye_description) StderrLine: {'line': b'      |                  ~~~~~~~~~~~~^~~\n'}
+[3.268180] (saye_description) StderrLine: {'line': b'/usr/include/c++/13/ostream:297:7: note: candidate: \xe2\x80\x98std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(std::nullptr_t) [with _CharT = char; _Traits = std::char_traits<char>; __ostream_type = std::basic_ostream<char>; std::nullptr_t = std::nullptr_t]\xe2\x80\x99\n'}
+[3.268242] (saye_description) StderrLine: {'line': b'  297 |       operator<<(nullptr_t)\n'}
+[3.268300] (saye_description) StderrLine: {'line': b'      |       ^~~~~~~~\n'}
+[3.268394] (saye_description) StderrLine: {'line': b'/usr/include/c++/13/ostream:297:18: note:   no known conversion for argument 1 from \xe2\x80\x98std::optional<std::__cxx11::basic_string<char> >\xe2\x80\x99 to \xe2\x80\x98std::nullptr_t\xe2\x80\x99\n'}
+[3.268477] (saye_description) StderrLine: {'line': b'  297 |       operator<<(nullptr_t)\n'}
+[3.268579] (saye_description) StderrLine: {'line': b'      |                  ^~~~~~~~~\n'}
+[3.268666] (saye_description) StderrLine: {'line': b'/usr/include/c++/13/bits/ostream.tcc:124:5: note: candidate: \xe2\x80\x98std::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(__streambuf_type*) [with _CharT = char; _Traits = std::char_traits<char>; __streambuf_type = std::basic_streambuf<char>]\xe2\x80\x99\n'}
+[3.268733] (saye_description) StderrLine: {'line': b'  124 |     basic_ostream<_CharT, _Traits>::\n'}
+[3.268796] (saye_description) StderrLine: {'line': b'      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n'}
+[3.268856] (saye_description) StderrLine: {'line': b'/usr/include/c++/13/bits/ostream.tcc:125:34: note:   no known conversion for argument 1 from \xe2\x80\x98std::optional<std::__cxx11::basic_string<char> >\xe2\x80\x99 to \xe2\x80\x98std::basic_ostream<char>::__streambuf_type*\xe2\x80\x99 {aka \xe2\x80\x98std::basic_streambuf<char>*\xe2\x80\x99}\n'}
+[3.268918] (saye_description) StderrLine: {'line': b'  125 |     operator<<(__streambuf_type* __sbin)\n'}
+[3.268976] (saye_description) StderrLine: {'line': b'      |                ~~~~~~~~~~~~~~~~~~^~~~~~\n'}
+[3.269035] (saye_description) StderrLine: {'line': b'In file included from /usr/include/c++/13/bits/basic_string.h:47,\n'}
+[3.269113] (saye_description) StderrLine: {'line': b'                 from /usr/include/c++/13/string:54,\n'}
+[3.269191] (saye_description) StderrLine: {'line': b'                 from /home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_description/plugins/pedestrian_manager/include/saye_description/pedestrian_manager_system.hpp:6:\n'}
+[3.269255] (saye_description) StderrLine: {'line': b'/usr/include/c++/13/string_view:761:5: note: candidate: \xe2\x80\x98template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(basic_ostream<_CharT, _Traits>&, basic_string_view<_CharT, _Traits>)\xe2\x80\x99\n'}
+[3.269325] (saye_description) StderrLine: {'line': b'  761 |     operator<<(basic_ostream<_CharT, _Traits>& __os,\n'}
+[3.269388] (saye_description) StderrLine: {'line': b'      |     ^~~~~~~~\n'}
+[3.269448] (saye_description) StderrLine: {'line': b'/usr/include/c++/13/string_view:761:5: note:   template argument deduction/substitution failed:\n'}
+[3.269553] (saye_description) StderrLine: {'line': b'/home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_description/plugins/pedestrian_manager/src/pedestrian_manager_system.cpp:120:75: note:   \xe2\x80\x98std::optional<std::__cxx11::basic_string<char> >\xe2\x80\x99 is not derived from \xe2\x80\x98std::basic_string_view<_CharT, _Traits>\xe2\x80\x99\n'}
+[3.269634] (saye_description) StderrLine: {'line': b'  120 |   gzdbg << "pedestrian_manager_system: Spawning pedestrians in world " << worldName << std::endl;\n'}
+[3.269698] (saye_description) StderrLine: {'line': b'      |                                                                           ^~~~~~~~~\n'}
+[3.269760] (saye_description) StderrLine: {'line': b'/usr/include/c++/13/bits/basic_string.h:4032:5: note: candidate: \xe2\x80\x98template<class _CharT, class _Traits, class _Alloc> std::basic_ostream<_CharT, _Traits>& std::operator<<(basic_ostream<_CharT, _Traits>&, const __cxx11::basic_string<_CharT, _Traits, _Allocator>&)\xe2\x80\x99\n'}
+[3.269822] (saye_description) StderrLine: {'line': b' 4032 |     operator<<(basic_ostream<_CharT, _Traits>& __os,\n'}
+[3.269881] (saye_description) StderrLine: {'line': b'      |     ^~~~~~~~\n'}
+[3.269940] (saye_description) StderrLine: {'line': b'/usr/include/c++/13/bits/basic_string.h:4032:5: note:   template argument deduction/substitution failed:\n'}
+[3.269999] (saye_description) StderrLine: {'line': b'/home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_description/plugins/pedestrian_manager/src/pedestrian_manager_system.cpp:120:75: note:   \xe2\x80\x98std::optional<std::__cxx11::basic_string<char> >\xe2\x80\x99 is not derived from \xe2\x80\x98const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>\xe2\x80\x99\n'}
+[3.270061] (saye_description) StderrLine: {'line': b'  120 |   gzdbg << "pedestrian_manager_system: Spawning pedestrians in world " << worldName << std::endl;\n'}
+[3.270166] (saye_description) StderrLine: {'line': b'      |                                                                           ^~~~~~~~~\n'}
+[3.270240] (saye_description) StderrLine: {'line': b'In file included from /usr/include/c++/13/bits/memory_resource.h:38,\n'}
+[3.270304] (saye_description) StderrLine: {'line': b'                 from /usr/include/c++/13/string:58:\n'}
+[3.270387] (saye_description) StderrLine: {'line': b'/usr/include/c++/13/cstddef:124:5: note: candidate: \xe2\x80\x98template<class _IntegerType> constexpr std::__byte_op_t<_IntegerType> std::operator<<(byte, _IntegerType)\xe2\x80\x99\n'}
+[3.270466] (saye_description) StderrLine: {'line': b'  124 |     operator<<(byte __b, _IntegerType __shift) noexcept\n'}
+[3.270532] (saye_description) StderrLine: {'line': b'      |     ^~~~~~~~\n'}
+[3.270610] (saye_description) StderrLine: {'line': b'/usr/include/c++/13/cstddef:124:5: note:   template argument deduction/substitution failed:\n'}
+[3.270683] (saye_description) StderrLine: {'line': b'/home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_description/plugins/pedestrian_manager/src/pedestrian_manager_system.cpp:120:9: note:   cannot convert \xe2\x80\x98std::operator<< <char_traits<char> >(gz::common::Console::dbg.gz::common::Logger::operator()(std::__cxx11::basic_string<char>(((const char*)"/home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_description/plugins/pedestrian_manager/src/pedestrian_manager_system.cpp"), std::allocator<char>()), 120).gz::common::Logger::<anonymous>, ((const char*)"pedestrian_manager_system: Spawning pedestrians in world "))\xe2\x80\x99 (type \xe2\x80\x98std::basic_ostream<char>\xe2\x80\x99) to type \xe2\x80\x98std::byte\xe2\x80\x99\n'}
+[3.270757] (saye_description) StderrLine: {'line': b'  120 |   gzdbg << "pedestrian_manager_system: Spawning pedestrians in world " << worldName << std::endl;\n'}
+[3.270820] (saye_description) StderrLine: {'line': b'      |         ^\n'}
+[3.270880] (saye_description) StderrLine: {'line': b'In file included from /usr/include/c++/13/memory:80,\n'}
+[3.270941] (saye_description) StderrLine: {'line': b'                 from /opt/ros/jazzy/opt/gz_sim_vendor/include/gz/sim8/gz/sim/System.hh:21:\n'}
+[3.271000] (saye_description) StderrLine: {'line': b'/usr/include/c++/13/bits/shared_ptr.h:70:5: note: candidate: \xe2\x80\x98template<class _Ch, class _Tr, class _Tp, __gnu_cxx::_Lock_policy _Lp> std::basic_ostream<_CharT, _Traits>& std::operator<<(basic_ostream<_CharT, _Traits>&, const __shared_ptr<_Tp, _Lp>&)\xe2\x80\x99\n'}
+[3.271081] (saye_description) StderrLine: {'line': b'   70 |     operator<<(std::basic_ostream<_Ch, _Tr>& __os,\n'}
+[3.271145] (saye_description) StderrLine: {'line': b'      |     ^~~~~~~~\n'}
+[3.271204] (saye_description) StderrLine: {'line': b'/usr/include/c++/13/bits/shared_ptr.h:70:5: note:   template argument deduction/substitution failed:\n'}
+[3.271264] (saye_description) StderrLine: {'line': b'/home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_description/plugins/pedestrian_manager/src/pedestrian_manager_system.cpp:120:75: note:   \xe2\x80\x98std::optional<std::__cxx11::basic_string<char> >\xe2\x80\x99 is not derived from \xe2\x80\x98const std::__shared_ptr<_Tp, _Lp>\xe2\x80\x99\n'}
+[3.271325] (saye_description) StderrLine: {'line': b'  120 |   gzdbg << "pedestrian_manager_system: Spawning pedestrians in world " << worldName << std::endl;\n'}
+[3.271394] (saye_description) StderrLine: {'line': b'      |                                                                           ^~~~~~~~~\n'}
+[3.271456] (saye_description) StderrLine: {'line': b'In file included from /usr/include/c++/13/bits/ios_base.h:46,\n'}
+[3.271518] (saye_description) StderrLine: {'line': b'                 from /usr/include/c++/13/ios:44,\n'}
+[3.271579] (saye_description) StderrLine: {'line': b'                 from /usr/include/c++/13/ostream:40:\n'}
+[3.271638] (saye_description) StderrLine: {'line': b'/usr/include/c++/13/system_error:339:5: note: candidate: \xe2\x80\x98template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(basic_ostream<_CharT, _Traits>&, const error_code&)\xe2\x80\x99\n'}
+[3.271708] (saye_description) StderrLine: {'line': b'  339 |     operator<<(basic_ostream<_CharT, _Traits>& __os, const error_code& __e)\n'}
+[3.271773] (saye_description) StderrLine: {'line': b'      |     ^~~~~~~~\n'}
+[3.271833] (saye_description) StderrLine: {'line': b'/usr/include/c++/13/system_error:339:5: note:   template argument deduction/substitution failed:\n'}
+[3.271893] (saye_description) StderrLine: {'line': b'/home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_description/plugins/pedestrian_manager/src/pedestrian_manager_system.cpp:120:75: note:   cannot convert \xe2\x80\x98worldName\xe2\x80\x99 (type \xe2\x80\x98std::optional<std::__cxx11::basic_string<char> >\xe2\x80\x99) to type \xe2\x80\x98const std::error_code&\xe2\x80\x99\n'}
+[3.271954] (saye_description) StderrLine: {'line': b'  120 |   gzdbg << "pedestrian_manager_system: Spawning pedestrians in world " << worldName << std::endl;\n'}
+[3.272014] (saye_description) StderrLine: {'line': b'      |                                                                           ^~~~~~~~~\n'}
+[3.272073] (saye_description) StderrLine: {'line': b'/usr/include/c++/13/ostream:554:5: note: candidate: \xe2\x80\x98template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(basic_ostream<_CharT, _Traits>&, _CharT)\xe2\x80\x99\n'}
+[3.272134] (saye_description) StderrLine: {'line': b'  554 |     operator<<(basic_ostream<_CharT, _Traits>& __out, _CharT __c)\n'}
+[3.272192] (saye_description) StderrLine: {'line': b'      |     ^~~~~~~~\n'}
+[3.272250] (saye_description) StderrLine: {'line': b'/usr/include/c++/13/ostream:554:5: note:   template argument deduction/substitution failed:\n'}
+[3.272352] (saye_description) StderrLine: {'line': b'/home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_description/plugins/pedestrian_manager/src/pedestrian_manager_system.cpp:120:75: note:   deduced conflicting types for parameter \xe2\x80\x98_CharT\xe2\x80\x99 (\xe2\x80\x98char\xe2\x80\x99 and \xe2\x80\x98std::optional<std::__cxx11::basic_string<char> >\xe2\x80\x99)\n'}
+[3.272434] (saye_description) StderrLine: {'line': b'  120 |   gzdbg << "pedestrian_manager_system: Spawning pedestrians in world " << worldName << std::endl;\n'}
+[3.272506] (saye_description) StderrLine: {'line': b'      |                                                                           ^~~~~~~~~\n'}
+[3.272605] (saye_description) StderrLine: {'line': b'/usr/include/c++/13/ostream:564:5: note: candidate: \xe2\x80\x98template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(basic_ostream<_CharT, _Traits>&, char)\xe2\x80\x99\n'}
+[3.272678] (saye_description) StderrLine: {'line': b'  564 |     operator<<(basic_ostream<_CharT, _Traits>& __out, char __c)\n'}
+[3.272740] (saye_description) StderrLine: {'line': b'      |     ^~~~~~~~\n'}
+[3.272799] (saye_description) StderrLine: {'line': b'/usr/include/c++/13/ostream:564:5: note:   template argument deduction/substitution failed:\n'}
+[3.272863] (saye_description) StderrLine: {'line': b'/home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_description/plugins/pedestrian_manager/src/pedestrian_manager_system.cpp:120:75: note:   cannot convert \xe2\x80\x98worldName\xe2\x80\x99 (type \xe2\x80\x98std::optional<std::__cxx11::basic_string<char> >\xe2\x80\x99) to type \xe2\x80\x98char\xe2\x80\x99\n'}
+[3.272925] (saye_description) StderrLine: {'line': b'  120 |   gzdbg << "pedestrian_manager_system: Spawning pedestrians in world " << worldName << std::endl;\n'}
+[3.272984] (saye_description) StderrLine: {'line': b'      |                                                                           ^~~~~~~~~\n'}
+[3.273044] (saye_description) StderrLine: {'line': b'/usr/include/c++/13/ostream:570:5: note: candidate: \xe2\x80\x98template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(basic_ostream<char, _Traits>&, char)\xe2\x80\x99\n'}
+[3.273144] (saye_description) StderrLine: {'line': b'  570 |     operator<<(basic_ostream<char, _Traits>& __out, char __c)\n'}
+[3.273202] (saye_description) StderrLine: {'line': b'      |     ^~~~~~~~\n'}
+[3.273261] (saye_description) StderrLine: {'line': b'/usr/include/c++/13/ostream:570:5: note:   template argument deduction/substitution failed:\n'}
+[3.273320] (saye_description) StderrLine: {'line': b'/home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_description/plugins/pedestrian_manager/src/pedestrian_manager_system.cpp:120:75: note:   cannot convert \xe2\x80\x98worldName\xe2\x80\x99 (type \xe2\x80\x98std::optional<std::__cxx11::basic_string<char> >\xe2\x80\x99) to type \xe2\x80\x98char\xe2\x80\x99\n'}
+[3.273380] (saye_description) StderrLine: {'line': b'  120 |   gzdbg << "pedestrian_manager_system: Spawning pedestrians in world " << worldName << std::endl;\n'}
+[3.273439] (saye_description) StderrLine: {'line': b'      |                                                                           ^~~~~~~~~\n'}
+[3.273497] (saye_description) StderrLine: {'line': b'/usr/include/c++/13/ostream:581:5: note: candidate: \xe2\x80\x98template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(basic_ostream<char, _Traits>&, signed char)\xe2\x80\x99\n'}
+[3.273564] (saye_description) StderrLine: {'line': b'  581 |     operator<<(basic_ostream<char, _Traits>& __out, signed char __c)\n'}
+[3.273624] (saye_description) StderrLine: {'line': b'      |     ^~~~~~~~\n'}
+[3.273683] (saye_description) StderrLine: {'line': b'/usr/include/c++/13/ostream:581:5: note:   template argument deduction/substitution failed:\n'}
+[3.273740] (saye_description) StderrLine: {'line': b'/home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_description/plugins/pedestrian_manager/src/pedestrian_manager_system.cpp:120:75: note:   cannot convert \xe2\x80\x98worldName\xe2\x80\x99 (type \xe2\x80\x98std::optional<std::__cxx11::basic_string<char> >\xe2\x80\x99) to type \xe2\x80\x98signed char\xe2\x80\x99\n'}
+[3.273800] (saye_description) StderrLine: {'line': b'  120 |   gzdbg << "pedestrian_manager_system: Spawning pedestrians in world " << worldName << std::endl;\n'}
+[3.273863] (saye_description) StderrLine: {'line': b'      |                                                                           ^~~~~~~~~\n'}
+[3.273922] (saye_description) StderrLine: {'line': b'/usr/include/c++/13/ostream:586:5: note: candidate: \xe2\x80\x98template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(basic_ostream<char, _Traits>&, unsigned char)\xe2\x80\x99\n'}
+[3.273981] (saye_description) StderrLine: {'line': b'  586 |     operator<<(basic_ostream<char, _Traits>& __out, unsigned char __c)\n'}
+[3.274040] (saye_description) StderrLine: {'line': b'      |     ^~~~~~~~\n'}
+[3.274097] (saye_description) StderrLine: {'line': b'/usr/include/c++/13/ostream:586:5: note:   template argument deduction/substitution failed:\n'}
+[3.274155] (saye_description) StderrLine: {'line': b'/home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_description/plugins/pedestrian_manager/src/pedestrian_manager_system.cpp:120:75: note:   cannot convert \xe2\x80\x98worldName\xe2\x80\x99 (type \xe2\x80\x98std::optional<std::__cxx11::basic_string<char> >\xe2\x80\x99) to type \xe2\x80\x98unsigned char\xe2\x80\x99\n'}
+[3.274249] (saye_description) StderrLine: {'line': b'  120 |   gzdbg << "pedestrian_manager_system: Spawning pedestrians in world " << worldName << std::endl;\n'}
+[3.274318] (saye_description) StderrLine: {'line': b'      |                                                                           ^~~~~~~~~\n'}
+[3.274380] (saye_description) StderrLine: {'line': b'/usr/include/c++/13/ostream:645:5: note: candidate: \xe2\x80\x98template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(basic_ostream<_CharT, _Traits>&, const _CharT*)\xe2\x80\x99\n'}
+[3.274443] (saye_description) StderrLine: {'line': b'  645 |     operator<<(basic_ostream<_CharT, _Traits>& __out, const _CharT* __s)\n'}
+[3.274512] (saye_description) StderrLine: {'line': b'      |     ^~~~~~~~\n'}
+[3.274573] (saye_description) StderrLine: {'line': b'/usr/include/c++/13/ostream:645:5: note:   template argument deduction/substitution failed:\n'}
+[3.274633] (saye_description) StderrLine: {'line': b'/home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_description/plugins/pedestrian_manager/src/pedestrian_manager_system.cpp:120:75: note:   mismatched types \xe2\x80\x98const _CharT*\xe2\x80\x99 and \xe2\x80\x98std::optional<std::__cxx11::basic_string<char> >\xe2\x80\x99\n'}
+[3.274716] (saye_description) StderrLine: {'line': b'  120 |   gzdbg << "pedestrian_manager_system: Spawning pedestrians in world " << worldName << std::endl;\n'}
+[3.274795] (saye_description) StderrLine: {'line': b'      |                                                                           ^~~~~~~~~\n'}
+[3.274924] (saye_description) StderrLine: {'line': b'/usr/include/c++/13/bits/ostream.tcc:307:5: note: candidate: \xe2\x80\x98template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(basic_ostream<_CharT, _Traits>&, const char*)\xe2\x80\x99\n'}
+[3.275067] (saye_description) StderrLine: {'line': b'  307 |     operator<<(basic_ostream<_CharT, _Traits>& __out, const char* __s)\n'}
+[3.275141] (saye_description) StderrLine: {'line': b'      |     ^~~~~~~~\n'}
+[3.275204] (saye_description) StderrLine: {'line': b'/usr/include/c++/13/bits/ostream.tcc:307:5: note:   template argument deduction/substitution failed:\n'}
+[3.275267] (saye_description) StderrLine: {'line': b'/home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_description/plugins/pedestrian_manager/src/pedestrian_manager_system.cpp:120:75: note:   cannot convert \xe2\x80\x98worldName\xe2\x80\x99 (type \xe2\x80\x98std::optional<std::__cxx11::basic_string<char> >\xe2\x80\x99) to type \xe2\x80\x98const char*\xe2\x80\x99\n'}
+[3.275331] (saye_description) StderrLine: {'line': b'  120 |   gzdbg << "pedestrian_manager_system: Spawning pedestrians in world " << worldName << std::endl;\n'}
+[3.275391] (saye_description) StderrLine: {'line': b'      |                                                                           ^~~~~~~~~\n'}
+[3.275452] (saye_description) StderrLine: {'line': b'/usr/include/c++/13/ostream:662:5: note: candidate: \xe2\x80\x98template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(basic_ostream<char, _Traits>&, const char*)\xe2\x80\x99\n'}
+[3.275513] (saye_description) StderrLine: {'line': b'  662 |     operator<<(basic_ostream<char, _Traits>& __out, const char* __s)\n'}
+[3.275572] (saye_description) StderrLine: {'line': b'      |     ^~~~~~~~\n'}
+[3.275662] (saye_description) StderrLine: {'line': b'/usr/include/c++/13/ostream:662:5: note:   template argument deduction/substitution failed:\n'}
+[3.275729] (saye_description) StderrLine: {'line': b'/home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_description/plugins/pedestrian_manager/src/pedestrian_manager_system.cpp:120:75: note:   cannot convert \xe2\x80\x98worldName\xe2\x80\x99 (type \xe2\x80\x98std::optional<std::__cxx11::basic_string<char> >\xe2\x80\x99) to type \xe2\x80\x98const char*\xe2\x80\x99\n'}
+[3.275806] (saye_description) StderrLine: {'line': b'  120 |   gzdbg << "pedestrian_manager_system: Spawning pedestrians in world " << worldName << std::endl;\n'}
+[3.275873] (saye_description) StderrLine: {'line': b'      |                                                                           ^~~~~~~~~\n'}
+[3.275936] (saye_description) StderrLine: {'line': b'/usr/include/c++/13/ostream:675:5: note: candidate: \xe2\x80\x98template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(basic_ostream<char, _Traits>&, const signed char*)\xe2\x80\x99\n'}
+[3.276018] (saye_description) StderrLine: {'line': b'  675 |     operator<<(basic_ostream<char, _Traits>& __out, const signed char* __s)\n'}
+[3.276107] (saye_description) StderrLine: {'line': b'      |     ^~~~~~~~\n'}
+[3.276182] (saye_description) StderrLine: {'line': b'/usr/include/c++/13/ostream:675:5: note:   template argument deduction/substitution failed:\n'}
+[3.276256] (saye_description) StderrLine: {'line': b'/home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_description/plugins/pedestrian_manager/src/pedestrian_manager_system.cpp:120:75: note:   cannot convert \xe2\x80\x98worldName\xe2\x80\x99 (type \xe2\x80\x98std::optional<std::__cxx11::basic_string<char> >\xe2\x80\x99) to type \xe2\x80\x98const signed char*\xe2\x80\x99\n'}
+[3.276362] (saye_description) StderrLine: {'line': b'  120 |   gzdbg << "pedestrian_manager_system: Spawning pedestrians in world " << worldName << std::endl;\n'}
+[3.276437] (saye_description) StderrLine: {'line': b'      |                                                                           ^~~~~~~~~\n'}
+[3.276500] (saye_description) StderrLine: {'line': b'/usr/include/c++/13/ostream:680:5: note: candidate: \xe2\x80\x98template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(basic_ostream<char, _Traits>&, const unsigned char*)\xe2\x80\x99\n'}
+[3.276637] (saye_description) StderrLine: {'line': b'  680 |     operator<<(basic_ostream<char, _Traits>& __out, const unsigned char* __s)\n'}
+[3.276716] (saye_description) StderrLine: {'line': b'      |     ^~~~~~~~\n'}
+[3.276780] (saye_description) StderrLine: {'line': b'/usr/include/c++/13/ostream:680:5: note:   template argument deduction/substitution failed:\n'}
+[3.276841] (saye_description) StderrLine: {'line': b'/home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_description/plugins/pedestrian_manager/src/pedestrian_manager_system.cpp:120:75: note:   cannot convert \xe2\x80\x98worldName\xe2\x80\x99 (type \xe2\x80\x98std::optional<std::__cxx11::basic_string<char> >\xe2\x80\x99) to type \xe2\x80\x98const unsigned char*\xe2\x80\x99\n'}
+[3.276904] (saye_description) StderrLine: {'line': b'  120 |   gzdbg << "pedestrian_manager_system: Spawning pedestrians in world " << worldName << std::endl;\n'}
+[3.276964] (saye_description) StderrLine: {'line': b'      |                                                                           ^~~~~~~~~\n'}
+[3.277024] (saye_description) StderrLine: {'line': b'/usr/include/c++/13/ostream:801:5: note: candidate: \xe2\x80\x98template<class _Ostream, class _Tp> _Ostream&& std::operator<<(_Ostream&&, const _Tp&)\xe2\x80\x99\n'}
+[3.277083] (saye_description) StderrLine: {'line': b'  801 |     operator<<(_Ostream&& __os, const _Tp& __x)\n'}
+[3.277141] (saye_description) StderrLine: {'line': b'      |     ^~~~~~~~\n'}
+[3.277200] (saye_description) StderrLine: {'line': b'/usr/include/c++/13/ostream:801:5: note:   template argument deduction/substitution failed:\n'}
+[3.277271] (saye_description) StderrLine: {'line': b'/usr/include/c++/13/ostream: In substitution of \xe2\x80\x98template<class _Ostream, class _Tp> _Ostream&& std::operator<<(_Ostream&&, const _Tp&) [with _Ostream = std::basic_ostream<char>&; _Tp = std::optional<std::__cxx11::basic_string<char> >]\xe2\x80\x99:\n'}
+[3.277345] (saye_description) StderrLine: {'line': b'/home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_description/plugins/pedestrian_manager/src/pedestrian_manager_system.cpp:120:75:   required from here\n'}
+[3.277406] (saye_description) StderrLine: {'line': b'/usr/include/c++/13/ostream:801:5: error: no type named \xe2\x80\x98type\xe2\x80\x99 in \xe2\x80\x98struct std::enable_if<false, void>\xe2\x80\x99\n'}
+[3.277465] (saye_description) StderrLine: {'line': b'In file included from /opt/ros/jazzy/opt/gz_common_vendor/include/gz/common5/gz/common/Util.hh:25,\n'}
+[3.277524] (saye_description) StderrLine: {'line': b'                 from /opt/ros/jazzy/opt/gz_common_vendor/include/gz/common5/gz/common/Console.hh:29,\n'}
+[3.277581] (saye_description) StderrLine: {'line': b'                 from /opt/ros/jazzy/opt/gz_sim_vendor/include/gz/sim8/gz/sim/EntityComponentManager.hh:35:\n'}
+[3.277640] (saye_description) StderrLine: {'line': b'/usr/include/c++/13/thread:97:5: note: candidate: \xe2\x80\x98template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(basic_ostream<_CharT, _Traits>&, thread::id)\xe2\x80\x99\n'}
+[3.277708] (saye_description) StderrLine: {'line': b'   97 |     operator<<(basic_ostream<_CharT, _Traits>& __out, thread::id __id)\n'}
+[3.277768] (saye_description) StderrLine: {'line': b'      |     ^~~~~~~~\n'}
+[3.277826] (saye_description) StderrLine: {'line': b'/usr/include/c++/13/thread:97:5: note:   template argument deduction/substitution failed:\n'}
+[3.277884] (saye_description) StderrLine: {'line': b'/home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_description/plugins/pedestrian_manager/src/pedestrian_manager_system.cpp:120:75: note:   cannot convert \xe2\x80\x98worldName\xe2\x80\x99 (type \xe2\x80\x98std::optional<std::__cxx11::basic_string<char> >\xe2\x80\x99) to type \xe2\x80\x98std::thread::id\xe2\x80\x99\n'}
+[3.277945] (saye_description) StderrLine: {'line': b'  120 |   gzdbg << "pedestrian_manager_system: Spawning pedestrians in world " << worldName << std::endl;\n'}
+[3.278044] (saye_description) StderrLine: {'line': b'      |                                                                           ^~~~~~~~~\n'}
+[3.278113] (saye_description) StderrLine: {'line': b'In file included from /opt/ros/jazzy/opt/sdformat_vendor/include/gz/sdformat14/sdf/Param.hh:26,\n'}
+[3.278177] (saye_description) StderrLine: {'line': b'                 from /opt/ros/jazzy/opt/sdformat_vendor/include/gz/sdformat14/sdf/Element.hh:29,\n'}
+[3.278238] (saye_description) StderrLine: {'line': b'                 from /opt/ros/jazzy/opt/gz_sim_vendor/include/gz/sim8/gz/sim/System.hh:31:\n'}
+[3.278299] (saye_description) StderrLine: {'line': b'/usr/include/c++/13/iomanip:81:5: note: candidate: \xe2\x80\x98template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(basic_ostream<_CharT, _Traits>&, _Resetiosflags)\xe2\x80\x99\n'}
+[3.278364] (saye_description) StderrLine: {'line': b'   81 |     operator<<(basic_ostream<_CharT, _Traits>& __os, _Resetiosflags __f)\n'}
+[3.278425] (saye_description) StderrLine: {'line': b'      |     ^~~~~~~~\n'}
+[3.278484] (saye_description) StderrLine: {'line': b'/usr/include/c++/13/iomanip:81:5: note:   template argument deduction/substitution failed:\n'}
+[3.278543] (saye_description) StderrLine: {'line': b'/home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_description/plugins/pedestrian_manager/src/pedestrian_manager_system.cpp:120:75: note:   cannot convert \xe2\x80\x98worldName\xe2\x80\x99 (type \xe2\x80\x98std::optional<std::__cxx11::basic_string<char> >\xe2\x80\x99) to type \xe2\x80\x98std::_Resetiosflags\xe2\x80\x99\n'}
+[3.278605] (saye_description) StderrLine: {'line': b'  120 |   gzdbg << "pedestrian_manager_system: Spawning pedestrians in world " << worldName << std::endl;\n'}
+[3.278665] (saye_description) StderrLine: {'line': b'      |                                                                           ^~~~~~~~~\n'}
+[3.278725] (saye_description) StderrLine: {'line': b'/usr/include/c++/13/iomanip:111:5: note: candidate: \xe2\x80\x98template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(basic_ostream<_CharT, _Traits>&, _Setiosflags)\xe2\x80\x99\n'}
+[3.278786] (saye_description) StderrLine: {'line': b'  111 |     operator<<(basic_ostream<_CharT, _Traits>& __os, _Setiosflags __f)\n'}
+[3.278870] (saye_description) StderrLine: {'line': b'      |     ^~~~~~~~\n'}
+[3.278929] (saye_description) StderrLine: {'line': b'/usr/include/c++/13/iomanip:111:5: note:   template argument deduction/substitution failed:\n'}
+[3.279020] (saye_description) StderrLine: {'line': b'/home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_description/plugins/pedestrian_manager/src/pedestrian_manager_system.cpp:120:75: note:   cannot convert \xe2\x80\x98worldName\xe2\x80\x99 (type \xe2\x80\x98std::optional<std::__cxx11::basic_string<char> >\xe2\x80\x99) to type \xe2\x80\x98std::_Setiosflags\xe2\x80\x99\n'}
+[3.279089] (saye_description) StderrLine: {'line': b'  120 |   gzdbg << "pedestrian_manager_system: Spawning pedestrians in world " << worldName << std::endl;\n'}
+[3.279163] (saye_description) StderrLine: {'line': b'      |                                                                           ^~~~~~~~~\n'}
+[3.279224] (saye_description) StderrLine: {'line': b'/usr/include/c++/13/iomanip:145:5: note: candidate: \xe2\x80\x98template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(basic_ostream<_CharT, _Traits>&, _Setbase)\xe2\x80\x99\n'}
+[3.279284] (saye_description) StderrLine: {'line': b'  145 |     operator<<(basic_ostream<_CharT, _Traits>& __os, _Setbase __f)\n'}
+[3.279343] (saye_description) StderrLine: {'line': b'      |     ^~~~~~~~\n'}
+[3.279405] (saye_description) StderrLine: {'line': b'/usr/include/c++/13/iomanip:145:5: note:   template argument deduction/substitution failed:\n'}
+[3.279463] (saye_description) StderrLine: {'line': b'/home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_description/plugins/pedestrian_manager/src/pedestrian_manager_system.cpp:120:75: note:   cannot convert \xe2\x80\x98worldName\xe2\x80\x99 (type \xe2\x80\x98std::optional<std::__cxx11::basic_string<char> >\xe2\x80\x99) to type \xe2\x80\x98std::_Setbase\xe2\x80\x99\n'}
+[3.279539] (saye_description) StderrLine: {'line': b'  120 |   gzdbg << "pedestrian_manager_system: Spawning pedestrians in world " << worldName << std::endl;\n'}
+[3.279601] (saye_description) StderrLine: {'line': b'      |                                                                           ^~~~~~~~~\n'}
+[3.279660] (saye_description) StderrLine: {'line': b'/usr/include/c++/13/iomanip:180:5: note: candidate: \xe2\x80\x98template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(basic_ostream<_CharT, _Traits>&, _Setfill<_CharT>)\xe2\x80\x99\n'}
+[3.279720] (saye_description) StderrLine: {'line': b'  180 |     operator<<(basic_ostream<_CharT, _Traits>& __os, _Setfill<_CharT> __f)\n'}
+[3.279778] (saye_description) StderrLine: {'line': b'      |     ^~~~~~~~\n'}
+[3.279835] (saye_description) StderrLine: {'line': b'/usr/include/c++/13/iomanip:180:5: note:   template argument deduction/substitution failed:\n'}
+[3.279921] (saye_description) StderrLine: {'line': b'/home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_description/plugins/pedestrian_manager/src/pedestrian_manager_system.cpp:120:75: note:   \xe2\x80\x98std::optional<std::__cxx11::basic_string<char> >\xe2\x80\x99 is not derived from \xe2\x80\x98std::_Setfill<_CharT>\xe2\x80\x99\n'}
+[3.279990] (saye_description) StderrLine: {'line': b'  120 |   gzdbg << "pedestrian_manager_system: Spawning pedestrians in world " << worldName << std::endl;\n'}
+[3.280053] (saye_description) StderrLine: {'line': b'      |                                                                           ^~~~~~~~~\n'}
+[3.280125] (saye_description) StderrLine: {'line': b'/usr/include/c++/13/iomanip:210:5: note: candidate: \xe2\x80\x98template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(basic_ostream<_CharT, _Traits>&, _Setprecision)\xe2\x80\x99\n'}
+[3.280189] (saye_description) StderrLine: {'line': b'  210 |     operator<<(basic_ostream<_CharT, _Traits>& __os, _Setprecision __f)\n'}
+[3.280249] (saye_description) StderrLine: {'line': b'      |     ^~~~~~~~\n'}
+[3.280308] (saye_description) StderrLine: {'line': b'/usr/include/c++/13/iomanip:210:5: note:   template argument deduction/substitution failed:\n'}
+[3.280380] (saye_description) StderrLine: {'line': b'/home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_description/plugins/pedestrian_manager/src/pedestrian_manager_system.cpp:120:75: note:   cannot convert \xe2\x80\x98worldName\xe2\x80\x99 (type \xe2\x80\x98std::optional<std::__cxx11::basic_string<char> >\xe2\x80\x99) to type \xe2\x80\x98std::_Setprecision\xe2\x80\x99\n'}
+[3.280448] (saye_description) StderrLine: {'line': b'  120 |   gzdbg << "pedestrian_manager_system: Spawning pedestrians in world " << worldName << std::endl;\n'}
+[3.280509] (saye_description) StderrLine: {'line': b'      |                                                                           ^~~~~~~~~\n'}
+[3.280707] (saye_description) StderrLine: {'line': b'/usr/include/c++/13/iomanip:240:5: note: candidate: \xe2\x80\x98template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(basic_ostream<_CharT, _Traits>&, _Setw)\xe2\x80\x99\n'}
+[3.280810] (saye_description) StderrLine: {'line': b'  240 |     operator<<(basic_ostream<_CharT, _Traits>& __os, _Setw __f)\n'}
+[3.280904] (saye_description) StderrLine: {'line': b'      |     ^~~~~~~~\n'}
+[3.280970] (saye_description) StderrLine: {'line': b'/usr/include/c++/13/iomanip:240:5: note:   template argument deduction/substitution failed:\n'}
+[3.281032] (saye_description) StderrLine: {'line': b'/home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_description/plugins/pedestrian_manager/src/pedestrian_manager_system.cpp:120:75: note:   cannot convert \xe2\x80\x98worldName\xe2\x80\x99 (type \xe2\x80\x98std::optional<std::__cxx11::basic_string<char> >\xe2\x80\x99) to type \xe2\x80\x98std::_Setw\xe2\x80\x99\n'}
+[3.281097] (saye_description) StderrLine: {'line': b'  120 |   gzdbg << "pedestrian_manager_system: Spawning pedestrians in world " << worldName << std::endl;\n'}
+[3.281159] (saye_description) StderrLine: {'line': b'      |                                                                           ^~~~~~~~~\n'}
+[3.281221] (saye_description) StderrLine: {'line': b'/usr/include/c++/13/iomanip:313:5: note: candidate: \xe2\x80\x98template<class _CharT, class _Traits, class _MoneyT> std::basic_ostream<_CharT, _Traits>& std::operator<<(basic_ostream<_CharT, _Traits>&, _Put_money<_MoneyT>)\xe2\x80\x99\n'}
+[3.281284] (saye_description) StderrLine: {'line': b'  313 |     operator<<(basic_ostream<_CharT, _Traits>& __os, _Put_money<_MoneyT> __f)\n'}
+[3.281344] (saye_description) StderrLine: {'line': b'      |     ^~~~~~~~\n'}
+[3.281404] (saye_description) StderrLine: {'line': b'/usr/include/c++/13/iomanip:313:5: note:   template argument deduction/substitution failed:\n'}
+[3.281463] (saye_description) StderrLine: {'line': b'/home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_description/plugins/pedestrian_manager/src/pedestrian_manager_system.cpp:120:75: note:   \xe2\x80\x98std::optional<std::__cxx11::basic_string<char> >\xe2\x80\x99 is not derived from \xe2\x80\x98std::_Put_money<_MoneyT>\xe2\x80\x99\n'}
+[3.281524] (saye_description) StderrLine: {'line': b'  120 |   gzdbg << "pedestrian_manager_system: Spawning pedestrians in world " << worldName << std::endl;\n'}
+[3.281583] (saye_description) StderrLine: {'line': b'      |                                                                           ^~~~~~~~~\n'}
+[3.281648] (saye_description) StderrLine: {'line': b'/usr/include/c++/13/iomanip:365:5: note: candidate: \xe2\x80\x98template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(basic_ostream<_CharT, _Traits>&, _Put_time<_CharT>)\xe2\x80\x99\n'}
+[3.281708] (saye_description) StderrLine: {'line': b'  365 |     operator<<(basic_ostream<_CharT, _Traits>& __os, _Put_time<_CharT> __f)\n'}
+[3.281819] (saye_description) StderrLine: {'line': b'      |     ^~~~~~~~\n'}
+[3.281897] (saye_description) StderrLine: {'line': b'/usr/include/c++/13/iomanip:365:5: note:   template argument deduction/substitution failed:\n'}
+[3.281972] (saye_description) StderrLine: {'line': b'/home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_description/plugins/pedestrian_manager/src/pedestrian_manager_system.cpp:120:75: note:   \xe2\x80\x98std::optional<std::__cxx11::basic_string<char> >\xe2\x80\x99 is not derived from \xe2\x80\x98std::_Put_time<_CharT>\xe2\x80\x99\n'}
+[3.282036] (saye_description) StderrLine: {'line': b'  120 |   gzdbg << "pedestrian_manager_system: Spawning pedestrians in world " << worldName << std::endl;\n'}
+[3.282097] (saye_description) StderrLine: {'line': b'      |                                                                           ^~~~~~~~~\n'}
+[3.282158] (saye_description) StderrLine: {'line': b'In file included from /usr/include/c++/13/valarray:605,\n'}
+[3.282226] (saye_description) StderrLine: {'line': b'                 from /usr/include/yaml-cpp/node/convert.h:18,\n'}
+[3.282285] (saye_description) StderrLine: {'line': b'                 from /usr/include/yaml-cpp/yaml.h:18,\n'}
+[3.282344] (saye_description) StderrLine: {'line': b'                 from /home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_description/plugins/pedestrian_manager/src/pedestrian_manager_system.cpp:18:\n'}
+[3.282415] (saye_description) StderrLine: {'line': b'/usr/include/c++/13/bits/valarray_after.h:413:5: note: candidate: \xe2\x80\x98template<class _Dom1, class _Dom2> std::_Expr<std::__detail::_BinClos<std::__shift_left, std::_Expr, std::_Expr, _Dom1, _Dom2>, typename std::__fun<std::__shift_left, typename _Dom1::value_type>::result_type> std::operator<<(const _Expr<_Dom1, typename _Dom1::value_type>&, const _Expr<_Dom2, typename _Dom2::value_type>&)\xe2\x80\x99\n'}
+[3.282481] (saye_description) StderrLine: {'line': b'  413 |     _DEFINE_EXPR_BINARY_OPERATOR(<<, struct std::__shift_left)\n'}
+[3.282541] (saye_description) StderrLine: {'line': b'      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~\n'}
+[3.282599] (saye_description) StderrLine: {'line': b'/usr/include/c++/13/bits/valarray_after.h:413:5: note:   template argument deduction/substitution failed:\n'}
+[3.282657] (saye_description) StderrLine: {'line': b'/home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_description/plugins/pedestrian_manager/src/pedestrian_manager_system.cpp:120:75: note:   \xe2\x80\x98std::basic_ostream<char>\xe2\x80\x99 is not derived from \xe2\x80\x98const std::_Expr<_Dom1, typename _Dom1::value_type>\xe2\x80\x99\n'}
+[3.282722] (saye_description) StderrLine: {'line': b'  120 |   gzdbg << "pedestrian_manager_system: Spawning pedestrians in world " << worldName << std::endl;\n'}
+[3.282781] (saye_description) StderrLine: {'line': b'      |                                                                           ^~~~~~~~~\n'}
+[3.282839] (saye_description) StderrLine: {'line': b'/usr/include/c++/13/bits/valarray_after.h:413:5: note: candidate: \xe2\x80\x98template<class _Dom> std::_Expr<std::__detail::_BinClos<std::__shift_left, std::_Expr, std::_Constant, _Dom, typename _Dom::value_type>, typename std::__fun<std::__shift_left, typename _Dom1::value_type>::result_type> std::operator<<(const _Expr<_Dom1, typename _Dom1::value_type>&, const typename _Dom::value_type&)\xe2\x80\x99\n'}
+[3.282900] (saye_description) StderrLine: {'line': b'  413 |     _DEFINE_EXPR_BINARY_OPERATOR(<<, struct std::__shift_left)\n'}
+[3.282958] (saye_description) StderrLine: {'line': b'      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~\n'}
+[3.283015] (saye_description) StderrLine: {'line': b'/usr/include/c++/13/bits/valarray_after.h:413:5: note:   template argument deduction/substitution failed:\n'}
+[3.283073] (saye_description) StderrLine: {'line': b'/home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_description/plugins/pedestrian_manager/src/pedestrian_manager_system.cpp:120:75: note:   \xe2\x80\x98std::basic_ostream<char>\xe2\x80\x99 is not derived from \xe2\x80\x98const std::_Expr<_Dom1, typename _Dom1::value_type>\xe2\x80\x99\n'}
+[3.283131] (saye_description) StderrLine: {'line': b'  120 |   gzdbg << "pedestrian_manager_system: Spawning pedestrians in world " << worldName << std::endl;\n'}
+[3.283189] (saye_description) StderrLine: {'line': b'      |                                                                           ^~~~~~~~~\n'}
+[3.283247] (saye_description) StderrLine: {'line': b'/usr/include/c++/13/bits/valarray_after.h:413:5: note: candidate: \xe2\x80\x98template<class _Dom> std::_Expr<std::__detail::_BinClos<std::__shift_left, std::_Constant, std::_Expr, typename _Dom::value_type, _Dom>, typename std::__fun<std::__shift_left, typename _Dom1::value_type>::result_type> std::operator<<(const typename _Dom::value_type&, const _Expr<_Dom1, typename _Dom1::value_type>&)\xe2\x80\x99\n'}
+[3.283306] (saye_description) StderrLine: {'line': b'  413 |     _DEFINE_EXPR_BINARY_OPERATOR(<<, struct std::__shift_left)\n'}
+[3.283373] (saye_description) StderrLine: {'line': b'      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~\n'}
+[3.283432] (saye_description) StderrLine: {'line': b'/usr/include/c++/13/bits/valarray_after.h:413:5: note:   template argument deduction/substitution failed:\n'}
+[3.283490] (saye_description) StderrLine: {'line': b'/home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_description/plugins/pedestrian_manager/src/pedestrian_manager_system.cpp:120:75: note:   \xe2\x80\x98std::optional<std::__cxx11::basic_string<char> >\xe2\x80\x99 is not derived from \xe2\x80\x98const std::_Expr<_Dom1, typename _Dom1::value_type>\xe2\x80\x99\n'}
+[3.283549] (saye_description) StderrLine: {'line': b'  120 |   gzdbg << "pedestrian_manager_system: Spawning pedestrians in world " << worldName << std::endl;\n'}
+[3.283615] (saye_description) StderrLine: {'line': b'      |                                                                           ^~~~~~~~~\n'}
+[3.283697] (saye_description) StderrLine: {'line': b'/usr/include/c++/13/bits/valarray_after.h:413:5: note: candidate: \xe2\x80\x98template<class _Dom> std::_Expr<std::__detail::_BinClos<std::__shift_left, std::_Expr, std::_ValArray, _Dom, typename _Dom::value_type>, typename std::__fun<std::__shift_left, typename _Dom1::value_type>::result_type> std::operator<<(const _Expr<_Dom1, typename _Dom1::value_type>&, const valarray<typename _Dom::value_type>&)\xe2\x80\x99\n'}
+[3.283784] (saye_description) StderrLine: {'line': b'  413 |     _DEFINE_EXPR_BINARY_OPERATOR(<<, struct std::__shift_left)\n'}
+[3.283848] (saye_description) StderrLine: {'line': b'      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~\n'}
+[3.283909] (saye_description) StderrLine: {'line': b'/usr/include/c++/13/bits/valarray_after.h:413:5: note:   template argument deduction/substitution failed:\n'}
+[3.283977] (saye_description) StderrLine: {'line': b'/home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_description/plugins/pedestrian_manager/src/pedestrian_manager_system.cpp:120:75: note:   \xe2\x80\x98std::basic_ostream<char>\xe2\x80\x99 is not derived from \xe2\x80\x98const std::_Expr<_Dom1, typename _Dom1::value_type>\xe2\x80\x99\n'}
+[3.284052] (saye_description) StderrLine: {'line': b'  120 |   gzdbg << "pedestrian_manager_system: Spawning pedestrians in world " << worldName << std::endl;\n'}
+[3.284115] (saye_description) StderrLine: {'line': b'      |                                                                           ^~~~~~~~~\n'}
+[3.284175] (saye_description) StderrLine: {'line': b'/usr/include/c++/13/bits/valarray_after.h:413:5: note: candidate: \xe2\x80\x98template<class _Dom> std::_Expr<std::__detail::_BinClos<std::__shift_left, std::_ValArray, std::_Expr, typename _Dom::value_type, _Dom>, typename std::__fun<std::__shift_left, typename _Dom1::value_type>::result_type> std::operator<<(const valarray<typename _Dom::value_type>&, const _Expr<_Dom1, typename _Dom1::value_type>&)\xe2\x80\x99\n'}
+[3.284238] (saye_description) StderrLine: {'line': b'  413 |     _DEFINE_EXPR_BINARY_OPERATOR(<<, struct std::__shift_left)\n'}
+[3.284297] (saye_description) StderrLine: {'line': b'      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~\n'}
+[3.284391] (saye_description) StderrLine: {'line': b'/usr/include/c++/13/bits/valarray_after.h:413:5: note:   template argument deduction/substitution failed:\n'}
+[3.284455] (saye_description) StderrLine: {'line': b'/home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_description/plugins/pedestrian_manager/src/pedestrian_manager_system.cpp:120:75: note:   \xe2\x80\x98std::optional<std::__cxx11::basic_string<char> >\xe2\x80\x99 is not derived from \xe2\x80\x98const std::_Expr<_Dom1, typename _Dom1::value_type>\xe2\x80\x99\n'}
+[3.284516] (saye_description) StderrLine: {'line': b'  120 |   gzdbg << "pedestrian_manager_system: Spawning pedestrians in world " << worldName << std::endl;\n'}
+[3.284616] (saye_description) StderrLine: {'line': b'      |                                                                           ^~~~~~~~~\n'}
+[3.284683] (saye_description) StderrLine: {'line': b'/usr/include/c++/13/valarray:1204:1: note: candidate: \xe2\x80\x98template<class _Tp> std::_Expr<std::__detail::_BinClos<std::__shift_left, std::_ValArray, std::_ValArray, _Tp, _Tp>, typename std::__fun<std::__shift_left, _Tp>::result_type> std::operator<<(const valarray<_Tp>&, const valarray<_Tp>&)\xe2\x80\x99\n'}
+[3.284757] (saye_description) StderrLine: {'line': b' 1204 | _DEFINE_BINARY_OPERATOR(<<, __shift_left)\n'}
+[3.284821] (saye_description) StderrLine: {'line': b'      | ^~~~~~~~~~~~~~~~~~~~~~~\n'}
+[3.284882] (saye_description) StderrLine: {'line': b'/usr/include/c++/13/valarray:1204:1: note:   template argument deduction/substitution failed:\n'}
+[3.284942] (saye_description) StderrLine: {'line': b'/home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_description/plugins/pedestrian_manager/src/pedestrian_manager_system.cpp:120:75: note:   \xe2\x80\x98std::basic_ostream<char>\xe2\x80\x99 is not derived from \xe2\x80\x98const std::valarray<_Tp>\xe2\x80\x99\n'}
+[3.285017] (saye_description) StderrLine: {'line': b'  120 |   gzdbg << "pedestrian_manager_system: Spawning pedestrians in world " << worldName << std::endl;\n'}
+[3.285092] (saye_description) StderrLine: {'line': b'      |                                                                           ^~~~~~~~~\n'}
+[3.285155] (saye_description) StderrLine: {'line': b'/usr/include/c++/13/valarray:1204:1: note: candidate: \xe2\x80\x98template<class _Tp> std::_Expr<std::__detail::_BinClos<std::__shift_left, std::_ValArray, std::_Constant, _Tp, _Tp>, typename std::__fun<std::__shift_left, _Tp>::result_type> std::operator<<(const valarray<_Tp>&, const typename valarray<_Tp>::value_type&)\xe2\x80\x99\n'}
+[3.285219] (saye_description) StderrLine: {'line': b' 1204 | _DEFINE_BINARY_OPERATOR(<<, __shift_left)\n'}
+[3.285280] (saye_description) StderrLine: {'line': b'      | ^~~~~~~~~~~~~~~~~~~~~~~\n'}
+[3.285339] (saye_description) StderrLine: {'line': b'/usr/include/c++/13/valarray:1204:1: note:   template argument deduction/substitution failed:\n'}
+[3.285399] (saye_description) StderrLine: {'line': b'/home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_description/plugins/pedestrian_manager/src/pedestrian_manager_system.cpp:120:75: note:   \xe2\x80\x98std::basic_ostream<char>\xe2\x80\x99 is not derived from \xe2\x80\x98const std::valarray<_Tp>\xe2\x80\x99\n'}
+[3.285460] (saye_description) StderrLine: {'line': b'  120 |   gzdbg << "pedestrian_manager_system: Spawning pedestrians in world " << worldName << std::endl;\n'}
+[3.285518] (saye_description) StderrLine: {'line': b'      |                                                                           ^~~~~~~~~\n'}
+[3.285604] (saye_description) StderrLine: {'line': b'/usr/include/c++/13/valarray:1204:1: note: candidate: \xe2\x80\x98template<class _Tp> std::_Expr<std::__detail::_BinClos<std::__shift_left, std::_Constant, std::_ValArray, _Tp, _Tp>, typename std::__fun<std::__shift_left, _Tp>::result_type> std::operator<<(const typename valarray<_Tp>::value_type&, const valarray<_Tp>&)\xe2\x80\x99\n'}
+[3.285690] (saye_description) StderrLine: {'line': b' 1204 | _DEFINE_BINARY_OPERATOR(<<, __shift_left)\n'}
+[3.285755] (saye_description) StderrLine: {'line': b'      | ^~~~~~~~~~~~~~~~~~~~~~~\n'}
+[3.285817] (saye_description) StderrLine: {'line': b'/usr/include/c++/13/valarray:1204:1: note:   template argument deduction/substitution failed:\n'}
+[3.285889] (saye_description) StderrLine: {'line': b'/home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_description/plugins/pedestrian_manager/src/pedestrian_manager_system.cpp:120:75: note:   \xe2\x80\x98std::optional<std::__cxx11::basic_string<char> >\xe2\x80\x99 is not derived from \xe2\x80\x98const std::valarray<_Tp>\xe2\x80\x99\n'}
+[3.285969] (saye_description) StderrLine: {'line': b'  120 |   gzdbg << "pedestrian_manager_system: Spawning pedestrians in world " << worldName << std::endl;\n'}
+[3.286030] (saye_description) StderrLine: {'line': b'      |                                                                           ^~~~~~~~~\n'}
+[3.286090] (saye_description) StderrLine: {'line': b'/home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_description/plugins/pedestrian_manager/src/pedestrian_manager_system.cpp:122:31: error: no matching function for call to \xe2\x80\x98gz::sim::v8::SdfEntityCreator::SdfEntityCreator(gz::sim::v8::EntityComponentManager&)\xe2\x80\x99\n'}
+[3.286160] (saye_description) StderrLine: {'line': b'  122 |   SdfEntityCreator creator(ecm);\n'}
+[3.286221] (saye_description) StderrLine: {'line': b'      |                               ^\n'}
+[3.286305] (saye_description) StderrLine: {'line': b'In file included from /home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_description/plugins/pedestrian_manager/src/pedestrian_manager_system.cpp:14:\n'}
+[3.286388] (saye_description) StderrLine: {'line': b'/opt/ros/jazzy/opt/gz_sim_vendor/include/gz/sim8/gz/sim/SdfEntityCreator.hh:75:15: note: candidate: \xe2\x80\x98gz::sim::v8::SdfEntityCreator::SdfEntityCreator(gz::sim::v8::SdfEntityCreator&&)\xe2\x80\x99\n'}
+[3.286452] (saye_description) StderrLine: {'line': b'   75 |       public: SdfEntityCreator(SdfEntityCreator &&_creator) noexcept;\n'}
+[3.286514] (saye_description) StderrLine: {'line': b'      |               ^~~~~~~~~~~~~~~~\n'}
+[3.286574] (saye_description) StderrLine: {'line': b'/opt/ros/jazzy/opt/gz_sim_vendor/include/gz/sim8/gz/sim/SdfEntityCreator.hh:75:51: note:   no known conversion for argument 1 from \xe2\x80\x98gz::sim::v8::EntityComponentManager\xe2\x80\x99 to \xe2\x80\x98gz::sim::v8::SdfEntityCreator&&\xe2\x80\x99\n'}
+[3.286636] (saye_description) StderrLine: {'line': b'   75 |       public: SdfEntityCreator(SdfEntityCreator &&_creator) noexcept;\n'}
+[3.286718] (saye_description) StderrLine: {'line': b'      |                                ~~~~~~~~~~~~~~~~~~~^~~~~~~~\n'}
+[3.286784] (saye_description) StderrLine: {'line': b'/opt/ros/jazzy/opt/gz_sim_vendor/include/gz/sim8/gz/sim/SdfEntityCreator.hh:71:15: note: candidate: \xe2\x80\x98gz::sim::v8::SdfEntityCreator::SdfEntityCreator(const gz::sim::v8::SdfEntityCreator&)\xe2\x80\x99\n'}
+[3.286846] (saye_description) StderrLine: {'line': b'   71 |       public: SdfEntityCreator(const SdfEntityCreator &_creator);\n'}
+[3.286905] (saye_description) StderrLine: {'line': b'      |               ^~~~~~~~~~~~~~~~\n'}
+[3.286968] (saye_description) StderrLine: {'line': b'/opt/ros/jazzy/opt/gz_sim_vendor/include/gz/sim8/gz/sim/SdfEntityCreator.hh:71:56: note:   no known conversion for argument 1 from \xe2\x80\x98gz::sim::v8::EntityComponentManager\xe2\x80\x99 to \xe2\x80\x98const gz::sim::v8::SdfEntityCreator&\xe2\x80\x99\n'}
+[3.287028] (saye_description) StderrLine: {'line': b'   71 |       public: SdfEntityCreator(const SdfEntityCreator &_creator);\n'}
+[3.287086] (saye_description) StderrLine: {'line': b'      |                                ~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~\n'}
+[3.287145] (saye_description) StderrLine: {'line': b'/opt/ros/jazzy/opt/gz_sim_vendor/include/gz/sim8/gz/sim/SdfEntityCreator.hh:66:24: note: candidate: \xe2\x80\x98gz::sim::v8::SdfEntityCreator::SdfEntityCreator(gz::sim::v8::EntityComponentManager&, gz::sim::v8::EventManager&)\xe2\x80\x99\n'}
+[3.287205] (saye_description) StderrLine: {'line': b'   66 |       public: explicit SdfEntityCreator(EntityComponentManager &_ecm,\n'}
+[3.287265] (saye_description) StderrLine: {'line': b'      |                        ^~~~~~~~~~~~~~~~\n'}
+[3.287323] (saye_description) StderrLine: {'line': b'/opt/ros/jazzy/opt/gz_sim_vendor/include/gz/sim8/gz/sim/SdfEntityCreator.hh:66:24: note:   candidate expects 2 arguments, 1 provided\n'}
+[3.287382] (saye_description) StderrLine: {'line': b'/home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_description/plugins/pedestrian_manager/src/pedestrian_manager_system.cpp:123:11: error: \xe2\x80\x98class gz::sim::v8::SdfEntityCreator\xe2\x80\x99 has no member named \xe2\x80\x98SetWorld\xe2\x80\x99\n'}
+[3.287441] (saye_description) StderrLine: {'line': b'  123 |   creator.SetWorld(this->world_entity_);\n'}
+[3.287534] (saye_description) StderrLine: {'line': b'      |           ^~~~~~~~\n'}
+[3.287614] (saye_description) StderrLine: {'line': b'/home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_description/plugins/pedestrian_manager/src/pedestrian_manager_system.cpp:136:13: error: \xe2\x80\x98class gz::sim::v8::SdfEntityCreator\xe2\x80\x99 has no member named \xe2\x80\x98CreateEntitiesFromSdf\xe2\x80\x99; did you mean \xe2\x80\x98CreateEntities\xe2\x80\x99?\n'}
+[3.287680] (saye_description) StderrLine: {'line': b'  136 |     creator.CreateEntitiesFromSdf(actorElem);\n'}
+[3.287743] (saye_description) StderrLine: {'line': b'      |             ^~~~~~~~~~~~~~~~~~~~~\n'}
+[3.287802] (saye_description) StderrLine: {'line': b'      |             CreateEntities\n'}
+[3.307196] (-) TimerEvent: {}
+[3.407475] (-) TimerEvent: {}
+[3.507759] (-) TimerEvent: {}
+[3.608020] (-) TimerEvent: {}
+[3.708287] (-) TimerEvent: {}
+[3.808610] (-) TimerEvent: {}
+[3.908838] (-) TimerEvent: {}
+[4.009110] (-) TimerEvent: {}
+[4.052838] (saye_description) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/pedestrian_manager_system.dir/build.make:76: CMakeFiles/pedestrian_manager_system.dir/plugins/pedestrian_manager/src/pedestrian_manager_system.cpp.o] Error 1\n'}
+[4.053305] (saye_description) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/pedestrian_manager_system.dir/all] Error 2\n'}
+[4.053682] (saye_description) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[4.057295] (saye_description) CommandEnded: {'returncode': 2}
+[4.068678] (saye_description) JobEnded: {'identifier': 'saye_description', 'rc': 2}
+[4.079367] (-) EventReactorShutdown: {}

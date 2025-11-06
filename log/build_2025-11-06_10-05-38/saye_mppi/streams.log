@@ -1,0 +1,56 @@
+[0.016s] Invoking command in '/home/yiyi/ackermann_sim/build/saye_mppi': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/yiyi/ackermann_sim/build/saye_mppi -- -j16 -l16
+[0.131s] Built target ament_cmake_python_copy_saye_mppi
+[0.131s] Built target ament_cmake_python_copy_saye_mppi_setup
+[0.410s] running egg_info
+[0.435s] writing saye_mppi.egg-info/PKG-INFO
+[0.436s] writing dependency_links to saye_mppi.egg-info/dependency_links.txt
+[0.436s] writing top-level names to saye_mppi.egg-info/top_level.txt
+[0.508s] reading manifest file 'saye_mppi.egg-info/SOURCES.txt'
+[0.509s] writing manifest file 'saye_mppi.egg-info/SOURCES.txt'
+[0.549s] Built target ament_cmake_python_build_saye_mppi_egg
+[0.571s] Invoked command in '/home/yiyi/ackermann_sim/build/saye_mppi' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/yiyi/ackermann_sim/build/saye_mppi -- -j16 -l16
+[0.591s] Invoking command in '/home/yiyi/ackermann_sim/build/saye_mppi': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/yiyi/ackermann_sim/build/saye_mppi
+[0.607s] -- Install configuration: ""
+[0.607s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_mppi/share/saye_mppi/environment/pythonpath.sh
+[0.607s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_mppi/share/saye_mppi/environment/pythonpath.dsv
+[0.607s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_mppi/lib/python3.12/site-packages/saye_mppi-0.0.0-py3.12.egg-info
+[0.608s] -- Installing: /home/yiyi/ackermann_sim/install/saye_mppi/lib/python3.12/site-packages/saye_mppi-0.0.0-py3.12.egg-info/PKG-INFO
+[0.608s] -- Installing: /home/yiyi/ackermann_sim/install/saye_mppi/lib/python3.12/site-packages/saye_mppi-0.0.0-py3.12.egg-info/SOURCES.txt
+[0.608s] -- Installing: /home/yiyi/ackermann_sim/install/saye_mppi/lib/python3.12/site-packages/saye_mppi-0.0.0-py3.12.egg-info/top_level.txt
+[0.609s] -- Installing: /home/yiyi/ackermann_sim/install/saye_mppi/lib/python3.12/site-packages/saye_mppi-0.0.0-py3.12.egg-info/dependency_links.txt
+[0.609s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_mppi/lib/python3.12/site-packages/saye_mppi
+[0.609s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_mppi/lib/python3.12/site-packages/saye_mppi/__init__.py
+[0.609s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_mppi/lib/python3.12/site-packages/saye_mppi/path_commander.py
+[0.609s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_mppi/lib/python3.12/site-packages/saye_mppi/pedestrian_manager.py
+[0.609s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_mppi/lib/python3.12/site-packages/saye_mppi/moving_obstacles.py
+[0.658s] Listing '/home/yiyi/ackermann_sim/install/saye_mppi/lib/python3.12/site-packages/saye_mppi'...
+[0.665s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_mppi/share/saye_mppi/launch
+[0.665s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_mppi/share/saye_mppi/launch/mppi_navigation.launch.py
+[0.665s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_mppi/share/saye_mppi/launch/mppi_experiment.launch.py
+[0.665s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_mppi/share/saye_mppi/config
+[0.666s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_mppi/share/saye_mppi/config/pedestrians.yaml
+[0.666s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_mppi/share/saye_mppi/config/pedestrian_actors.yaml
+[0.666s] -- Installing: /home/yiyi/ackermann_sim/install/saye_mppi/share/saye_mppi/config/mppi_nav2_params.yaml
+[0.666s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_mppi/share/saye_mppi/config/moving_obstacles.yaml
+[0.666s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_mppi/share/saye_mppi/config/path_commander.yaml
+[0.666s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_mppi/share/saye_mppi/worlds
+[0.667s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_mppi/share/saye_mppi/worlds/saye_mppi_world.sdf
+[0.667s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_mppi/lib/saye_mppi/straight_path_commander
+[0.667s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_mppi/lib/saye_mppi/moving_obstacles
+[0.667s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_mppi/lib/saye_mppi/pedestrian_manager
+[0.667s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_mppi/share/ament_index/resource_index/package_run_dependencies/saye_mppi
+[0.667s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_mppi/share/ament_index/resource_index/parent_prefix_path/saye_mppi
+[0.667s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_mppi/share/saye_mppi/environment/ament_prefix_path.sh
+[0.667s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_mppi/share/saye_mppi/environment/ament_prefix_path.dsv
+[0.668s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_mppi/share/saye_mppi/environment/path.sh
+[0.668s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_mppi/share/saye_mppi/environment/path.dsv
+[0.668s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_mppi/share/saye_mppi/local_setup.bash
+[0.668s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_mppi/share/saye_mppi/local_setup.sh
+[0.668s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_mppi/share/saye_mppi/local_setup.zsh
+[0.668s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_mppi/share/saye_mppi/local_setup.dsv
+[0.668s] -- Installing: /home/yiyi/ackermann_sim/install/saye_mppi/share/saye_mppi/package.dsv
+[0.668s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_mppi/share/ament_index/resource_index/packages/saye_mppi
+[0.668s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_mppi/share/saye_mppi/cmake/saye_mppiConfig.cmake
+[0.668s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_mppi/share/saye_mppi/cmake/saye_mppiConfig-version.cmake
+[0.668s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_mppi/share/saye_mppi/package.xml
+[0.670s] Invoked command in '/home/yiyi/ackermann_sim/build/saye_mppi' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/yiyi/ackermann_sim/build/saye_mppi

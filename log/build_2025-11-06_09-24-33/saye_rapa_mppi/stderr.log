@@ -1,0 +1,4 @@
+/home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_rapa_mppi/src/risk_aware_critic.cpp: In member function ‘virtual void saye_rapa_mppi::RiskAwareCritic::score(mppi::CriticData&)’:
+/home/yiyi/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_rapa_mppi/src/risk_aware_critic.cpp:36:48: warning: unused parameter ‘data’ [-Wunused-parameter]
+   36 | void RiskAwareCritic::score(mppi::CriticData & data)
+      |                             ~~~~~~~~~~~~~~~~~~~^~~~

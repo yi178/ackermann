@@ -1,0 +1,55 @@
+1761301053.1061575 [INFO] [launch]: All log files can be found below /home/yiyi/ackermann_sim/ros_logs/2025-10-24-18-17-33-103458-yiyi-144431
+1761301053.1063673 [INFO] [launch]: Default logging verbosity is set to INFO
+1761301053.7424815 [INFO] [gazebo-1]: process started with pid [144448]
+1761301053.7427993 [INFO] [robot_state_publisher-2]: process started with pid [144449]
+1761301053.7429790 [INFO] [parameter_bridge-3]: process started with pid [144450]
+1761301053.7431593 [INFO] [static_transform_publisher-4]: process started with pid [144452]
+1761301053.7433188 [INFO] [controller_server-5]: process started with pid [144453]
+1761301053.7434657 [INFO] [behavior_server-6]: process started with pid [144454]
+1761301053.7436180 [INFO] [velocity_smoother-7]: process started with pid [144455]
+1761301053.7437828 [INFO] [collision_monitor-8]: process started with pid [144456]
+1761301053.7439299 [INFO] [lifecycle_manager-9]: process started with pid [144457]
+1761301055.8605094 [robot_state_publisher-2] [1;33mWarning [Utils.cc:132][0m [/sdf/model[@name="saye"]/link[@name="base_link"]/gz_frame_id:<data-string>:L7]: XML Element[gz_frame_id], child of element[link], not defined in SDF. Copying[gz_frame_id] as children of [link].
+1761301055.8690944 [robot_state_publisher-2] [1;33mWarning [Utils.cc:132][0m [/sdf/model[@name="saye"]/link[@name="base_link"]/sensor[@name="gpu_lidar"]/gz_frame_id:<data-string>:L169]: XML Element[gz_frame_id], child of element[sensor], not defined in SDF. Copying[gz_frame_id] as children of [sensor].
+1761301055.8852537 [robot_state_publisher-2] [1;33mWarning [Utils.cc:132][0m [/sdf/model[@name="saye"]/joint[@name="front_left_wheel_joint"]/axis/use_parent_model_frame:<data-string>:L482]: XML Element[use_parent_model_frame], child of element[axis], not defined in SDF. Copying[use_parent_model_frame] as children of [axis].
+1761301055.8871934 [robot_state_publisher-2] [1;33mWarning [Utils.cc:132][0m [/sdf/model[@name="saye"]/joint[@name="front_left_wheel_steering_joint"]/axis/use_parent_model_frame:<data-string>:L497]: XML Element[use_parent_model_frame], child of element[axis], not defined in SDF. Copying[use_parent_model_frame] as children of [axis].
+1761301055.8952649 [robot_state_publisher-2] [1;33mWarning [Utils.cc:132][0m [/sdf/model[@name="saye"]/joint[@name="front_right_wheel_joint"]/axis/use_parent_model_frame:<data-string>:L569]: XML Element[use_parent_model_frame], child of element[axis], not defined in SDF. Copying[use_parent_model_frame] as children of [axis].
+1761301055.8965590 [robot_state_publisher-2] [1;33mWarning [Utils.cc:132][0m [/sdf/model[@name="saye"]/joint[@name="front_right_wheel_steering_joint"]/axis/use_parent_model_frame:<data-string>:L584]: XML Element[use_parent_model_frame], child of element[axis], not defined in SDF. Copying[use_parent_model_frame] as children of [axis].
+1761301055.8986139 [robot_state_publisher-2] [1;33mWarning [Utils.cc:132][0m [/sdf/model[@name="saye"]/joint[@name="rear_right_wheel_joint"]/axis/use_parent_model_frame:<data-string>:L603]: XML Element[use_parent_model_frame], child of element[axis], not defined in SDF. Copying[use_parent_model_frame] as children of [axis].
+1761301055.8998730 [robot_state_publisher-2] [1;33mWarning [Utils.cc:132][0m [/sdf/model[@name="saye"]/joint[@name="rear_left_wheel_joint"]/axis/use_parent_model_frame:<data-string>:L620]: XML Element[use_parent_model_frame], child of element[axis], not defined in SDF. Copying[use_parent_model_frame] as children of [axis].
+1761301055.9082146 [robot_state_publisher-2] [WARN] [1761301055.907868998] [sdformat_urdf]: SDFormat link [base_link] has a <sensor>, but URDF does not support this
+1761301055.9170854 [robot_state_publisher-2] [WARN] [1761301055.916720051] [kdl_parser]: The root link base_link has an inertia specified in the URDF, but KDL does not support a root link with an inertia.  As a workaround, you can add an extra dummy link to your URDF.
+1761301055.9273622 [robot_state_publisher-2] [INFO] [1761301055.927022771] [robot_state_publisher]: Robot initialized
+1761301056.7402411 [INFO] [create-10]: process started with pid [144731]
+1761301057.6239147 [INFO] [create-10]: process has finished cleanly [pid 144731]
+1761301058.7458189 [INFO] [rviz2-11]: process started with pid [144939]
+1761301058.7462182 [INFO] [moving_obstacles-12]: process started with pid [144940]
+1761301059.8607132 [rviz2-11] [INFO] [1761301059.860350871] [rviz2]: Stereo is NOT SUPPORTED
+1761301059.8613024 [rviz2-11] [INFO] [1761301059.860498536] [rviz2]: OpenGl version: 4.5 (GLSL 4.5)
+1761301059.9479196 [rviz2-11] [INFO] [1761301059.947604761] [rviz2]: Stereo is NOT SUPPORTED
+1761301060.3281944 [rviz2-11] [INFO] [1761301060.327817993] [rviz2]: Stereo is NOT SUPPORTED
+1761301060.5115776 [rviz2-11] [1;33mWarning [Utils.cc:132][0m [/sdf/model[@name="saye"]/link[@name="base_link"]/gz_frame_id:<data-string>:L7]: XML Element[gz_frame_id], child of element[link], not defined in SDF. Copying[gz_frame_id] as children of [link].
+1761301060.5171707 [rviz2-11] [1;33mWarning [Utils.cc:132][0m [/sdf/model[@name="saye"]/link[@name="base_link"]/sensor[@name="gpu_lidar"]/gz_frame_id:<data-string>:L169]: XML Element[gz_frame_id], child of element[sensor], not defined in SDF. Copying[gz_frame_id] as children of [sensor].
+1761301060.5321622 [rviz2-11] [1;33mWarning [Utils.cc:132][0m [/sdf/model[@name="saye"]/joint[@name="front_left_wheel_joint"]/axis/use_parent_model_frame:<data-string>:L482]: XML Element[use_parent_model_frame], child of element[axis], not defined in SDF. Copying[use_parent_model_frame] as children of [axis].
+1761301060.5335612 [rviz2-11] [1;33mWarning [Utils.cc:132][0m [/sdf/model[@name="saye"]/joint[@name="front_left_wheel_steering_joint"]/axis/use_parent_model_frame:<data-string>:L497]: XML Element[use_parent_model_frame], child of element[axis], not defined in SDF. Copying[use_parent_model_frame] as children of [axis].
+1761301060.5406787 [rviz2-11] [1;33mWarning [Utils.cc:132][0m [/sdf/model[@name="saye"]/joint[@name="front_right_wheel_joint"]/axis/use_parent_model_frame:<data-string>:L569]: XML Element[use_parent_model_frame], child of element[axis], not defined in SDF. Copying[use_parent_model_frame] as children of [axis].
+1761301060.5421925 [rviz2-11] [1;33mWarning [Utils.cc:132][0m [/sdf/model[@name="saye"]/joint[@name="front_right_wheel_steering_joint"]/axis/use_parent_model_frame:<data-string>:L584]: XML Element[use_parent_model_frame], child of element[axis], not defined in SDF. Copying[use_parent_model_frame] as children of [axis].
+1761301060.5439525 [rviz2-11] [1;33mWarning [Utils.cc:132][0m [/sdf/model[@name="saye"]/joint[@name="rear_right_wheel_joint"]/axis/use_parent_model_frame:<data-string>:L603]: XML Element[use_parent_model_frame], child of element[axis], not defined in SDF. Copying[use_parent_model_frame] as children of [axis].
+1761301060.5454087 [rviz2-11] [1;33mWarning [Utils.cc:132][0m [/sdf/model[@name="saye"]/joint[@name="rear_left_wheel_joint"]/axis/use_parent_model_frame:<data-string>:L620]: XML Element[use_parent_model_frame], child of element[axis], not defined in SDF. Copying[use_parent_model_frame] as children of [axis].
+1761301060.5539148 [rviz2-11] [WARN] [1761301060.553507345] [sdformat_urdf]: SDFormat link [base_link] has a <sensor>, but URDF does not support this
+1761301060.7450681 [INFO] [straight_path_commander-13]: process started with pid [145036]
+1761301556.0153768 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1761301556.0507402 [rviz2-11] [INFO] [1761301556.014758136] [rclcpp]: signal_handler(signum=2)
+1761301556.0573950 [robot_state_publisher-2] [INFO] [1761301556.014975222] [rclcpp]: signal_handler(signum=2)
+1761301556.1662204 [INFO] [static_transform_publisher-4]: process has finished cleanly [pid 144452]
+1761301556.1719306 [ERROR] [moving_obstacles-12]: process has died [pid 144940, exit code -2, cmd '/home/yiyi/ackermann_sim/install/saye_mppi/lib/saye_mppi/moving_obstacles --ros-args -r __node:=moving_obstacles --params-file /home/yiyi/ackermann_sim/install/saye_mppi/share/saye_mppi/config/moving_obstacles.yaml'].
+1761301556.1800971 [INFO] [collision_monitor-8]: process has finished cleanly [pid 144456]
+1761301556.1828392 [INFO] [velocity_smoother-7]: process has finished cleanly [pid 144455]
+1761301556.1966343 [INFO] [robot_state_publisher-2]: process has finished cleanly [pid 144449]
+1761301556.2054067 [INFO] [lifecycle_manager-9]: process has finished cleanly [pid 144457]
+1761301556.2163792 [INFO] [behavior_server-6]: process has finished cleanly [pid 144454]
+1761301556.2436421 [INFO] [controller_server-5]: process has finished cleanly [pid 144453]
+1761301556.4319062 [ERROR] [straight_path_commander-13]: process has died [pid 145036, exit code 1, cmd '/home/yiyi/ackermann_sim/install/saye_mppi/lib/saye_mppi/straight_path_commander --ros-args -r __node:=straight_path_commander --params-file /home/yiyi/ackermann_sim/install/saye_mppi/share/saye_mppi/config/path_commander.yaml'].
+1761301556.4937680 [INFO] [rviz2-11]: process has finished cleanly [pid 144939]
+1761301557.6450064 [ERROR] [gazebo-1]: process has died [pid 144448, exit code -2, cmd 'ruby /opt/ros/jazzy/opt/gz_tools_vendor/bin/gz sim /home/yiyi/ackermann_sim/install/saye_description/share/saye_description/worlds/saye_dynamic_corridor.sdf --force-version 8'].
+1761301558.0155025 [ERROR] [parameter_bridge-3]: process has died [pid 144450, exit code -6, cmd '/opt/ros/jazzy/lib/ros_gz_bridge/parameter_bridge --ros-args --params-file /tmp/launch_params_q6erdcq3'].

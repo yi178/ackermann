@@ -1,0 +1,30 @@
+1761300636.0999234 [INFO] [launch]: All log files can be found below /home/yiyi/ackermann_sim/ros_logs/2025-10-24-18-10-36-096974-yiyi-139307
+1761300636.1001256 [INFO] [launch]: Default logging verbosity is set to INFO
+1761300636.7195344 [INFO] [gazebo-1]: process started with pid [139326]
+1761300636.7197607 [INFO] [robot_state_publisher-2]: process started with pid [139327]
+1761300636.7198617 [INFO] [parameter_bridge-3]: process started with pid [139328]
+1761300636.8074181 [robot_state_publisher-2] getifaddrs: Operation not permitted
+1761300636.8076169 [robot_state_publisher-2] getifaddrs: Operation not permitted
+1761300636.8077030 [robot_state_publisher-2] getifaddrs: Operation not permitted
+1761300636.8134551 [robot_state_publisher-2] [37;1m2025-10-24 18:10:36.812 [31;1m[[37;1mRTPS_TRANSPORT_SHM[31;1m Error] [37mFailed to create segment a1323ca7796de7d3: Permission denied[34;1m -> Function [36mcompute_per_allocation_extra_size[m
+1761300636.8140810 [robot_state_publisher-2] [37;1m2025-10-24 18:10:36.813 [31;1m[[37;1mRTPS_TRANSPORT_SHM[31;1m Error] [37mFailed to create Shared Memory Manager for domain fastrtps: Permission denied[34;1m -> Function [36mcreate[m
+1761300636.8143723 [robot_state_publisher-2] [37;1m2025-10-24 18:10:36.813 [31;1m[[37;1mRTPS_PARTICIPANT[31;1m Error] [37mUnable to Register SHM Transport. SHM Transport is not supported in the current platform.[34;1m -> Function [36mRTPSParticipantImpl[m
+1761300636.8147531 [robot_state_publisher-2] [37;1m2025-10-24 18:10:36.813 [31;1m[[37;1mTRANSPORT_UDP[31;1m Error] [37mError creating socket: Operation not permitted[34;1m -> Function [36minit[m
+1761300636.8148649 [robot_state_publisher-2] [37;1m2025-10-24 18:10:36.814 [31;1m[[37;1mRTPS_PARTICIPANT[31;1m Error] [37mUser transport failed to register.[34;1m -> Function [36mRTPSParticipantImpl[m
+1761300636.8149488 [robot_state_publisher-2] [37;1m2025-10-24 18:10:36.814 [31;1m[[37;1mRTPS_PARTICIPANT[31;1m Error] [37mCannot create participant due to initialization error[34;1m -> Function [36mcreateParticipant[m
+1761300636.8150651 [robot_state_publisher-2] [37;1m2025-10-24 18:10:36.814 [31;1m[[37;1mDOMAIN_PARTICIPANT[31;1m Error] [37mProblem creating RTPSParticipant[34;1m -> Function [36menable[m
+1761300636.8153081 [robot_state_publisher-2] terminate called after throwing an instance of 'rclcpp::exceptions::RCLError'
+1761300636.8155825 [robot_state_publisher-2]   what():  failed to initialize rcl node: __create_participant failed to create participant, at ./src/participant.cpp:107, at ./src/rcl/node.c:252
+1761300637.1357789 [INFO] [gazebo-1]: process has finished cleanly [pid 139326]
+1761300637.4978580 [ERROR] [robot_state_publisher-2]: process has died [pid 139327, exit code -6, cmd '/opt/ros/jazzy/lib/robot_state_publisher/robot_state_publisher --ros-args --log-level info --ros-args -r __node:=robot_state_publisher --params-file /tmp/launch_params_hylozwd4 --params-file /tmp/launch_params_uo_8lgev --params-file /tmp/launch_params_p7waxw9y'].
+1761300638.3088741 [ERROR] [parameter_bridge-3]: process has died [pid 139328, exit code -6, cmd '/opt/ros/jazzy/lib/ros_gz_bridge/parameter_bridge --ros-args --params-file /tmp/launch_params_og1tf39y'].
+1761300639.7258086 [INFO] [create-4]: process started with pid [139389]
+1761300640.6314640 [ERROR] [create-4]: process has died [pid 139389, exit code -6, cmd '/opt/ros/jazzy/lib/ros_gz_sim/create -file /home/yiyi/ackermann_sim/install/saye_description/share/saye_description/models/saye/model_2d_lidar.sdf -name saye -allow_renaming true -z 0.35 --ros-args'].
+1761300641.7265825 [INFO] [rviz2-5]: process started with pid [139423]
+1761300641.8603256 [rviz2-5] qt.qpa.xcb: could not connect to display :0
+1761300641.8608634 [rviz2-5] qt.qpa.plugin: Could not load the Qt platform plugin "xcb" in "" even though it was found.
+1761300641.8609846 [rviz2-5] This application failed to start because no Qt platform plugin could be initialized. Reinstalling the application may fix this problem.
+1761300641.8610632 [rviz2-5] 
+1761300641.8611193 [rviz2-5] Available platform plugins are: eglfs, linuxfb, minimal, minimalegl, offscreen, vnc, wayland-egl, wayland, wayland-xcomposite-egl, wayland-xcomposite-glx, xcb.
+1761300641.8612151 [rviz2-5] 
+1761300642.1561685 [ERROR] [rviz2-5]: process has died [pid 139423, exit code -6, cmd '/opt/ros/jazzy/lib/rviz2/rviz2 -d /home/yiyi/ackermann_sim/install/saye_bringup_my/share/saye_bringup_my/rviz/saye.rviz --ros-args'].

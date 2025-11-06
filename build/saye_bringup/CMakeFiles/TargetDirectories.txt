@@ -1,0 +1,9 @@
+/home/yiyi/ackermann_sim/build/saye_bringup/CMakeFiles/uninstall.dir
+/home/yiyi/ackermann_sim/build/saye_bringup/CMakeFiles/saye_bringup_uninstall.dir
+/home/yiyi/ackermann_sim/build/saye_bringup/CMakeFiles/test.dir
+/home/yiyi/ackermann_sim/build/saye_bringup/CMakeFiles/edit_cache.dir
+/home/yiyi/ackermann_sim/build/saye_bringup/CMakeFiles/rebuild_cache.dir
+/home/yiyi/ackermann_sim/build/saye_bringup/CMakeFiles/list_install_components.dir
+/home/yiyi/ackermann_sim/build/saye_bringup/CMakeFiles/install.dir
+/home/yiyi/ackermann_sim/build/saye_bringup/CMakeFiles/install/local.dir
+/home/yiyi/ackermann_sim/build/saye_bringup/CMakeFiles/install/strip.dir

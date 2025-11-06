@@ -1,0 +1,20 @@
+[0.030s] Invoking command in '/home/yiyi/ackermann_sim/build/saye_behaviortree': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/yiyi/ackermann_sim/build/saye_behaviortree -- -j16 -l16
+[0.122s] Invoked command in '/home/yiyi/ackermann_sim/build/saye_behaviortree' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/yiyi/ackermann_sim/build/saye_behaviortree -- -j16 -l16
+[0.125s] Invoking command in '/home/yiyi/ackermann_sim/build/saye_behaviortree': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/yiyi/ackermann_sim/build/saye_behaviortree
+[0.145s] -- Install configuration: ""
+[0.145s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_behaviortree/share/ament_index/resource_index/package_run_dependencies/saye_behaviortree
+[0.145s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_behaviortree/share/ament_index/resource_index/parent_prefix_path/saye_behaviortree
+[0.145s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_behaviortree/share/saye_behaviortree/environment/ament_prefix_path.sh
+[0.145s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_behaviortree/share/saye_behaviortree/environment/ament_prefix_path.dsv
+[0.146s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_behaviortree/share/saye_behaviortree/environment/path.sh
+[0.146s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_behaviortree/share/saye_behaviortree/environment/path.dsv
+[0.146s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_behaviortree/share/saye_behaviortree/local_setup.bash
+[0.146s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_behaviortree/share/saye_behaviortree/local_setup.sh
+[0.146s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_behaviortree/share/saye_behaviortree/local_setup.zsh
+[0.147s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_behaviortree/share/saye_behaviortree/local_setup.dsv
+[0.147s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_behaviortree/share/saye_behaviortree/package.dsv
+[0.148s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_behaviortree/share/ament_index/resource_index/packages/saye_behaviortree
+[0.148s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_behaviortree/share/saye_behaviortree/cmake/saye_behaviortreeConfig.cmake
+[0.148s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_behaviortree/share/saye_behaviortree/cmake/saye_behaviortreeConfig-version.cmake
+[0.149s] -- Up-to-date: /home/yiyi/ackermann_sim/install/saye_behaviortree/share/saye_behaviortree/package.xml
+[0.181s] Invoked command in '/home/yiyi/ackermann_sim/build/saye_behaviortree' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/yiyi/ackermann_sim/build/saye_behaviortree

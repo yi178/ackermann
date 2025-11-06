@@ -1,0 +1,46 @@
+Built target ament_cmake_python_copy_saye_prediction
+running egg_info
+writing saye_prediction.egg-info/PKG-INFO
+writing dependency_links to saye_prediction.egg-info/dependency_links.txt
+writing top-level names to saye_prediction.egg-info/top_level.txt
+reading manifest file 'saye_prediction.egg-info/SOURCES.txt'
+writing manifest file 'saye_prediction.egg-info/SOURCES.txt'
+Built target ament_cmake_python_build_saye_prediction_egg
+-- Install configuration: ""
+-- Up-to-date: /home/yiyi/ackermann_sim/install/saye_prediction/share/saye_prediction/environment/pythonpath.sh
+-- Up-to-date: /home/yiyi/ackermann_sim/install/saye_prediction/share/saye_prediction/environment/pythonpath.dsv
+-- Up-to-date: /home/yiyi/ackermann_sim/install/saye_prediction/lib/python3.12/site-packages/saye_prediction-0.0.1-py3.12.egg-info
+-- Installing: /home/yiyi/ackermann_sim/install/saye_prediction/lib/python3.12/site-packages/saye_prediction-0.0.1-py3.12.egg-info/PKG-INFO
+-- Installing: /home/yiyi/ackermann_sim/install/saye_prediction/lib/python3.12/site-packages/saye_prediction-0.0.1-py3.12.egg-info/SOURCES.txt
+-- Installing: /home/yiyi/ackermann_sim/install/saye_prediction/lib/python3.12/site-packages/saye_prediction-0.0.1-py3.12.egg-info/top_level.txt
+-- Installing: /home/yiyi/ackermann_sim/install/saye_prediction/lib/python3.12/site-packages/saye_prediction-0.0.1-py3.12.egg-info/dependency_links.txt
+-- Up-to-date: /home/yiyi/ackermann_sim/install/saye_prediction/lib/python3.12/site-packages/saye_prediction
+-- Up-to-date: /home/yiyi/ackermann_sim/install/saye_prediction/lib/python3.12/site-packages/saye_prediction/prediction_verifier.py
+-- Up-to-date: /home/yiyi/ackermann_sim/install/saye_prediction/lib/python3.12/site-packages/saye_prediction/__init__.py
+-- Up-to-date: /home/yiyi/ackermann_sim/install/saye_prediction/lib/python3.12/site-packages/saye_prediction/prediction_visualizer.py
+-- Installing: /home/yiyi/ackermann_sim/install/saye_prediction/lib/python3.12/site-packages/saye_prediction/ground_truth_predictor.py
+Listing '/home/yiyi/ackermann_sim/install/saye_prediction/lib/python3.12/site-packages/saye_prediction'...
+Compiling '/home/yiyi/ackermann_sim/install/saye_prediction/lib/python3.12/site-packages/saye_prediction/ground_truth_predictor.py'...
+-- Up-to-date: /home/yiyi/ackermann_sim/install/saye_prediction/lib/saye_prediction/ground_truth_predictor
+-- Up-to-date: /home/yiyi/ackermann_sim/install/saye_prediction/lib/saye_prediction/prediction_visualizer
+-- Up-to-date: /home/yiyi/ackermann_sim/install/saye_prediction/lib/saye_prediction/prediction_verifier
+-- Up-to-date: /home/yiyi/ackermann_sim/install/saye_prediction/share/saye_prediction/launch
+-- Up-to-date: /home/yiyi/ackermann_sim/install/saye_prediction/share/saye_prediction/launch/ground_truth_prediction.launch.py
+-- Up-to-date: /home/yiyi/ackermann_sim/install/saye_prediction/share/saye_prediction/config
+-- Up-to-date: /home/yiyi/ackermann_sim/install/saye_prediction/share/saye_prediction/config/ground_truth_predictor.yaml
+-- Up-to-date: /home/yiyi/ackermann_sim/install/saye_prediction/share/saye_prediction/config/scenario1_actors.yaml
+-- Up-to-date: /home/yiyi/ackermann_sim/install/saye_prediction/share/ament_index/resource_index/package_run_dependencies/saye_prediction
+-- Up-to-date: /home/yiyi/ackermann_sim/install/saye_prediction/share/ament_index/resource_index/parent_prefix_path/saye_prediction
+-- Up-to-date: /home/yiyi/ackermann_sim/install/saye_prediction/share/saye_prediction/environment/ament_prefix_path.sh
+-- Up-to-date: /home/yiyi/ackermann_sim/install/saye_prediction/share/saye_prediction/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/yiyi/ackermann_sim/install/saye_prediction/share/saye_prediction/environment/path.sh
+-- Up-to-date: /home/yiyi/ackermann_sim/install/saye_prediction/share/saye_prediction/environment/path.dsv
+-- Up-to-date: /home/yiyi/ackermann_sim/install/saye_prediction/share/saye_prediction/local_setup.bash
+-- Up-to-date: /home/yiyi/ackermann_sim/install/saye_prediction/share/saye_prediction/local_setup.sh
+-- Up-to-date: /home/yiyi/ackermann_sim/install/saye_prediction/share/saye_prediction/local_setup.zsh
+-- Up-to-date: /home/yiyi/ackermann_sim/install/saye_prediction/share/saye_prediction/local_setup.dsv
+-- Up-to-date: /home/yiyi/ackermann_sim/install/saye_prediction/share/saye_prediction/package.dsv
+-- Up-to-date: /home/yiyi/ackermann_sim/install/saye_prediction/share/ament_index/resource_index/packages/saye_prediction
+-- Up-to-date: /home/yiyi/ackermann_sim/install/saye_prediction/share/saye_prediction/cmake/saye_predictionConfig.cmake
+-- Up-to-date: /home/yiyi/ackermann_sim/install/saye_prediction/share/saye_prediction/cmake/saye_predictionConfig-version.cmake
+-- Up-to-date: /home/yiyi/ackermann_sim/install/saye_prediction/share/saye_prediction/package.xml

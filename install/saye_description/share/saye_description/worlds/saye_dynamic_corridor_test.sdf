@@ -1,0 +1,566 @@
+<?xml version="1.0"?>
+<sdf version="1.8">
+  <!--
+    测试世界：基于 saye_dynamic_corridor.sdf 拷贝，并增加插件：
+      - ActorPosePublisherSystem：发布 /actor_pose/* 话题
+      - TestActorDriverSystem 或脚本路点控制行人运动
+    修改行人行为时，只需要编辑本文件，随后将其同步到 install/ 目录或重新 colcon build。
+  -->
+  <world name="dynamic_corridor_world">
+    <plugin filename="gz-sim-physics-system" name="gz::sim::systems::Physics"/>
+    <plugin filename="gz-sim-sensors-system" name="gz::sim::systems::Sensors">
+      <render_engine>ogre2</render_engine>
+    </plugin>
+    <plugin filename="gz-sim-scene-broadcaster-system" name="gz::sim::systems::SceneBroadcaster"/>
+    <plugin filename="gz-sim-user-commands-system" name="gz::sim::systems::UserCommands"/>
+    <!-- 发布所有 Actor 位姿到 /actor_pose/<name> 以及 /actor_pose/poses。 -->
+    <plugin filename="libactor_pose_publisher_system.so"
+            name="saye::ActorPosePublisherSystem"/>
+    <plugin filename="libactor_pose_publisher_system.so"
+            name="saye::ActorPosePublisherSystem"/>
+
+    <light name="sun" type="directional">
+      <pose>0 0 10 0 0 0</pose>
+      <diffuse>0.8 0.8 0.8 1</diffuse>
+      <specular>0.2 0.2 0.2 1</specular>
+      <attenuation>
+        <range>1000</range>
+        <constant>0.9</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <direction>-0.5 0.1 -0.9</direction>
+    </light>
+
+    <!-- Base plane -->
+    <model name="ground_plane">
+      <static>true</static>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>100 100</size>
+            </plane>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>100 100</size>
+            </plane>
+          </geometry>
+          <material>
+            <ambient>0.7 0.7 0.7 1</ambient>
+            <diffuse>0.7 0.7 0.7 1</diffuse>
+          </material>
+        </visual>
+      </link>
+    </model>
+
+    <!-- Pedestrian actors (inline configuration with local model) -->
+    <!--
+      行人 1：矩形巡逻示例。
+      - <pose> 表示初始位置与朝向 (x y z roll pitch yaw)。
+      - <script> 中的 <waypoint> 控制时刻与位姿；可以插入额外航点实现掉头或停顿。
+      - <loop>true</loop> 表示循环播放。
+      需要调整速度时，可改变相邻航点的时间差；调整路径时，修改 pose 中的 X/Y/Yaw。
+    -->
+    <actor name="walker_center">
+      <pose>15 -2.0 0 0 0 3.14159265359</pose>
+      <skin>
+        <filename>model://walking_actor/meshes/walk.dae</filename>
+        <scale>1.0</scale>
+      </skin>
+      <animation name="walking">
+        <filename>model://walking_actor/meshes/walk.dae</filename>
+        <interpolate_x>true</interpolate_x>
+      </animation>
+      <plugin filename="libtest_actor_driver_system.so"
+              name="saye::TestActorDriverSystem">
+        <actor_name>walker_center</actor_name>
+        <height>0.0</height>
+        <loop>false</loop>
+        <waypoints>
+          <waypoint>
+            <time>0.0</time>
+            <pose>0 0 0 0 0 3.14159265359</pose>
+          </waypoint>
+          <waypoint>
+            <time>10.0</time>
+            <pose>5.0 0.0 0 0 0 3.14159265359</pose>
+          </waypoint>
+          <waypoint>
+            <time>20.0</time>
+            <pose>10.0 0.0 0 0 0 3.14159265359</pose>
+          </waypoint>
+          <waypoint>
+            <time>30.0</time>
+            <pose>15.0 0.0 0 0 0 3.14159265359</pose>
+          </waypoint>
+          <waypoint>
+            <time>40.0</time>
+            <pose>20.0 0.0 0 0 0 3.14159265359</pose>
+          </waypoint>
+          <waypoint>
+            <time>44.0</time>
+            <pose>20.0 0.0 0 0 0 3.14159265359</pose>
+          </waypoint>
+        </waypoints>
+      </plugin>
+    </actor>
+
+    <!-- 行人 2：与行人 1 镜像的矩形巡逻，修改方式同上。 -->
+    <actor name="walker_east">
+      <pose>15 2.0 0 0 0 3.14159265359</pose>
+      <skin>
+        <filename>model://walking_actor/meshes/walk.dae</filename>
+        <scale>1.0</scale>
+      </skin>
+      <animation name="walking">
+        <filename>model://walking_actor/meshes/walk.dae</filename>
+        <interpolate_x>true</interpolate_x>
+      </animation>
+      <plugin filename="libtest_actor_driver_system.so"
+              name="saye::TestActorDriverSystem">
+        <actor_name>walker_east</actor_name>
+        <height>0.0</height>
+        <loop>false</loop>
+        <waypoints>
+          <waypoint>
+            <time>0.0</time>
+            <pose>0 0 0 0 0 3.14159265359</pose>
+          </waypoint>
+          <waypoint>
+            <time>10.0</time>
+            <pose>5.0 0.0 0 0 0 3.14159265359</pose>
+          </waypoint>
+          <waypoint>
+            <time>20.0</time>
+            <pose>10.0 0.0 0 0 0 3.14159265359</pose>
+          </waypoint>
+          <waypoint>
+            <time>30.0</time>
+            <pose>15.0 0.0 0 0 0 3.14159265359</pose>
+          </waypoint>
+          <waypoint>
+            <time>40.0</time>
+            <pose>20.0 0.0 0 0 0 3.14159265359</pose>
+          </waypoint>
+          <waypoint>
+            <time>44.0</time>
+            <pose>20.0 0.0 0 0 0 3.14159265359</pose>
+          </waypoint>
+        </waypoints>
+      </plugin>
+    </actor>
+
+    <!-- Main corridor side walls (left) -->
+    <model name="left_wall_front">
+      <static>true</static>
+      <pose>3 3.25 1 0 0 0</pose>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>6 0.25 2</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>6 0.25 2</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.6 0.6 0.65 1</ambient>
+            <diffuse>0.6 0.6 0.65 1</diffuse>
+          </material>
+        </visual>
+      </link>
+    </model>
+
+    <model name="left_wall_mid">
+      <static>true</static>
+      <pose>11 3.25 1 0 0 0</pose>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>6 0.25 2</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>6 0.25 2</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.6 0.6 0.65 1</ambient>
+            <diffuse>0.6 0.6 0.65 1</diffuse>
+          </material>
+        </visual>
+      </link>
+    </model>
+
+    <model name="left_wall_rear">
+      <static>true</static>
+      <pose>19 3.25 1 0 0 0</pose>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>6 0.25 2</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>6 0.25 2</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.6 0.6 0.65 1</ambient>
+            <diffuse>0.6 0.6 0.65 1</diffuse>
+          </material>
+        </visual>
+      </link>
+    </model>
+
+    <model name="left_wall_end">
+      <static>true</static>
+      <pose>23 3.25 1 0 0 0</pose>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>2 0.25 2</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>2 0.25 2</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.6 0.6 0.65 1</ambient>
+            <diffuse>0.6 0.6 0.65 1</diffuse>
+          </material>
+        </visual>
+      </link>
+    </model>
+
+    <!-- Main corridor side walls (right) -->
+    <model name="right_wall_front">
+      <static>true</static>
+      <pose>3 -3.25 1 0 0 0</pose>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>6 0.25 2</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>6 0.25 2</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.6 0.6 0.65 1</ambient>
+            <diffuse>0.6 0.6 0.65 1</diffuse>
+          </material>
+        </visual>
+      </link>
+    </model>
+
+    <model name="right_wall_mid">
+      <static>true</static>
+      <pose>11 -3.25 1 0 0 0</pose>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>6 0.25 2</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>6 0.25 2</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.6 0.6 0.65 1</ambient>
+            <diffuse>0.6 0.6 0.65 1</diffuse>
+          </material>
+        </visual>
+      </link>
+    </model>
+
+    <model name="right_wall_rear">
+      <static>true</static>
+      <pose>19 -3.25 1 0 0 0</pose>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>6 0.25 2</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>6 0.25 2</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.6 0.6 0.65 1</ambient>
+            <diffuse>0.6 0.6 0.65 1</diffuse>
+          </material>
+        </visual>
+      </link>
+    </model>
+
+    <model name="right_wall_end">
+      <static>true</static>
+      <pose>23 -3.25 1 0 0 0</pose>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>2 0.25 2</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>2 0.25 2</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.6 0.6 0.65 1</ambient>
+            <diffuse>0.6 0.6 0.65 1</diffuse>
+          </material>
+        </visual>
+      </link>
+    </model>
+
+    <!-- Side alcove back walls (left) -->
+    <model name="left_alcove1_back">
+      <static>true</static>
+      <pose>7 4.5 1 0 0 0</pose>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.25 2 2</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.25 2 2</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.55 0.6 0.65 1</ambient>
+            <diffuse>0.55 0.6 0.65 1</diffuse>
+          </material>
+        </visual>
+      </link>
+    </model>
+
+    <model name="left_alcove2_back">
+      <static>true</static>
+      <pose>15 4.5 1 0 0 0</pose>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.25 2 2</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.25 2 2</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.55 0.6 0.65 1</ambient>
+            <diffuse>0.55 0.6 0.65 1</diffuse>
+          </material>
+        </visual>
+      </link>
+    </model>
+
+    <!-- Side alcove back walls (right) -->
+    <model name="right_alcove1_back">
+      <static>true</static>
+      <pose>7 -4.5 1 0 0 0</pose>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.25 2 2</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.25 2 2</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.55 0.6 0.65 1</ambient>
+            <diffuse>0.55 0.6 0.65 1</diffuse>
+          </material>
+        </visual>
+      </link>
+    </model>
+
+    <model name="right_alcove2_back">
+      <static>true</static>
+      <pose>15 -4.5 1 0 0 0</pose>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.25 2 2</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.25 2 2</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.55 0.6 0.65 1</ambient>
+            <diffuse>0.55 0.6 0.65 1</diffuse>
+          </material>
+        </visual>
+      </link>
+    </model>
+
+    <!-- Alcove boundary short walls -->
+    <model name="left_alcove1_front">
+      <static>true</static>
+      <pose>6 3.75 1 0 0 1.5708</pose>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.25 1.5 2</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.25 1.5 2</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.5 0.58 0.65 1</ambient>
+            <diffuse>0.5 0.58 0.65 1</diffuse>
+          </material>
+        </visual>
+      </link>
+    </model>
+
+    <model name="left_alcove2_front">
+      <static>true</static>
+      <pose>14 3.75 1 0 0 1.5708</pose>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.25 1.5 2</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.25 1.5 2</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.5 0.58 0.65 1</ambient>
+            <diffuse>0.5 0.58 0.65 1</diffuse>
+          </material>
+        </visual>
+      </link>
+    </model>
+
+    <model name="right_alcove1_front">
+      <static>true</static>
+      <pose>6 -3.75 1 0 0 1.5708</pose>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.25 1.5 2</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.25 1.5 2</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.5 0.58 0.65 1</ambient>
+            <diffuse>0.5 0.58 0.65 1</diffuse>
+          </material>
+        </visual>
+      </link>
+    </model>
+
+    <model name="right_alcove2_front">
+      <static>true</static>
+      <pose>14 -3.75 1 0 0 1.5708</pose>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.25 1.5 2</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.25 1.5 2</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.5 0.58 0.65 1</ambient>
+            <diffuse>0.5 0.58 0.65 1</diffuse>
+          </material>
+        </visual>
+      </link>
+    </model>
+
+    <!-- Central corridor cleared for straight path -->
+  </world>
+</sdf>
