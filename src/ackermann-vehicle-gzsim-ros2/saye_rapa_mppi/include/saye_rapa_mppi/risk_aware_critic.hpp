@@ -11,10 +11,10 @@
 #include "rclcpp/rclcpp.hpp"
 #include "saye_msgs/msg/pedestrian_predictions.hpp"
 
-namespace mppi {
-namespace critics {
+namespace saye_rapa_mppi
+{
 
-class RiskAwareCritic : public CriticFunction
+class RiskAwareCritic : public mppi::critics::CriticFunction
 {
 public:
   void initialize() override;
